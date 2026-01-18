@@ -1,0 +1,52 @@
+money:
+   tableName: money
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: money_id
+     money_title_id:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     name:
+       type: char(3)
+       notnull: true
+     date_replace:
+       type: date
+       notnull: true
+     kurs:
+       type: float(20,6)
+       notnull: true
+     base_currency:
+       type: char(3)
+       notnull: true
+       default: RUB
+   relations:
+     money_title:
+       local: money_title_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:
+     1:
+       id: 1
+       money_title_id: 1
+       name: RUB
+       date_replace: 0000-00-00
+       kurs: 1.000000
+       base_currency: RUB
+     2:
+       id: 2
+       money_title_id: 2
+       name: USD
+       date_replace: 0000-00-00
+       kurs: 1.000000
+       base_currency: RUB

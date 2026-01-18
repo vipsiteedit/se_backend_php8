@@ -1,0 +1,9 @@
+﻿.topblogger .bloggerlist .blogger {margin-bottom:20px;}
+.topblogger .bloggerlist .blogger .blogger_avatar {margin-right:20px; width:50px; height:50px; float:left; overflow:hidden; -moz-border-radius: 60px; -webkit-border-radius: 60px; border-radius: 60px;}
+.topblogger .bloggerlist .blogger .blogger_avatar img {background-size:50px; display:block; width:50px; height:auto;}
+.topblogger .bloggerlist .blogger .blogger_fio {font-weight:bold; margin-bottom:5px; display:block;}
+.topblogger .bloggerlist .blogger .blogger_post {font-size:90%; margin-right:10px;}
+.topblogger .bloggerlist .blogger .blogger_post .blogger_post_count {font-weight:bold;}
+.topblogger .bloggerlist .blogger .blogger_subscribe {font-size:90%;}
+.topblogger .bloggerlist .blogger .blogger_subscribe .blogger_subscribe_count {font-weight:bold;}
+.topblogger .bloggerlist .blogger .blogger_subcribe {margin-top:5px; display:block;}

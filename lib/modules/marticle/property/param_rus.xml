@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param2" title="Число записей на странице" list="">30</parametr>
+	<parametr lang="rus" name="param1" title="E-Mail администратора:" list="">[%adminmail%]</parametr>
+	<parametr lang="rus" name="param3" title="Список модераторов через запятую:" list=""></parametr>
+	<parametr lang="rus" name="param5" title="Текст заголовка письма:" list="{text}">Обсуждение статьи</parametr>
+	<parametr lang="rus" name="param6" title="Текст в ссылке &amp;quot;Комментарии&amp;quot;:" list="">Комментариев </parametr>
+	<parametr lang="rus" name="param7" title="Ссылка &amp;quot;Подробнее&amp;quot;" list="">Подробнее</parametr>
+	<parametr lang="rus" name="param8" title="Кнопка &amp;quot;Вернуться&amp;quot;:" list="">Вернуться назад</parametr>
+	<parametr lang="rus" name="param9" title="Текст заголовка &amp;quot;Ваше имя&amp;quot;:" list="">Ваше имя:</parametr>
+	<parametr lang="rus" name="param10" title="Текст заголовка &amp;quot;Ваш E-mail&amp;quot;:" list="">Ваш E-mail:</parametr>
+	<parametr lang="rus" name="param11" title="Текст заголовка &amp;quot;Ваш комментарий&amp;quot;:" list="">Ваш комментарий</parametr>
+	<parametr lang="rus" name="param14" title="Введите код на картинке" list="">Введите код с картинки</parametr>
+	<parametr lang="rus" name="param15" title="Использовать антиспам-картинку" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="rus" name="param19" title="Текст кнопки &amp;quot;Удалить&amp;quot;: " list="">Удалить</parametr>
+	<parametr lang="rus" name="param35" title="Текст кнопки &amp;quot;Добавить комментарий&amp;quot;" list="">Добавить</parametr>
+	<parametr lang="rus" name="param26" title="Сообщение &amp;quot;Ошибка добавления комментария&amp;quot;:" list="">Ошибка добавления комментария</parametr>
+	<parametr lang="rus" name="param28" title="Количество выводимых комментариев" list="">30</parametr>
+	<parametr lang="rus" name="param29" title="Текст &amp;quot;Не введено имя пользователя&amp;quot;" list="">Не введено имя пользователя</parametr>
+	<parametr lang="rus" name="param30" title="Текст &amp;quot;Не корректно введен e-mail&amp;quot;" list="">Не корректно введен e-mail</parametr>
+	<parametr lang="rus" name="param31" title="Текст &amp;quot;Не введен текст комментария&amp;quot;" list="">Не введен текст комментария</parametr>
+	<parametr lang="rus" name="param32" title="Текст &amp;quot;Неправильно введен код защиты от СПАМа&amp;quot;" list="">Неправильно введен код защиты от СПАМа</parametr>
+	<parametr lang="rus" name="param33" title="Идентификатор: " list="">[namepage]</parametr>
+	<parametr lang="rus" name="param34" title="Заголовок Комментарии" list="">Комментарии</parametr>
+	<parametr lang="rus" name="param36" title="Гость" list="">Гость</parametr>
+	<parametr lang="rus" name="param37" title="Письмо администратору" list="">Уважаемый, Админ! \r\n На сайте [SITENAME] в статье [NAMETITLE] был добавлен комментарий</parametr>
+	<parametr lang="rus" name="param38" title="Письмо автору" list="">В вашей статье [NAMETITLE], написанной на сайте [SITENAME] был добавлен комментарий</parametr>
+	<parametr lang="rus" name="param39" title="Посылать письмо администратору" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="rus" name="param40" title="Посылать письмо автору статьи" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="rus" name="param42" title="Показывать страницы" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="rus" name="param45" title="Скрывать в подробном описание возможность поделиться в соц. сетях" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="rus" name="param43" title="::: Данные партнерской сети :::" list=""></parametr>
+	<parametr lang="rus" name="param44" title="Ваш ID на сайте edgestile.ru" list=""></parametr>
+</params>

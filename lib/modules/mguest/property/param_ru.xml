@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="e-mail администратора:" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param2" title="Использовать антиспам защиту?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param13" title="Минимальное время между добавлениями комментариев " list="">30</parametr>
+	<parametr lang="ru" name="param33" title="Количество записей на стрнице" list="">8</parametr>
+	<parametr lang="ru" name="param35" title="Количество символов в записи " list="">3000</parametr>
+	<parametr lang="ru" name="param36" title="Максимальное количество ссылок в тексте гостевой" list="">2</parametr>
+	<parametr lang="ru" name="param39" title="Посылать письмо администратору если что то написали в гостевой" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param40" title="Посылать письмо пользователю если ответил Администратор" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param41" title="Отображать после подтверждения" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param42" title="" list=""></parametr>
+	<parametr lang="ru" name="param43" title="::::::::: ПАРАМЕТРЫ ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param44" title="Подтверждение о сборе персональных данных" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param45" title="Текст подтверждения о сборе персональных данных" list="{text}">Нажимая кнопку «Отправить», я принимаю условия &amp;lt;a class=&amp;quot;lnkLicense&amp;quot; href=&amp;quot;/license/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Пользовательского соглашения&amp;lt;/a&amp;gt; и даю своё согласие на обработку моих персональных данных</parametr>
+	<parametr lang="ru" name="param46" title="Подтверждение дополнительных условий" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param47" title="Текст подтверждения дополнительных условий" list="{text}">Принимаю &amp;lt;a href=&amp;quot;#&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;условия&amp;lt;/a&amp;gt;</parametr>
+</params>

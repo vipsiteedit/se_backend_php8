@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>Оплачен</lang001>
+	<lang002>Кредит</lang002>
+	<lang003>Не оплачен</lang003>
+	<lang004>Не доставлен</lang004>
+	<lang005>Подарок</lang005>
+	<lang006>Доставлен</lang006>
+	<lang013>В пути</lang013>
+	<lang016>№</lang016>
+	<lang017>Дата</lang017>
+	<lang018>№ Заказа</lang018>
+	<lang019>Сумма к оплате</lang019>
+	<lang020>Статус заказа</lang020>
+	<lang021>Артикул</lang021>
+	<lang022>Наименование</lang022>
+	<lang023>Цена</lang023>
+	<lang024>Количество</lang024>
+	<lang025>Доставка</lang025>
+	<lang026>Серийный номер</lang026>
+	<lang027>Договор</lang027>
+	<lang028>Отменить заказ</lang028>
+	<lang029>Назад</lang029>
+	<lang030>Информация об оплате</lang030>
+	<lang031>Тип оплаты</lang031>
+	<lang032>Номер счета</lang032>
+	<lang033>Сумма оплаты</lang033>
+	<lang034>Информация о доставке</lang034>
+	<lang035>Тип доставки</lang035>
+	<lang036>Сумма</lang036>
+	<lang037>Статус</lang037>
+	<lang038>Лицевой счет</lang038>
+	<lang039>Итого:&amp;amp;nbsp;</lang039>
+</language>

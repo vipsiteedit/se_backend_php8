@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="text" name="field">
+			<title lang="rus">Число зап./размер поля:</title>
+		</field>
+		<field type="text" name="title">
+			<title lang="rus"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="rus">Список меню:</title>
+		</field>
+		<field type="text" name="text">
+			<title lang="rus"></title>
+		</field>
+		<field type="menu" name="text1">
+			<title lang="rus">Тип записей:</title>
+			<list lang="rus">title|Заголовок,string|Строка,*string|*Строка,list|Список,*list|*Список,field|Поле,chbox|Флажок,radio|Радиокнопка,file|Загрузка  файла</list>
+			<default lang="rus">STRING</default>
+		</field>
+	</objects>
+</structure>

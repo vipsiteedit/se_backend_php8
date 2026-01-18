@@ -1,0 +1,38 @@
+seShopPrice:
+  tableName: shop_price
+  tableType:
+    engine: innoDB
+    charset: utf8
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      sequence: shop_price_id
+    id_group:
+      type: integer(4)
+      notnull: true
+      default: 0
+    id_analog: string(40)
+    article: string(20)
+    name: string(125)
+    price: float
+    date: date(25)
+    name: string(50)
+    town: string(40)
+    email: string(50)
+    url: string(5)
+    short: string(255)
+    text: string(5000)
+    img: string(15)
+    phone: string(80)
+  relations:
+    JobeetCategory:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      local:  category_id
+      foreign:  id
+    JobeetAffiliate:
+      onDelete: CASCADE
+      onUpdate: CASCADE
+      local:  affiliate_id
+      foreign:  id

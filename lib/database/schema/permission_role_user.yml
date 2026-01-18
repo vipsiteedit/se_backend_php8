@@ -1,0 +1,34 @@
+permission_role_user:
+   tableName: permission_role_user
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: permission_role_user_id
+     id_role:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_user:
+       type: integer
+       unsigned: true
+       index: true
+   relations:
+     permission_role:
+       local: id_role
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     se_user:
+       local: id_user
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

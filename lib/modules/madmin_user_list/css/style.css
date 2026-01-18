@@ -1,0 +1,53 @@
+﻿.adminUserList.mainPage .search {margin-bottom:30px;}
+.adminUserList.mainPage .search select {margin-top:2px; display:block; clear:both;}
+.adminUserList.mainPage .groupList {padding-bottom:10px;}
+.adminUserList.mainPage .groupList span {margin-right:5px;}
+.adminUserList.mainPage .groupList select {margin-right:10px;}
+.adminUserList.mainPage .userTable {width:100%;}
+.adminUserList.mainPage .userTable .tableRow .tusers {padding:5px; text-align:left; vertical-align:middle;}
+.adminUserList.mainPage .userTable .tableRowOdd td {background-image:url(black_5.png);}
+.adminUserList.mainPage .userListEmpty {margin-top:10px;}
+.adminUserList.guest {margin-top:10px;}
+.adminUserList.admDealer .error {color:#ff0000; font-weight:bold; margin-bottom:10px;}
+.adminUserList.admDealer form table .tableHeader td { font-weight:bold; padding-top:15px; padding-bottom:15px;}
+.adminUserList.admDealer form table .tableRowOdd td, .admDealer form table .tableRowEven td {padding-top:1px; padding-bottom:1px;}
+.adminUserList.admDealer form table .titl {padding-right:20px; vertical-align:middle;}
+.adminUserList.admDealer form table .titl font {margin-right:2px;}
+.adminUserList.admDealer form table .status .value {padding-top:10px; padding-bottom:10px;}
+.adminUserList.admDealer form table .status .value .radio input {cursor:pointer; margin-right:3px; vertical-align:middle;}
+.adminUserList.admDealer form table .status .value .radio span {vertical-align:middle;}
+.adminUserList.admDealer form table .pass1 .titl font {margin:0;}
+.adminUserList.admDealer form table .pass2 .titl font {margin:0;}
+.adminUserList.admDealer form table .buttons td {padding-top:20px;}
+.adminUserList.deletRecord form {margin-top:20px;}
+.adminUserList.usersGroups .error {color:#ff0000; font-weight:bold; margin-bottom:10px;}
+.adminUserList.usersGroups .groupList {margin-bottom:30px;}
+.adminUserList.usersGroups .groupList form span {margin-right:5px;}
+.adminUserList.usersGroups .groupList form div {margin-top:5px;}
+.adminUserList.usersGroups .groupList form div a {margin-right:5px;}
+.adminUserList.usersGroups .grpUsers > .buttons {margin-top:5px; margin-bottom:20px;}
+.adminUserList.usersGroups .grpUsers > .buttons a {margin-right:5px;}
+.adminUserList.usersGroups .grpUsers .searchmy {margin-bottom:20px;}
+.adminUserList.usersGroups .grpUsers .users {margin-top:10px; margin-bottom:10px;}
+.adminUserList.usersGroups .grpUsers .inp_odd {background-image:url(black_5.png);}
+.adminUserList.usersGroups .grpUsers .users .user {padding:5px;}
+.adminUserList.usersGroups .grpUsers .users .user input {cursor:pointer; margin-right:3px; vertical-align:middle;}
+.adminUserList.usersGroups .grpUsers .users .user span {vertical-align:middle;}
+.adminUserList.usersGroups .grpUsers .users .user a {float:right; vertical-align:middle;}
+.adminUserList.usersGroups .grpUsers .users .empty {margin-top:10px;}
+.adminUserList.usersGroups .grpUsers .forAll.myusers a {margin-right:5px;}
+.adminUserList.usersGroups .returnToMain {margin-top:20px;}
+.adminUserList.usersGroups .groupdt {padding-top:10px; padding-bottom:10px; border-top:1px solid #c0c0c0; border-bottom:1px solid #c0c0c0; margin-bottom:20px; width:700px; position:relative;}
+.adminUserList.usersGroups .groupdt form .title {margin-right:250px; position:static;}
+.adminUserList.usersGroups .groupdt form .title span {margin-right:10px; display:inline-block; width:170px; text-align:right; vertical-align:middle;}
+.adminUserList.usersGroups .groupdt form .title input {vertical-align:middle;}
+.adminUserList.usersGroups .groupdt form .name {margin-right:250px;}
+.adminUserList.usersGroups .groupdt form .name span {margin-right:10px; display:inline-block; width:170px; text-align:right; vertical-align:middle;}
+.adminUserList.usersGroups .groupdt form .name input {vertical-align:middle;}
+.adminUserList.usersGroups .groupdt form .name div {font-size:80%; padding-top:5px;}
+.adminUserList.usersGroups .groupdt form .access {padding-left:20px; border-left:1px solid #c0c0c0; margin-bottom:10px; width:200px; position:absolute; top:10px; right:0px;}
+.adminUserList.usersGroups .groupdt form .access .atitle {font-weight:bold; margin-bottom:10px; display:inline-block;}
+.adminUserList.usersGroups .groupdt form .access div {margin-left:10px;}
+.adminUserList.usersGroups .groupdt form .button {margin-top:20px; margin-right:250px; clear:both;}
+.adminUserList.usersGroups .others {background-color:#ffffff; border-width:1px; border-color:#c0c0c0; border-style:solid; margin-top:25px; position:absolute; left:0px; padding:10px;}
+.adminUserList.usersGroups .others .subothers .buttons {margin-top:10px; display:block; width:100%; clear:both; text-align:right;}

@@ -1,0 +1,20 @@
+﻿StatDatas:
+  tableName: stat_datas
+  tableAlias: sts
+  tableType:
+    engine: innoDB
+    charset: utf8
+  columns:
+    id:
+      type: integer
+      primary: true
+      sequence: stat_sities_id
+    type:
+      type: enum
+      values: [, dm, br, os, ct, ss, rb, tp, ml] 
+      name: type
+      index: true
+    name: string(100)
+    d1: string(255)
+    d2: string(255)
+    d3: string(255)

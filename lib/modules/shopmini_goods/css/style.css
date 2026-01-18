@@ -1,0 +1,17 @@
+﻿.shopmini .object {margin-bottom:30px; margin-right:10px; display:inline-block; width:200px; text-align:left; vertical-align:top;}
+.shopmini .object .objectImage {cursor:pointer; margin:0; margin-bottom:5px; float:none; text-align:center;}
+.shopmini .object .objectImage .objectImg {margin:auto;}
+.shopmini .object .objectCode {font-size:85%; margin-bottom:10px;}
+.shopmini .object .objectNote {margin-bottom:10px;}
+.shopmini .object .linkNext {margin-bottom:15px; display:block;}
+.shopmini .object .specprice {margin-right:20px; float:left; white-space:nowrap;}
+.shopmini .object .specprice .specpriceVal {font-size:150%;}
+.shopmini #show #objimage {margin-right:10px; float:left;}
+.shopmini #show .objectImage {margin-top:10px; margin-bottom:10px; margin-right:10px;}
+.shopmini #show .objectCode {margin-bottom:10px;}
+.shopmini #show .objectCodeTitle {font-weight:bold;}
+.shopmini #show .specprice {margin-bottom:20px;}
+.shopmini #show .specprice .specpriceVal {font-size:200%;}
+.shopmini #show .objectNote {margin-bottom:10px;}
+.shopmini #show .objectSubm {margin-top:20px;}
+.shopmini #show .objectSubm .send {margin-right:5px; float:left;}

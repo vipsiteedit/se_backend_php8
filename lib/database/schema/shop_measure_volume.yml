@@ -1,0 +1,45 @@
+shop_measure_volume:
+   tableName: shop_measure_volume
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_measure_volume_id
+     code:
+       type: string(255)
+       unique: true
+     name:
+       type: string(255)
+       notnull: true
+     designation:
+       type: string(50)
+     value:
+       type: float(10,6)
+     is_base:
+       type: integer
+       notnull: true
+     precision:
+       type: integer
+   values:
+     1:
+       id: 1
+       code: 111
+       name: Кубический сантиметр
+       designation: см3
+       value: 1.000000
+       is_base: 1
+       precision: 0
+     2:
+       id: 2
+       code: 112
+       name: Литр
+       designation: л
+       value: 0.001000
+       is_base: 0
+       precision: 3

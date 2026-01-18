@@ -1,0 +1,93 @@
+shop_order_payee:
+   tableName: shop_order_payee
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_order_payee_id
+     id_order:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_author:
+       type: integer
+       unsigned: true
+       index: true
+     id_company:
+       type: integer
+       unsigned: true
+       index: true
+     num:
+       type: integer
+       unsigned: true
+       notnull: true
+     date:
+       type: datetime
+       notnull: true
+     year:
+       type: integer
+       unsigned: true
+       notnull: true
+       default: 2000
+     payment_type:
+       type: integer
+       unsigned: true
+       notnull: true
+       default: 1
+     id_payment:
+       type: integer
+       unsigned: true
+       index: true
+     id_manager:
+       type: integer
+       unsigned: true
+       index: true
+     amount:
+       type: decimal(10,2)
+       unsigned: true
+       notnull: true
+     curr:
+       type: char(3)
+       default: RUB
+     note:
+       type: string(255)
+     id_user_account_in:
+       type: integer
+       unsigned: true
+     id_user_account_out:
+       type: integer
+       unsigned: true
+   relations:
+     se_user:
+       local: id_author
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     company:
+       local: id_company
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     se_user:
+       local: id_manager
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_order:
+       local: id_order
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_payment:
+       local: id_payment
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

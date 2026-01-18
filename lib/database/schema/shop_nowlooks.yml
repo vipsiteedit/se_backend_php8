@@ -1,0 +1,17 @@
+shop_nowlooks:
+   tableName: shop_nowlooks
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     time_expire:
+       type: integer
+       notnull: true
+     count_looks:
+       type: integer
+       unsigned: true

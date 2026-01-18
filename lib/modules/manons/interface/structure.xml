@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="btn" act="url" name="field" />
+		<field type="text" name="field">
+			<title lang="ru">Путь к странице:</title>
+		</field>
+		<field type="text" name="title">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="url">
+		<field type="text" name="meta_title">
+		<field type="text" name="meta_keywords">
+		<field type="textarea" name="meta_description">
+		<field type="text" name="image">
+		<field type="text" name="image_size" default="500">
+		<field type="text" name="image_prev">
+		<field type="text" name="image_prev_size" default="200">
+		<field type="menu" name="text1">
+			<title lang="ru">target</title>
+			<list lang="ru">_blank,_parent</list>
+			<default lang="ru"></default>
+		</field>
+	</objects>
+</structure>

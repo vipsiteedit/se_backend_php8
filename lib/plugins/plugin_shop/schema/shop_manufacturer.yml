@@ -1,0 +1,18 @@
+ShopManufacturer:
+  actAs: [Timestampable]
+  columns:
+    name:
+      type: string(255)
+      notnull: true
+    adress:
+      type: string(255)
+    postindex:
+      type: string(255)
+    phone:
+      type: string(255)
+    country_id:
+      type: integer
+    city:
+      type: string(255)
+    email:
+      type: string(255)

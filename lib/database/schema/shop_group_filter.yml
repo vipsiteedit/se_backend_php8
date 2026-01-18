@@ -1,0 +1,44 @@
+shop_group_filter:
+   tableName: shop_group_filter
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_group_filter_id
+     id_group:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_feature:
+       type: integer
+       unsigned: true
+       index: true
+     default_filter:
+       type: enum
+       values: ['price','brand','flag_hit','flag_new','discount']
+     expanded:
+       type: integer
+       notnull: true
+     sort:
+       type: integer
+       notnull: true
+       index: true
+   relations:
+     shop_feature:
+       local: id_feature
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_group:
+       local: id_group
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Раздел «Интернет-магазин»</group>
+	<name>Информер «Специальные предложения»</name>
+	<comment>Форма вывода специальных предложений с возможностью ajax и drag&amp;amp;drop добавления товара.</comment>
+</option>

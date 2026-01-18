@@ -1,0 +1,35 @@
+integration:
+   tableName: integration
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: integration_id
+     name:
+       type: string(255)
+       notnull: true
+     url_oauth:
+       type: string(255)
+     url_api:
+       type: string(255)
+     note:
+       type: text
+     is_active:
+       type: integer
+       notnull: true
+       default: 1
+   relations:
+   values:
+     1:
+       id: 1
+       name: Яндекс.Фото
+       url_oauth: http://upload.beget.edgestile.net/api/integrations/YandexPhotos/auth.php
+       url_api: http://api-fotki.yandex.ru
+       note: 
+       is_active: 1

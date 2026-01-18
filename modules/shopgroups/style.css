@@ -1,0 +1,63 @@
+﻿.shopgroups .groupPath {
+    margin-bottom:20px;
+}
+.shopgroups .separPath {
+    padding-left:5px; padding-right:5px;
+}
+.shopgroups .groupItem {
+    margin-bottom:20px; margin-right:20px; display:inline-block; width:120px; vertical-align:top;
+}
+.shopgroups .groupItem .mainGroup {
+    font-weight:bold;
+}
+.shopgroups .celltlbGroupImg {
+    margin-bottom:3px;
+}
+.shopgroups .celltlbGroupImg .lnkGroupImg .imgtlbGroupImg {
+    display:block;
+}
+.shopgroups .subgroupsList {
+    font-size:85%;
+}
+.shopgroups .subgroupsList .subItem {
+    margin-top:3px; margin-right:3px; display:inline-block;
+}
+.shopgroups .subgroupsList .lnkSubGrImage {
+    display:block;
+}
+.shopgroups .subgroupsList .vline {
+    margin-right:3px;
+}
+.shopgroups .groupTitle {
+    font-size:180%; font-weight:normal; margin-bottom:10px;
+}
+.shopgroups .blockGroupImage {
+    margin-right:20px; float:left;
+}
+.shopgroups .groupcomment {
+    overflow:hidden;
+}
+.shopgroups .subgroupsTitle {
+    font-size:100%; font-weight:bold; margin-top:10px;
+}
+.shopgroups .cellGroup {
+    font-size:85%; margin-top:10px; margin-right:10px; display:inline-block; text-align:center; vertical-align:top;
+}
+.shopgroups .brandsTitle {
+    font-size:100%; font-weight:bold;
+}
+.shopgroups .brandItem {
+    margin-top:5px; display:inline-block; padding:2px; text-align:center; vertical-align:top;
+}
+.shopgroups .brandItem .blockImage {
+    display:inline-block; width:100%;
+}
+.shopgroups .brandItem .brandImage {
+    margin:auto; margin-bottom:0px; display:block;
+}
+.shopgroups .brandItem .blockTitle {
+    font-size:85%;
+}
+.shopgroups .brandItem.selected {
+    background-image:url(mshop_groups_big52/black_10.png);
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Страница Интернет-магазина" list="">catalogue</parametr>
+	<parametr lang="rus" name="param2" title="Выводить количество:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param5" title="Код группы по умолчанию" list=""></parametr>
+	<parametr lang="rus" name="param4" title="Тип дерева каталога:" list="-1|Раскрывающееся,0|Открытое">0</parametr>
+	<parametr lang="rus" name="param6" title="Отображать адреса страниц в новом формате:" list="N|Нет,Y|Да">Y</parametr>
+</params>

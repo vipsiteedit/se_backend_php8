@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="text" name="title">
+			<title lang="ru">Валюта</title>
+		</field>
+		<field type="menu" name="text1">
+			<title lang="ru">Код валюты:</title>
+			<list lang="ru">R00000|Российский рубль,R01035|Фунт стерлингов,R01090|Белoрусский рубль,R01235|Доллар США,R01239|Евро,R01315|Испанская песета,R01325|Итальянская лира,R01335|Казахский тенге,R01720|Украинская гривна,R01750|Французский франк,R01820|Японская иена,R01510|Немецкая марка</list>
+			<default lang="ru">R00000|Российский рубль</default>
+		</field>
+	</objects>
+</structure>

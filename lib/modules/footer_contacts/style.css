@@ -1,0 +1,131 @@
+﻿.b_footer_contact {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex; 
+}
+
+.b_footer_contact .social.itms {
+	line-height: normal;
+	webkit-flex-grow: 2;
+    	-ms-flex-positive: 2;
+    	flex-grow: 2;
+    	padding-right: 0;
+	text-align: right;
+} 
+
+
+.b_footer_contact .itms {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	padding: 10px 30px 10px 0; 
+}
+
+.b_footer_contact .itms .icon {
+	background-position: center center;
+	background-repeat: no-repeat;
+	margin-right: 8px;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+}
+.b_footer_contact .addr .icon {
+	background-image: url(contact_icon_adress.png);
+}
+
+.b_footer_contact .phone .icon {
+	background-image: url(contact_icon_phone.png);
+}
+
+.b_footer_contact .email .icon {
+	background-image: url(contact_icon_email.png);
+}
+
+.b_footer_contact .addr.itms {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.b_footer_contact .phone.itms {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.b_footer_contact .email.itms {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+@media (max-width: 1199px)
+.b_footer_contact {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    display: block;
+}
+
+@media (max-width: 1199px)
+  .b_footer_contact .itms {
+    	-webkit-flex-grow: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+  }
+}
+
+@media (max-width: 749px) { 
+ .b_footer_contact .itms {
+	width: 100%;
+	display: inline-block;
+	width: 49%;
+	float: left;
+ }  
+ .b_footer_contact {
+	display: block;
+ }
+}/*@media*/
+
+
+
+
+@media (min-width: 750px) and (max-width: 969px) { 
+ .b_footer_contact {
+	display: block;
+ }  
+ .b_footer_contact .itms {
+	display: inline-block;
+	width: 50%;
+	float: left;
+ }
+}/*@media*/
+
+@media (min-width: 470px) and (max-width: 749px) { 
+ .b_footer_contact {
+	display: block;
+ }  
+ .b_footer_contact .social.itms {
+	text-align: left;
+ }
+}/*@media*/
+
+@media (max-width: 469px) { 
+ .b_footer_contact {
+	display: block;
+ }  
+ .b_footer_contact .itms {
+	width: 100%;
+ } 
+ .b_footer_contact .social.itms {
+	text-align: left;
+ }
+}/*@media*/

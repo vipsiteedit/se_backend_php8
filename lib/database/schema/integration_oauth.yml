@@ -1,0 +1,31 @@
+integration_oauth:
+   tableName: integration_oauth
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: integration_oauth_id
+     id_integration:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     token:
+       type: string(255)
+     expired:
+       type: datetime
+     login:
+       type: string(255)
+   relations:
+     integration:
+       local: id_integration
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

@@ -1,0 +1,15 @@
+shop_manufacturer:
+   tableName: shop_manufacturer
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     name:
+       type: string(255)
+       notnull: true
+   values:

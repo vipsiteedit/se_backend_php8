@@ -1,0 +1,61 @@
+news:
+   tableName: news
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: news_id
+     id_category:
+       type: integer
+       unsigned: true
+       index: true
+     news_date:
+       type: integer
+       notnull: true
+     pub_date:
+       type: integer
+     title:
+       type: string(255)
+     short_txt:
+       type: text
+     text:
+       type: text
+     img:
+       type: string(255)
+     active:
+       type: enum
+       values: ['Y','N']
+       default: 'Y'
+     send_letter:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'N'
+     url:
+       type: string(255)
+       unique: true
+     sort:
+       type: integer
+       index: true
+     is_date_public:
+       type: integer
+       index: true
+     seotitle:
+       type: string(255)
+     keywords:
+       type: string(255)
+     description:
+       type: string(255)
+   relations:
+     news_category:
+       local: id_category
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

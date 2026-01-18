@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="链接 &quot;详细信息&quot;:" list="">更多</parametr>
+	<parametr lang="rus" name="param2" title="键文本&quot;返回&quot;:" list="">往回</parametr>
+	<parametr lang="rus" name="param3" title="视图时显示简短文字：" list="Y|是,N|否">Y</parametr>
+	<parametr lang="rus" name="param4" title="启用详细内容的制度:" list="Y|是,N|否">N</parametr>
+	<parametr lang="rus" name="param5" title="启用在社交网络中共享职能:" list="Y|是,N|否">Y</parametr>
+	<parametr lang="rus" name="param6" title="您的伙伴ID:" list=""></parametr>
+	<parametr lang="rus" name="param7" title="每页条目的数目:" list="">30</parametr>
+</params>

@@ -1,0 +1,7 @@
+﻿.blog_search .serch_form .form-group.block_s {margin-bottom:10px;}
+.blog_search .serch_form .form-group .phase_inp {border:0; width:100%;}
+.blog_search .serch_form .form-group.title {font-weight:bold; margin-bottom:10px; display:block;}
+.blog_search .serch_form .form-group.block {margin-bottom:10px;}
+.blog_search .serch_form .form-group .checkbox {display:inline-block; width:100%; position:relative;}
+.blog_search .serch_form .form-group .checkbox .ttitle {display:block; width:88%; overflow:hidden; vertical-align:middle; white-space:nowrap;}
+.blog_search .serch_form .form-group .checkbox input {cursor:pointer; position:absolute; bottom:3px; right:0px; vertical-align:middle;}

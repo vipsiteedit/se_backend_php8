@@ -1,0 +1,94 @@
+shop_group:
+   tableName: shop_group
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_group_id
+     upid:
+       type: integer
+       unsigned: true
+       index: true
+     code_gr:
+       type: string(255)
+       notnull: true
+       unique: true
+     position:
+       type: integer
+       index: true
+     id_main:
+       type: integer
+       unsigned: true
+     name:
+       type: string(125)
+       notnull: true
+     lang:
+       type: char(3)
+       notnull: true
+       default: rus
+     page:
+       type: string(30)
+     picture:
+       type: string(255)
+     picture_alt:
+       type: string(255)
+     commentary:
+       type: text
+     footertext:
+       type: mediumtext
+     title:
+       type: string(255)
+     keywords:
+       type: string(255)
+     description:
+       type: text
+     page_title:
+       type: string(255)
+     discount:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'Y'
+     special_price:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'Y'
+     typegroup:
+       type: enum
+       values: ['g','s']
+       default: g
+     scount:
+       type: integer
+       unsigned: true
+     active:
+       type: enum
+       values: ['Y','N']
+       index: true
+       default: 'Y'
+     visits:
+       type: integer
+       unsigned: true
+       notnull: true
+       default: 0
+     filter:
+       type: integer
+       notnull: true
+       default: 0
+     compare:
+       type: integer
+       notnull: true
+       default: 0
+     id_modification_group_def:
+       type: integer
+       unsigned: true
+     is_delete:
+       type: integer
+       index: true
+   values:

@@ -1,0 +1,34 @@
+ShopPriceParameter:
+  tableName: se_shop_price_parameter
+  tableAlias: sppm
+  tableType:
+    engine: innoDB
+    charset: utf8
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      sequence: shop_price_parameter_id
+    price_id:
+      type: integer
+      notnull: true
+      unsigned: true
+    parameter_id:
+      type: integer
+      notnull: true
+      unsigned: true
+    value:
+      type: string(1000)
+ 
+  relations:
+    se_shop_price:
+      local: price_id
+      foreign:  id
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    se_shop_parameter:
+      local: parameter_id
+      foreign:  id
+      onDelete: CASCADE
+      onUpdate: CASCADE

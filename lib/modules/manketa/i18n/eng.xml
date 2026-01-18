@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>Error message</lang001>
+	<lang002>Don&amp;apos;t forget to set in administrator&amp;apos;s e-mail in the &amp;quot;Parameters&amp;quot;</lang002>
+	<lang003>The given e-mail:</lang003>
+	<lang004>Please fill in all fields marked with an asterisk</lang004>
+	<lang005>Administrator e-mail not specified</lang005>
+	<lang006>Error in the e-mail administrator</lang006>
+	<lang007>Not entered a field</lang007>
+	<lang008>Phone number is incorrect</lang008>
+	<lang009>Wrong captcha</lang009>
+	<lang010>Error sending mail</lang010>
+	<lang011>Captcha</lang011>
+	<lang012>Name</lang012>
+	<lang013>Address</lang013>
+	<lang014>Phone</lang014>
+	<lang015>E-mail</lang015>
+	<lang016>Back</lang016>
+	<lang017>Send</lang017>
+	<lang018>from</lang018>
+	<lang019>via</lang019>
+	<lang020></lang020>
+</language>

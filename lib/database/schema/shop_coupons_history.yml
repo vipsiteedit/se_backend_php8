@@ -1,0 +1,49 @@
+shop_coupons_history:
+   tableName: shop_coupons_history
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_coupons_history_id
+     code_coupon:
+       type: string(50)
+       notnull: true
+     id_coupon:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_user:
+       type: integer
+       unsigned: true
+       index: true
+     id_order:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     discount:
+       type: float(10,2)
+   relations:
+     shop_coupons:
+       local: id_coupon
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_order:
+       local: id_order
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     se_user:
+       local: id_user
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

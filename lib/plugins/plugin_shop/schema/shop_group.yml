@@ -1,0 +1,73 @@
+ShopGroup:
+  actAs: [Timestampable]
+  columns:
+    name: #название
+      type: string(250)
+      notnull: true
+    description: #подробное описание
+      type: string(2147483647)
+    description_short: #краткое описание
+      type: string(65535)
+      
+    picture_id: #картинка
+      type: integer
+      
+    country_id: #страна
+      type: integer
+#      default: 1
+      notnull: true
+      
+    sort: #приоритет вывода
+      type: integer
+      default: 0
+      notnull: true
+      
+    has_discount: #имеет скидки
+      type: boolean
+      default: false
+      notnull: true
+    has_special: #имеет специальные цены
+      type: boolean
+      default: false
+      notnull: true
+      
+    is_active: #активна
+      type: boolean
+      default: true
+      notnull: true
+      
+    parent_id: #родитель
+      type: integer
+      default: 0
+      notnull: true
+      
+  relations:
+    parent:
+      class: ShopGroup
+      local: parent_id
+      foreignAlias: children
+      onUpdate: CASCADE
+    picture:
+      class: ShopPicture
+      local: picture_id
+#      foreignAlias: groups
+      foreignType: one
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    country:
+      class: Country
+      local: country_id
+#      foreignAlias: groups
+      onUpdate: CASCADE
+    deliveries:
+      class: ShopDelivery
+      refClass: ShopGroupDelivery
+      local: group_id
+      foreign: delivery_id
+      foreignAlias: groups
+    parameters:
+      class: ShopParameter
+      refClass: ShopGroupParameter
+      local: group_id
+      foreign: parameter_id
+      foreignAlias: groups

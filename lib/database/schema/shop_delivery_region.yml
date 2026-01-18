@@ -1,0 +1,32 @@
+shop_delivery_region:
+   tableName: shop_delivery_region
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_delivery_region_id
+     id_delivery:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_country:
+       type: integer
+     id_region:
+       type: integer
+     id_city:
+       type: integer
+   relations:
+     shop_deliverytype:
+       local: id_delivery
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:
+

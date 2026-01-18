@@ -1,0 +1,60 @@
+se_user_account:
+   tableName: se_user_account
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: se_user_account_id
+     user_id:
+       type: integer
+       unsigned: true
+       index: true
+     company_id:
+       type: integer
+       unsigned: true
+       index: true
+     order_id:
+       type: integer
+       unsigned: true
+       index: true
+     account:
+       type: string(40)
+     date_payee:
+       type: datetime
+     in_payee:
+       type: float(10,4)
+     out_payee:
+       type: float(10,4)
+     entbalanse:
+       type: float(10,4)
+     curr:
+       type: char(3)
+       default: RUR
+     operation:
+       type: integer
+       unsigned: true
+     docum:
+       type: text
+   relations:
+     se_user:
+       local: user_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     company:
+       local: company_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_order:
+       local: order_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

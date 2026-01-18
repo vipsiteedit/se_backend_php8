@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="E-mail администратора" list="">[%adminmail%]</parametr>
+	<parametr lang="rus" name="param2" title="Отправить" list="">Отправить</parametr>
+	<parametr lang="rus" name="param3" title="Включить защиту от спама" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="rus" name="param4" title="Введите цифры с картинки" list="">Введите цифры с картинки</parametr>
+	<parametr lang="rus" name="param5" title="Количество символов в тексте" list="">255</parametr>
+	<parametr lang="rus" name="param6" title="Вы не ввели имя" list="">Вы не ввели имя</parametr>
+	<parametr lang="rus" name="param7" title="Вы не ввели E-mail" list="">Вы не ввели E-mail</parametr>
+	<parametr lang="rus" name="param8" title="Не Верно введен E-mail" list="">Не Верно введен E-mail</parametr>
+	<parametr lang="rus" name="param9" title="Не введен текст сообщения" list="">Не введен текст сообщения</parametr>
+	<parametr lang="rus" name="param10" title="Не верно введено число с картинки" list="">Не верно введено число с картинки</parametr>
+	<parametr lang="rus" name="param11" title="Не введено число с картинки" list="">Не введено число с картинки</parametr>
+	<parametr lang="rus" name="param12" title="Заголовок письма" list="">Сообщение со страницы &amp;quot;Контакты&amp;quot;</parametr>
+	<parametr lang="rus" name="param13" title="Служба временно отключена" list="">Служба временно отключена</parametr>
+	<parametr lang="rus" name="param14" title="Ошибка отправки почты" list="">Ошибка отправки почты</parametr>
+	<parametr lang="rus" name="param15" title="Сообщение отправлено успешно" list="">Ваше сообщение отправлено администратору сайта.</parametr>
+	<parametr lang="rus" name="param16" title="Ваше имя" list="">Ваше имя</parametr>
+	<parametr lang="rus" name="param17" title="Ваш E-mail" list="">Ваш E-mail</parametr>
+	<parametr lang="rus" name="param18" title="Введите текст" list="">Введите текст</parametr>
+	<parametr lang="rus" name="param19" title="Текст &amp;quot;Назад&amp;quot;" list="">Назад</parametr>
+	<parametr lang="rus" name="param20" title="Текст в письме &amp;quot;От&amp;quot;" list="">От:</parametr>
+	<parametr lang="rus" name="param21" title="Текст в письме &amp;quot;Текст сообщения&amp;quot;" list="">Текст сообщения:</parametr>
+</params>

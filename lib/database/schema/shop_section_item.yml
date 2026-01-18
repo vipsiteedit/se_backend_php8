@@ -1,0 +1,81 @@
+shop_section_item:
+   tableName: shop_section_item
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_section_item_id
+     id_section:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     name:
+       type: string(255)
+       notnull: true
+     note:
+       type: string(255)
+     text:
+       type: text
+     id_price:
+       type: integer
+       unsigned: true
+       index: true
+     id_group:
+       type: integer
+       unsigned: true
+       index: true
+     id_brand:
+       type: integer
+       unsigned: true
+       index: true
+     id_new:
+       type: integer
+       unsigned: true
+       index: true
+     url:
+       type: string(255)
+     picture:
+       type: string(255)
+     picture_alt:
+       type: string(255)
+     sort:
+       type: integer
+       unsigned: true
+       notnull: true
+     enabled:
+       type: integer
+       notnull: true
+       default: 1
+   relations:
+     shop_section:
+       local: id_section
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_brand:
+       local: id_brand
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_group:
+       local: id_group
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_price:
+       local: id_price
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     news:
+       local: id_new
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE

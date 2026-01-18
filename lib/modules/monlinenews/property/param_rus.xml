@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Логины модераторов (через запятую)" list=""></parametr>
+	<parametr lang="rus" name="param36" title="Имя группы модераторов:" list="">publication</parametr>
+	<parametr lang="rus" name="param32" title="Показывать ссылку &amp;quot;подробнее...&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="rus" name="param35" title="Краткий вид даты:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param2" title="Ссылка &amp;quot;подробнее...&amp;quot;" list="">подробнее</parametr>
+	<parametr lang="rus" name="param3" title="Количество новостей на странице" list="">15</parametr>
+	<parametr lang="rus" name="param4" title="Ширина рисунка" list="">200</parametr>
+	<parametr lang="rus" name="param5" title="Ширина превью-картинки" list="">100</parametr>
+	<parametr lang="rus" name="param6" title="Сообщение &amp;quot;Добавить новость&amp;quot;:" list="">[+] Добавить новость</parametr>
+	<parametr lang="rus" name="param7" title="Сообщение &amp;quot;Введите текст новости&amp;quot;:" list="">Введите  текст новости</parametr>
+	<parametr lang="rus" name="param8" title="Сообщение &amp;quot;Введите заголовок новости&amp;quot;:" list="">Введите заголовок новости</parametr>
+	<parametr lang="rus" name="param9" title="Сообщение &amp;quot;Введите месяц&amp;quot;:" list="">Введите месяц</parametr>
+	<parametr lang="rus" name="param10" title="Сообщение &amp;quot;Введите день &amp;quot;:" list="">Введите день</parametr>
+	<parametr lang="rus" name="param11" title="Сообщение &amp;quot;Введите год&amp;quot;: " list="">Введите год</parametr>
+	<parametr lang="rus" name="param12" title="Сообщение &amp;quot;Неправильно введена дата&amp;quot;:" list="">Неправильно введена дата</parametr>
+	<parametr lang="rus" name="param13" title="Сообщение &amp;quot;Не является картинкой&amp;quot;: " list="">Выбранный файл не является картинкой  в формате GIF/JPG/PNG!</parametr>
+	<parametr lang="rus" name="param14" title="Сообщение &amp;quot;Превышает размер&amp;quot;:" list="">Выбранный файл превышает размер 1 Мб!</parametr>
+	<parametr lang="rus" name="param15" title="Кнопка &amp;quot;Изменить&amp;quot;:" list="">Редактировать</parametr>
+	<parametr lang="rus" name="param17" title="Число символов в кратком тексте:" list="">250</parametr>
+	<parametr lang="rus" name="param18" title="Текст ссылки &amp;quot;Все новости&amp;quot;:" list="">Все новости</parametr>
+	<parametr lang="rus" name="param19" title="Кнопка &amp;quot;Вернуться назад&amp;quot;:" list="">Вернуться назад</parametr>
+	<parametr lang="rus" name="param20" title="Идентификатор новостей:" list="">news</parametr>
+	<parametr lang="rus" name="param31" title="Включить возможность поделиться в соц. сетях" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param22" title="::: Страницы редактирования :::" list=""></parametr>
+	<parametr lang="rus" name="param23" title="Заголовок &amp;quot;Заголовок&amp;quot;:" list="">Заголовок</parametr>
+	<parametr lang="rus" name="param24" title="Заголовок &amp;quot;Загрузить рисунок&amp;quot;:" list="">Загрузить рисунок</parametr>
+	<parametr lang="rus" name="param25" title="Заголовок &amp;quot;Текс новости&amp;quot;:" list="">Текст новости</parametr>
+	<parametr lang="rus" name="param26" title="Кнопка &amp;quot;Сохранить&amp;quot;:" list="">Сохранить</parametr>
+	<parametr lang="rus" name="param27" title="Кнопка &amp;quot;Удалить&amp;quot;:" list="">Удалить</parametr>
+	<parametr lang="rus" name="param28" title="Кнопка &amp;quot;Назад&amp;quot;:" list="">Назад</parametr>
+	<parametr lang="rus" name="param29" title="Дата" list="">Дата</parametr>
+	<parametr lang="rus" name="param33" title="::: Данные партнерской сети :::" list=""></parametr>
+	<parametr lang="rus" name="param34" title="Ваш ID на сайте edgestile.ru" list=""></parametr>
+</params>

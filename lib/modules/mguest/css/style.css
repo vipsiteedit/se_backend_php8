@@ -1,0 +1,27 @@
+﻿.cont_guest #blockip {margin-bottom:20px; display:block;}
+.cont_guest #comments .comm {margin-bottom:30px;}
+.cont_guest #comments .comm .userdat {margin-bottom:10px; display:inline-block;}
+.cont_guest #comments .comm .userdat .date {margin-right:10px;}
+.cont_guest #comments .comm .com_txt {clear:both;}
+.cont_guest #comments .comm .adm_txt {margin-top:10px;}
+.cont_guest #comments .comm .admin_label {font-weight:bold; margin-bottom:5px; display:block;}
+.cont_guest .supererror {color:#FF0000; font-weight:bold; margin-top:20px;}
+.cont_guest #guesttab {margin-top:20px; width:300px;}
+.cont_guest #guesttab .commentTtl {margin-bottom:5px; display:inline-block;}
+.cont_guest #guesttab .inp {float:right;}
+.cont_guest #guesttab #textar {float:none;}
+.cont_guest .error {color:#ff0000; font-weight:bold; margin-bottom:5px; float:right; clear:both; text-align:right;}
+.cont_guest #guesttab #pin_img {margin-bottom:2px; margin-right:10px; float:left;}
+#guest #guesttab .inp.inppin {display:block; float:none; clear:both;}
+.cont_guest #guesttab #but {margin-top:20px;}
+.cont_guest #subpage1 .usernotettl {margin-top:10px; margin-bottom:5px; display:inline-block;}
+.cont_guest #subpage1 .adminaswerttl {margin-top:10px; margin-bottom:5px; display:inline-block;}
+.cont_guest #subpage1 .delmsgttl {vertical-align:middle;}
+.cont_guest #subpage1 .blockuserttl {vertical-align:middle;}
+.cont_guest #subpage1 .input {float:right;}
+.cont_guest #subpage1 .cbox {vertical-align:middle;}
+.cont_guest #subpage1 .error {color:#FF0000; font-weight:bold;}
+.cont_guest #subpage1 .buttonBlock {padding-top:20px;}
+.cont_guest #subpage2 .tablerow {padding-top:3px; padding-bottom:3px;}
+.cont_guest #subpage2 #blocked .link {margin-left:10px;}
+.cont_guest #subpage2 #blocked .getback {margin-top:10px;}

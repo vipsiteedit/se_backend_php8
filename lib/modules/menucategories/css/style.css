@@ -1,0 +1,15 @@
+﻿.category .List {display:block;}
+.category .menu.menuActive {text-decoration:underline;}
+.category .List .menu {font-size:120%; font-weight:bold; text-decoration:none; margin-top:5px; margin-bottom:5px; display:block;}
+.category .List .submenu {padding-left:10px; margin-top:5px; margin-bottom:10px;}
+.category .submenu .menu {font-size:120%; font-weight:normal;}
+.category .submenu1 {padding-left:10px; display:block;}
+.category .submenu1 .menu { font-size:110%;}
+.category .submenu2 {padding-left:10px; display:block;}
+.category .submenu2 .menu {font-size:100%;}
+.category.addRecord .errorText {color:#ffffff; background-color:#F0470F; margin-top:10px; margin-bottom:10px; display:inline-block; padding:5px 10px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.category.addRecord .useTabl1 .contentS1 {margin-right:10px;}
+.category.addRecord .useTabl2 .contentS3 {margin-right:10px;}
+.category.addRecord .useTable {margin-top:20px;}
+.category.addRecord .useTable .edAddBtn1 {margin-right:10px;}
+.category.addRecord .useTable .edAddBtn2 {margin-right:10px;}

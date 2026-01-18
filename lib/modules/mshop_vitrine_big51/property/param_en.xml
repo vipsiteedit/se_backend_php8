@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param91" title="::: Products list parameters :::" list=""></parametr>
+	<parametr lang="ru" name="param50" title="Shop cart page" list="">shopcart</parametr>
+	<parametr lang="ru" name="param273" title="Base product group" list=""></parametr>
+	<parametr lang="ru" name="param60" title="Display products without group / Display products from subgroups" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param15" title="Default ordering type" list="name|By name,R|Random,id|By addition date,price|By price,article|By article">name</parametr>
+	<parametr lang="ru" name="param291" title="Default ordering direction" list="0|Ascending,1|Descending">0</parametr>
+	<parametr lang="ru" name="param183" title="Display &amp;quot;Change view&amp;quot; button (Showcase/Table)" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param184" title="Default view" list="v|Showcase,t|Table">v</parametr>
+	<parametr lang="ru" name="param207" title="Limit teaser characters count (-1 - no limit)" list="">-1</parametr>
+	<parametr lang="ru" name="param243" title="Round price value to integer" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param276" title="Format price value by 3 digits" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param113" title="Display old price" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param237" title="Limit title characters count" list="">60</parametr>
+	<parametr lang="ru" name="param64" title="Products per page" list="">20</parametr>
+	<parametr lang="ru" name="param235" title="Similiar and related products per page" list="">30</parametr>
+	<parametr lang="ru" name="param259" title="Use new url format (recommended)" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param275" title="Display product title as link" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param85" title="Add to cart on &amp;quot;Buy&amp;quot; click" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param269" title="@Display compare panel" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param254" title="@Display only unsold products" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param295" title="Action on optional product absence" list="Y|Display option/value,N|Hide option/value">Y</parametr>
+	<parametr lang="ru" name="param294" title="Absent product marker" list=""></parametr>
+	<parametr lang="ru" name="param292" title="Watermark text or image url" list=""></parametr>
+	<parametr lang="ru" name="param102" title="" list=""></parametr>
+	<parametr lang="ru" name="param87" title="::: Showcase mode :::" list=""></parametr>
+	<parametr lang="ru" name="param289" title="Image width" list="">200</parametr>
+	<parametr lang="ru" name="param114" title="Display teaser" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param115" title="Display details" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param83" title="Display article" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param84" title="Display manufacturer" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param111" title="Display presence" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param226" title="Display price title" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param125" title="" list=""></parametr>
+	<parametr lang="ru" name="param188" title="::: Table mode :::" list=""></parametr>
+	<parametr lang="ru" name="param206" title="Image width" list="">100</parametr>
+	<parametr lang="ru" name="param57" title="Display article" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param73" title="Display image" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param74" title="Display teaser" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param65" title="Display manufacturer" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param55" title="Display presence" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param66" title="Display similiar products presence" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param205" title="Display quantity selector" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param274" title="&amp;quot;Article&amp;quot; label" list="">#</parametr>
+	<parametr lang="ru" name="param277" title="" list=""></parametr>
+	<parametr lang="ru" name="param278" title="::: Special offer mode :::" list=""></parametr>
+	<parametr lang="ru" name="param279" title="Use special offers only mode" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param208" title="" list=""></parametr>
+	<parametr lang="ru" name="param89" title="::: Product details :::" list=""></parametr>
+	<parametr lang="ru" name="param297" title="Title tag level" list="H1,H2,H3,H4">H1</parametr>
+	<parametr lang="ru" name="param246" title="Display breadcrumbs" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param282" title="Main image display mode" list="L|Lens,Z|Popup zoom,N|Full size">N</parametr>
+	<parametr lang="ru" name="param293" title="Maximum full size image width" list="">500</parametr>
+	<parametr lang="ru" name="param286" title="Main image width (lens or zoom mode)" list="">350</parametr>
+	<parametr lang="ru" name="param284" title="Zoom popup window width" list="">350</parametr>
+	<parametr lang="ru" name="param126" title="Display article" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param129" title="Display manufacturer" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param128" title="Display presence" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param133" title="Display teaser" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param134" title="Display details" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param305" title="Meta title and description mode" list="auto|Automatic,man|Manual">auto</parametr>
+	<parametr lang="ru" name="param303" title="Meta title text" list="">{name} - buy at price {new price}: description, characteristics, replies, photo</parametr>
+	<parametr lang="ru" name="param304" title="Meta description text" list="">Buy «{name} {brand}» at price {new price}[ with discount {discount}%]. {description}</parametr>
+	<parametr lang="ru" name="param271" title="@Display specification" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param258" title="@Use tabbed display mode" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param233" title="@Block &amp;quot;Add to cart&amp;quot; button on absent products" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param107" title="" list=""></parametr>
+	<parametr lang="ru" name="param180" title="::: Additional images (Gallery) :::" list=""></parametr>
+	<parametr lang="ru" name="param285" title="Preview image width" list="">100</parametr>
+	<parametr lang="ru" name="param298" title="Full size image width" list="">500</parametr>
+	<parametr lang="ru" name="param187" title="" list=""></parametr>
+	<parametr lang="ru" name="param209" title=":: Comments :::" list=""></parametr>
+	<parametr lang="ru" name="param217" title="Enable comments" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="ru" name="param238" title="" list=""></parametr>
+	<parametr lang="ru" name="param268" title="::: Rating :::" list=""></parametr>
+	<parametr lang="ru" name="param266" title="Display rating buttons" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param232" title="" list=""></parametr>
+	<parametr lang="ru" name="param223" title="::: Wholesale options :::" list=""></parametr>
+	<parametr lang="ru" name="param224" title="Wholesale user group name" list="">optovik</parametr>
+	<parametr lang="ru" name="param225" title="Corporate wholesale user group name" list="">optcorp</parametr>
+	<parametr lang="ru" name="param296" title="Use partners&amp;apos; shops links" list="Y|Yes,N|No">N</parametr>
+</params>

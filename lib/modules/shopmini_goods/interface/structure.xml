@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="text" name="field">
+			<title lang="ru">Цена</title>
+		</field>
+		<field type="text" name="title">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="ru">Краткое описание</title>
+		</field>
+		<field type="text" name="text">
+			<title lang="ru">Подробное описание</title>
+		</field>
+		<field type="text" name="text1">
+			<title lang="ru">Код:</title>
+			<list lang="ru"></list>
+			<default lang="ru"></default>
+		</field>
+	</objects>
+</structure>

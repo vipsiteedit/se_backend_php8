@@ -1,0 +1,56 @@
+﻿shopPriceParam:
+  tableName: shop_price_param
+  tableType:
+    engine: innoDB
+    charset: utf8
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer
+      unsigned: true
+      primary: true
+      sequence: shop_price_param_id_sec
+    parent_id:
+      type: integer
+      unsigned: true
+      default: NULL
+      index: true
+    price_id:
+      type: integer
+      unsigned: true
+      notnull: true
+      index: true
+    param_id:
+      type: integer
+      unsigned: true
+      notnull: true
+      index: true
+    value: 
+      type: string(255)
+      notnull: true
+    price:
+      type: float(10,2)
+      default: NULL
+    count:
+      type: integer
+      default: NULL
+  indexes:
+    price_id_2:
+      type: unique
+      fields: ['price_id','param_id','parent_id','value']
+  relations:
+    shop_param:
+      local: param_id
+      foreign: id
+      onDelete: CASCADE
+      onUpdate: CASCADE    
+    shop_price:
+      local: price_id
+      foreign: id
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    shop_price_param:
+      local: parent_id
+      foreign: id
+      onDelete: CASCADE
+      onUpdate: CASCADE

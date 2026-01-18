@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param6" title="число записей на странице" list="">30</parametr>
+	<parametr lang="ru" name="param1" title="Режим вывода:" list="0|Не сортировать,1|Сортировать">0</parametr>
+	<parametr lang="ru" name="param2" title="Идентификатор:" list="">[namepage]</parametr>
+	<parametr lang="ru" name="param9" title="Включить возможность поделиться в соц. сетях" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param10" title="Реферный ID siteedit.ru" list=""></parametr>
+</params>

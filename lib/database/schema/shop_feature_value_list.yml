@@ -1,0 +1,40 @@
+shop_feature_value_list:
+   tableName: shop_feature_value_list
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_feature_value_list_id
+     id_feature:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     value:
+       type: string(255)
+       notnull: true
+     code:
+       type: string(255)
+     color:
+       type: string(6)
+     image:
+       type: string(255)
+     sort:
+       type: integer
+       notnull: true
+     default:
+       type: integer
+       notnull: true
+   relations:
+     shop_feature:
+       local: id_feature
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

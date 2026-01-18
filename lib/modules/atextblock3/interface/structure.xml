@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="text" name="title">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="image_prev">
+		<field type="text" name="image_prev_size" default="70x70">
+	</objects>
+</structure>

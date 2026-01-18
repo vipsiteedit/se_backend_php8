@@ -1,0 +1,8 @@
+﻿.vkladki .linkBox .sep {cursor:default; border-bottom:1px solid #cecece;}
+.vkladki .linkBox .tab {cursor:pointer; border-top:1px solid #e8e8e8; border-bottom:1px solid #cecece; border-left:1px solid #e8e8e8; border-right:1px solid #e8e8e8;}
+.vkladki .linkBox .tab .center {padding-top:5px !important; padding-bottom:5px !important; padding:10px; text-align:center;}
+.vkladki .linkBox .tab .link {text-decoration:none;}
+.vkladki .linkBox .tab.active {font-weight:bold; background-color:#f9f9f9; border-top:1px solid #cecece; border-left:1px solid #cecece; border-right:1px solid #cecece;}
+.vkladki .linkBox .tab:hover {border-top:1px solid #cecece; border-left:1px solid #cecece; border-right:1px solid #cecece;}
+.vkladki .textBox {clear:both;}
+.vkladki .textBox .obj .objectTitleTxt {margin:0; margin-top:10px; margin-bottom:10px;}

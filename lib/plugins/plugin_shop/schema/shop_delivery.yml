@@ -1,0 +1,43 @@
+ShopDelivery:
+  actAs: [Timestampable]
+  columns:
+    name: #имя
+      type: string(127)
+      notnull: true
+    time: #время доставки
+      type: string(127)
+      notnull: true
+    price: #стоимость
+      type: float(10)
+      notnull: true
+    volume: #объем
+      type: float(5)
+      default: 0
+    weight: #вес
+      type: float(5)
+      default: 0
+    description: #описание
+      type: string(2147483647)
+      
+    country_id: #язык
+      type: integer
+#      default: 1
+      notnull: true
+    currency_id: #валюта
+      type: integer
+#      default: 1
+      notnull: true
+      
+  relations:
+    country:
+      class: Country
+      local: country_id
+#      foreignAlias: deliveries
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    currency:
+      class: Currency
+      local: currency_id
+#      foreignAlias: deliveries
+      onDelete: CASCADE
+      onUpdate: CASCADE

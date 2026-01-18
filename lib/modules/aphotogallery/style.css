@@ -1,0 +1,12 @@
+﻿.adap_imggallery .contentBody .links .object {
+	padding: 2px;
+}
+.adap_imggallery .contentBody .links .object .objectImage {
+	width: 100%;
+}
+
+.adap_imggallery .classNavigator {
+        display: block;
+        clear: both;
+        padding: 10px 0px;
+} 

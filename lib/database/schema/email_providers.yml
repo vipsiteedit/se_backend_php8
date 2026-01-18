@@ -1,0 +1,29 @@
+email_providers:
+   tableName: email_providers
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+     name:
+       type: string(50)
+     url:
+       type: string(255)
+     settings:
+       type: string(255)
+       notnull: true
+     is_active:
+       type: integer
+   relations:
+   values:
+     1:
+       id: 1
+       name: sendpulse
+       url: https://login.sendpulse.com
+       settings: '{"ID":{"type":"string","value":""}, "SECRET":{"type":"string","value":""}}'
+       is_active: 1

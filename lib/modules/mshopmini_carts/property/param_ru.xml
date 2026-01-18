@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="E-mail администратора" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param29" title="Ссылка &amp;quot;Вернуться в каталог&amp;quot;" list=""></parametr>
+	<parametr lang="ru" name="param2" title="Валюта" list="руб,$,€">руб</parametr>
+	<parametr lang="ru" name="param24" title="Максимальный размер загружаемого файла (Кб)" list="">500</parametr>
+	<parametr lang="ru" name="param28" title="Ошибка при превышении максимального размера файла" list="">Загружаемый файл превышает размер:</parametr>
+	<parametr lang="ru" name="param3" title="Текст столбца &amp;quot;Код&amp;quot;:" list="">Код</parametr>
+	<parametr lang="ru" name="param4" title="Текст столбца &amp;quot;Наименование&amp;quot;:" list="">Наименование</parametr>
+	<parametr lang="ru" name="param6" title="Текст столбца &amp;quot;Цена&amp;quot;:" list="">Цена</parametr>
+	<parametr lang="ru" name="param7" title="Текст столбца &amp;quot;Количество&amp;quot;:" list="">Кол-во</parametr>
+	<parametr lang="ru" name="param8" title="Текст столбца &amp;quot;Сумма&amp;quot;" list="">Сумма</parametr>
+	<parametr lang="ru" name="param9" title="Текст кнопки &amp;quot;Удалить товар&amp;quot;" list="">Удалить</parametr>
+	<parametr lang="ru" name="param10" title="Текст &amp;quot;Итого&amp;quot;" list="">Итого</parametr>
+	<parametr lang="ru" name="param11" title="Текст кнопки &amp;quot;Вернуться в каталог&amp;quot;" list="">Продолжить покупки</parametr>
+	<parametr lang="ru" name="param12" title="Текст кнопки &amp;quot;Пересчитать&amp;quot;:" list="">Пересчитать</parametr>
+	<parametr lang="ru" name="param13" title="Текст кнопки &amp;quot;Очистить корзину&amp;quot;:" list="">Очистить</parametr>
+	<parametr lang="ru" name="param14" title="Текст кнопки &amp;quot;Оформить заказ&amp;quot;:" list="">Заказать</parametr>
+	<parametr lang="ru" name="param15" title="Заголовок поля &amp;quot;Имя&amp;quot;" list="">Имя</parametr>
+	<parametr lang="ru" name="param16" title="Заголовок поля &amp;quot;Ваш e-mail&amp;quot;" list="">Ваш e-mail</parametr>
+	<parametr lang="ru" name="param22" title="@Заголовок поля &amp;quot;Телефон&amp;quot;" list="">Телефон</parametr>
+	<parametr lang="ru" name="param17" title="Заголовок письма" list="">Оформление заказа</parametr>
+	<parametr lang="ru" name="param19" title="Текст письма клиенту" list="">Здравствуйте,  [NAMECLIENT]!\r\n \r\nВы оформили заказ №[SHOP_ORDER_NUM] на сайте [THISNAMESITE]\r\n \r\n[HR][SHOP_ORDER_VALUE_LIST]\r\n[HR]Сумма заказа: [SHOP_ORDER_SUMM] [VALUTA]\r\n \r\n</parametr>
+	<parametr lang="ru" name="param20" title="Текст письма администратору" list="">Здравствуйте,  Администратор!\r\n \r\nВаш клиент [NAMECLIENT] оформил заказ №[SHOP_ORDER_NUM] на сайте [THISNAMESITE]\r\n \r\n[HR][SHOP_ORDER_VALUE_LIST]\r\n[HR]Сумма заказа: [SHOP_ORDER_SUMM] [VALUTA]\r\n\r\ne-mail клиента: [CLIENTEMAIL]  \r\n</parametr>
+	<parametr lang="ru" name="param21" title="Текст финишной страницы заказа" list="">Заказ отправлен. В ближайшее время наш менеджер свяжется с Вами.</parametr>
+	<parametr lang="ru" name="param23" title="Сообщение &amp;quot;Не все обязательные поля заполнены&amp;quot;" list="">Заполните все поля, помеченные звездочками</parametr>
+	<parametr lang="ru" name="param25" title="Текст при выбранном пункте &amp;quot;Флажок&amp;quot;" list="">Да</parametr>
+	<parametr lang="ru" name="param26" title="Текст при невыбранном пункте &amp;quot;Флажок&amp;quot;" list="">Нет</parametr>
+	<parametr lang="ru" name="param27" title="Сообщение &amp;quot;Ошибка при отправке почты&amp;quot;" list="">Ошибка при отправке почты</parametr>
+	<parametr lang="ru" name="param30" title="" list=""></parametr>
+	<parametr lang="ru" name="param31" title="::::::::: ПАРАМЕТРЫ ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param32" title="Подтверждение о сборе персональных данных" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param33" title="Текст подтверждения о сборе персональных данных" list="{text}">Нажимая кнопку «Заказать», я принимаю условия &amp;lt;a class=&amp;quot;lnkLicense&amp;quot; href=&amp;quot;/license/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Пользовательского соглашения&amp;lt;/a&amp;gt; и даю своё согласие на обработку моих персональных данных</parametr>
+	<parametr lang="ru" name="param34" title="Подтверждение дополнительных условий" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param35" title="Текст подтверждения дополнительных условий" list="{text}">Принимаю &amp;lt;a href=&amp;quot;#&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;условия&amp;lt;/a&amp;gt;</parametr>
+</params>

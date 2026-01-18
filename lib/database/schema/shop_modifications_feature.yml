@@ -1,0 +1,68 @@
+shop_modifications_feature:
+   tableName: shop_modifications_feature
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_modifications_feature_id
+     id_price:
+       type: integer
+       unsigned: true
+       index: true
+     id_modification:
+       type: integer
+       unsigned: true
+       index: true
+     id_feature:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_value:
+       type: integer
+       unsigned: true
+       index: true
+     value_number:
+       type: float
+       default: null
+     value_bool:
+       type: integer
+       default: null
+     value_string:
+       type: string(255)
+       default: null
+     sort:
+       type: integer
+       notnull: true
+       default: 0
+     is_mod:
+       type: integer
+       notnull: true
+       index: true
+   relations:
+     shop_feature:
+       local: id_feature
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_modifications:
+       local: id_modification
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_price:
+       local: id_price
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_feature_value_list:
+       local: id_value
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE

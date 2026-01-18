@@ -1,0 +1,32 @@
+﻿.shopgroups .contentBody {display:inline-block; width:99%; clear:both;}
+.shopgroups .separPath {padding-left:2px; padding-right:2px}
+.shopgroups .search {margin-top:20px; margin-bottom:20px; display:inline-block; clear:both;}
+.shopgroups .search label {margin-top:3px; margin-right:10px; float:left;}
+.shopgroups .search .inputHint {float:left;}
+.shopgroups .search #searchString {width:300px;}
+.shopgroups .search .suggestionsBox#suggestions {background-color:#ffffff; border-width:1px; border-color:#c0c0c0; border-style:solid; width:302px;}
+.shopgroups #suggestions div {cursor:pointer; padding-top:4px; padding-bottom:4px; padding-left:10px; padding-right:10px; display:block;}
+.shopgroups #suggestions div:hover {background-color:#e0e8fc;}
+.shopgroups .groupContent {display:block; width:100%;}
+.shopgroups .tableTable.itemgroup {margin-bottom:10px; margin-right:10px; width:220px; height:120px; float:left;}
+.shopgroups .celltlbGroupImg {width:120px; height:120px; overflow:hidden;}
+.shopgroups .celltlbGroupName {padding-left:5px; text-align:left; vertical-align:middle;}
+.shopgroups .itemgroup dt {font-weight:bold;}
+.shopgroups .itemgroup dd {margin:0;}
+.shopgroups .titleGroup h2.grouptitle {font-size:200%; font-weight:normal; margin:0; margin-bottom:10px;}
+.shopgroups .titleGroup .grouptitleg {font-weight:bold; margin-bottom:5px; display:block;}
+.shopgroups .searchform {margin-bottom:20px; display:inline-block; width:100%; clear:both;}
+.shopgroups .searchform .price {margin-right:10px;}
+.shopgroups .searchform label.from {margin-right:3px;}
+.shopgroups .searchform input.from {width:60px;}
+.shopgroups .searchform label.to {margin-right:3px;}
+.shopgroups .searchform input.to {width:80px;}
+.shopgroups .searchform .buttonSend {margin-left:5px;}
+.shopgroups .groupImage {margin-right:20px; float:left;}
+.shopgroups .grouptitleblock .grouptitle {font-size:120%; font-weight:bold; margin:0; margin-bottom:10px; display:block;}
+.shopgroups .groupsublinkblock {margin-top:10px; display:inline-block; width:100%; clear:both;}
+.shopgroups .subgrouplink {margin-bottom:5px; margin-right:10px; float:left;}
+.shopgroups .cellGroup {margin-bottom:10px; margin-right:10px; width:120px; height:200px; float:left;}
+.shopgroups .cellGroup .lnkGroupImg {width:120px; height:120px; overflow:hidden;}
+.shopgroups .cellGroup h5 a {font-weight:normal;}
+.shopgroups .cellGroup h5 span {font-weight:normal;}

@@ -1,0 +1,157 @@
+lang:
+     mes_noauthor: Требуется Авторизация
+     mes_baseerror: Ошибка в базе авторизации!
+     mes_regerror: Ошибка при регистрации!<br>Возможно использованы недопустимые символы.
+     mes_authorerror: Неправильный или не активизированный Логин и Пароль!
+     mes_authorized: Пожалуйста, введите Ваши данные
+     mes_login: Логин
+     mes_password: Пароль
+     mes_login_back: Назад
+     mes_login_next: Войти
+     mes_replacepassword: Пароль был заменен успешно!
+     ed_copyright: Copyright
+     ed_sitetitle: Заголовок сайта
+     ed_title_edit_info: Для редактирования щелкните дважды по левой клавише мыши в выделенной области
+     ed_sitesubtitle: Подзаголовок сайта
+     ed_reclamform: Рекламный блок
+     ed_searchform: Блок поиска
+     ed_authorizeform: Блок авторизации
+     ed_statistic: Блок счетчиков
+     ed_contact: Блок контактов
+     ed_reklamform: Блок рекламы
+     ed_loadlogo: Загрузить логотип
+     ed_enteringtext: Вводный текст
+     ed_closingtext: Завершающий текст
+     ed_alt_title: Alt-подсказка
+     ed_title_photo: Фото
+     ed_title_records: Записи
+     ed_alt_info: Альтернативный текст к картинке (используется для продвижения сайта), появляется если картинка не загружается с сервера
+     ed_add_content: Добавление раздела
+     ed_edit_content: Изменить раздел
+     ed_edit_title: Заголовок
+     ed_edit_select: Выбрать
+     ed_part_menu_content: Содержание
+     ed_part_menu_picture: Рисунок
+     ed_part_menu_type: Тип модуля	 
+     ed_part_menu_params: Параметры
+     ed_part_menu_access: Доступ
+     ed_part_menu_langs: Переводы
+     ed_part_menu_rec: Записи
+     ed_rec_menu_content: Содержание
+     ed_rec_menu_picture: Рисунок
+     ed_rec_menu_fulltext: Подробно	 
+     ed_rec_checkrec: Показывать
+     ed_edit: Изменить
+     ed_upload_photo: Загрузка фото
+     ed_page_edit: Изменить страницу
+     ed_page_option: Настройки
+     ed_page_seo: Поисковое продвижение
+     ed_page_meta: Блок мета-данных
+     ed_page_title: Заголовок страницы
+     ed_page_name: Имя страницы
+     ed_page_translite_title: Транслитировать заголовок страницы
+     ed_page_translite: Транслитировать
+     ed_page_redirect: Перенаправление
+     ed_page_redirect_title: URL aдрес для перенаправления на другую страницу или сайт
+     ed_page_show_menu: Отображать в меню
+     ed_page_in_mainmenu: В главном
+     ed_page_in_mainmenu_title: Отображать в главном меню
+     ed_page_in_universalmenu: В универсальном
+     ed_page_in_universalmenu_title: Отображать в универсал меню
+     ed_icon_menu_button: Иконка кнопки меню
+     ed_download_icon_library: Загрузить иконку из библиотеки
+     ed_indexes: Индексировать
+     ed_indexes_title: Индексировать для карты сайта и поиска
+     ed_page_priority: Приоритет страницы
+     ed_page_priority_title: Приоритет страницы относительно других страниц сайта. Используется для продвижения в поисковой системе Google
+     ed_make_homepage: Сделать стартовой
+     ed_access_rights: Права доступа
+     ed_page_show: Показывать страницу
+     ed_teg_title: Тэг Title
+     ed_teg_title_title: Поле тега Title (текст отображается в заголовке браузера) а также является важным элементом продвижения в поисковых системах
+     ed_keywords: Ключевые слова
+     ed_keywords_title: Поле для ввода ключевых слов страницы для поисковых систем. (слова пишутся в нижнем регистре и разделяются пробелом или запятой)
+     ed_description: Описание
+     ed_description_title: Поле для ввода краткого описания страницы для поисковых систем
+     ed_domain_name: Доменное имя
+     ed_domain_name_title: Доменное имя сайта, которое будет отображаться в поисковых системах
+     ed_webmaster_tools: Инструменты вебмастера
+     ed_addpage_in_search: Добавить страницу в Яндекс
+     ed_block_head: Блок HEAD
+     ed_block_head_title: В это поле можно поместить мета-теги
+     ed_block_javascript: Блок JavaScript
+     ed_block_javascript_title: В это поле можно поместить глобальный javascript
+     ed_entering_text: Вводный текст
+     ed_entering_text_title: В это поле можно поместить вводный текст или рекламный блок. (Блок должен быть предусмотрен в дизайне)
+     ed_closing_text: Завершающий текст
+     ed_closing_text_title: В это поле можно поместить завершающий текст или нижний рекламный блок. (Блок должен быть предусмотрен в дизайне)
+     ed_option_this: Без ссылки
+     ed_level_access: Уровень доступа
+     ed_group_access: Группы доступа
+     ed_access_all: Всем
+     ed_access_user: Авторизированным
+     ed_access_suser: Суперпользователям
+     ed_access_admin: Администраторам
+     ed_access_nouser: Не авторизированым
+     ed_no_access: Без группы доступа
+     ed_hide_section: Прятать раздел
+     ed_hide_records: Прятать записи
+     ed_rec_full_text: Полный текст
+     ed_pages: Страницы
+     ed_modules: Модули
+     ed_exit: Выход
+     ed_office: Личный кабинет
+     ed_publication: Публиковать
+     ed_publication_info: Опубликовать изменения на сайте
+     ed_editor_hide: Просмотр сайта (убрать иконки управления)
+     ed_editor_show: Режим редактора (показать иконки)
+     ed_menu_list: Управление меню сайта
+     ed_addpage: Добавить страницу
+     ed_edpage: Редактировать страницу
+     ed_delpage: Удалить страницу
+     ed_editor_cancel: Отмена
+     ed_editor_cancel_info: Отменить редактирование сайта
+     ed_select_language: Выбрать язык интерфейса
+     ed_contacts_info: Контактная информация
+     ed_select_pages: Страницы сайта
+     ed_menu_editor: Редактор меню
+     ed_menu_editor_help: Выделите мышкой нужные страницы и, зажав левую кнопку мыши, перетащите их в правое поле. Либо нажмите на рядом расположенную кнопку "перенести страницу". Тем самым, вы формируете свое меню.
+     ed_menu_all_pages: Все страницы
+     ed_menu_main_title: Страницы меню
+     ed_menu_universal_title: Универсальное меню
+     ed_menu_main: Главное
+     ed_menu_universal: Универсальное
+     ed_menu_additional: Дополнительное меню
+     ed_contact_edit: Контактная информация
+     ed_contact_fullname: Полное наименование
+     ed_contact_shortname: Краткое наименование
+     ed_contact_phone: Контактный телефон
+     ed_contact_fax: Номер факса
+     ed_contact_email: Контактный e-mail
+     ed_contact_postindex: Почтовый индекс
+     ed_contact_country: Страна
+     ed_contact_city: Город
+     ed_contact_addres: Адрес
+     ed_contact_key: Ключ карты Geo-позиционирования
+     ed_contact_emailadmin: E-mail администратора сайта
+     ed_contact_emailadmin_info: E-mail используется во всех модулях, которые требует почтовый адрес администратора сайта
+     ed_contact_refer: Реферальный ID сайта
+     icon_add_section: Добавить раздел
+     icon_edit_section: Изменить раздел
+     icon_add_record: Добавить запись
+     icon_edit_record: Изменить запись
+     ed_add: Добавить
+     ed_delete: Удалить
+     ed_add_picture: Добавить рисунок
+     ed_del_picture: Удалить рисунок
+     ed_width: Ширина
+     ed_height: Высота
+     ed_button_up: Вверх
+     ed_button_down: Вниз
+     ed_button_putting: Вложить
+     ed_button_getting: Достать	 
+     ed_button_add: Добавить	 
+     ed_button_remove: Убрать
+     ed_close_service: Модуль недоступен!(удалите раздел или продлите работу модуля)	 
+     ed_navbar_navigation: Навигация
+

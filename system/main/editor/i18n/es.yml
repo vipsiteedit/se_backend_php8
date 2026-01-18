@@ -1,0 +1,155 @@
+lang:
+     mes_noauthor: No autorizado
+     mes_baseerror: Tabla autorización error!
+     mes_regerror: Error registrarse! Oportunidad MedlinePlus utilizar un carácter no válido.
+     mes_authorerror: Inicio de sesión es incorrecto o no activado y contraseña!
+     mes_authorized: Por favor, introduzca sus datos
+     mes_login: Login
+     mes_password: Contraseña
+     mes_login_back: Espalda
+     mes_login_next: Entrar
+     mes_replacepassword: La contraseña se ha cambiado correctamente!
+     ed_copyright: Copyright
+     ed_sitetitle: Titulo del Sitio
+     ed_title_edit_info: Para editar, doble clic, clic con el botón izquierdo en el área seleccionada
+     ed_sitesubtitle: Subtítulo del sitio
+     ed_reclamform: Anuncio
+     ed_searchform: Buscador
+     ed_authorizeform: Ingresa caja
+     ed_statistic: Bloque de contadores
+     ed_contact: Bloque de terminales
+     ed_reklamform: Bloque de anuncios
+     ed_loadlogo: Descarga logo
+     ed_enteringtext: Texto introductorio
+     ed_closingtext: El texto final
+     ed_alt_title: Alt-tip
+     ed_title_photo: Foto
+     ed_title_records: Entradas
+     ed_alt_info: El texto alternativo de la imagen (se utiliza para la promoción de la página web), si la imagen no se carga desde el servidor
+     ed_add_content: Añadir sección
+     ed_edit_content: Editar sección
+     ed_edit_title: Título
+     ed_edit_select: Elegir
+     ed_part_menu_content: Contenido
+     ed_part_menu_picture: Imagen
+     ed_part_menu_type: Módulos	 
+     ed_part_menu_params: Parámetros
+     ed_part_menu_access: Acceso
+     ed_part_menu_langs: Traducciones
+     ed_part_menu_rec: Entradas
+     ed_rec_menu_content: Contenido
+     ed_rec_menu_picture: Fotos
+     ed_rec_menu_fulltext: En detalle	 
+     ed_rec_checkrec: Mostrar
+     ed_edit: Cambiar
+     ed_upload_photo: Sube fotos
+     ed_page_edit: Editar página
+     ed_page_option: Configuración
+     ed_page_seo: Search Engine Promotion
+     ed_page_meta: Meta-datos
+     ed_page_title: Página titulo
+     ed_page_name: Nombre página
+     ed_page_translite_title: Transliteración portada
+     ed_page_translite: Transliteración
+     ed_page_redirect: Redirigir
+     ed_page_redirect_title: Dirección URL para redirigir a otra página o sitio web
+     ed_page_show_menu: Añadir al menú
+     ed_page_in_mainmenu: Menú principal
+     ed_page_in_mainmenu_title: Añadir al menú principal
+     ed_page_in_universalmenu: En universal
+     ed_page_in_universalmenu_title: Añadir al menú universal
+     ed_icon_menu_button: Icono del botón menú
+     ed_download_icon_library: Descargue icono de la biblioteca
+     ed_indexes: Índice
+     ed_indexes_title: Índice para el mapa del sitio y la búsqueda
+     ed_page_priority: Prioridad de página
+     ed_page_priority_title: La prioridad de la página con respecto a otras páginas. Se utiliza para ir al motor de búsqueda de Google
+     ed_make_homepage: Hacer pagina de Inicio
+     ed_access_rights: Derechos de acceso
+     ed_page_show: Mostrar página
+     ed_teg_title: Título Тэг
+     ed_teg_title_title: Título de la etiqueta de campo (texto aparece en el título del navegador) y es un elemento importante de la promoción en buscadores
+     ed_keywords: Palabras clave
+     ed_keywords_title: El campo para algunas páginas de palabras clave para los motores de búsqueda. (Las palabras se escriben en minúsculas y separadas por un espacio o una coma)
+     ed_description: Descripción
+     ed_description_title: El campo para una breve descripción de la página para los motores de búsqueda
+     ed_domain_name: Nombre del dominio
+     ed_domain_name_title: El nombre de dominio del sitio que se mostrará en los motores de búsqueda
+     ed_webmaster_tools: Herramientas para webmasters
+     ed_addpage_in_search: Añadir esta página a buscar
+     ed_block_head: Bloque HEAD
+     ed_block_head_title: En este campo se puede poner los meta tags
+     ed_block_javascript: Bloque JavaScript
+     ed_block_javascript_title: En este campo, usted puede poner un mundial javascript
+     ed_entering_text: Texto introductorio
+     ed_entering_text_title: En este campo, usted puede poner un texto introductorio o bloque de anuncios. (Esto sólo debe ser proporcionada en el diseño)
+     ed_closing_text: El texto final
+     ed_closing_text_title: En este campo, usted puede poner el texto final o inferior del bloque de anuncios. (Esto sólo debe ser proporcionada en el diseño)
+     ed_option_this: Esta
+     ed_level_access: Nivel de acceso
+     ed_group_access: Grupos de acceso
+     ed_access_all: Todos
+     ed_access_user: Autorizado
+     ed_access_suser: Superusuarios
+     ed_access_admin: Administradores
+     ed_access_nouser: No autorizado
+     ed_no_access: Sin acceso al grupo
+     ed_hide_section: Ocultar sección
+     ed_hide_records: Ocultar elementos
+     ed_rec_full_text: Texto completo
+     ed_pages: Página
+     ed_modules: Módulos
+     ed_exit: Salida
+     ed_office: Oficina privada
+     ed_publication: Publicar
+     ed_publication_info: Publicar cambios en el sitio
+     ed_editor_hide: Sitio (quitar iconos de control)
+     ed_editor_show: Modo Edición (mostrar icono)
+     ed_menu_list: Gestionar menú del sitio
+     ed_addpage: Añadir página
+     ed_edpage: Editar página
+     ed_delpage: Borrar página
+     ed_editor_cancel: Cancelar
+     ed_editor_cancel_info: Cancelar sitio edición
+     ed_select_language: Seleccione el idioma
+     ed_contacts_info: Información de Contacto
+     ed_select_pages: Páginas del sitio
+     ed_menu_editor: Menu Editor
+     ed_menu_editor_help: Seleccione la página que desee y manteniendo pulsado el botón izquierdo del ratón, arrástrelo hasta el cuadro de la derecha. O haga clic en el botón situado junto a "mover la página". Por lo tanto, usted está construyendo su menú.
+     ed_menu_all_pages: Todas las páginas
+     ed_menu_main_title: Páginas de menú
+     ed_menu_universal_title: Menú Universal
+     ed_menu_main: Menú Principal
+     ed_menu_universal: Universal
+     ed_menu_additional: Menú adicional
+     ed_contact_edit: Información de Contacto
+     ed_contact_fullname: Nombre y apellidos
+     ed_contact_shortname: Nombre corto
+     ed_contact_phone: Teléfono de contacto
+     ed_contact_fax: Número de fax
+     ed_contact_email: Contactar por e-mail
+     ed_contact_postindex: Código postal
+     ed_contact_country: Country
+     ed_contact_city: City
+     ed_contact_addres: Dirección
+     ed_contact_key: La clave del mapa geo-posicionamiento
+     ed_contact_emailadmin: E-mail del administrador del sitio
+     ed_contact_emailadmin_info: El correo electrónico se utiliza en todos los módulos que requieren administrador de e-mail
+     ed_contact_refer: Referencia Site ID
+     icon_add_section: Añadir sección
+     icon_edit_section: Editar sección
+     icon_add_record: Agregar un elemento
+     icon_edit_record: Editar un elemento
+     ed_add: Añadir
+     ed_delete: Eliminar
+     ed_add_picture: Agregar imagen
+     ed_del_picture: Eliminar imagen
+     ed_width: Ancho
+     ed_height: Altura
+     ed_button_up: Hasta
+     ed_button_down: Abajo
+     ed_button_putting: Pon en
+     ed_button_getting: Obtener	 
+     ed_button_add: Añadir	 
+     ed_button_remove: Quitar	 
+

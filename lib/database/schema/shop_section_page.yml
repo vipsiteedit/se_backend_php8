@@ -1,0 +1,36 @@
+shop_section_page:
+   tableName: shop_section_page
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_section_page_id
+     id_section:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     title:
+       type: string(255)
+     page:
+       type: string(255)
+       index: true
+     se_section:
+       type: string(10)
+     enabled:
+       type: integer
+       notnull: true
+       default: 1
+   relations:
+     shop_section:
+       local: id_section
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+

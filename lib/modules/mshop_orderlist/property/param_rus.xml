@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param19" title="Заголовок &amp;quot;Порядковый номер&amp;quot;" list="">№</parametr>
+	<parametr lang="rus" name="param3" title="Заголовок &amp;quot;Дата&amp;quot;" list="">Дата</parametr>
+	<parametr lang="rus" name="param4" title="Заголовок &amp;quot;№ Заказа&amp;quot;" list="">№ Заказа</parametr>
+	<parametr lang="rus" name="param5" title="Заголовок &amp;quot;Сумма к оплате&amp;quot;" list="">Сумма к оплате</parametr>
+	<parametr lang="rus" name="param6" title="Заголовок &amp;quot;Статус заказа&amp;quot;" list="">Статус заказа</parametr>
+	<parametr lang="rus" name="param7" title="Заголовок &amp;quot;Артикл&amp;quot;" list="">Артикл</parametr>
+	<parametr lang="rus" name="param8" title="Заголовок &amp;quot;Наименование&amp;quot;" list="">Наименование</parametr>
+	<parametr lang="rus" name="param9" title="Заголовок &amp;quot;Цена&amp;quot;" list="">Цена</parametr>
+	<parametr lang="rus" name="param10" title="Заголовок &amp;quot;Количество&amp;quot;" list="">Кол.</parametr>
+	<parametr lang="rus" name="param11" title="Заголовок &amp;quot;Доставка&amp;quot;" list="">Доставка</parametr>
+	<parametr lang="rus" name="param12" title="Заголовок &amp;quot;Серийный номер&amp;quot;" list="">Серийный номер</parametr>
+	<parametr lang="rus" name="param32" title="Заголовок &amp;quot;Договор&amp;quot;:" list="">Договор</parametr>
+	<parametr lang="rus" name="param13" title="Кнопка &amp;quot;Отменить заказ&amp;quot;" list="">Отменить заказ</parametr>
+	<parametr lang="rus" name="param14" title="Кнопка &amp;quot;Вернуться назад&amp;quot;" list="">Вернуться назад</parametr>
+	<parametr lang="rus" name="param15" title="Статус заказа &amp;quot;Оплачен&amp;quot;" list="">Оплачен</parametr>
+	<parametr lang="rus" name="param16" title="Статус заказа &amp;quot;Не оплачен&amp;quot;" list="">Не оплачен</parametr>
+	<parametr lang="rus" name="param17" title="Статус заказа &amp;quot;Кредит&amp;quot;" list="">Кредит</parametr>
+	<parametr lang="rus" name="param18" title="Статус заказа &amp;quot;Подарок&amp;quot;" list="">Подарок</parametr>
+	<parametr lang="rus" name="param20" title="Заголовок таблицы &amp;quot;Оплата&amp;quot;" list="">Информация об оплате</parametr>
+	<parametr lang="rus" name="param21" title="Заголовок поля &amp;quot;Тип оплаты&amp;quot;" list="">Тип оплаты</parametr>
+	<parametr lang="rus" name="param22" title="Заголовок поля &amp;quot;Номер счета&amp;quot;" list="">Номер счета</parametr>
+	<parametr lang="rus" name="param23" title="Заголовок поля &amp;quot;Сумма оплаты&amp;quot;" list="">Сумма оплаты</parametr>
+	<parametr lang="rus" name="param24" title="Заголовок таблицы &amp;quot;Доставка&amp;quot;" list="">Информация о доставке</parametr>
+	<parametr lang="rus" name="param25" title="Заголовок поля &amp;quot;Тип доставки&amp;quot;" list="">Тип доставки</parametr>
+	<parametr lang="rus" name="param26" title="Заголовок поля &amp;quot;Сумма доставки&amp;quot;" list="">Сумма</parametr>
+	<parametr lang="rus" name="param27" title="Заголовок поля &amp;quot;Статус доставки&amp;quot;" list="">Статус</parametr>
+	<parametr lang="rus" name="param28" title="Статус доставки &amp;quot;Не доставлен&amp;quot;" list="">Не доставлен</parametr>
+	<parametr lang="rus" name="param29" title="Статус доставки &amp;quot;Доставлен&amp;quot;" list="">Доставлен</parametr>
+	<parametr lang="rus" name="param30" title="Статус доставки &amp;quot;В пути&amp;quot;" list="">В пути</parametr>
+	<parametr lang="rus" name="param36" title="Тип доставки по умолчанию" list="">Лицевой счет</parametr>
+	<parametr lang="rus" name="param37" title="Округлять цены до целых" list="Y|Да, N|Нет">N</parametr>
+	<parametr lang="rus" name="param31" title="" list="USD,EUR,RUR"></parametr>
+	<parametr lang="rus" name="param33" title="Сообщение &amp;quot;Итого&amp;quot;:" list="">Итого:&amp;nbsp;</parametr>
+	<parametr lang="rus" name="param35" title="Число заказов на странице:" list="">30</parametr>
+</params>

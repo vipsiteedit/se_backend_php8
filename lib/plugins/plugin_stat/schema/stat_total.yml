@@ -1,0 +1,27 @@
+﻿StatTotal:
+  tableName: stat_total
+  tableAlias: stt
+  tableType:
+    engine: innoDB
+    charset: utf8
+  columns:
+    date:
+      type: integer
+      primary: true
+      sequence: stat_sities_date
+    views:
+      type: integer
+      unsigned: true
+      default: 0
+    hits:
+      type: integer
+      unsigned: true
+      default: 0
+    hosts:
+      type: integer
+      unsigned: true
+      default: 0
+    users:
+      type: integer
+      unsigned: true
+      default: 0

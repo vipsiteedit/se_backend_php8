@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Новости</group>
+	<name>Информер он-лайн новостей</name>
+	<comment>Показывает последние добавленные новости. Модуль работает начиная с версии Standart</comment>
+</option>

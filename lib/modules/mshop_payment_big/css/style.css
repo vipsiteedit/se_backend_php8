@@ -1,0 +1,24 @@
+﻿.payment .tableTable {margin-bottom:20px;;}
+.payment .tableTable th {padding-top:10px; padding-bottom:10px; text-align:left; vertical-align:top;}
+.payment .buttonArea , .aPayee .buttonArea {margin-top:10px;}
+.payment .orderSelect {margin-bottom:20px;}
+.payment .orderSelect .titsel {margin-right:10px; float:left;}
+.payment .paySelect .obj {margin-bottom:30px;}
+.payment .balans {width:100%;}
+.payment #titlebalanse {float:left;}
+.payment #resultbalans {font-weight:bold; float:left;}
+.payment #titleselect {margin-right:10px;}
+.payment .balans th {padding-top:30px; padding-right:15px;}
+.payment .balans td {padding-top:4px; padding-bottom:4px;}
+.payment .buttonArea.balansBtn {margin-top:10px;}
+.aPayee .payResult {color:#ffffff; background-color:#689320; border-width:2px; border-color:#ffffff; border-style:solid; margin-bottom:10px; display:inline-block; padding:10px;}
+.aPayee .warning {margin-bottom:10px;}
+.aPayee .title {margin-bottom:5px; display:block;}
+.aPayee .title #iduseracc {margin-right:20px;}
+.aPayee .title .num {font-weight:bold;}
+.aPayee .summ {margin-bottom:10px;}
+.aPayee .summ .txt {margin-right:10px; display:inline-block;}
+.aPayee .summ .num {font-weight:bold;}
+.aPayee .notEnoughMoney {color:#ff0000; margin-bottom:10px; display:inline-block; width:100%; clear:both;}
+.aPayee form {margin-right:2px; display:inline-block;}
+.aPayee .buttonArea.back {display:inline-block;}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param91" title="::::::::::::: ПАРАМЕТРЫ ПОКАЗА КАТАЛОГА ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param50" title="Страница корзины" list="">shopcart</parametr>
+	<parametr lang="ru" name="param331" title="Страница сравнения" list="">compare</parametr>
+	<parametr lang="ru" name="param273" title="Код стартовой группы" list=""></parametr>
+	<parametr lang="ru" name="param60" title="Показать товары без выбранной группы/Показывать товары вложенных групп" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param15" title="Первичная сортировка товаров" list="ra|В порядке добавления(1 - N),rd|В порядке добавления(N - 1),na|Наименование (А - Я),nd|Наименование (Я - А),aa|Артикул (А - Я),ad|Артикул (Я - А),pa|Цена (по возрастанию),pd|Цена (по убыванию),sd|По популярности">na</parametr>
+	<parametr lang="ru" name="param183" title="Отображать переключатель вида каталога (Таблица/Витрина)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param184" title="Вид каталога по умолчанию" list="v|Витрина,t|Таблица,l|Список">v</parametr>
+	<parametr lang="ru" name="param207" title="Ограничение числа символов в кратком описании каталога" list="">-1</parametr>
+	<parametr lang="ru" name="param243" title="Округлять цену до целых" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param276" title="@Форматировать цену по 3 разряда" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param113" title="Отображать поле &amp;quot;Старая цена&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param237" title="Максимальное число символов в заголовке" list="">60</parametr>
+	<parametr lang="ru" name="param64" title="Число товаров на странице" list="">20/40/60</parametr>
+	<parametr lang="ru" name="param235" title="Число похожих и сопутствующих товаров на странице" list="">20</parametr>
+	<parametr lang="ru" name="param275" title="Отображать наименование товара в виде ссылки" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param85" title="По нажатию кнопки &amp;quot;В корзину&amp;quot; направлять в корзину" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param266" title="Показывать рейтинг" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param345" title="Отображать ярлыки" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param292" title="Адрес картинки или текст водянного знака на фото" list=""></parametr>
+	<parametr lang="ru" name="param325" title="Расположение водяного знака" list="center|По центру,right|Справа,left|Слева,bottom-right|Снизу справа,bottom-left|Снизу слева,top-right|Сверху справа,top-left|Сверху слева">center</parametr>
+	<parametr lang="ru" name="param326" title="Непрозрачность водяного знака" list="40,45,50,55,60,65,70,75,80,85,90">70</parametr>
+	<parametr lang="ru" name="param310" title="Тип параметров для модификаций" list="radio|Переключатель,list|Выпадающий список">radio</parametr>
+	<parametr lang="ru" name="param338" title="Отображать только товары которые есть в наличии" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param318" title="Отображать только модификации которые есть наличии" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param323" title="Отображать текст подвала (подробное описание группы)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param269" title="Включить функцию сравнения" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param327" title="Включить функцию &amp;quot;быстрый просмотр&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param295" title="@При отсутствии товара с доп. параметром" list="Y|отображать значение/параметр,N|скрывать значение/параметр">Y</parametr>
+	<parametr lang="ru" name="param233" title="Кнопка &amp;quot;Купить&amp;quot; в случае отсутствия товара" list="Y|Неактивная кнопка,N|Скрывать кнопку">N</parametr>
+	<parametr lang="ru" name="param324" title="Является базовым модулем для карточки товара (для фиксации статического URL)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param329" title="Использовать в качестве заголовка" list="Y|Заголовок модуля,N|Заменять заголовок текущей страницы">Y</parametr>
+	<parametr lang="ru" name="param330" title="Добавочный текст (якорь) к ссылкам на товар" list=""></parametr>
+	<parametr lang="ru" name="param333" title="@Отображать блок фильтра" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param335" title="Ограничение количества товаров в сравнении" list="">0</parametr>
+	<parametr lang="ru" name="param336" title="Включить предзаказ для отсутствующих товаров" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param102" title="" list=""></parametr>
+	<parametr lang="ru" name="param87" title=":::::::::: РЕЖИМ ВИТРИНЫ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param289" title="Ограничение размера картинки (200x200)" list="">200x200</parametr>
+	<parametr lang="ru" name="param114" title="Отображать поле &amp;quot;Краткое описание&amp;quot; в витрине" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param83" title="Отображать поле &amp;quot;Артикул&amp;quot; в витрине" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param84" title="Отображать поле &amp;quot;Бренд&amp;quot; в витрине" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param111" title="Отображать поле &amp;quot;Наличие&amp;quot; в витрине" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param226" title="Отображать заголовок поля &amp;quot;Цена&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param332" title="Поле для ввода &amp;quot;Количество&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param125" title="" list=""></parametr>
+	<parametr lang="ru" name="param188" title="::::::: РЕЖИМ ТАБЛИЦЫ ::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param206" title="Ограничение размера картинки (100x100)" list="">100x100</parametr>
+	<parametr lang="ru" name="param57" title="Выводить поле &amp;quot;Артикул&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param73" title="@Выводить столбец &amp;quot;Фото&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param74" title="Выводить столбец &amp;quot;Описание&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param65" title="Выводить столбец &amp;quot;Бренд&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param55" title="Выводить столбец &amp;quot;Наличие&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param205" title="Поле для ввода &amp;quot;Количество&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param208" title="" list=""></parametr>
+	<parametr lang="ru" name="param89" title="::::::::: О ТОВАРЕ ПОДРОБНО ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param297" title="@Тег для заголовка" list="H1,H2,H3,H4">H1</parametr>
+	<parametr lang="ru" name="param246" title="Показывать путь по каталогу (хлебные крошки)" list="A|Полный путь,Y|Только группы,N|Не отображать">Y</parametr>
+	<parametr lang="ru" name="param282" title="Включить галерею иображений &amp;quot;FancyBox&amp;quot; (всплывающее окно)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param311" title="Включить плагин &amp;quot;Экранная лупа&amp;quot; для основной картинки" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param293" title="Ограничение размера максимальной картинки (800x0)" list="">800x0</parametr>
+	<parametr lang="ru" name="param286" title="Ограничение размера основной картинки (300x350)" list="">300x350</parametr>
+	<parametr lang="ru" name="param285" title="Ограничение размера превью картинки в галерее (70x70)" list="">70x70</parametr>
+	<parametr lang="ru" name="param315" title="Ограничение размера картинки для похожих и сопутствующих товаров" list="">150x150</parametr>
+	<parametr lang="ru" name="param320" title="Отображать галерею картинок" list="Y|Да,N|Нет,M|Только при наличии 2-х и более картинок">Y</parametr>
+	<parametr lang="ru" name="param319" title="Отображать галерею картинок в виде слайдера" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param313" title="Обновлять галерею картинок при изменении модификаций" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param133" title="Отображать поле &amp;quot;Краткое описание&amp;quot; " list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param126" title="Отображать поле &amp;quot;Артикул&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param129" title="Отображать поле &amp;quot;Бренд&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param128" title="Отображать поле &amp;quot;Наличие&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param138" title="Поле для ввода &amp;quot;Количество&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param312" title="Кнопки социальных сетей" list="N|Не отображать,01|Стиль 1,02|Стиль 2,03|Стиль 3">01</parametr>
+	<parametr lang="ru" name="param258" title="Использовать режим &amp;quot;Вкладки&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param134" title="Отображать &amp;quot;Подробное описание&amp;quot; " list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param306" title="Отображать характеристики товара" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param217" title="Комментарии к товарам" list="Y|Включены (комментировать только авторизованным),C|Включены (комментировать без авторизации),N|Отключены">Y</parametr>
+	<parametr lang="ru" name="param314" title="Включить отзывы к товарам" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param321" title="Количество отзывов (показывать по)" list="">5</parametr>
+	<parametr lang="ru" name="param322" title="Первичная сортировка отзывов" list="date|По дате,mark|По оценке,helpful|По полезности,rating|По рейтингу">date</parametr>
+	<parametr lang="ru" name="param316" title="Показывать сопутствующие товары" list="Y|Да (собственный стиль),V|Витрина,T|Таблица,L|Список,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param317" title="Показывать похожие товары" list="Y|Да (собственный стиль),V|Витрина,T|Таблица,L|Список,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param309" title="Вывод блока описания характеристик" list="c|При клике на иконку,h|При наведении на иконку">h</parametr>
+	<parametr lang="ru" name="param307" title="Горизонтальное положение блока описания характеристик" list="l|Лево,c|Центр,r|Право">r</parametr>
+	<parametr lang="ru" name="param308" title="Вертикальное положение блока описания характеристик" list="t|Верх,c|Центр,b|Низ">c</parametr>
+	<parametr lang="ru" name="param305" title="Режим отображения title и description" list="auto|автоматический,man|конструктор">auto</parametr>
+	<parametr lang="ru" name="param303" title="Текст title" list="">{name} - купить по цене {new price}: описание, характеристики, фото, отзывы</parametr>
+	<parametr lang="ru" name="param304" title="Текст description" list="">Купить «{название товара} {производитель}» за {новая цена}[ со скидкой {скидка}%]. {описание товара}</parametr>
+	<parametr lang="ru" name="param328" title="Текст keywords" list="">{features}</parametr>
+	<parametr lang="ru" name="param334" title="@Отображать блок доставки" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param337" title="Отображать дополнительные файлы товара" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param232" title="" list=""></parametr>
+	<parametr lang="ru" name="param223" title="::::: ЦЕНЫ - ОПТ :::::" list=""></parametr>
+	<parametr lang="ru" name="param224" title="Имя группы для оптовых цен" list="">optovik</parametr>
+	<parametr lang="ru" name="param225" title="Имя группы для корпоративных цен" list="">optcorp</parametr>
+	<parametr lang="ru" name="param339" title="" list=""></parametr>
+	<parametr lang="ru" name="param340" title="::::::::: ПАРАМЕТРЫ ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param341" title="Подтверждение о сборе персональных данных" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param342" title="Текст подтверждения о сборе персональных данных" list="{text}">Нажимая кнопку «Отправить», я принимаю условия &amp;lt;a class=&amp;quot;lnkLicense&amp;quot; href=&amp;quot;/license/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Пользовательского соглашения&amp;lt;/a&amp;gt; и даю своё согласие на обработку моих персональных данных</parametr>
+	<parametr lang="ru" name="param343" title="Подтверждение дополнительных условий" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param344" title="Текст подтверждения дополнительных условий" list="{text}">Принимаю &amp;lt;a href=&amp;quot;#&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;условия&amp;lt;/a&amp;gt;</parametr>
+</params>

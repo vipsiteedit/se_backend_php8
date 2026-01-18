@@ -1,0 +1,30 @@
+shop_reviews_votes:
+   tableName: shop_reviews_votes
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_review:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_user:
+       type: integer
+       unsigned: true
+       notnull: true
+     vote:
+       type: integer
+       notnull: true
+       default: 1
+   relations:
+     se_user:
+       local: id_user
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

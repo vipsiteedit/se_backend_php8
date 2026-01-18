@@ -1,0 +1,23 @@
+ShopPriceSame:
+  actAs: [Timestampable]
+  columns:
+    price1_id:
+      type: integer
+      notnull: true
+    price2_id:
+      type: integer
+      notnull: true
+      
+  relations:
+    price1:
+      class: ShopPrice
+      local: price1_id
+      foreignAlias: price_same1
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    price2:
+      class: ShopPrice
+      local: price2_id
+      foreignAlias: price_same2
+      onDelete: CASCADE
+      onUpdate: CASCADE

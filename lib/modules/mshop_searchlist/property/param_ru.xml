@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param96" title="::: ПАРАМЕТРЫ ПОИСКА :::" list=""></parametr>
+	<parametr lang="ru" name="param89" title="Значение ИСКАТЬ ПО по умолчанию" list="art|По артикулу,lot|По наименованию,descr|По содержанию">lot</parametr>
+	<parametr lang="ru" name="param50" title="Страница корзины:" list="">shopcart</parametr>
+	<parametr lang="ru" name="param81" title="Страница магазина:" list="">catalogue</parametr>
+	<parametr lang="ru" name="param104" title="Код группы по умолчанию" list=""></parametr>
+	<parametr lang="ru" name="param77" title="Отображать поле &amp;quot;Группа товара&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param57" title="Отображать поле &amp;quot;Артикул&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param90" title="Текст &amp;quot;Неограниченное число&amp;quot;:" list="">Есть</parametr>
+	<parametr lang="ru" name="param55" title="Отображать поле &amp;quot;В наличии&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param56" title="Отображать поле &amp;quot;Аналоги&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param79" title="Отображать поле &amp;quot;Производитель&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param105" title="Страница карточки товаров:" list="">catalogue</parametr>
+</params>

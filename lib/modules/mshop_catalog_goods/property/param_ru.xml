@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param323" title="Логин администратора" list=""></parametr>
+	<parametr lang="ru" name="param331" title="" list=""></parametr>
+	<parametr lang="ru" name="param92" title="::::::::::: ВСПЛЫВАЮЩИЕ ПОДСКАЗКИ ::::::::" list=""></parametr>
+	<parametr lang="ru" name="param272" title="Сообщение &amp;quot;Нет товаров&amp;quot;" list="">Нет товаров</parametr>
+	<parametr lang="ru" name="param101" title="" list=""></parametr>
+	<parametr lang="ru" name="param91" title="::::::::::::: ПАРАМЕТРЫ ПОКАЗА ПРАЙС-ЛИСТА ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param273" title="Код стартовой группы" list=""></parametr>
+	<parametr lang="ru" name="param60" title="Показать товары без выбранной группы/Показывать товары вложенных групп:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param15" title="Первичная сортировка товаров:" list="article|По артикулу,id|По ID,name|По имени">article</parametr>
+	<parametr lang="ru" name="param183" title="Показать кнопку &amp;quot;Вид прайса&amp;quot; (Таблица/Витрина): " list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param184" title="Вид прайса (таблица/витрина):" list="v|Витрина,t|Таблица">v</parametr>
+	<parametr lang="ru" name="param207" title="Ограничение числа символов в кратком описании каталога:" list="">-1</parametr>
+	<parametr lang="ru" name="param121" title="Заголовок поля &amp;quot;Цена&amp;quot;" list="">Цена</parametr>
+	<parametr lang="ru" name="param122" title="Заголовок поля &amp;quot;Оптовая цена&amp;quot;" list="">Цена опт</parametr>
+	<parametr lang="ru" name="param227" title="Заголовок поля &amp;quot;Корпоративная оптовая цена&amp;quot;" list="">Цена опт корп.</parametr>
+	<parametr lang="ru" name="param243" title="Округлять цену до целых" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param276" title="Форматировать цену по 3 разряда" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param113" title="Отображать поле &amp;quot;Старая цена&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param237" title="Максимальное число символов в заголовке" list="">60</parametr>
+	<parametr lang="ru" name="param254" title="@Отображать только товары, помеченные как залежавшиеся" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param64" title="Число товаров на странице:" list="">20</parametr>
+	<parametr lang="ru" name="param259" title="Отображать адреса страниц в новом формате" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param269" title="@Отображать панель сравнения" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param275" title="Отображать наименование товара в виде ссылки" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param102" title="" list=""></parametr>
+	<parametr lang="ru" name="param87" title=":::::::::: РЕЖИМ ВИТРИНЫ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param83" title="Отображать поле &amp;quot;Артикул&amp;quot; в витрине" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param84" title="Отображать поле &amp;quot;Производитель&amp;quot; в витрине" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param111" title="Отображать поле &amp;quot;Наличие&amp;quot; в витрине" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param114" title="Отображать поле &amp;quot;Краткое описание&amp;quot; (note) в витрине" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param115" title="Отображать поле &amp;quot;Подробное описание&amp;quot; (text) в витрине" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param116" title="Заголовок поля &amp;quot;Артикул&amp;quot;" list="">#</parametr>
+	<parametr lang="ru" name="param118" title="Заголовок поля &amp;quot;Производитель&amp;quot;" list="">Производитель:</parametr>
+	<parametr lang="ru" name="param69" title="Текст  &amp;quot;Есть в наличии&amp;quot;" list="">Есть</parametr>
+	<parametr lang="ru" name="param120" title="Заголовок поля &amp;quot;В наличии&amp;quot; (есть/нет)" list="">Наличие:</parametr>
+	<parametr lang="ru" name="param226" title="Отображать заголовок поля &amp;quot;Цена&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param282" title="Текст ссылки &amp;quot;Добавить товар&amp;quot;" list="">[+] Добавить товар</parametr>
+	<parametr lang="ru" name="param306" title="Текст ссылки &amp;quot;Редактировать&amp;quot;" list="">Редактировать</parametr>
+	<parametr lang="ru" name="param307" title="Текст ссылки &amp;quot;Удалить товар&amp;quot;" list="">Удалить товар</parametr>
+	<parametr lang="ru" name="param315" title="Текст ссылки &amp;quot;Добавить или изменить группу товаров&amp;quot;" list="">[+] Добавить или изменить группу товаров</parametr>
+	<parametr lang="ru" name="param125" title="" list=""></parametr>
+	<parametr lang="ru" name="param89" title="::::::::: О ТОВАРЕ ПОДРОБНО ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param246" title="Показывать Путь по каталогу" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param126" title="Отображать поле &amp;quot;Артикул&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param129" title="Отображать поле &amp;quot;Производитель&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param128" title="Отображать поле &amp;quot;Наличие&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param133" title="Отображать поле &amp;quot;Краткое описание&amp;quot; (note)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param134" title="Отображать поле &amp;quot;Подробное описание&amp;quot; (text)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param22" title="Просмотр товара, текст &amp;quot;Артикул&amp;quot;" list="">Артикул:</parametr>
+	<parametr lang="ru" name="param135" title="Просмотр товара, текст &amp;quot;Производитель&amp;quot;" list="">Производитель:</parametr>
+	<parametr lang="ru" name="param136" title="Просмотр товара, текст &amp;quot;Количество в наличии&amp;quot;" list="">В наличии:</parametr>
+	<parametr lang="ru" name="param26" title="Просмотр товара, текст ссылки &amp;quot;Все фото товара&amp;quot;" list="">Галерея</parametr>
+	<parametr lang="ru" name="param256" title="Текст заголовка &amp;quot;Подробное описание&amp;quot;" list="">Описание товара</parametr>
+	<parametr lang="ru" name="param271" title="@Отображать спецификацию" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param270" title="@Текст заголовка &amp;quot;Спецификация&amp;quot;" list="">Спецификация</parametr>
+	<parametr lang="ru" name="param258" title="@Использовать режим &amp;quot;Вкладки&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param333" title="Реферный номер" list=""></parametr>
+	<parametr lang="ru" name="param138" title="" list=""></parametr>
+	<parametr lang="ru" name="param139" title="::::::::: СОПУТСТВУЮЩИЕ ТОВАРЫ И АНАЛОГИ ::::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param140" title="Отображать столбец &amp;quot;Группа товара&amp;quot; в аналогах и сопутствующих" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param141" title="Отображать столбец &amp;quot;Артикул&amp;quot; в аналогах и сопутствующих" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param145" title="Отображать столбец &amp;quot;Фото&amp;quot; в аналогах и сопутствующих" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param146" title="Отображать столбец &amp;quot;Описание&amp;quot; в аналогах и сопутствующих" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param147" title="Отображать столбец &amp;quot;Производитель&amp;quot; в аналогах и сопутствующих" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param222" title="!!!Отображать &amp;quot;Параметры&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param149" title="Отображать столбец &amp;quot;Наличие&amp;quot; в аналогах и сопутствующих" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param143" title="Отображать столбец &amp;quot;Цена&amp;quot; в аналогах и сопутствующих" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param144" title="Заголовок столбца &amp;quot;Группа товара&amp;quot; в аналогах и сопутствующих" list="">Группа товара</parametr>
+	<parametr lang="ru" name="param151" title="Заголовок столбца &amp;quot;Фото&amp;quot; в аналогах и сопутствующих" list="">Фото</parametr>
+	<parametr lang="ru" name="param172" title="Заголовок столбца &amp;quot;Наименование&amp;quot; в аналогах и сопутствующих" list="">Наименование</parametr>
+	<parametr lang="ru" name="param152" title="Заголовок столбца &amp;quot;Описание&amp;quot; в аналогах и сопутствующих" list="">Описание</parametr>
+	<parametr lang="ru" name="param153" title="Заголовок столбца &amp;quot;Производитель&amp;quot; в аналогах и сопутствующих" list="">Производитель</parametr>
+	<parametr lang="ru" name="param156" title="Заголовок столбца &amp;quot;Наличие&amp;quot; в аналогах и сопутствующих" list="">Наличие</parametr>
+	<parametr lang="ru" name="param158" title="Заголовок столбца &amp;quot;Цена&amp;quot; " list="">Цена</parametr>
+	<parametr lang="ru" name="param235" title="Число выводимых товаров:" list="">30</parametr>
+	<parametr lang="ru" name="param163" title="" list=""></parametr>
+	<parametr lang="ru" name="param164" title="::::::::: Р Е Ж И М   В Ы В О Д А   А Н А Л О Г О В :::::::::::::" list="">::::::::::::::: Р Е Ж И М   В Ы В О Д А   А Н А Л О Г О В ::::::::::::::</parametr>
+	<parametr lang="ru" name="param80" title="@Определять аналоги по полю id_analog (сквозная нумерация аналогов)" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param236" title="!!!Сообщение &amp;quot;Есть аналоги&amp;quot;" list="">Есть</parametr>
+	<parametr lang="ru" name="param105" title="" list=""></parametr>
+	<parametr lang="ru" name="param165" title=":::::::::::::: З А Г О Л О В К И   Т А Б Л И Ц ::::::::::::::::::" list="">::::::::::::::: З А Г О Л О В К И   Т А Б Л И Ц ::::::::::::::</parametr>
+	<parametr lang="ru" name="param28" title="Заголовок таблицы &amp;quot;Сопутствующие товары&amp;quot;" list="">Сопутствующие товары</parametr>
+	<parametr lang="ru" name="param29" title="Заголовок таблицы &amp;quot;Похожие товары&amp;quot;" list="">Похожие товары</parametr>
+	<parametr lang="ru" name="param169" title="" list=""></parametr>
+	<parametr lang="ru" name="param94" title="::::::::::::::::::: К Н О П К И :::::::::::::::::" list="">::::::::::::::::  К Н О П К И :::::::::::::::::::::</parametr>
+	<parametr lang="ru" name="param11" title="Текст кнопки &amp;quot;Назад&amp;quot;" list="">Назад</parametr>
+	<parametr lang="ru" name="param2" title="Текст кнопки &amp;quot;Подробнее&amp;quot;" list="">подробнее</parametr>
+	<parametr lang="ru" name="param185" title="Текст кнопки &amp;quot;Витрина&amp;quot;:" list="">Витрина</parametr>
+	<parametr lang="ru" name="param186" title="Текст кнопки &amp;quot;Таблица&amp;quot;:" list="">Таблица</parametr>
+	<parametr lang="ru" name="param107" title="" list=""></parametr>
+	<parametr lang="ru" name="param95" title=":::::::: ПЕРЕНАПРАВЛЕНИЕ НА ДРУГИЕ СТРАНИЦЫ ::::::::::::" list="">:::::::::: ПЕРЕНАПРАВЛЕНИЕ НА ДРУГИЕ СТРАНИЦЫ :::::::::::</parametr>
+	<parametr lang="ru" name="param234" title="Текст ссылки на главную группу &amp;quot;Каталог&amp;quot; (Хлебные крошки)" list="">Каталог</parametr>
+	<parametr lang="ru" name="param175" title="" list=""></parametr>
+	<parametr lang="ru" name="param180" title="::::::: ДОПОЛНИТЕЛЬНЫЕ ФОТОГРАФИИ ::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param248" title="Текст &amp;quot;Изображение&amp;quot;" list="">Изображение&amp;amp;nbsp;</parametr>
+	<parametr lang="ru" name="param250" title="Текст &amp;quot;из&amp;quot;" list="">&amp;amp;nbsp;из&amp;amp;nbsp;</parametr>
+	<parametr lang="ru" name="param187" title="" list=""></parametr>
+	<parametr lang="ru" name="param188" title="::::::: РЕЖИМ ТАБЛИЦЫ ::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param57" title="Выводить столбец &amp;quot;Артикул&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param73" title="Выводить столбец &amp;quot;Фото&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param74" title="Выводить столбец &amp;quot;Описание&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param65" title="Выводить столбец &amp;quot;Производитель&amp;quot;:" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param55" title="Выводить столбец &amp;quot;Наличие&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param66" title="Выводить столбец &amp;quot;Аналоги&amp;quot;:" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param205" title="Поле для ввода &amp;quot;Количество&amp;quot;:" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param274" title="Заголовок поля &amp;quot;Артикул&amp;quot;" list="">#</parametr>
+	<parametr lang="ru" name="param71" title="Заголовок &amp;quot;Фото&amp;quot;:" list="">Фото</parametr>
+	<parametr lang="ru" name="param202" title="Заголовок &amp;quot;Наименование&amp;quot;:" list="">Наименование</parametr>
+	<parametr lang="ru" name="param45" title="Заголовок &amp;quot;Описание&amp;quot;:" list="">Описание</parametr>
+	<parametr lang="ru" name="param67" title="Заголовок &amp;quot;Производитель&amp;quot;:" list="">Производитель</parametr>
+	<parametr lang="ru" name="param198" title="Заголовок &amp;quot;Наличие&amp;quot;:" list="">Наличие</parametr>
+	<parametr lang="ru" name="param68" title="Заголовок &amp;quot;Аналоги&amp;quot;:" list="">Аналоги</parametr>
+	<parametr lang="ru" name="param42" title="Заголовок &amp;quot;Цена&amp;quot;:" list="">Цена</parametr>
+	<parametr lang="ru" name="param206" title="Ограничить ширину рисунков до:" list="">70</parametr>
+	<parametr lang="ru" name="param208" title="" list=""></parametr>
+	<parametr lang="ru" name="param209" title="::::::::: КОММЕНТАРИИ :::::::::" list=""></parametr>
+	<parametr lang="ru" name="param217" title="Включить комментарии?" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param218" title="Текст &amp;quot;Прочитать комментарии&amp;quot;" list="">Прочитать комментарии</parametr>
+	<parametr lang="ru" name="param219" title="Текст &amp;quot;Добавить комментарий&amp;quot;" list="">Добавить комментарий</parametr>
+	<parametr lang="ru" name="param210" title="Заголовок &amp;quot;Комментарии к товару&amp;quot;:" list="">Комментарии к товару</parametr>
+	<parametr lang="ru" name="param211" title="Текст заголовка &amp;quot;Оставить комментарий&amp;quot;:" list="">Оставить комментарий: </parametr>
+	<parametr lang="ru" name="param213" title="Текст кнопки &amp;quot;Отправить комментарий&amp;quot;:" list="">Отправить комментарий</parametr>
+	<parametr lang="ru" name="param214" title="Текст предупреждения:" list="">Чтобы оставить комментарий нужно авторизоваться!</parametr>
+	<parametr lang="ru" name="param215" title="Текст сообщения об ошибке:" list="">Ошибка комментария: Поле комментария не должно быть пустым!</parametr>
+	<parametr lang="ru" name="param216" title="Имя администратора:" list="">Администратор: </parametr>
+	<parametr lang="ru" name="param232" title="" list=""></parametr>
+	<parametr lang="ru" name="param223" title="::::: ЦЕНЫ - ОПТ :::::" list=""></parametr>
+	<parametr lang="ru" name="param224" title="Имя группы для оптовых цен:" list="">optovik</parametr>
+	<parametr lang="ru" name="param225" title="Имя группы для корпоративных цен:" list="">optcorp</parametr>
+	<parametr lang="ru" name="param238" title="" list=""></parametr>
+	<parametr lang="ru" name="param239" title="::::: ХИТЫ и НОВИНКИ :::::" list=""></parametr>
+	<parametr lang="ru" name="param240" title="Текст в поле &amp;quot;Хиты&amp;quot;:" list="">Хит продаж</parametr>
+	<parametr lang="ru" name="param241" title="Текст в поле &amp;quot;Новинки&amp;quot; :" list="">Новинка</parametr>
+	<parametr lang="ru" name="param245" title="Текст в поле &amp;quot;Предложи свою цену&amp;quot;" list="">Предложи свою цену!</parametr>
+	<parametr lang="ru" name="param257" title="" list=""></parametr>
+	<parametr lang="ru" name="param268" title="::::: ГОЛОСОВАНИЕ И РЕЙТИНГ :::::" list=""></parametr>
+	<parametr lang="ru" name="param266" title="Показывать рейтинг и кнопки голосования" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param244" title="Заголовок рейтинга" list="">Рейтинг:</parametr>
+	<parametr lang="ru" name="param267" title="Текст &amp;quot;Голосование&amp;quot; в подробном просмотре товара" list="">Голосование:</parametr>
+	<parametr lang="ru" name="param260" title="Всплывающая подсказка кнопки Нравится" list="">Нравится</parametr>
+	<parametr lang="ru" name="param261" title="Всплывающая подсказка кнопки Не нравится" list="">Не нравится</parametr>
+	<parametr lang="ru" name="param262" title="Текст кнопки-ссылки Нравится (если есть)" list="">Мне нравится</parametr>
+	<parametr lang="ru" name="param263" title="Текст кнопки-ссылки Не нравится (если есть)" list="">Мне не нравится</parametr>
+	<parametr lang="ru" name="param264" title="Текст ошибки &amp;quot;Для зарегистрированных пользователей&amp;quot;" list="">Данная функция доступна только для зарегистрированных пользователей.</parametr>
+	<parametr lang="ru" name="param265" title="Текст ошибки &amp;quot;Повторное голосование&amp;quot;" list="">Вы уже голосовали за этот товар.</parametr>
+	<parametr lang="ru" name="param277" title="" list=""></parametr>
+	<parametr lang="ru" name="param278" title="::::: РЕЖИМ СПЕЦИАЛЬНОГО ПРЕДЛОЖЕНИЯ ::::::" list=""></parametr>
+	<parametr lang="ru" name="param279" title="Работать в режиме &amp;quot;Показывать только специальные предложения&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param280" title="Число выводимых объектов" list="">20</parametr>
+	<parametr lang="ru" name="param281" title="Сортировка" list="R|Случайно,N|В порядке добавления,A|По Артикулу">R</parametr>
+	<parametr lang="ru" name="param325" title="" list=""></parametr>
+	<parametr lang="ru" name="param326" title="::::::::::::::::::::ДОБАВЛЕНИЕ ТОВАРА:::::::::::::::::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param299" title="Сообщение об ощибке &amp;quot;Введите наименование товара&amp;quot;" list="">Введите наименование товара</parametr>
+	<parametr lang="ru" name="param324" title="Сообщение об ошибке &amp;quot;Выберите группу&amp;quot;" list="">Выберите группу</parametr>
+	<parametr lang="ru" name="param285" title="Заголовок &amp;quot;Наименование товара&amp;quot;" list="">Наименование товара</parametr>
+	<parametr lang="ru" name="param300" title="Заголовок &amp;quot;Код товара&amp;quot;" list="">Код товара</parametr>
+	<parametr lang="ru" name="param292" title="Заголовок &amp;quot;Артикул&amp;quot;" list="">Артикул</parametr>
+	<parametr lang="ru" name="param290" title="Заголовок &amp;quot;Цена&amp;quot;" list="">Цена</parametr>
+	<parametr lang="ru" name="param288" title="Заголовок &amp;quot;Производитель&amp;quot;" list="">Производитель</parametr>
+	<parametr lang="ru" name="param289" title="Заголовок &amp;quot;Наличие&amp;quot;" list="">Наличие (количество)</parametr>
+	<parametr lang="ru" name="param311" title="Заголовок &amp;quot;Неограниченное количество&amp;quot;" list="">Неограниченное количество</parametr>
+	<parametr lang="ru" name="param294" title="Заголовок &amp;quot;Валюта&amp;quot;" list="">Валюта</parametr>
+	<parametr lang="ru" name="param316" title="Пункт списка валюты &amp;quot;Нет&amp;quot;" list="">Нет</parametr>
+	<parametr lang="ru" name="param308" title="Текст валюты &amp;quot;Рубль&amp;quot;" list="">р.</parametr>
+	<parametr lang="ru" name="param309" title="Текст валюты &amp;quot;Доллар&amp;quot;" list="">$</parametr>
+	<parametr lang="ru" name="param310" title="Текст валюты &amp;quot;Евро&amp;quot;" list="">euro</parametr>
+	<parametr lang="ru" name="param303" title="Пункт списка валюты &amp;quot;Российский рубль&amp;quot;" list="">Российский рубль</parametr>
+	<parametr lang="ru" name="param304" title="Пункт списка валюты &amp;quot;Доллар США&amp;quot;" list="">Доллар США</parametr>
+	<parametr lang="ru" name="param305" title="Пункт списка валюты &amp;quot;Евро&amp;quot;" list="">Евро</parametr>
+	<parametr lang="ru" name="param332" title="Заголовок &amp;quot;Группа товара&amp;quot;" list="">Группа товара</parametr>
+	<parametr lang="ru" name="param287" title="Заголовок &amp;quot;Подробное описание товара&amp;quot;" list="">Подробное описание товара</parametr>
+	<parametr lang="ru" name="param291" title="Заголовок &amp;quot;Краткое описание товара&amp;quot;" list="">Краткое описание товара</parametr>
+	<parametr lang="ru" name="param286" title="Заголовок &amp;quot;Загрузить рисунок&amp;quot;" list="">Загрузить рисунок</parametr>
+	<parametr lang="ru" name="param284" title="Текст кнопки &amp;quot;Назад&amp;quot;" list="">Назад</parametr>
+	<parametr lang="ru" name="param283" title="Текст кнопки &amp;quot;Сохранить&amp;quot;" list="">Сохранить</parametr>
+	<parametr lang="ru" name="param327" title="" list=""></parametr>
+	<parametr lang="ru" name="param328" title="::::::::::::::::::::ДОБАВЛЕНИЕ ГРУППЫ:::::::::::::::::::::::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param314" title="Сообщение об ошибке &amp;quot;Введите наименование группы&amp;quot;" list="">Введите наименование группы</parametr>
+	<parametr lang="ru" name="param319" title="Сообщение &amp;quot;Для редактирования выберите группу товара&amp;quot;" list="">Для редактирования выберите группу товара</parametr>
+	<parametr lang="ru" name="param320" title="Активность сообщения" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param293" title="Заголовок &amp;quot;Родительская группа&amp;quot;" list="">Родительская группа</parametr>
+	<parametr lang="ru" name="param312" title="Заголовок &amp;quot;Наименование группы&amp;quot;" list="">Наименование группы</parametr>
+	<parametr lang="ru" name="param313" title="Заголовок &amp;quot;Код группы&amp;quot;" list="">Код группы</parametr>
+	<parametr lang="ru" name="param318" title="Текст кнопки &amp;quot;Добавить группу&amp;quot;" list="">Добавить группу</parametr>
+	<parametr lang="ru" name="param321" title="Текст кнопки &amp;quot;Удалить&amp;quot;" list="">Удалить</parametr>
+	<parametr lang="ru" name="param330" title="" list=""></parametr>
+	<parametr lang="ru" name="param329" title="::::::::::::::::::::::::::::::ИЗОБРАЖЕНИЯ::::::::::::::::::::::::::::::::::::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param297" title="Ширина картинки в карточке товара" list="">250</parametr>
+	<parametr lang="ru" name="param298" title="Ширина превью картинки" list="">200</parametr>
+	<parametr lang="ru" name="param295" title="Сообщение об ошибке &amp;quot;Не является картинкой&amp;quot;" list="">Выбранный файл не является картинкой  в формате GIF/JPG/PNG!</parametr>
+	<parametr lang="ru" name="param296" title="Сообщение об ошибке &amp;quot;Превышает размер&amp;quot;" list="">Выбранный файл превышает размер 1 Мб!</parametr>
+</params>

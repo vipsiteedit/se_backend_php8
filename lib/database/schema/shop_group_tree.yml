@@ -1,0 +1,37 @@
+shop_group_tree:
+   tableName: shop_group_tree
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_group_tree_id
+     id_parent:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_child:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     level:
+       type: integer
+       notnull: true
+   relations:
+     shop_group:
+       local: id_child
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_group:
+       local: id_parent
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE

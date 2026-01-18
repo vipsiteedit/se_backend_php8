@@ -1,0 +1,16 @@
+﻿.payment .tableTable {margin-top:10px;}
+.payment .tableTable th {padding:3px; text-align:left;}
+.payment .tableTable td {padding:3px;}
+.payment .contentTitle.order {margin-top:30px;}
+.payment .orderSelect .titsel {margin-right:10px; float:left;}
+.payment .paySelect .obj {margin-bottom:10px;}
+.payment .paySelect .obj .buttonArea {margin-top:10px;}
+.payment #selectmonth {width:110px;}
+.payment .buttonArea.balansBtn {margin-top:10px;}
+.aPayee .warning {margin-bottom:10px;}
+.aPayee .title .txt {margin-right:10px; display:inline-block;}
+.aPayee .title .num {font-weight:bold;}
+.aPayee .summ .txt {margin-right:10px; display:inline-block;}
+.aPayee .summ .num {font-weight:bold;}
+.aPayee .buttonArea.send {margin-top:10px; float:left;}
+.aPayee .buttonArea.back {margin-top:10px;}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param9" title="Использовать старый пароль?" list="Y|Да,N|Нет">Y</parametr>
+</params>

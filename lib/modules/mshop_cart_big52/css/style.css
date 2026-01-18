@@ -1,0 +1,64 @@
+﻿.contShopCartNew .blockCartContent {margin-bottom:30px;}
+.contShopCartNew .blockCartTitle {font-weight:bold; margin-bottom:15px;}
+.ajaxOverlay {cursor:wait; background-color:rgb(0,0,0); opacity:0.45; text-align:center; vertical-align:middle;}
+.ajaxOverlay .ajaxPreloader {color:#ffffff; margin-top:-0.5em; position:relative; top:50%;}
+.contShopCartNew #blockMessageWarning {color:#ff0000; margin-bottom:10px;}
+.contShopCartNew #blockCartGoods .tableListGoods th {padding-top:10px; padding-bottom:10px; text-align:left; vertical-align:middle;}
+.contShopCartNew #blockCartGoods .tableListGoods td {padding-top:5px; padding-bottom:5px;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemCart td {padding-right:10px;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemCart:nth-child(odd) td {background-image:url(mshop_cart_big51/black_5.png);}
+.contShopCartNew #blockCartGoods .tableListGoods .itemImageCart {width:110px;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemImageCart img {margin-left:5px;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemInfoGoodsCart a {margin-bottom:10px; display:block;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemInfoGoodsCart .cartitem_price {margin-top:10px;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemInfoGoodsCart .itemOldPrice {text-decoration:line-through;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemCountCart {width:18%;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemCountCart .cartitem_inputcn {vertical-align:middle;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemCountCart .cartitem_count a {color:#000000; text-decoration:none; background-color:#ffffff; padding-top:3px; padding-bottom:3px; padding-left:5px; padding-right:5px; border-width:1px; border-color:#c0c0c0; border-style:solid; text-align:center; vertical-align:middle; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#f3f3f3)); background: -webkit-linear-gradient(#FFFFFF, #f3f3f3); background: -moz-linear-gradient(#FFFFFF, #f3f3f3); background: -ms-linear-gradient(#FFFFFF, #f3f3f3); background: -o-linear-gradient(#FFFFFF, #f3f3f3); background: linear-gradient(#FFFFFF, #f3f3f3);}
+.contShopCartNew #blockCartGoods .tableListGoods .itemSumCart {width:15%;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemDeleteCart {width:10%;}
+.contShopCartNew #blockCartGoods .tableListGoods .itemDeleteCart .btnDeleteItem {font-size:0; background-image:url(mshop_cart_big51/icon_delete.png); background-color:transparent; background-position:center center; background-repeat:no-repeat; padding:10px;}
+.contShopCartNew #cartGoodsForm .continueShoppingArea .continueShopping {margin-bottom:20px; margin-top:20px; display:block;}
+.contShopCartNew #blockCouponApply {margin-right:20px; display:inline-block; vertical-align:top;}
+.contShopCartNew #couponTitle {margin-right:5px;}
+.contShopCartNew #noteCoupon {margin-top:5px;}
+.contShopCartNew #noteCoupon .cpnNoteTitle {margin-right:5px;}
+.contShopCartNew #blockSumCoupon {font-size:150%; display:inline-block; vertical-align:top;}
+.contShopCartNew #linkSelectRegion {margin-left:5px;}
+.contShopCartNew #blockCartDelivery .deliveryType {margin-bottom:20px;}
+.contShopCartNew #blockCartDelivery .radioDeliveryType {cursor:pointer; margin-right:3px; display:inline-block; vertical-align:middle;}
+.contShopCartNew #blockCartDelivery .deliveryTypeName {display:inline-block; vertical-align:middle;}
+.contShopCartNew #blockCartDelivery .deliveryTypePriceTime {margin-top:5px;}
+.blockSelectUserRegion {background-color:#ffffff; border-width:1px; border-color:#E0E0E0; border-style:solid; padding:15px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px;}
+.blockSelectUserRegion .btnClose {color:transparent; text-decoration:none; background-color:transparent; background-image:url(mshop_cart_big51/icon_closepanel.png); background-position:center center; background-repeat:no-repeat; border-style:none; margin-top:3px; width:11px; height:11px; float:right; text-align:right;}
+.blockSelectUserRegion h3 {font-size:100%; margin:0; margin-bottom:15px; margin-right:30px; white-space:nowrap;}
+.blockSelectUserRegion .blockSelection {margin-bottom:5px;}
+.blockSelectUserRegion .blockSelection .titleSelection {margin-right:5px; float:left;}
+.blockSelectUserRegion .blockSelection .ajaxPreloader {background-image:url(mshop_cart_big51/load.gif); background-repeat:no-repeat; display:inline-block; width:15px;}
+.blockSelectUserRegion .blockResultSelected {margin-top:10px;}
+.contShopCartNew #blockCartContact .blockContactLine {margin-bottom:3px;}
+.contShopCartNew #blockCartContact .blockRegLabel {padding-right:10px; display:inline-block; width:150px; vertical-align:middle;}
+.contShopCartNew #blockCartContact .blockRegInput {display:inline-block; width:300px; vertical-align:middle;}
+.contShopCartNew #blockCartContact .blockRegInput .inputCartContact {width:100%;}
+.contShopCartNew #blockCartContact .blockRegInput .regCartError {color:#FF0000;}
+.contShopCartNew #blockCartContact .blockContactLine .required {color:#FF0000;}
+.contShopCartNew #blockCartPayment .paymentType {margin-bottom:20px; margin-right:20px; display:inline-block; vertical-align:middle;}
+.contShopCartNew #blockCartPayment .paymentImage {margin-bottom:5px;}
+.contShopCartNew #blockCartPayment .paymentTypeTitle {display:inline-block;}
+.contShopCartNew #blockCartPayment .paymentTypeTitle input {cursor:pointer; display:inline-block; vertical-align:middle;}
+.contShopCartNew #blockCartPayment .paymentTypeTitle span {cursor:pointer; margin-right:2px; display:inline-block; vertical-align:middle;}
+.contShopCartNew #blockCartPayment .paymentTypeTitle a {font-size:0; background-color:#ffffff; background-image:url(mshop_cart_big51/icon_question.png); background-position:center center; background-repeat:no-repeat; border-width:1px; border-color:#c0c0c0; border-style:solid; display:inline-block; position:relative; top:-2px; padding:7px; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px;}
+.contShopCartNew #blockCartPayment .paymentNote {background-color:#ffffff; border-width:1px; border-color:#e0e0e0; border-style:solid; width:400px; padding:10px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; -moz-box-shadow: 0px 0px 5px #ebebeb; -webkit-box-shadow: 0px 0px 5px #ebebeb; box-shadow: 0px 0px 5px #ebebeb;}
+.contShopCartNew #totalSumPrice {font-weight:bold;}
+.contShopCartNew .linkGoShopping {margin-top:20px; display:block;}
+.pageConfirmOrder .contentTitle {font-size:100%; font-weight:bold; margin-bottom:15px;}
+.pageConfirmOrder .tableOrder {margin-bottom:20px;}
+.pageConfirmOrder .tableOrder th {padding-top:10px; padding-bottom:10px; padding-left:5px; padding-right:5px; text-align:left; vertical-align:middle;}
+.pageConfirmOrder .tableOrder td {padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:15px;}
+.pageConfirmOrder .tableOrder tr:nth-child(even) td {background-image:url(mshop_cart_big51/black_5.png);}
+.pageConfirmOrder .tableOrderTotal {margin-bottom:20px;}
+.pageConfirmOrder .tableOrderTotal .tdOrderTotalTitle {padding-top:2px; padding-bottom:2px; padding-right:10px; width:170px; vertical-align:middle;}
+.pageConfirmOrder .tableClientInfo {margin-bottom:20px;}
+.pageConfirmOrder .tableClientInfo .tdClientInfoTitle {padding-top:2px; padding-bottom:2px; padding-right:10px; width:170px; vertical-align:middle;}
+.pageConfirmOrder .tableDelivery .tableInfoTitle {padding-top:2px; padding-bottom:2px; padding-right:10px; width:170px; vertical-align:middle;}
+.pageConfirmOrder .buttonBlock {margin-top:20px;}

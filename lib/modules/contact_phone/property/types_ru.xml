@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Геотаргетинг</group>
+	<name>Звонок с сайта</name>
+	<comment>Модуль выводит телефон контакта с учетом выбранного региона пользователя.</comment>
+</option>

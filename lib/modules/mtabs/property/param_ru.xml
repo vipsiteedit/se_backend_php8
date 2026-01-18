@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Тип вкладок" list="Y|Горизонтальные,N|Вертикальные">Y</parametr>
+	<parametr lang="ru" name="param2" title="Закрыть ссылки от индексации" list="Y|Да,N|Нет">Y</parametr>
+</params>

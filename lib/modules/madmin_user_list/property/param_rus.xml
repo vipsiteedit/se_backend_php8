@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param45" title=":::Главная страница:::" list=""></parametr>
+	<parametr lang="rus" name="param77" title="Текст &amp;quot;Найти: &amp;quot;" list="">Найти: </parametr>
+	<parametr lang="rus" name="param46" title="Текст кнопки поиска" list="">Поиск</parametr>
+	<parametr lang="rus" name="param60" title="Заголовок списка с группами" list="">Группа:</parametr>
+	<parametr lang="rus" name="param62" title="Текст кнопки &amp;quot;Редактор групп&amp;quot;" list="">Редактор групп</parametr>
+	<parametr lang="rus" name="param115" title="Количество пользователей на странице" list="">30</parametr>
+	<parametr lang="rus" name="param61" title="Сообщение, когда не было найдено пользователей" list="">Пользователей нет</parametr>
+	<parametr lang="rus" name="param80" title="" list=""></parametr>
+	<parametr lang="rus" name="param43" title=":::Редактирование/создание пользователя:::" list=""></parametr>
+	<parametr lang="rus" name="param2" title="Текст сообщения &amp;quot;Пароль изменен&amp;quot;:" list="">Пароль изменен!</parametr>
+	<parametr lang="rus" name="param131" title="Email администратора" list="">[%adminmail%]</parametr>
+	<parametr lang="rus" name="param4" title="Текст письма пользователю при активации:" list="{text}">Здравствуйте, %user% \r\n Администратор %site% активизировал Вам доступ на сайте.\r\nКоды Авторизации (логин и пароль) были высланы на указанный Вами E-Mail во время регистрации.\r\n\r\nС уважением, %site%</parametr>
+	<parametr lang="rus" name="param58" title="Текст письма с информацией от кого" list="">от администрации сайта</parametr>
+	<parametr lang="rus" name="param5" title="Заголовок письма пользователю:" list="">Активизация доступа на сайте %site%</parametr>
+	<parametr lang="rus" name="param34" title="Текст &amp;quot;Основные данные пользователя&amp;quot;" list="">Основные данные пользователя</parametr>
+	<parametr lang="rus" name="param6" title="Текст &amp;quot;Логин:&amp;quot;" list="">Логин:</parametr>
+	<parametr lang="rus" name="param7" title="Текст &amp;quot;Реферный номер:&amp;quot;" list="">Реферный номер:</parametr>
+	<parametr lang="rus" name="param8" title="Текст &amp;quot;Статус пользователя:&amp;quot;" list="">Статус пользователя:</parametr>
+	<parametr lang="rus" name="param10" title="Текст &amp;quot;Группа доступа:&amp;quot;" list="">Группа доступа:</parametr>
+	<parametr lang="rus" name="param11" title="Текст &amp;quot;::Личные данные&amp;quot;" list="">Личные данные</parametr>
+	<parametr lang="rus" name="param12" title="Текст &amp;quot;Фамилия:&amp;quot;" list="">Фамилия:</parametr>
+	<parametr lang="rus" name="param13" title="Текст &amp;quot;Имя:&amp;quot;" list="">Имя:</parametr>
+	<parametr lang="rus" name="param14" title="Текст &amp;quot;Отчество:&amp;quot;" list="">Отчество:</parametr>
+	<parametr lang="rus" name="param15" title="Текст &amp;quot;Паспортные данные&amp;quot;" list="">Паспортные данные</parametr>
+	<parametr lang="rus" name="param16" title="Текст &amp;quot;Серия:&amp;quot;" list="">Серия:</parametr>
+	<parametr lang="rus" name="param17" title="Текст &amp;quot;Номер:&amp;quot;" list="">Номер:</parametr>
+	<parametr lang="rus" name="param18" title="Текст &amp;quot;Адрес и телефон&amp;quot;" list="">Адрес и телефон</parametr>
+	<parametr lang="rus" name="param19" title="Текст &amp;quot;Почтовый индекс:&amp;quot;" list="">Почтовый индекс:</parametr>
+	<parametr lang="rus" name="param20" title="Текст &amp;quot;Страна:&amp;quot;" list="">Страна:</parametr>
+	<parametr lang="rus" name="param21" title="Текст &amp;quot;Область(край):&amp;quot;" list="">Область(край):</parametr>
+	<parametr lang="rus" name="param22" title="Текст &amp;quot;Город(район):&amp;quot;" list="">Город(район):</parametr>
+	<parametr lang="rus" name="param23" title="Текст &amp;quot;Адрес:&amp;quot;" list="">Адрес:</parametr>
+	<parametr lang="rus" name="param24" title="Текст &amp;quot;Контактный телефон:&amp;quot;" list="">Контактный телефон:</parametr>
+	<parametr lang="rus" name="param25" title="Текст &amp;quot;Контактный e-mail:&amp;quot;" list="">Контактный e-mail:</parametr>
+	<parametr lang="rus" name="param26" title="Текст &amp;quot;icq:&amp;quot;" list="">icq:</parametr>
+	<parametr lang="rus" name="param27" title="Текст &amp;quot;Смена пароля:&amp;quot;" list="">Смена пароля:</parametr>
+	<parametr lang="rus" name="param129" title="Текст &amp;quot;Пароль&amp;quot;" list="">Пароль</parametr>
+	<parametr lang="rus" name="param28" title="Текст &amp;quot;Новый пароль:&amp;quot;" list="">Новый пароль:</parametr>
+	<parametr lang="rus" name="param29" title="Текст &amp;quot;Подтвердить пароль:&amp;quot;" list="">Подтвердить пароль:</parametr>
+	<parametr lang="rus" name="param30" title="Текст &amp;quot;Выберите страну&amp;quot;" list="">Выберите страну</parametr>
+	<parametr lang="rus" name="param31" title="Текст &amp;quot;Выберите регион&amp;quot;" list="">Выберите регион</parametr>
+	<parametr lang="rus" name="param32" title="Текст &amp;quot;Выберите город&amp;quot;" list="">Выберите город</parametr>
+	<parametr lang="rus" name="param35" title="Текст &amp;quot;Активный&amp;quot;" list="">Активный</parametr>
+	<parametr lang="rus" name="param36" title="Текст &amp;quot;Заблокирован&amp;quot;" list="">Заблокирован</parametr>
+	<parametr lang="rus" name="param37" title="Текст кнопки &amp;quot;Удалить&amp;quot;" list="">Удалить</parametr>
+	<parametr lang="rus" name="param38" title="Текст кнопки &amp;quot;На главную&amp;quot;" list="">На главную</parametr>
+	<parametr lang="rus" name="param39" title="Текст кнопки &amp;quot;Сохранить&amp;quot;" list="">Сохранить</parametr>
+	<parametr lang="rus" name="param121" title=":::Ошибки при редактировании/создании пользователя:::" list=""></parametr>
+	<parametr lang="rus" name="param122" title="Ошибка при пустом поле для ввода логина" list="">Поле с логином пустое</parametr>
+	<parametr lang="rus" name="param123" title="Ошибка при вводе уже существующего логина" list="">Пользователь с таким логином уже есть</parametr>
+	<parametr lang="rus" name="param124" title="Ошибка, когда ни одна группа не выбрана" list="">Пользователь должен входить минимум в одну группу</parametr>
+	<parametr lang="rus" name="param125" title="Ошибка, когда имя и фамилия не введены" list="">Не все важные поля заполнены</parametr>
+	<parametr lang="rus" name="param126" title="Ошибка при неверном вводе email" list="">Email записан неверно</parametr>
+	<parametr lang="rus" name="param127" title="Ошибка при создании пользователя, когда поле пароля пустое" list="">Поле с паролем пустое</parametr>
+	<parametr lang="rus" name="param128" title="Ошибка при неправильном подтверждении пароля" list="">Значение поля с подтверждением пароля не совпадает с указанным паролем</parametr>
+	<parametr lang="rus" name="param79" title="" list=""></parametr>
+	<parametr lang="rus" name="param44" title=":::Редактирование группы пользователей:::" list=""></parametr>
+	<parametr lang="rus" name="param63" title="Текст заголовка выбора группы" list="">Группа</parametr>
+	<parametr lang="rus" name="param86" title="Текст в выпадающем меню при отсутствии групп" list="">--Группы пользователей не созданы--</parametr>
+	<parametr lang="rus" name="param83" title="Текст пункта меню &amp;quot;изменить&amp;quot;" list="">изменить</parametr>
+	<parametr lang="rus" name="param84" title="Текст пункта меню &amp;quot;удалить&amp;quot;" list="">удалить</parametr>
+	<parametr lang="rus" name="param85" title="Текст пункта меню &amp;quot;новая&amp;quot;" list="">новая</parametr>
+	<parametr lang="rus" name="param87" title="Текст заголовка списка пользователей группы" list="">Участники группы </parametr>
+	<parametr lang="rus" name="param88" title="Текст пункта меню &amp;quot;добавить&amp;quot;" list="">добавить</parametr>
+	<parametr lang="rus" name="param89" title="Текст пункта меню &amp;quot;переместить&amp;quot;" list="">переместить</parametr>
+	<parametr lang="rus" name="param90" title="Текст пункта меню &amp;quot;копировать&amp;quot;" list="">копировать</parametr>
+	<parametr lang="rus" name="param91" title="Текст пункта меню &amp;quot;удалить&amp;quot;" list="">удалить</parametr>
+	<parametr lang="rus" name="param113" title="Текст кнопки &amp;quot;Поиск&amp;quot;" list="">Поиск</parametr>
+	<parametr lang="rus" name="param92" title="Текст ссылки &amp;quot;изменить&amp;quot;" list="">изменить</parametr>
+	<parametr lang="rus" name="param132" title="Сообщение при удалении группы" list="">Удалить группу?</parametr>
+	<parametr lang="rus" name="param133" title="Сообщение при удалении пользователя из группы" list="">Удалить пользователей?</parametr>
+	<parametr lang="rus" name="param111" title="Количество пользователей на странице" list="">20</parametr>
+	<parametr lang="rus" name="param93" title="Текст при отсутствии пользователей группы" list="">В этой группе нет пользователей</parametr>
+	<parametr lang="rus" name="param94" title="Текст пункта меню &amp;quot;Выделить всех&amp;quot;" list="">Выделить всех</parametr>
+	<parametr lang="rus" name="param95" title="Текст пункта меню &amp;quot;Снять выделение&amp;quot;" list="">Снять выделение</parametr>
+	<parametr lang="rus" name="param69" title="Текст кнопки &amp;quot;Вернуться на главную&amp;quot;" list="">Вернуться на главную</parametr>
+	<parametr lang="rus" name="param78" title=":::Окно редактирования данных группы:::" list=""></parametr>
+	<parametr lang="rus" name="param66" title="Текст заголовка выбранной группы" list="">Заголовок группы</parametr>
+	<parametr lang="rus" name="param65" title="Текст названия выбранной группы" list="">Идентификатор группы</parametr>
+	<parametr lang="rus" name="param82" title="Текст предупреждения под полем для названия" list="">Идентификатор должен содержать буквы лат. алфавита, цифры или знак подчеркивания, но начинаться с лат. буквы</parametr>
+	<parametr lang="rus" name="param9" title="Текст &amp;quot;Уровень доступа:&amp;quot;" list="">Уровень доступа:</parametr>
+	<parametr lang="rus" name="param67" title="Текст кнопки &amp;quot;Сохранить&amp;quot;" list="">Сохранить</parametr>
+	<parametr lang="rus" name="param110" title="Текст кнопки &amp;quot;Отмена&amp;quot;" list="">Отмена</parametr>
+	<parametr lang="rus" name="param81" title=":::Окно с группами для копирования/переноса:::" list=""></parametr>
+	<parametr lang="rus" name="param71" title="Текст &amp;quot;Копировать в группу&amp;quot;" list="">Копировать в группу</parametr>
+	<parametr lang="rus" name="param130" title="Текст &amp;quot;Переместить в группу&amp;quot;" list="">Переместить в группу</parametr>
+	<parametr lang="rus" name="param75" title="Текст кнопки &amp;quot;Добавить&amp;quot;" list="">Добавить</parametr>
+	<parametr lang="rus" name="param76" title="Текст кнопки &amp;quot;Отмена&amp;quot;" list="">Отмена</parametr>
+	<parametr lang="rus" name="param99" title=":::Сообщения с ошибками или о результатах проделанной работе:::" list=""></parametr>
+	<parametr lang="rus" name="param100" title="Ошибка при не заполненных заголовке и названии группы" list="">Нужно заполнить поля Название и Заголовок</parametr>
+	<parametr lang="rus" name="param101" title="Ошибка при неправильном вводе названия группы" list="">Идентификатор должен содержать буквы лат. алфавита, цифры и символ подчеркивания, но начинаться должно с лат. буквы</parametr>
+	<parametr lang="rus" name="param134" title="Ошибка при создании группы с уже имеющимся идентификатором" list="">Группа с таким идентификатором существует</parametr>
+	<parametr lang="rus" name="param102" title="Результат создания группы" list="">Группа создана!</parametr>
+	<parametr lang="rus" name="param103" title="Результат изменения группы" list="">Изменения записаны!</parametr>
+	<parametr lang="rus" name="param105" title="Результат переноса пользователей" list="">Пользователи были перенесены</parametr>
+	<parametr lang="rus" name="param106" title="Результат копирования пользователей" list="">Пользователи были скопированы</parametr>
+	<parametr lang="rus" name="param108" title="Результат удаления выбранных пользователей из группы" list="">Некоторые пользователи не удалены из-за присутствия только в этой группе!</parametr>
+	<parametr lang="rus" name="param109" title="Ошибка при удалении группы" list="">В группе есть пользователи, которых нет в других группах</parametr>
+	<parametr lang="rus" name="param118" title="" list=""></parametr>
+	<parametr lang="rus" name="param119" title=":::Для неавторизированных пользователей:::" list=""></parametr>
+	<parametr lang="rus" name="param120" title="Ошибка при появлении не администратора" list="">Доступ только для администратора</parametr>
+</params>

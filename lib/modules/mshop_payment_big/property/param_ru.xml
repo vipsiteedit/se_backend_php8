@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param8" title="Использовать внутренний счет?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param10" title="Краткое описание лицевого счета:" list="{text}">Оплата осуществляется при наличии средств на Вашем лицевом счете.</parametr>
+	<parametr lang="ru" name="param23" title="Текст подтверждения:" list="{text}">Подтвердите оплату заказа </parametr>
+	<parametr lang="ru" name="param25" title="Формат валюты по умолчанию:" list="RUR|Руб.,EUR|Евро,USD|Доллар США">RUR</parametr>
+	<parametr lang="ru" name="param27" title="Предупреждение по лицевому счету:" list="{text}">Оплата невозможна! Недостаточно средств на лицевом счете</parametr>
+	<parametr lang="ru" name="param28" title="Сообщение &amp;quot;Оплата успешно проведена&amp;quot;:" list="{text}">Оплата с лицевого счета успешно проведена!</parametr>
+	<parametr lang="ru" name="param32" title="Текст когда не полная авторизация" list="{text}">Чтобы просматривать свои заказы и иметь доступ к лицевому счету необходимо авторизоваться</parametr>
+</params>

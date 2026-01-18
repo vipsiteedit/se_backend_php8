@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param0" title="Записей на одной странице:" list="">10</parametr>
+	<parametr lang="rus" name="param1" title="E-mail администратора:" list="">[%adminmail%]</parametr>
+	<parametr lang="rus" name="param2" title="Количество запросов в лог-письме:" list="">10</parametr>
+	<parametr lang="rus" name="param3" title="Текст &amp;quot;&amp;lt;пустой запрос&amp;gt;&amp;quot;:" list="">&amp;lt;пустой запрос&amp;gt;</parametr>
+	<parametr lang="rus" name="param4" title="Текст &amp;quot;Найдено страниц&amp;quot;:" list="">Найдено страниц: </parametr>
+	<parametr lang="rus" name="param5" title="Сообщение &amp;quot;Поисковая строка пустая!&amp;quot;:" list="">Поисковая строка пустая!</parametr>
+	<parametr lang="rus" name="param6" title="Сообщение &amp;quot;По Вашему запросу ничего не найдено.&amp;quot;:" list="">По Вашему запросу ничего не найдено.</parametr>
+	<parametr lang="rus" name="param7" title="Тема письма &amp;quot;Поисковые запросы на сайте&amp;quot;:" list="">Поисковые запросы на сайте</parametr>
+	<parametr lang="rus" name="param8" title="Текст письма:" list="{text}">&amp;quot;Уважаемый администратор сайта [SITE]!\r\n\r\nНа Вашем сайте с помощью системы &amp;quot;Поиск по сайту&amp;quot; искали следующие слова и выражения:\r\n\r\n    Дата       Время       IP адрес       Строка запроса\r\n</parametr>
+	<parametr lang="rus" name="param9" title="Поиск в модулях с on-line содержанием (перечилить через запятую):" list="">monlinenews,</parametr>
+</params>

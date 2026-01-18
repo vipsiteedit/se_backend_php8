@@ -1,0 +1,36 @@
+sms_providers:
+   tableName: sms_providers
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: sms_providers_id
+     name:
+       type: string(50)
+     url:
+       type: string(255)
+     settings:
+       type: string(255)
+       notnull: true
+     is_active:
+       type: integer
+   relations:
+   values:
+     1:
+       id: 1
+       name: sms.ru
+       url: sms.ru
+       settings: '{"api_id":{"type":"string","value":"5A0C0292-B80E-78FE-6CC7-BD4E62D79FA5"}}'
+       is_active: 1
+     2:
+       id: 2
+       name: qtelecom.ru
+       url: qtelecom.ru
+       settings: '{"login":{"type":"string","value":""},"password":{"type":"string","value":""}}'
+       is_active: 0

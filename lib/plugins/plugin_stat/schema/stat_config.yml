@@ -1,0 +1,91 @@
+﻿StatConfig:
+  tableName: stat_config
+  tableAlias: stc
+  tableDrop: true
+  tableType:
+    engine: innoDB
+    charset: utf8
+  columns:
+    variable:
+      type: string(50)
+      primary: true
+    value: string(255)
+
+
+  values:
+    language:
+      variable: language
+      value: russian
+    mail_day:
+      variable: mail_day
+      value: 0
+    mail_email:
+      variable: mail_email
+      value: 
+    mail_subject:
+      variable: mail_subject
+      value: SiteEdit Satistics Report [%d.%m.%Y]
+    mail_content:
+      variable: mail_content
+      value: 7
+    version:
+      variable: version
+      value: 1.1
+    hints:
+      variable: hints
+      value: 1
+    gauge:
+      variable: gauge
+      value: 1
+    percents:
+      variable: percents
+      value: 1
+    graphic:
+      variable: graphic
+      value: 2
+    antialias:
+      variable: antialias
+      value: 1
+    date_format:
+      variable: date_format
+      value: d.m.Y
+    shortdate_format:
+      variable: shortdate_format
+      value: m.Y
+    datetime_format:
+      variable: datetime_format
+      value: d.m.Y H:i:s
+    datetimes_format:
+      variable: datetimes_format
+      value: d.m.Y H:i
+    shortdm_format:
+      variable: shortdm_format
+      value: d.m
+    dataupdate:
+      variable: dataupdate
+      value: 2010-01-10 13:26:52
+    adminlogin:
+      variable: adminlogin
+      value: admin
+    adminpassword:
+      variable: adminpassword
+      value: 4a3b9b8de6489c966f211b94c7cbaadd
+    disablepassword:
+      variable: disablepassword
+      value: 0
+    savelogday:
+      variable: savelogday
+      value: 90
+    timeoffset:
+      variable: timeoffset
+      value: 0
+    senderrorsbymail:
+      variable: senderrorsbymail
+      value: 0
+    adminemail:
+      variable: adminemail
+      value: 
+    timelastclear:
+      variable: timelastclear
+      value: 0
+      

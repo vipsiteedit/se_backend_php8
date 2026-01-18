@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param14" title=":::Общие настройки:::" list=""></parametr>
+	<parametr lang="ru" name="param1" title="Страница Интернет-магазина" list="">catalogue</parametr>
+	<parametr lang="ru" name="param2" title="Выводить количество (при открытом типе или с вкл. JS без загрузки):" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param5" title="Код группы по умолчанию" list=""></parametr>
+	<parametr lang="ru" name="param4" title="Тип дерева каталога:" list="-1|Раскрывающееся,0|Открытое">0</parametr>
+	<parametr lang="ru" name="param7" title="Отображать изображения у групп" list="1|Нет,2|У групп первого уровня,3|У всех групп">1</parametr>
+	<parametr lang="ru" name="param8" title="@Отображать названия групп с изображениями" list="N|Нет,Y|Да">N</parametr>
+	<parametr lang="ru" name="param12" title="" list=""></parametr>
+	<parametr lang="ru" name="param11" title=":::Использование JS:::" list=""></parametr>
+	<parametr lang="ru" name="param10" title="Использовать JS для раскрывающегося меню" list="N|Нет,Y|Да">Y</parametr>
+	<parametr lang="ru" name="param9" title="При раскрывающемся меню переходить в магазине в" list="1|последнюю вложенную группу,2|содержащую товары группу">1</parametr>
+	<parametr lang="ru" name="param13" title="При раскрывающемся меню делать загрузку подкаталогов" list="N|Нет,Y|Да">Y</parametr>
+	<parametr lang="ru" name="param15" title="Количество колонок" list="">4</parametr>
+	<parametr lang="ru" name="param16" title="Номер меню" list="amenu,pmenu,001,002,003,004,005">001</parametr>
+</params>

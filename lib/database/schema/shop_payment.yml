@@ -1,0 +1,100 @@
+shop_payment:
+   tableName: shop_payment
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_payment_id
+     lang:
+       type: char(3)
+       index: true
+       default: rus
+     ident:
+       type: string(40)
+       unique: true
+     logoimg:
+       type: string(40)
+     name_payment:
+       type: string(255)
+     startform:
+       type: mediumtext
+     type:
+       type: enum
+       values: ['p','e']
+       default: e
+     blank:
+       type: mediumtext
+     result:
+       type: mediumtext
+     success:
+       type: text
+     fail:
+       type: text
+     sort:
+       type: integer
+       default: 1
+     filters:
+       type: text
+     hosts:
+       type: text
+     authorize:
+       type: enum
+       values: ['Y','N']
+     way_payment:
+       type: enum
+       values: ['b','a']
+       notnull: true
+       default: b
+     url_help:
+       type: string(255)
+     active:
+       type: enum
+       values: ['N','Y','T']
+       default: 'N'
+     is_test:
+       type: enum
+       values: ['Y','N']
+       default: 'N'
+     customer_type:
+       type: integer
+       unsigned: true
+     is_ticket:
+       type: integer
+   values:
+     1:
+       id: 1
+       lang: rus
+       ident: 
+       logoimg: 
+       name_payment: Безналичный расчет
+       startform: |
+         1. Для оплаты по безналичному расчету внесите&nbsp; <a href="/rekvcompany/?referer">реквизиты Вашего предприятия</a>, и нажмите на кнопку "Выбрать оплату"&nbsp; <br>
+         2. Оплатите счет;<br>
+         3. Для оперативности получения продукта, отправьте сканированную (разрешением не менее 150dpi) копию заверенной квитанции об оплате на наш почтовый адрес<br>
+         4. Ожидайте письмо с подтверждением;<br>
+         5. На странице "Ваш заказ" Вы можете посмотреть статус заказа и доставки;<br>
+         
+       type: e
+       blank: |
+         <p><strong><font size="4">Спасибо за заказ.</font></strong></p>
+         <p><strong><font size="4">Ожидайте обработки заказа менеджером.</font></strong></p>
+       result: 
+       success: 
+       fail: 
+       sort: 1
+       filters: 
+       hosts: 
+       authorize: 'N'
+       way_payment: b
+       url_help: 
+       active: 'N'
+       is_test: 'N'
+       customer_type: 
+       is_ticket: 0
+

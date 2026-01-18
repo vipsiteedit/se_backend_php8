@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Тип панели с иконками" list="1|Горизонтальная,2|Вертикальная">1</parametr>
+	<parametr lang="rus" name="param2" title="Размер иконок" list="32|32x32,24|24x24,16|16x16">32</parametr>
+	<parametr lang="rus" name="param3" title="Ограничить количество иконок при вертикальном типе панели" list="">7</parametr>
+	<parametr lang="rus" name="param4" title="Использовать реферный номер в ссылках:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param5" title="Отобразить:" list="left|Слева,right|Справа">right</parametr>
+	<parametr lang="rus" name="param6" title="Управление фоном:" list="transparent|Прозрачный,white|Белый">white</parametr>
+</params>

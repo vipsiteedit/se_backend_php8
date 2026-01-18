@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="E-Mail администратора сайта:" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param2" title="Уровень доступа пользователя:" list="1|User,2|Superuser,3|Admin">1</parametr>
+	<parametr lang="ru" name="param3" title="Группа пользователей:" list="client,dealer,agent,forum,chat"> </parametr>
+	<parametr lang="ru" name="param4" title="Подтверждение через e-mail:" list="Y|Подтверждать,N|Не подтверждать">N</parametr>
+	<parametr lang="ru" name="param5" title="Ссылка на страницу после регистрации:" list="">home.html</parametr>
+	<parametr lang="ru" name="param20" title="Текст в начале письма (клиенту): " list="{text}">Уважаемый(ая) [USERNAME]\r\nВы зарегистрировались на сайте [SITENAME]\r\n\r\nВаши авторизационные данные:\r\nЛогин: [USERLOGIN]\r\nПароль: [USERPASSWORD]\r\n\r\n </parametr>
+	<parametr lang="ru" name="param23" title="Текст в конце письма (клиенту): " list="{text}">С Уважением, \r\nАдминистрация сайта [SITENAME]</parametr>
+	<parametr lang="ru" name="param24" title="Текст письма (Админу): " list="{text}">Уважаемый Администратор сайта [SITENAME]!\r\nУ Вас зарегистрировался пользователь [USERNAME]\r\nЕго регистрационные данные:\r\nЛогин: [USERLOGIN]\r\nE-mail: [USEREMAIL]</parametr>
+	<parametr lang="ru" name="param33" title="Ссылка на лицензию" list="">license.html</parametr>
+	<parametr lang="ru" name="param46" title="Выводить подтверждение лицензионного соглашения:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param47" title="" list=""></parametr>
+	<parametr lang="ru" name="param48" title="::::::::: ПАРАМЕТРЫ ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param49" title="Подтверждение о сборе персональных данных" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param50" title="Текст подтверждения о сборе персональных данных" list="{text}">Нажимая кнопку «Отправить», я принимаю условия &amp;lt;a class=&amp;quot;lnkLicense&amp;quot; href=&amp;quot;/license/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Пользовательского соглашения&amp;lt;/a&amp;gt; и даю своё согласие на обработку моих персональных данных</parametr>
+	<parametr lang="ru" name="param51" title="Подтверждение дополнительных условий" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param52" title="Текст подтверждения дополнительных условий" list="{text}">Принимаю &amp;lt;a href=&amp;quot;#&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;условия&amp;lt;/a&amp;gt;</parametr>
+</params>

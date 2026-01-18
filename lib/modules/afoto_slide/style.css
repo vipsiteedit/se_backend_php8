@@ -1,0 +1,15 @@
+﻿.photoAlbumAdapt .obj {
+    margin-bottom:30px; margin-right:5px; display:inline-block; text-align:center; vertical-align:top;
+}
+.photoAlbumAdapt .obj .photoPreview .textLink {
+    margin-top:5px; display:block;
+}
+.photoAlbumAdapt .photoDetailed .objectTitle {
+    margin-bottom:10px; display:block; width:100%;
+}
+.photoAlbumAdapt .photoDetailed .objectImage {
+    clear:both;
+}
+.photoAlbumAdapt .photoDetailed .buttonSend {
+    margin-top:10px; display:block; clear:both;
+}

@@ -1,0 +1,40 @@
+shop_price_measure:
+   tableName: shop_price_measure
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_price_measure_id
+     id_price:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_weight_view:
+       type: integer
+       unsigned: true
+       index: true
+     id_weight_edit:
+       type: integer
+       unsigned: true
+       index: true
+     id_volume_view:
+       type: integer
+       unsigned: true
+       index: true
+     id_volume_edit:
+       type: integer
+       unsigned: true
+       index: true
+   relations:
+     shop_price:
+       local: id_price
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE

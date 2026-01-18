@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param27" title=":::Модерирование:::" list=""></parametr>
+	<parametr lang="rus" name="param28" title="Модераторы: (Через запятую)" list=""></parametr>
+	<parametr lang="rus" name="param29" title="Текст ссылки модераторской" list="">Модераторская</parametr>
+	<parametr lang="rus" name="param37" title="Текст &amp;quot;Редактировать точку&amp;quot;" list="">Редактировать точку</parametr>
+	<parametr lang="rus" name="param38" title="Текст &amp;quot;Удалить точку&amp;quot;" list="">Удалить точку</parametr>
+	<parametr lang="rus" name="param45" title="Количество символов в балуне" list="">20</parametr>
+	<parametr lang="rus" name="param46" title="Символ обрезки текста" list="">...</parametr>
+	<parametr lang="rus" name="param14" title="::: ПАРАМЕТРЫ :::" list=""></parametr>
+	<parametr lang="rus" name="param15" title="Включить отображение Yandex-карты:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param17" title="Ключ Яндекс-карты" list="">[%sitelicense%]</parametr>
+	<parametr lang="rus" name="param16" title=":::Элементы управления главной карты:::" list=""></parametr>
+	<parametr lang="rus" name="param58" title="Элемент масштабирования (виджет)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param59" title="Элемент масштабирования (колесиком мыши)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param60" title="Элемент поиска по карте" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="rus" name="param57" title=":::Элементы управления карты модераторов:::" list=""></parametr>
+	<parametr lang="rus" name="param61" title="Элемент масштабирования (виджет)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param62" title="Элемент масштабирования (колесиком мыши)" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param63" title="Элемент поиска по карте" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param12" title=":::Иконки точек:::" list=""></parametr>
+	<parametr lang="rus" name="param42" title="Иконка точки 1 уровня приближения" list="default#lightbluePoint|Большая светло-голубая,default#lightblueSmallPoint|Малая светло-голубая,default#bluePoint|Большая голубая,default#blueSmallPoint|Малая голубая,default#darkbluePoint|Большая синия,default#darkblueSmallPoint|Малая синия,default#greenPoint|Большая зеленая,default#greenSmallPoint|Малая зеленая,default#bankIcon|Доллар,default#dpsIcon|ДПС,default#metroMoscowIcon|Метро,default#hospitalIcon|Больница,default#wifiIcon|Wi-Fi,default#cafeIcon|Кафе,default#airplaneIcon|Аэропорт,default#anchorIcon|Порт,default#mailPostIcon|Почта,default#shopIcon|Магазин,s|Своя иконка">default#darkblueSmallPoint</parametr>
+	<parametr lang="rus" name="param43" title="Иконка точки 2 уровня приближения" list="default#lightbluePoint|Большая светло-голубая,default#lightblueSmallPoint|Малая светло-голубая,default#bluePoint|Большая голубая,default#blueSmallPoint|Малая голубая,default#darkbluePoint|Большая синия,default#darkblueSmallPoint|Малая синия,default#greenPoint|Большая зеленая,default#greenSmallPoint|Малая зеленая,default#bankIcon|Доллар,default#dpsIcon|ДПС,default#metroMoscowIcon|Метро,default#hospitalIcon|Больница,default#wifiIcon|Wi-Fi,default#cafeIcon|Кафе,default#airplaneIcon|Аэропорт,default#anchorIcon|Порт,default#mailPostIcon|Почта,default#shopIcon|Магазин,s|Своя иконка">default#blueSmallPoint</parametr>
+	<parametr lang="rus" name="param44" title="Иконка точки" list="default#lightbluePoint|Большая светло-голубая,default#lightblueSmallPoint|Малая светло-голубая,default#bluePoint|Большая голубая,default#blueSmallPoint|Малая голубая,default#darkbluePoint|Большая синия,default#darkblueSmallPoint|Малая синия,default#greenPoint|Большая зеленая,default#greenSmallPoint|Малая зеленая,default#bankIcon|Доллар,default#dpsIcon|ДПС,default#metroMoscowIcon|Метро,default#hospitalIcon|Больница,default#wifiIcon|Wi-Fi,default#cafeIcon|Кафе,default#airplaneIcon|Аэропорт,default#anchorIcon|Порт,default#mailPostIcon|Почта,default#shopIcon|Магазин,s|Своя иконка">default#lightbluePoint</parametr>
+	<parametr lang="rus" name="param50" title="Ширина своей иконки" list="">18</parametr>
+	<parametr lang="rus" name="param51" title="Высота своей иконки" list="">29</parametr>
+	<parametr lang="rus" name="param52" title="Смещение Х своей иконки" list="">-9</parametr>
+	<parametr lang="rus" name="param53" title="Смещение У своей иконки" list="">-29</parametr>
+	<parametr lang="rus" name="param54" title=":::Обработка картинок:::" list=""></parametr>
+	<parametr lang="rus" name="param33" title="Ширина рисунка &amp;quot;превью&amp;quot;: " list="">100</parametr>
+	<parametr lang="rus" name="param34" title="Ширина рисунка &amp;quot;подробно&amp;quot;:" list="">300</parametr>
+	<parametr lang="rus" name="param55" title="Отображать  превью 1 в подсказке" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param56" title="Отображать  превью 2 в подсказке" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="rus" name="param19" title=":::Тексты:::" list=""></parametr>
+	<parametr lang="rus" name="param20" title="Текст &amp;quot;Текст всплывающей подсказки&amp;quot;" list="">Текст всплывающей подсказки</parametr>
+	<parametr lang="rus" name="param21" title="Текст &amp;quot;Подробный просмотр&amp;quot;" list="">Подробный просмотр</parametr>
+	<parametr lang="rus" name="param22" title="Текст &amp;quot;Рисунок 1&amp;quot;" list="">Рисунок 1</parametr>
+	<parametr lang="rus" name="param23" title="Текст &amp;quot;Рисунок 2&amp;quot;" list="">Рисунок 2</parametr>
+	<parametr lang="rus" name="param24" title="Кнопка &amp;quot;Создать точку&amp;quot;" list="">Создать точку</parametr>
+	<parametr lang="rus" name="param25" title="Кнопка &amp;quot;Отмена&amp;quot;" list="">Отмена</parametr>
+	<parametr lang="rus" name="param26" title="Кнопка &amp;quot;Добавить точку&amp;quot;" list="">Добавить точку</parametr>
+	<parametr lang="rus" name="param30" title="Кнопка &amp;quot;Назад&amp;quot;" list="">Назад</parametr>
+	<parametr lang="rus" name="param31" title="Текст &amp;quot;Координаты&amp;quot;" list="">Координаты</parametr>
+	<parametr lang="rus" name="param32" title="Текст &amp;quot;Координаты введены не корректно&amp;quot;" list="">Координаты введены не корректно</parametr>
+	<parametr lang="rus" name="param35" title="Текст &amp;quot;Подробно&amp;quot;" list="">Подробно</parametr>
+	<parametr lang="rus" name="param36" title="Текст &amp;quot;Поместите в нужное место&amp;quot;" list="">Поместите в нужное место.</parametr>
+	<parametr lang="rus" name="param39" title="Текст кнопки &amp;quot;Сохранить изменения&amp;quot;" list="">Сохранить изменения</parametr>
+	<parametr lang="rus" name="param40" title="Текст заголовка &amp;quot;Удалить картинку?&amp;quot;" list="">Удалить картинку?</parametr>
+	<parametr lang="rus" name="param41" title="Текст заголовка &amp;quot;Удалить точку?&amp;quot;" list="">Удалить точку ?</parametr>
+	<parametr lang="rus" name="param47" title="Заголовок &amp;quot;Форма добавления точки&amp;quot;" list="">Форма добавления точки</parametr>
+	<parametr lang="rus" name="param48" title="Заголовок &amp;quot;Форма редактирования точки&amp;quot;" list="">Форма редактирования точки</parametr>
+	<parametr lang="rus" name="param49" title="Заголовок &amp;quot;Подробный просмотр&amp;quot;" list="">Подробный просмотр</parametr>
+</params>

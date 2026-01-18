@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="btn" act="url" name="field" />
+		<field type="text" name="field">
+			<title lang="ru">URL:</title>
+		</field>
+		<field type="text" name="title">
+			<title lang="ru">Наименование сайта:</title>
+		</field>
+		<field type="text" name="note">
+			<title lang="ru">Картинка ссылки:</title>
+		</field>
+		<field type="text" name="text">
+			<title lang="ru">Текст ссылки:</title>
+		</field>
+	</objects>
+</structure>

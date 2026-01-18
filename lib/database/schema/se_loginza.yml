@@ -1,0 +1,36 @@
+se_loginza:
+   tableName: se_loginza
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: se_loginza_id
+     uid:
+       type: string(50)
+       notnull: true
+       unique: true
+     user_id:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     identity:
+       type: string(255)
+       notnull: true
+     provider:
+       type: string(255)
+       notnull: true
+     email:
+       type: string(20)
+     photo:
+       type: string(255)
+     real_user_id:
+       type: integer
+       index: true
+   values:

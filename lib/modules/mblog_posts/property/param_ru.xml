@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Число постов на странице:" list="">10</parametr>
+	<parametr lang="ru" name="param15" title="Добавлять публикации разрешено:" list="1|Зарегистрированным пользователям,2|Модераторам сайта,3|Администраторам">1</parametr>
+	<parametr lang="ru" name="param2" title="Модераторы блога: (Через запятую)" list=""></parametr>
+	<parametr lang="ru" name="param41" title="Включить рейтинг ?" list="on|Включено,off|Выключено">on</parametr>
+	<parametr lang="ru" name="param35" title="Включить счетчик просмотров ? " list="on|Включено,off|Выключено">on</parametr>
+</params>

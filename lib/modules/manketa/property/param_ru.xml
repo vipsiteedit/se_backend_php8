@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param35" title="::: П А Р А М Е Т Р Ы  П И С Ь М А :::" list="=========================">============================</parametr>
+	<parametr lang="ru" name="param1" title="E-mail администратора (КОМУ) - вводите через точку с запятой, если несколько" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param52" title="Отравлять письма от email пользователя" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param20" title="" list=""></parametr>
+	<parametr lang="ru" name="param2" title="Тема письма" list="">Анкета</parametr>
+	<parametr lang="ru" name="param4" title="Текст в начале письма" list="{text}">Начало письма</parametr>
+	<parametr lang="ru" name="param5" title="Текст в конце письма" list="{text}">Конец письма</parametr>
+	<parametr lang="ru" name="param3" title="Текст автоответчика" list="">Ваша анкета отправлена!</parametr>
+	<parametr lang="ru" name="param32" title="" list=""></parametr>
+	<parametr lang="ru" name="param33" title="::: Б Л О К  З А Я В И Т Е Л Я :::" list="=========================">============================</parametr>
+	<parametr lang="ru" name="param21" title="Показывать поле &amp;quot;Имя&amp;quot;?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param23" title="&amp;quot;Имя&amp;quot; - обязательное поле?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param24" title="Показывать поле &amp;quot;Адрес&amp;quot;?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param26" title="&amp;quot;Адрес&amp;quot; - обязательное поле?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param27" title="Показывать поле &amp;quot;Телефон&amp;quot;" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param29" title="&amp;quot;Телефон&amp;quot; - обязательное поле?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param38" title="Показывать поле &amp;quot;e-mail&amp;quot;" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param39" title="E-mail - обязательное поле?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param31" title="" list=""></parametr>
+	<parametr lang="ru" name="param34" title="::: З А Щ И Т А  О Т  С П А М А :::" list="=========================">============================</parametr>
+	<parametr lang="ru" name="param14" title="Включить защиту от спама" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param41" title="" list=""></parametr>
+	<parametr lang="ru" name="param42" title="::: О Т О Б Р А Ж Е Н И Е  Р Е З У Л Ь Т А Т О В  В  П И С Ь М Е :::" list="=========================">============================</parametr>
+	<parametr lang="ru" name="param43" title="Текст при выбранном пункте &amp;quot;Флажок&amp;quot;" list="">Да</parametr>
+	<parametr lang="ru" name="param45" title="Текст при невыбранном пункте &amp;quot;Флажок&amp;quot;" list="">Нет</parametr>
+	<parametr lang="ru" name="param48" title="" list=""></parametr>
+	<parametr lang="ru" name="param47" title=":::ПАРАМЕТРЫ ПРИКРЕПЛЯЕМОГО ФАЙЛА:::" list="============================">============================</parametr>
+	<parametr lang="ru" name="param51" title="Максимальный размер загружаемого файла (Кб)" list="">200</parametr>
+	<parametr lang="ru" name="param53" title="" list=""></parametr>
+	<parametr lang="ru" name="param54" title="::::::::: ПАРАМЕТРЫ ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param55" title="Подтверждение о сборе персональных данных" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param56" title="Текст подтверждения о сборе персональных данных" list="{text}">Нажимая кнопку «Оформить», я принимаю условия &amp;lt;a class=&amp;quot;lnkLicense&amp;quot; href=&amp;quot;/license/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Пользовательского соглашения&amp;lt;/a&amp;gt; и даю своё согласие на обработку моих персональных данных</parametr>
+	<parametr lang="ru" name="param57" title="Подтверждение дополнительных условий" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param58" title="Текст подтверждения дополнительных условий" list="{text}">Принимаю &amp;lt;a href=&amp;quot;#&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;условия&amp;lt;/a&amp;gt;</parametr>
+</params>

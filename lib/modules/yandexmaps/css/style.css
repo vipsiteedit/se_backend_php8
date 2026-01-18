@@ -1,0 +1,19 @@
+.geopoints #YMapsID {clear:both;}
+.geopoints.moders #YMapsID {clear:both;}
+.geopoints.insertpoint .ContetntTitle {font-weight:bolder;}
+.geopoints.insertpoint #YMapsID {clear:both;}
+.geopoints.insertpoint .errortext {color:#FF0000; margin-bottom:10px;}
+.geopoints.insertpoint .form {width:360px;}
+.geopoints.insertpoint .form .obj {margin-bottom:15px;}
+.geopoints.insertpoint .form .obj .title {margin-bottom:5px; width:200px; float:left;}
+.geopoints.insertpoint .form .obj.text .field textarea {width:360px; height:150px;}
+.geopoints.editpoint .ContetntTitle {font-weight:bolder;}
+.geopoints.editpoint #YMapsID {clear:both;}
+.geopoints.editpoint .errortext {color:#FF0000; margin-bottom:10px;}
+.geopoints.editpoint .form {width:360px;}
+.geopoints.editpoint .form .obj {margin-bottom:15px;}
+.geopoints.editpoint .form .obj .title {margin-bottom:5px; width:200px; float:left;}
+.geopoints.editpoint .form .obj.text .field textarea {width:360px; height:150px;}
+.geopoints.editpoint .form .imgdel2 .field {float:left;}
+.geopoints.editpoint .form .delete .field {float:left;}
+.geopoints.seepoint .ContetntTitle {font-weight:bolder;}

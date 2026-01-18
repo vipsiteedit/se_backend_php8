@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param16" title="Плавающая корзина" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param17" title="Возможность перетаскивать товары в корзину" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param19" title="Режим корзины по умолчанию" list="ext|Расширенный,short|Сжатый">ext</parametr>
+	<parametr lang="ru" name="param20" title="Разрешить пользователям менять режим" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param21" title="Округление цен" list="N|Нет,Y|Да">N</parametr>
+	<parametr lang="ru" name="param1" title="Группа для оптовых цен" list="">opt</parametr>
+	<parametr lang="ru" name="param2" title="Группа для корпоративных цен" list="">corp</parametr>
+	<parametr lang="ru" name="param3" title="Путь к магазину:" list="">catalogue</parametr>
+	<parametr lang="ru" name="param4" title="Путь к корзине:" list="">shopcart</parametr>
+	<parametr lang="ru" name="param5" title="Текст &amp;quot;Нет товаров&amp;quot;" list="">Нет товаров</parametr>
+	<parametr lang="ru" name="param6" title="Текст &amp;quot;Корзина пустая&amp;quot;" list="">[корзина пустая]</parametr>
+	<parametr lang="ru" name="param7" title="Текст &amp;quot;всего товаров&amp;quot;" list="">всего товаров</parametr>
+	<parametr lang="ru" name="param8" title="Текст &amp;quot;на сумму&amp;quot;" list="">на сумму</parametr>
+	<parametr lang="ru" name="param9" title="Текст &amp;quot;сумма скидки&amp;quot;" list="">сумма скидки</parametr>
+	<parametr lang="ru" name="param10" title="Текст &amp;quot;сумма заказа&amp;quot;" list="">сумма заказа</parametr>
+	<parametr lang="ru" name="param12" title="Текст заголовка корзины" list="">Корзина</parametr>
+	<parametr lang="ru" name="param13" title="Текст кнопки &amp;quot;перейти в корзину&amp;quot;" list="">В корзину</parametr>
+	<parametr lang="ru" name="param11" title="Подсказка &amp;quot;удалить товар&amp;quot;" list="">удалить товар из корзины</parametr>
+	<parametr lang="ru" name="param14" title="Подсказка &amp;quot;обработка запроса&amp;quot;" list="">обработка запроса...</parametr>
+	<parametr lang="ru" name="param15" title="Подсказка &amp;quot;сменить режим&amp;quot;" list="">сменить режим корзины</parametr>
+	<parametr lang="ru" name="param18" title="Подсказка &amp;quot;Перейти в корзину&amp;quot;" list="">Перейти  в корзину</parametr>
+</params>

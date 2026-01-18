@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Link &amp;quot;detail&amp;quot;:" list="">detail</parametr>
+	<parametr lang="rus" name="param2" title="Button text &amp;quot;back&amp;quot;:" list="">Back</parametr>
+	<parametr lang="rus" name="param3" title="Enable display brief text when viewing:" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="rus" name="param4" title="Enable positioning detailed content:" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="rus" name="param5" title="Include the ability to share in social networks:" list="Y|Yes,N|No">Y</parametr>
+	<parametr lang="rus" name="param6" title="Your affiliate ID:" list=""></parametr>
+	<parametr lang="rus" name="param7" title="Number of records per page:" list="">30</parametr>
+</params>

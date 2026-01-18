@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Число записей на странице" list="">30</parametr>
+	<parametr lang="rus" name="param2" title="Ссылка &amp;quot;Вернуться назад&amp;quot;" list="">Вернуться</parametr>
+	<parametr lang="rus" name="param3" title="Уровень прозрачности фона (от 0 до 100)" list="">30</parametr>
+	<parametr lang="rus" name="param4" title="Текст &amp;quot;Изображение&amp;quot;" list="">Изображение&amp;nbsp;</parametr>
+	<parametr lang="rus" name="param5" title="Текст &amp;quot;из&amp;quot;" list="">&amp;nbsp;из&amp;nbsp;</parametr>
+	<parametr lang="rus" name="param6" title="Текст кнопки &amp;quot;Закрыть&amp;quot;" list="">&amp;nbsp;</parametr>
+	<parametr lang="rus" name="param7" title="Текст кнопки &amp;quot;Вперед&amp;quot;" list="">&amp;nbsp;</parametr>
+	<parametr lang="rus" name="param8" title="Текст кнопки &amp;quot;Назад&amp;quot;" list="">&amp;nbsp;</parametr>
+	<parametr lang="rus" name="param10" title="Текст &amp;quot;Загрузка изображения&amp;quot;" list="">Загрузка...</parametr>
+	<parametr lang="rus" name="param13" title="::: Размеры картинок :::" list=""></parametr>
+	<parametr lang="rus" name="param11" title="Размер картики просмотра (px):" list="{pwidth}">150</parametr>
+	<parametr lang="rus" name="param12" title="Размер картинки просмотра (px):" list="{width}">800</parametr>
+</params>

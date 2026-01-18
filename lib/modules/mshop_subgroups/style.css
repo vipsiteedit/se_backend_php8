@@ -1,0 +1,237 @@
+﻿.shopgroups .groupPath {
+    margin-bottom:20px;
+}
+.shopgroups .separPath {
+    padding-left:5px; padding-right:5px;
+}
+.shopgroups .groupItem {
+    display:inline-block; 
+    vertical-align:top;
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+    font-size: 14px;
+    margin: 0 15px 30px 15px;
+    width: 130px;
+    
+}    
+.shopgroups .groupItem .mainGroup {
+    font-weight:bold;
+}
+.shopgroups .celltlbGroupImg {
+    margin-bottom:3px;
+}
+
+.shopgroups .celltlbGroupImg .lnkGroupImg {
+   width: 130px;
+   height: 130px;
+   display:inline-block;
+   position:relative;
+}
+
+
+.shopgroups .celltlbGroupImg .lnkGroupImg .imgtlbGroupImg {
+    display:block;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+}
+
+.shopgroups .subgroupsList {
+    font-size:85%;
+}
+.shopgroups .subgroupsList .subItem {
+    margin-top:3px; margin-right:3px; display:inline-block;
+}
+.shopgroups .subgroupsList .lnkSubGrImage {
+    display:block;
+}
+.shopgroups .subgroupsList .vline {
+    margin-right:3px;
+}
+.shopgroups .groupTitle {
+    font-size:180%; font-weight:normal; margin-bottom:10px;
+}
+.shopgroups .blockGroupImage {
+    margin-right:20px; float:left;
+}
+.shopgroups .groupcomment {
+    overflow:hidden;
+}
+.shopgroups .subgroupsTitle {
+    font-size:100%; font-weight:bold; margin-top:10px;
+}
+.shopgroups .cellGroup {
+    font-size:85%; margin-top:10px; margin-right:10px; display:inline-block; text-align:center; vertical-align:top;
+}
+.shopgroups .brandsTitle {
+    font-size:100%; font-weight:bold;
+}
+.shopgroups .brandItem {
+    margin-top:5px; display:inline-block; padding:2px; text-align:center; vertical-align:top;
+}
+.shopgroups .brandItem .blockImage {
+    display:inline-block; width:100%;
+}
+.shopgroups .brandItem .brandImage {
+    margin:auto; margin-bottom:0px; display:block;
+}
+.shopgroups .brandItem .blockTitle {
+    font-size:85%;
+}
+.shopgroups .brandItem.selected {
+    background-image:url(mshop_groups_big52/black_10.png);
+}
+
+.shopgroups .groupContent {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 0;
+}
+
+.shopgroups .subgroupsList {
+    font-size: 85%;
+    display: none;
+}
+
+.shopgroups .celltlbGroupImg .lnkGroupImg:hover {
+    -moz-box-shadow: 0px 0px 0px 3px #DD7964;
+    -webkit-box-shadow: 0px 0px 0px 3px #ff9432;
+    box-shadow: 0px 0px 0px 3px #ff9432;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.shopgroups .general-group-container {
+   padding: 0 15px;
+   margin-bottom: 40px;
+   margin-top: 0;
+} 
+
+.shopgroups .general-group-container > div {
+    font-size: 16px;
+    display: table;
+    vertical-align: top;     
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.shopgroups .blockGroupImage {
+    margin-right: 20px;
+    float: none;
+    display: block;
+    width: 137.1428px;
+    height: 137.1428px;
+    display: table-cell;
+    vertical-align: top;
+    position: relative;
+}
+
+.shopgroups .general-group-text {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 30px;
+}
+
+.shopgroups .groupTitle {
+    font-size: 180%;
+    font-weight: normal;
+    margin-bottom: 0;
+    padding: 0;
+    margin: 0 0 10px -2px;
+    display: block;
+}
+
+.shopgroups .groupImage {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.shopgroups a.lnkPath {
+    color: #838383;
+    line-height: 2em;
+}
+
+.shopgroups .groupPath {
+    padding: 0;
+    margin: 0 0 30px;
+    color: #838383;
+    line-height: 2em;
+    width: 100%;
+}
+
+.shopgroups .groupPath > div {
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+@media (max-width:1199px) {
+    .shopgroups .groupItem {  
+        width: 131.667px;    
+    }    
+    .shopgroups .celltlbGroupImg .lnkGroupImg {
+        width: 131.667px;
+        height: 131.667px;
+    }
+}
+
+@media (max-width:991px) {
+    .shopgroups .groupItem {  
+        width: 157.5px;    
+    }    
+    .shopgroups .celltlbGroupImg .lnkGroupImg {
+        width: 157.5px;
+        height: 157.5px;
+    }
+}
+
+@media (max-width:767px) {
+    .shopgroups .groupItem {  
+        width: 130px;    
+    }    
+    .shopgroups .celltlbGroupImg .lnkGroupImg {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+
+@media (min-width:1200px) {
+    .shopgroups .groupItem {  
+        width: 137.1428px;    
+    }    
+    .shopgroups .celltlbGroupImg .lnkGroupImg {
+        width: 137.1428px;
+        height: 137.1428px;
+    }
+
+}

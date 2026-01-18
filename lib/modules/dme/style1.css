@@ -1,0 +1,22 @@
+﻿body {
+	background-color: #ffffff !important;
+	background: #ffffff !important;
+}
+a, p, span, li, ul, td, tr, table, div {
+	color: #000 !important;
+}
+p a, span a, li a, ul a, td a, tr a, table a, div, div a, .eTitle, .eTitle a, .eBlock, .eBlock a {
+	color: #000 !important;
+}
+header, footer, #header, #footer, #content, #body, div, span, td, section, header, aside, h1, h2, h3, h4, h5  {
+	background: none !important; color: #000 !important;
+}
+
+body a {
+background: none !important;
+}
+div img, span img {display:inline;}
+
+.dmcolor1 {
+    text-decoration:underline;
+}

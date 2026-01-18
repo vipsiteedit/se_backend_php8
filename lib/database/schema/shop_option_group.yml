@@ -1,0 +1,29 @@
+shop_option_group:
+   tableName: shop_option_group
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_option_group_id
+     name:
+       type: string(255)
+       notnull: true
+     description:
+       type: text
+     sort:
+       type: integer
+       notnull: true
+       index: true
+     is_active:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+       default: 1
+

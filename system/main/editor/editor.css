@@ -1,0 +1,273 @@
+/*.groupWrapper {
+   outline: 3px solid #CCCCCC;
+   border-radius: 8px 8px 8px 8px;
+}
+
+.groupItem {
+    border-radius: 6px;
+    margin: 0 1em 1em 0;
+}*/
+
+#pageMenu .pageMenuIcon, #pageMainmenu .pageMenuIcon {
+	display: inline-block;
+	width: 16px;
+	height:16px;
+	position: absolute;
+    background: url("/system/main/editor/images/edit_menu.gif") no-repeat scroll 0 0 transparent;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+.se-edit-content {
+   display: inline-block;
+    padding-top: 2px;
+}	
+
+.groupWrapper, .ggroupWrapper {
+   /*outline: 3px solid #CCCCCC;*/
+   border-radius: 8px 8px 8px 8px;
+   min-height: 20px;
+}
+
+.groupWrapper .cico-a, .ggroupWrapper .cico-a {
+    margin-bottom: 0px; /*27px*/
+	cursor: pointer;
+}
+
+.recordsWrapper {
+/*	padding: 20px 0 0 0; */
+}
+
+.cico-t {
+	margin: 0 3px;
+}
+
+.se-edit-content-head {
+    display: inline-block;
+    margin: 0 0 0 28px;
+    vertical-align: middle;
+	font: 11px tahoma;
+}
+
+.se-edit-content-head .cico-e {
+    position: relative;
+    top: 3px;
+	margin-left: 4px;
+	cursor: pointer;
+}
+
+.groupItem {
+    border-radius: 6px;
+    margin: 0 1em 1em 0;
+	outline: #85A8C6 dashed 1px;
+	min-height: 10px;
+/*    background: transparent !important; */
+}
+
+.se-edit-content {
+   display: inline-block;
+    padding-top: 2px;
+}	
+
+.se-editor-logo {
+	position: absolute; 
+	visibility: hidden;
+    padding: 5px;
+	margin: 0px;
+    -webkit-border-radius:5px 5px 5px 5px; -moz-border-radius:5px 5px 5px 5px; border-radius:5px 5px 5px 5px;
+    background: #ffffff;
+    border: 1px solid #666666;
+	-moz-box-shadow: 5px 5px 10px #000; -webkit-box-shadow: 5px 5px 10px #000; box-shadow: 5px 5px 10px #000;
+}
+
+.editorLinkAddPhotos {
+	float: right;
+	margin: 10px;
+}
+.editorRecordsPhotos .addfilephoto {
+	width: 50%;
+}
+.editorRecordsPhotos {
+    width: 95%;
+    padding: 5px;
+	margin: 0px;
+    -webkit-border-radius:5px 5px 5px 5px; -moz-border-radius:5px 5px 5px 5px; border-radius:5px 5px 5px 5px;
+    background: #ffffff;
+    border: 1px solid #666666;
+	-moz-box-shadow: 5px 5px 10px #000; -webkit-box-shadow: 5px 5px 10px #000; box-shadow: 5px 5px 10px #000;
+
+}
+
+.se-editor-sitetitle {
+	left: inherit;
+	top: inherit;
+	position: absolute; 
+	visibility: hidden;
+    padding: 5px;
+	margin: 0px;
+    /*-webkit-border-radius:5px 5px 5px 5px; -moz-border-radius:5px 5px 5px 5px; border-radius:5px 5px 5px 5px; */
+    background: #ffffff;
+    border: 1px solid #666666;
+	/*-moz-box-shadow: 5px 5px 10px #000; -webkit-box-shadow: 5px 5px 10px #000; box-shadow: 5px 5px 10px #000; */
+}
+
+#cont_txt_edit {position:fixed; width: 800px; TOP: 0px; LEFT: 0px; z-index:999;}
+
+.ui-autocomplete-loading { background: url('/lib/js/ui/images/ui-anim_basic_16x16.gif') right center no-repeat; }
+  
+#bbox {
+	margin: 15px;
+}
+
+#hlp {
+	display: inline-block;
+    float: right;
+	font: 13px Arial,Helvetica,sans-serif;
+    height: 30px;
+    left: 3px;
+    position: relative;
+    top: 0;
+    width: 175px;
+}
+
+#hlp .ihlp {
+    background: url("/system/main/editor/ihlp.png") no-repeat scroll 0 0 #0860a8;
+	margin: 0 2px 0 0;
+    display: inline-block;
+    float: left;
+    width: 22px;
+    height: 19px;
+    position: relative;
+    left: 0px;
+    top: -1px;
+}
+
+#close { 
+    background: url("/system/main/editor/cls.png") no-repeat scroll 0 0 #0860a8;
+    display: inline-block;
+    float: right;
+    height: 22px;
+    position: relative;
+    right: -6px;
+    top: -6px;
+    width: 22px;
+	cursor:pointer;
+}
+
+.traz {
+	color: #3a3939;
+	font: 18px Arial,Helvetica,sans-serif;
+} 
+ 
+.EdbuttonSend {
+    color: #000000;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font: 14px Arial,Helvetica,sans-serif;
+} 
+option {
+	color: #000000;  
+}
+
+textarea{
+	color: #000000;  
+}
+input {
+	color: #000000;
+}
+.edtitletext {
+	color: #000000;
+}
+
+.ttltab {
+    margin: 10px auto;
+} 
+ 
+.actp {
+	border-bottom: 1px solid #878686;
+    color: #4B4B4B;
+    display: block;
+    font: bold 12px Arial,Helvetica,sans-serif;
+    margin: 10px 0;
+    padding-bottom: 4px;
+}
+
+.ttltd {
+	font: 12px Arial,Helvetica,sans-serif;
+	color: #4B4B4B;
+	white-space: nowrap;
+}
+ 
+.ttltd b {
+    margin: 2px 5px;
+} 
+ 
+.ttltd div {
+    margin: 4px auto 4px;
+} 
+ 
+#rbox {  
+    -webkit-border-radius:0px 15px 15px 15px; -moz-border-radius:0px 15px 15px 15px; border-radius:15px 15px 15px 15px;
+    background: none repeat scroll 0 0 #0860a8;
+    border: 3px solid #DFDEDE;
+    font: 14px Arial,Helvetica,sans-serif;
+    min-height: 265px;
+    padding: 0px;
+    position: relative;
+    width: 100%;  
+	display: inline-block;
+  }
+  
+#editbox { margin: 2% auto 0; color:#000000; min-width:800px; max-width:80%; }
+
+#tabsbox {
+  text-align: left;
+}
+
+#tabsbox b {
+    -webkit-border-radius:5px 5px 0px 0px; -moz-border-radius:5px 5px 0px 0px; border-radius:5px 5px 0px 0px;
+	background: url('/system/main/editor/p_m.gif') repeat-x scroll 0 0 #0860a8;
+    display: inline-block;
+    font: 14px Arial,Helvetica,sans-serif;
+    height: 29px;
+    margin: 0;
+}
+
+#tabsbox a {
+    display: inline-block;
+    font: bold 14px Arial,Helvetica,sans-serif;
+    height: 20px;
+    margin: 7px 12px 6px;
+}
+
+#tabsbox b.actp {
+	background: url('/system/main/editor/active_p.gif') repeat-x scroll 0 0 #0860a8;
+}
+
+#tabsbox b.actp a {
+	color: #878585;
+	text-decoration:none;
+	cursor:text;
+}
+
+optgroup { color: #000000;}
+#edittext { width: 100%;}
+
+/*  Диалоги */
+.ui-dialog { position: absolute; padding: .2em; width: 300px; overflow: hidden; }
+.ui-dialog .ui-dialog-titlebar { padding: .4em 1em; position: relative;  }
+.ui-dialog .ui-dialog-titlebar-close { position: absolute; right: .3em; top: 50%; width: 19px; margin: -10px 0 0 0; padding: 1px; height: 18px; }
+.ui-dialog .ui-dialog-titlebar-close span { display: block; margin: 1px; }
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus { padding: 0; }
+.ui-dialog .ui-dialog-content { position: relative; border: 0; padding: .5em 1em; background: none; overflow: auto; zoom: 1; }
+.ui-dialog .ui-dialog-buttonpane { text-align: left; border-width: 1px 0 0 0; background-image: none; margin: .5em 0 0 0; padding: .3em 1em .5em .4em; }
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset { float: right; }
+.ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
+.ui-draggable .ui-dialog-titlebar { cursor: move; }
+
+
+fieldset { padding:0; border:0; margin-top: 0px; }
+
+ @import "record_editor.css"; 

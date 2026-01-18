@@ -1,0 +1,82 @@
+﻿.e_shopvit .goodsParamTitle {padding-right:6px; text-align:right;}
+.e_shopvit .goodsContent .goodsNavigator {margin-top:10px; margin-bottom:10px; clear:both;}
+.e_shopvit .goodsContent .goodsNavigator .pagenactive {width:40px;}
+.e_shopvit .goodsGoods {display:inline-block;}
+.e_shopvit .tablePrice {width:100%;}
+.e_shopvit .tablePrice th {padding-top:5px; padding-bottom:10px; padding-left:2px; padding-right:2px;}
+.e_shopvit .tablePrice .tableRow td {padding-bottom:20px; padding-left:2px; padding-right:2px; text-align:left; vertical-align:top;}
+.e_shopvit .tablePrice .tableRow .hpicture {padding-left:10px; padding-right:10px; position:relative;}
+.e_shopvit .tablePrice .tableRow .hpicture > div {position:relative;}
+.e_shopvit .tablePrice .tableRow .hpicture .image {position:relative;}
+.e_shopvit .tablePrice .tableRow .hname {width:20%;}
+.e_shopvit .tablePrice .tableRow .hart {font-size:80%; display:block;}
+.e_shopvit .tablePrice .divparam {margin-top:10px;}
+.e_shopvit .tablePrice .goodsParamValue {display:block;}
+.e_shopvit .tablePrice .tableRow .hnote {display:block; width:95%; overflow:hidden;}
+.e_shopvit .tablePrice .tableRow .hnote .text {font-size:85%;}
+.e_shopvit .tablePrice .tableRow .hmanuf {width:12%;}
+.e_shopvit .tablePrice .tableRow .hpresence {width:8%;}
+.e_shopvit .tablePrice .tableRow .hpresence .cpresence {display:block; text-align:center;}
+.e_shopvit .tablePrice .tableRow .hprice {text-align:right;}
+.e_shopvit .tablePrice .tableRow .hprice .old_price {display:block; text-align:right; white-space:nowrap;}
+.e_shopvit .tablePrice .tableRow .hprice .new_price {font-size:140%; font-weight:bold; display:block; text-align:right; white-space:nowrap;}
+.e_shopvit .tablePrice .tableRow .hcart {text-align:center;}
+.e_shopvit .tablePrice .tableRow .hcart .buttonAddCart {width:60px; float:right;}
+.e_shopvit .objectTable {margin:5px; margin-bottom:20px; display:inline-block; width:200px; text-align:left; vertical-align:top;}
+.e_shopvit .theGoodContent {text-align:left; vertical-align:top;}
+.e_shopvit .objectTitle {font-size:100%; font-weight:bold; margin:0; margin-bottom:5px;}
+.e_shopvit .blockImage {position:relative;}
+.e_shopvit .objectImage {margin-bottom:10px;}
+.e_shopvit .objectRating {margin-bottom:10px;}
+.e_shopvit .objectNote {font-size:85%;}
+.e_shopvit .objectCode {font-size:85%; margin-top:10px; margin-bottom:5px;}
+.e_shopvit .objectManufacturer {font-size:85%; margin-bottom:5px; display:block;}
+.e_shopvit .objectPresent {margin-top:5px; margin-bottom:5px; display:block;}
+.e_shopvit .priceBox .paramsLineBlock {margin-bottom:5px; display:block;}
+.e_shopvit .priceBox .goodsParam {padding-right:5px;}
+.e_shopvit .objectTable .priceStyle {margin-top:10px; margin-bottom:5px; display:block;}
+.e_shopvit .objectTable .priceStyle .old_price {margin-bottom:5px; display:block; text-align:right; white-space:nowrap;}
+.e_shopvit .objectTable .priceStyle .new_price {font-size:140%; font-weight:bold; display:block; text-align:right; white-space:nowrap;}
+.e_shopvit .buttonBox {margin-top:10px;}
+.e_shopvit .buttonSend.addcart {font-weight:bold; margin-right:8px; display:inline-block;}
+.e_shopvit .buttonSend.details {display:inline-block;}
+.e_shopvit .goodsPathSepar {margin-left:4px; margin-right:4px; display:inline-block;}
+.e_shopvit .goodsDetTitle {font-size:120%;}
+.e_shopvit .goodsDetArticle {font-size:120%;}
+.e_shopvit .goodsLinkPhoto {margin-right:20px; float:left;}
+.e_shopvit .goodsPhoto {float:left;}
+.e_shopvit .goodsDetRating {font-size:85%; margin-bottom:10px; display:inline-block; position:relative;}
+.e_shopvit .goodsDetVotesTitle {margin-right:5px; display:inline-block;}
+.e_shopvit .goodsDetVotes {margin-left:3px; margin-right:3px; display:inline-block;}
+.e_shopvit .goodsDetRatingErr {background-color:#ffffff; border-width:1px; border-color:#d8d8d8; border-style:solid; position:absolute; top:0px; left:0px; padding:5px;}
+.e_shopvit .goodsDetail .manuf {margin-bottom:10px;}
+.e_shopvit .goodsDetail .manuftitle {margin-right:10px;}
+.e_shopvit .goodsDetail .commentBlock {margin-bottom:10px;}
+.e_shopvit .goodsDetail .commentBlock .read {margin-right:10px;}
+.e_shopvit .presence {margin-top:10px; margin-bottom:15px;}
+.e_shopvit .presence .goodsDetCountStyle {font-weight:bold; margin-right:20px;}
+.e_shopvit .goodsDetPriceBox {margin-top:20px; margin-bottom:20px; display:inline-block;}
+.e_shopvit .goodsDetPriceBox .paramsLineBlock {display:block;}
+.e_shopvit .price {margin-top:10px; margin-bottom:20px;}
+.e_shopvit .price .goodsDetPriceNaim {margin-right:10px;}
+.e_shopvit .price .goodsDetPriceStyle .old_price {margin-right:10px;}
+.e_shopvit .price .goodsDetPriceStyle .new_price {font-size:140%; font-weight:bold;}
+.e_shopvit .goodsDetNote {font-size:85%; margin-top:20px; margin-bottom:20px;}
+.e_shopvit .morephotos {clear:left;}
+.e_shopvit .goodsDetText {margin-top:20px; margin-bottom:20px;}
+.e_shopvit .goods .tablePrice .tableRow .hnote .cnote {font-size:85%;}
+.e_shopvit .comment .tableComment .tableRow td {padding-bottom:25px;}
+.e_shopvit .comment .tableComment .comm_date {font-size:90%; margin-right:15px; float:left;}
+.e_shopvit .comment .tableComment .comm_titlename {font-size:90%; font-weight:bold; margin-bottom:10px;}
+.e_shopvit .comment .tableComment .comm_admnote {margin-top:5px; margin-left:20px;}
+.e_shopvit .comment .addComment .error {color:#FF0000;}
+.e_shopvit .comment .addComment .title {margin-top:10px; margin-bottom:5px;}
+.e_shopvit .comment .addComment .areatext {width:100%; height:200px;}
+.e_shopvit .comment .addComment .buttonSend {margin-top:10px; margin-left:auto; display:block;}
+.e_shopvit .comment .comm_info {margin-top:10px;}
+.e_shopvit .objectTable .flag_hit {color:#ffffff; background-color:#ca0000; position:absolute; top:-5px; right:-5px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .objectTable .flag_new {color:#ffffff; background-color:#417d2b; position:absolute; top:20px; right:-5px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .objectTable .user_price {color:#ffffff; background-color:#0080ff; position:absolute; top:-5px; right:-5px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .tablePrice .flag_hit {color:#ffffff; background-color:#ca0000; position:absolute; top:0px; right:0px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .tablePrice .flag_new {color:#ffffff; background-color:#417d2b; position:absolute; top:25px; right:0px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .tablePrice .user_price {color:#ffffff; background-color:#0080ff; position:absolute; top:-5px; right:-5px; padding:2px 4px; white-space:nowrap;}

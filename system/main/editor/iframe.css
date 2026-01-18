@@ -1,0 +1,17 @@
+#seeditor {
+	width:100%;
+	height:100%;
+	heeight:calc(100% - 63px);
+	heeight:-moz-calc(100% - 63px);
+	heeight:-webkit-calc(100% - 63px);
+	
+	position:fixed;
+	top:0px;
+	teop:calc(63px);
+	teop:-moz-calc(63px);
+	teop:-webkit-calc(63px);
+	
+	left:0;
+	display:none;
+	z-index:1000;
+}

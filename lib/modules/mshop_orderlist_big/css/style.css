@@ -1,0 +1,9 @@
+﻿.orderList .mainOrderList {width:100%;}
+.subDetailOrder .tableDetailOrder {width:100%;}
+.subDetailOrder .blockDeliveryInfo {margin-top:15px;}
+.subDetailOrder .blockDeliveryInfo .titleDelivery {font-weight:bold;margin-bottom:5px;}
+.subDetailOrder .deliveryTable .tdDeliveryTitle {width:150px;}
+.subDetailOrder .blockPaidInfo {margin-top:15px;}
+.subDetailOrder .blockPaidInfo .titlePaid {font-weight:bold;margin-bottom:5px;}
+.subDetailOrder .paymentTable .tdPaidTitle {width:150px;}
+.subDetailOrder .blockButton {margin-top:15px;}

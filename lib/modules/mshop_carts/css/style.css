@@ -1,0 +1,22 @@
+﻿.contShopCart .block_message {color:#FF0000;}
+.contShopCart .tableRow td {padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px;}
+.contShopCart .cartitem_name {width:40%;}
+.contShopCart .cartitem_ordered_before {height:40px;}
+.contShopCart .div_cartitem_ordered_before {font-size:11px; border-width:1px; border-color:#ff8080; border-style:solid; vertical-align:middle;}
+.contShopCart .total {margin-top:10px; margin-bottom:10px; text-align:right;}
+.forAuthor {margin-top:20px; width:350px;}
+.forAuthor .title {margin-top:10px; margin-bottom:10px;}
+.forAuthor .obj {display:inline-block; clear:both;}
+.forAuthor .obj label {width:150px; float:left;}
+.forAuthor .obj div {margin-bottom:5px;}
+.forAuthor .obj input {width:100%;}
+.forAuthor .buttonArea {display:inline-block;}
+.forAuthor .buttonArea .buttonSend {float:right;}
+.forAuthor .regForm .block_message {color:#FF0000;}
+.contShopCart .tdInputInfo {width:80%;}
+.contShopCart .inputinfo {width:80%;}
+.contShopCart .tableDelivery .opt_title {font-weight:bold;}
+.contShopCart .tableComm .textareacomm {width:100%;}
+.contShopCart .tableOrder {margin-top:20px;}
+.contShopCart .tableTable.tableOrderTotal {margin-top:10px; margin-bottom:10px;}
+.contShopCart .cellOrderTitle {padding-right:10px; text-align:right;}

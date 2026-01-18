@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="E-Mail администратора сайта:" list="">[%adminmail%]</parametr>
+	<parametr lang="rus" name="param2" title="Уровень доступа пользователя:" list="1|User,2|Superuser,3|Admin">1</parametr>
+	<parametr lang="rus" name="param3" title="Группа пользователей:" list="client,dealer,agent,forum,chat"> </parametr>
+	<parametr lang="rus" name="param4" title="Подтверждение через e-mail:" list="Y|Подтверждать,N|Не подтверждать">N</parametr>
+	<parametr lang="rus" name="param5" title="Ссылка на страницу после регистрации:" list="">home.html</parametr>
+	<parametr lang="rus" name="param6" title="Текст заголовка ссылки после регистрации:" list="">На главную страницу</parametr>
+	<parametr lang="rus" name="param7" title="Текст подписи к логину:" list="">(Логин используется для авторизации. Используйте буквы латинского алфавита и цифры)</parametr>
+	<parametr lang="rus" name="param8" title="Текст подписи к паролю:" list="">(Придумайте сложный для подбора пароль, состоящий из букв латинского алфавита и цифр)</parametr>
+	<parametr lang="rus" name="param9" title="Текст подписи к e-mail:" list="">(Укажите реальный и действующий e-mail адрес)</parametr>
+	<parametr lang="rus" name="param10" title="Заголовок &amp;quot;Логин&amp;quot;:" list="">Ваш Логин:</parametr>
+	<parametr lang="rus" name="param11" title="Заголовок &amp;quot;Пароль&amp;quot;:" list="">Пароль:</parametr>
+	<parametr lang="rus" name="param12" title="Заголовок &amp;quot;Повторить пароль&amp;quot;:" list="">Повторите пароль:</parametr>
+	<parametr lang="rus" name="param13" title="Заголовок &amp;quot;E-Mail&amp;quot;:" list="">E-mail:</parametr>
+	<parametr lang="rus" name="param14" title="Заголовок &amp;quot;Ваше имя&amp;quot;:" list="">Ваше имя:</parametr>
+	<parametr lang="rus" name="param15" title="Заголовок &amp;quot;Фамилия&amp;quot;:" list="">Фамилия:</parametr>
+	<parametr lang="rus" name="param16" title="Текст кнопки &amp;quot;Регистрация&amp;quot;:" list="">Регистрация</parametr>
+	<parametr lang="rus" name="param17" title="Текст предупреждения &amp;quot;Не все поля заполнены&amp;quot;:" list="">Не все поля заполнены, повторите ввод!</parametr>
+	<parametr lang="rus" name="param18" title="Текст предупреждения &amp;quot;Не указан пароль&amp;quot;:" list="">Не указан пароль, повторите ввод!</parametr>
+	<parametr lang="rus" name="param19" title="Текст предупреждения &amp;quot;Пароли не совпадают&amp;quot;:" list="">Пароли не совпадают, повторите ввод!</parametr>
+	<parametr lang="rus" name="param20" title="Текст в начале письма (клиенту): " list="{text}">Уважаемый(ая) [USERNAME]\r\nВы зарегистрировались на сайте [SITENAME]\r\n\r\nВаши авторизационные данные:\r\nЛогин: [USERLOGIN]\r\nПароль: [USERPASSWORD]\r\n\r\n </parametr>
+	<parametr lang="rus" name="param21" title="Текст для активации ссылки:" list="">Для активации доступа нажмите на ссылку</parametr>
+	<parametr lang="rus" name="param22" title="Текст в ссылке письма:" list="">Подтверждение регистрации</parametr>
+	<parametr lang="rus" name="param23" title="Текст в конце письма (клиенту): " list="{text}">С Уважением, \r\nАдминистрация сайта [SITENAME]</parametr>
+	<parametr lang="rus" name="param24" title="Текст письма (Админу): " list="{text}">Уважаемый Администратор сайта [SITENAME]!\r\nУ Вас зарегистрировался пользователь [USERNAME]\r\nЕго регистрационные данные:\r\nЛогин: [USERLOGIN]\r\nE-mail: [USEREMAIL]</parametr>
+	<parametr lang="rus" name="param25" title="Текст предупреждения &amp;quot;Логин существует&amp;quot;:" list="">Этот логин уже существует, выберите другое!</parametr>
+	<parametr lang="rus" name="param26" title="Текст сообщения &amp;quot;Поздравляем&amp;quot;:" list="">Поздравляем! Регистрация прошла успешно.</parametr>
+	<parametr lang="rus" name="param27" title="Текст сообщения &amp;quot;Высылаем письмо&amp;quot;:" list=""> На Ваш почтовый адрес выслана ссылка для активизации.</parametr>
+	<parametr lang="rus" name="param29" title="Текст &amp;quot;Введите число с картинки&amp;quot;" list="">Введите число с картинки:</parametr>
+	<parametr lang="rus" name="param31" title="Сообщение &amp;quot;Неверное число&amp;quot;" list="">Неверное число</parametr>
+	<parametr lang="rus" name="param32" title="Текст &amp;quot;Я принимаю&amp;quot; (лицензия)" list="">Я принимаю </parametr>
+	<parametr lang="rus" name="param33" title="Ссылка на лицензию" list="">license.html</parametr>
+	<parametr lang="rus" name="param34" title="Текст ссылки на лицензию" list="">пользовательское соглашение</parametr>
+	<parametr lang="rus" name="param35" title="Текст предупреждение &amp;quot;Не указанно, что вы прочитали лицензию&amp;quot;" list="">Не указанно, что вы прочли лицензию. Повторите ввод</parametr>
+	<parametr lang="rus" name="param46" title="Выводить подтверждение лицензионного соглашения:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param47" title="Текст заголовка письма &amp;quot;Регистрация на сайте&amp;quot;:" list="">Регистрация на сайте</parametr>
+	<parametr lang="rus" name="param48" title="Текст анализатора пароля &amp;quot;Слишком короткий&amp;quot;" list="">Слишком короткий</parametr>
+	<parametr lang="rus" name="param49" title="Текст анализатора пароля &amp;quot;Простой&amp;quot;" list="">Простой</parametr>
+	<parametr lang="rus" name="param50" title="Текст анализатора пароля &amp;quot;Хороший&amp;quot;" list="">Хороший</parametr>
+	<parametr lang="rus" name="param51" title="Текст анализатора пароля &amp;quot;Надежный&amp;quot;" list="">Надежный</parametr>
+	<parametr lang="rus" name="param52" title="Текст анализатора пароля &amp;quot;Пароль и логин совпадают&amp;quot;" list="">Пароль и логин совпадают</parametr>
+</params>

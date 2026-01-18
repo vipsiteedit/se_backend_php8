@@ -1,0 +1,35 @@
+company:
+   tableName: company
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: company_id
+     reg_date:
+       type: datetime
+       default: CURRENT_TIMESTAMP
+     name:
+       type: string(255)
+       notnull: true
+     fullname:
+       type: string(255)
+     inn:
+       type: string(50)
+     kpp:
+       type: string(32)
+     phone:
+       type: string(255)
+     email:
+       type: string(255)
+     address:
+       type: string(255)
+     note:
+       type: string(255)
+   relations:
+   values:

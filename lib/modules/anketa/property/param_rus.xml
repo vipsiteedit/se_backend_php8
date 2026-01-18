@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param35" title="::: П А Р А М Е Т Р Ы  П И С Ь М А :::" list="=========================">============================</parametr>
+	<parametr lang="rus" name="param1" title="E-mail администратора (КОМУ) - вводите через точку с запятой, если несколько" list="">[%adminmail%]</parametr>
+	<parametr lang="rus" name="param20" title="" list=""></parametr>
+	<parametr lang="rus" name="param2" title="Тема письма" list="">Анкета</parametr>
+	<parametr lang="rus" name="param4" title="Текст в начале письма" list="{text}">Начало письма</parametr>
+	<parametr lang="rus" name="param5" title="Текст в конце письма" list="{text}">Конец письма</parametr>
+	<parametr lang="rus" name="param11" title="Кнопка &amp;quot;Отправить&amp;quot;" list="">Отправить</parametr>
+	<parametr lang="rus" name="param12" title="Кнопка &amp;quot;Вернуться&amp;quot;" list="">Вернуться</parametr>
+	<parametr lang="rus" name="param3" title="Текст автоответчика" list="">Ваша анкета отправлена!</parametr>
+	<parametr lang="rus" name="param32" title="" list=""></parametr>
+	<parametr lang="rus" name="param33" title="::: Б Л О К  З А Я В И Т Е Л Я :::" list="=========================">============================</parametr>
+	<parametr lang="rus" name="param21" title="Показывать поле &amp;quot;Имя&amp;quot;?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="rus" name="param22" title="Текст заголовка &amp;quot;Имя&amp;quot;" list="">Имя</parametr>
+	<parametr lang="rus" name="param23" title="&amp;quot;Имя&amp;quot; - обязательное поле?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="rus" name="param24" title="Показывать поле &amp;quot;Адрес&amp;quot;?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="rus" name="param25" title="Текст заголовка &amp;quot;Адрес&amp;quot;" list="">Адрес</parametr>
+	<parametr lang="rus" name="param26" title="&amp;quot;Адрес&amp;quot; - обязательное поле?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="rus" name="param27" title="Показывать поле &amp;quot;Телефон&amp;quot;" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="rus" name="param28" title="Текст заголовка &amp;quot;Телефон&amp;quot;" list="">Телефон</parametr>
+	<parametr lang="rus" name="param29" title="&amp;quot;Телефон&amp;quot; - обязательное поле?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="rus" name="param38" title="Показывать поле &amp;quot;e-mail&amp;quot;" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="rus" name="param10" title="Текст заголовка &amp;quot;e-mail&amp;quot;" list="">E-mail</parametr>
+	<parametr lang="rus" name="param39" title="E-mail - обязательное поле?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="rus" name="param31" title="" list=""></parametr>
+	<parametr lang="rus" name="param30" title="::: С О О Б Щ Е Н И Я  ОБ  О Ш И Б К А Х :::" list="=========================">============================</parametr>
+	<parametr lang="rus" name="param15" title="Сообщение &amp;quot;Не указан e-mail администратора&amp;quot;" list="">Не указан e-mail администратора</parametr>
+	<parametr lang="rus" name="param40" title="Сообщение &amp;quot;Ошибка в e-mail администратора&amp;quot;" list="">Ошибка в e-mail администратора</parametr>
+	<parametr lang="rus" name="param16" title="Сообщение &amp;quot;Поле не введено&amp;quot;" list="">Не введено поле</parametr>
+	<parametr lang="rus" name="param18" title="Сообщение &amp;quot;Неверное число с картинки&amp;quot;" list="">Неверное число с картинки</parametr>
+	<parametr lang="rus" name="param19" title="Сообщение &amp;quot;Ошибка при отправке почты&amp;quot;" list="">Ошибка при отправке почты</parametr>
+	<parametr lang="rus" name="param44" title="Сообщение о том, что не все обязательные поля заполнены" list="">Заполните все поля, помеченные звездочками</parametr>
+	<parametr lang="rus" name="param46" title="Сообщение &amp;quot;телефон введен неверно&amp;quot;" list="">Телефон введен неверно</parametr>
+	<parametr lang="rus" name="param37" title="" list=""></parametr>
+	<parametr lang="rus" name="param34" title="::: З А Щ И Т А  О Т  С П А М А :::" list="=========================">============================</parametr>
+	<parametr lang="rus" name="param14" title="Включить защиту от спама" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="rus" name="param13" title="Заголовок &amp;quot;Число с картинки&amp;quot;:" list="">Число с картинки</parametr>
+	<parametr lang="rus" name="param41" title="" list=""></parametr>
+	<parametr lang="rus" name="param42" title="::: О Т О Б Р А Ж Е Н И Е  Р Е З У Л Ь Т А Т О В  В  П И С Ь М Е :::" list="=========================">============================</parametr>
+	<parametr lang="rus" name="param43" title="Текст при выбранном пункте &amp;quot;Флажок&amp;quot;" list="">Да</parametr>
+	<parametr lang="rus" name="param45" title="Текст при невыбранном пункте &amp;quot;Флажок&amp;quot;" list="">Нет</parametr>
+	<parametr lang="rus" name="param48" title="" list=""></parametr>
+	<parametr lang="rus" name="param47" title=":::ПАРАМЕТРЫ ПРИКРЕПЛЯЕМОГО ФАЙЛА:::" list="============================">============================</parametr>
+	<parametr lang="rus" name="param51" title="Максимальный размер загружаемого файла (Кб)" list="">200</parametr>
+</params>

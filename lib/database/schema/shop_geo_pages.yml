@@ -1,0 +1,34 @@
+shop_geo_pages:
+   tableName: shop_geo_pages
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_geo_pages_id
+     page:
+       type: string(255)
+       notnull: true
+     altpage:
+       type: string(255)
+       notnull: true
+     skin:
+       type: string(255)
+       notnull: true
+     id_contact:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+   relations:
+     shop_contacts:
+       local: id_contact
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

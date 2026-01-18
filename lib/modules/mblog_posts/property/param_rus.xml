@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Число постов на странице:" list="">10</parametr>
+	<parametr lang="rus" name="param15" title="Добавлять публикации разрешено:" list="1|Зарегистрированным пользователям,2|Модераторам сайта,3|Администраторам">1</parametr>
+	<parametr lang="rus" name="param2" title="Модераторы блога: (Через запятую)" list=""></parametr>
+	<parametr lang="rus" name="param41" title="Включить рейтинг ?" list="on|Включено,off|Выключено">on</parametr>
+	<parametr lang="rus" name="param35" title="Включить счетчик просмотров ? " list="on|Включено,off|Выключено">on</parametr>
+	<parametr lang="rus" name="param3" title="Текст &amp;quot;Описание&amp;quot; (ком)" list="">Описание</parametr>
+	<parametr lang="rus" name="param4" title="Текст заголовка &amp;quot;Удалить&amp;quot; (ком):" list="">Удалить</parametr>
+	<parametr lang="rus" name="param5" title="Текст кнопки  &amp;quot;Сохранить&amp;quot; (ком):" list="">Сохранить</parametr>
+	<parametr lang="rus" name="param6" title="Текст кнопки &amp;quot;Вернуться&amp;quot;(ком)" list="">Вернуться</parametr>
+	<parametr lang="rus" name="param7" title="Символ редактора записи" list="">Редактировать</parametr>
+	<parametr lang="rus" name="param32" title="текст подсказки редактирования записи" list="">Изменить</parametr>
+	<parametr lang="rus" name="param8" title="Текст кнопки &amp;quot;Добавить&amp;quot; (ком):" list="">Добавить</parametr>
+	<parametr lang="rus" name="param9" title="Текст &amp;quot;Не верно введено число с картинки &amp;quot; (ком)" list="">Не введено число с картинки</parametr>
+	<parametr lang="rus" name="param11" title="Текст &amp;quot;Введите цифры с картинки&amp;quot;(ком)" list="">Введите цифры с картинки</parametr>
+	<parametr lang="rus" name="param12" title="Текст &amp;quot;Гость&amp;quot; (ком)" list="">Гость</parametr>
+	<parametr lang="rus" name="param13" title="Текст &amp;quot;Добавить&amp;quot;" list="">Добавить</parametr>
+	<parametr lang="rus" name="param16" title="Текст &amp;quot;Создать&amp;quot;" list="">Создать</parametr>
+	<parametr lang="rus" name="param17" title="Текст &amp;quot;Отмена&amp;quot;" list="">Отмена</parametr>
+	<parametr lang="rus" name="param18" title="Текст заголовка &amp;quot;Добавить пост&amp;quot;" list="">Добавить новый пост</parametr>
+	<parametr lang="rus" name="param19" title="Текст &amp;quot;Название&amp;quot;" list="">Заголовок</parametr>
+	<parametr lang="rus" name="param20" title="Текст &amp;quot;Анонс&amp;quot;" list="">Анонс:</parametr>
+	<parametr lang="rus" name="param21" title="Текст &amp;quot;Содержание:&amp;quot;" list="">Содержание:</parametr>
+	<parametr lang="rus" name="param22" title="Текст &amp;quot;META-keywords:&amp;quot;" list="">META-keywords:</parametr>
+	<parametr lang="rus" name="param23" title="Текст &amp;quot;META-description:&amp;quot;" list="">META-description:</parametr>
+	<parametr lang="rus" name="param24" title="Текст &amp;quot;Тэги:&amp;quot;" list="">Тэги:</parametr>
+	<parametr lang="rus" name="param28" title="Комментировать можно ? - Да" list="">Да</parametr>
+	<parametr lang="rus" name="param29" title="Комментировать можно ? - Нет" list="">Нет</parametr>
+	<parametr lang="rus" name="param30" title="Статус поста: Нормальный" list="">Нормальный</parametr>
+	<parametr lang="rus" name="param31" title="Статус поста: Скрытый" list="">Скрытый</parametr>
+	<parametr lang="rus" name="param27" title="Текст &amp;quot;Категория&amp;quot;" list="">Категория:</parametr>
+	<parametr lang="rus" name="param33" title="Текст &amp;quot;Введите свое имя&amp;quot;" list="">Представьтесь пожалуйста.</parametr>
+	<parametr lang="rus" name="param34" title="Текст кнопки &amp;quot;Сохранить&amp;quot;" list="">Сохранить</parametr>
+	<parametr lang="rus" name="param36" title="Текст &amp;quot;Просмотров&amp;quot;" list="">Просмотров</parametr>
+	<parametr lang="rus" name="param37" title="Текст &amp;quot;Комментариев&amp;quot;" list=""> комментариев</parametr>
+	<parametr lang="rus" name="param38" title="Текст &amp;quot;Категории:&amp;quot;" list="">Категории:</parametr>
+	<parametr lang="rus" name="param39" title="Текст &amp;quot;Теги:&amp;quot;" list="">Теги:</parametr>
+	<parametr lang="rus" name="param40" title="Текст &amp;quot;Читать полностью&amp;quot;" list="">Читать полностью</parametr>
+	<parametr lang="rus" name="param42" title="Текст заголовка &amp;quot;Проголосовало&amp;quot;" list="">Проголосовало</parametr>
+	<parametr lang="rus" name="param43" title="Текст &amp;quot;чел.&amp;quot;" list=""> чел.</parametr>
+	<parametr lang="rus" name="param44" title="Подсказка первой звездочки" list="">Ужасно</parametr>
+	<parametr lang="rus" name="param45" title="Подсказка второй звездочки" list="">Плохо</parametr>
+	<parametr lang="rus" name="param46" title="Подсказка третей звездочки" list="">Нормально</parametr>
+	<parametr lang="rus" name="param47" title="Подсказка четвертой звездочки" list="">Хорошо</parametr>
+	<parametr lang="rus" name="param48" title="Подсказка пятой звездочки" list="">Отлично</parametr>
+	<parametr lang="rus" name="param49" title="Текст кнопки голосовать" list="">Голосовать</parametr>
+	<parametr lang="rus" name="param50" title="Текст кнопки &amp;quot;Комментировать&amp;quot;" list="">Комментировать</parametr>
+	<parametr lang="rus" name="param51" title="Текст &amp;quot;Разрешить комментарии&amp;quot;" list="">Разрешить комментарии ? </parametr>
+	<parametr lang="rus" name="param52" title="Текст &amp;quot;Видимость&amp;quot;" list="">Видимость</parametr>
+	<parametr lang="rus" name="param53" title="Текст &amp;quot;Редактировать пост&amp;quot;" list="">Редактировать пост</parametr>
+	<parametr lang="rus" name="param54" title="Текст ошибки &amp;quot;Нет категорий&amp;quot;" list="">Необходимо выбрать минимум одну категорию</parametr>
+	<parametr lang="rus" name="param55" title="Текст ошибки &amp;quot;Заголовок нужно заполнить&amp;quot;" list="">Необходимо заполнить заголовок</parametr>
+	<parametr lang="rus" name="param56" title="Текст ошибки &amp;quot;Анонс нужно заполнить&amp;quot;" list="">Необходимо заполнить анонс</parametr>
+	<parametr lang="rus" name="param57" title="Текст ошибки &amp;quot;Содержание нужно заполнить&amp;quot;" list="">Необходимо заполнить содержание.</parametr>
+	<parametr lang="rus" name="param58" title="Текст &amp;quot;Теги:&amp;quot;" list="">Теги:</parametr>
+	<parametr lang="rus" name="param59" title="Текст &amp;quot;Категории:&amp;quot;" list="">Категории:</parametr>
+	<parametr lang="rus" name="param60" title="Текст кнопки &amp;quot;Назад&amp;quot;" list="">Назад</parametr>
+	<parametr lang="rus" name="param61" title="Текст кнопки &amp;quot;Отмена&amp;quot;" list="">Отмена</parametr>
+</params>

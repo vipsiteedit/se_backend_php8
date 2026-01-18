@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Использовать zip сжатие" list="yes|Да,no|Нет">yes</parametr>
+	<parametr lang="ru" name="param3" title="Наименование доп. реквизита (по 1с) используемого как производитель" list="">Производитель</parametr>
+	<parametr lang="ru" name="param4" title="Название параметра товара для неизвестных характеристик ценового предложения" list="">Вариант поставки</parametr>
+	<parametr lang="ru" name="param28" title="Тип записи кода групп товаров" list="translit|Транслит,id|Ид по 1c">translit</parametr>
+	<parametr lang="ru" name="param5" title="Тип записи кода товаров" list="translit|Транслит,article|Артикул,barcode|Штрихкод по 1с,id|Ид по 1c">translit</parametr>
+	<parametr lang="ru" name="param7" title="Код родительской группы для всех импортируемых групп" list=""></parametr>
+	<parametr lang="ru" name="param8" title="Изменить статус если заказ проведен в 1с" list="Y|Оплачен,N|Неоплачен,K|Кредит,P|Подарок,false|не менять">Y</parametr>
+	<parametr lang="ru" name="param9" title="Записывать дату заказа на сайте датой по 1с" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param10" title="Записывать дату оплаты на сайте датой по 1с" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param11" title="Основная картинка товара" list="first|Первая,last|Последняя">first</parametr>
+	<parametr lang="ru" name="param12" title="Имя пользователя (логин) для авторизации 1с" list="">admin</parametr>
+	<parametr lang="ru" name="param13" title="Пароль пользователя для авторизации" list="">admin</parametr>
+	<parametr lang="ru" name="param14" title="Дополнительная синхронизация групп товаров  по наименованию" list="N|Нет,Y|Да">N</parametr>
+	<parametr lang="ru" name="param15" title="Дополнительная синхронизация каталога товаров" list="1|Нет,2|По наименованию,3|По артиклу,4|По наименованию или артиклу,5|По наименованию и артиклу">1</parametr>
+	<parametr lang="ru" name="param16" title="Дата с которой необходимо экспортировать заказы в 1с" list="">2013-01-01 00:00:00</parametr>
+	<parametr lang="ru" name="param39" title="Соответствие валют сайта и 1с при обмене заказами" list="">RUR-RUB,USD-USD</parametr>
+	<parametr lang="ru" name="param40" title="Выгружать только измененные заказы с сайта в 1с" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param32" title=":::ЦЕНЫ ТОВАРНЫХ ПРЕДЛОЖЕНИЙ:::" list=""></parametr>
+	<parametr lang="ru" name="param2" title="Наименование типа цены (типовое соглашение) для импорта основной цены товара" list="">Розничная</parametr>
+	<parametr lang="ru" name="param34" title="Наименование типа цены (типовое соглашение) для импорта оптовой цены товара" list="">Дилерская</parametr>
+	<parametr lang="ru" name="param33" title="Наименование типа цены (типовое соглашение) для импорта цены товара &amp;quot;мелкий опт&amp;quot;" list="">Оптовая</parametr>
+	<parametr lang="ru" name="param17" title=":::ОБНОВЛЕНИЕ ДАННЫХ ПРИ ОБМЕНЕ:::" list=""></parametr>
+	<parametr lang="ru" name="param18" title="Обновление наименований групп товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param19" title="Обновление поля &amp;quot; наименование&amp;quot; товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param36" title="Обновление поля &amp;quot;группа&amp;quot; товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param29" title="Обновление поля &amp;quot;код&amp;quot; товаров" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param20" title="Обновление поля &amp;quot;артикул&amp;quot; товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param21" title="Обновление поля &amp;quot;производитель&amp;quot; товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param22" title="Обновление поля &amp;quot;описание&amp;quot; товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param38" title="Обновление поля &amp;quot;подробное описание&amp;quot; товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param30" title="Обновление поля &amp;quot;ед. измерения&amp;quot; товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param31" title="Обновление поля &amp;quot;вес&amp;quot; товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param23" title="Обновление основной картинки товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param24" title="Обновление дополнительных картинок товаров" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param27" title="Удалять товар, если помечен на удаление в 1с" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param25" title="Обновление ценовых предложений товаров" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param26" title="Обновление остатков товаров" list="Y|Да,N|Нет">Y</parametr>
+</params>

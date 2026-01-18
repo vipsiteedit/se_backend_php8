@@ -1,0 +1,54 @@
+﻿.news-public .addLink {
+    margin-bottom:15px; display:block;
+}
+.news-public .muchpages.top {
+    margin-bottom:10px;
+}
+.news-public .dataType_date {
+    margin-right:5px;
+}
+.news-public .object .objectImage {
+    max-width: 150px;
+}
+.news-public .objectPanel {
+    margin-top:10px;
+}
+.news-public .objectPanel .recordEdit {
+    margin-right:5px;
+}
+.news-public.view .contentBody {
+    clear:both;
+}
+.news-public.view .backLink {
+    margin-bottom:20px; display:block;
+}
+.news-public.view .buttonSend {
+    margin-top:10px;
+}
+.news-public #edittar {
+    height:350px; overflow:auto;
+}
+
+.news-public {
+	margin-bottom: 20px;
+}
+
+.news-public .newsContainer a.objectImageLink {
+	margin-right: 20px;
+	float: left;
+}
+.news-public .newsContainer {
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+}
+
+@media (max-width: 469px) {  
+ .news-public .newsContainer a.objectImageLink {
+	margin-bottom: 10px;
+	width: 100%;
+ } 
+ .news-public .newsContainer a.objectImageLink img {
+	max-width: 100%;
+ }
+}/*@media*/

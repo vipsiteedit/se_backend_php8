@@ -1,0 +1,44 @@
+shop_payment_merchant:
+   tableName: shop_payment_merchant
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     ident:
+       type: string(40)
+     deflang:
+       type: char(3)
+       notnull: true
+       default: rus
+     payment_id:
+       type: integer
+       unsigned: true
+     order_id:
+       type: integer
+       unsigned: true
+       notnull: true
+     summ:
+       type: float(10,2)
+       notnull: true
+     amount:
+       type: float(10,2)
+       notnull: true
+     curr:
+       type: char(3)
+       notnull: true
+       default: RUR
+     payer:
+       type: string(255)
+       notnull: true
+     host:
+       type: string(255)
+       notnull: true
+     date_payee:
+       type: datetime
+       notnull: true
+   values:

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>E-commerce</group>
+	<name>Client orders</name>
+	<comment>Orders list allows to control order status</comment>
+</option>

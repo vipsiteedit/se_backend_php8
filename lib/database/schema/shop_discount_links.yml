@@ -1,0 +1,69 @@
+shop_discount_links:
+   tableName: shop_discount_links
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_discount_links_id
+     discount_id:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_price:
+       type: integer
+       unsigned: true
+       index: true
+     id_group:
+       type: integer
+       unsigned: true
+       index: true
+     id_user:
+       type: integer
+       unsigned: true
+       index: true
+     id_usergroup:
+       type: integer
+       unsigned: true
+       index: true
+     priority:
+       type: integer
+       unsigned: true
+     type:
+       type: enum
+       values: ['g','p','o','m','i']
+       notnull: true
+       default: m
+   relations:
+     shop_discounts:
+       local: discount_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_group:
+       local: id_group
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_price:
+       local: id_price
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     se_user:
+       local: id_user
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     se_group:
+       local: id_usergroup
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

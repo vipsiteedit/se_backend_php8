@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Страница каталога" list="">catalogue</parametr>
+	<parametr lang="ru" name="param6" title="Страница корзины" list="">shopcart</parametr>
+	<parametr lang="ru" name="param8" title="Страница кабинета" list="">kabinet</parametr>
+	<parametr lang="ru" name="param2" title="Ширина" list="y|Резиновая,n|Фиксированная">n</parametr>
+	<parametr lang="ru" name="param5" title="Фиксировать шапку" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param3" title="Контактный телефон" list="">[%sitephone%]</parametr>
+	<parametr lang="ru" name="param4" title="Контактный E-mail" list="">[%sitemail%]</parametr>
+	<parametr lang="ru" name="param7" title="Перетаскивать товары в корзину" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param9" title="Показать кнопку &amp;quot;Обратный звонок&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param21" title="Форма обратного звонка" list=""></parametr>
+	<parametr lang="ru" name="param15" title="e-Mail администратора (через запятую)" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param10" title="Текст в начале письма" list="{text}">Вам пришло сообщение</parametr>
+	<parametr lang="ru" name="param11" title="Текст в конце письма" list="{text}">конец сообщения</parametr>
+	<parametr lang="ru" name="param12" title="Количество символов в поле вопроса (комментария)" list="">2500</parametr>
+	<parametr lang="ru" name="param13" title="Включить антиспам-защиту" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param14" title="Тип формы обратного звонка" list="s|Стандартная форма,m|Своя форма">s</parametr>
+	<parametr lang="ru" name="param19" title="Отображать поле &amp;quot;Телефон&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param16" title="&amp;quot;Телефон&amp;quot; - обязательное поле?" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param18" title="Отображать поле &amp;quot;E-mail&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param17" title="&amp;quot;E-mail&amp;quot; - обязательное поле?" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param20" title="Отображать поле &amp;quot;Сообщение&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param22" title="" list=""></parametr>
+	<parametr lang="ru" name="param23" title="::::::::: ПАРАМЕТРЫ ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param24" title="Подтверждение о сборе персональных данных" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param25" title="Текст подтверждения о сборе персональных данных" list="{text}">Нажимая кнопку «Оформить», я принимаю условия &amp;lt;a class=&amp;quot;lnkLicense&amp;quot; href=&amp;quot;/license/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Пользовательского соглашения&amp;lt;/a&amp;gt; и даю своё согласие на обработку моих персональных данных</parametr>
+	<parametr lang="ru" name="param26" title="Подтверждение дополнительных условий" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param27" title="Текст подтверждения дополнительных условий" list="{text}">Принимаю &amp;lt;a href=&amp;quot;#&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;условия&amp;lt;/a&amp;gt;</parametr>
+	<parametr lang="ru" name="param28" title="" list=""></parametr>
+	<parametr lang="ru" name="param36" title=":::::::: ПАРАМЕТРЫ ПОИСКА :::::::::" list=""></parametr>
+	<parametr lang="ru" name="param29" title="Код стартовой группы" list=""></parametr>
+	<parametr lang="ru" name="param30" title="Минимальная длина символов в запросе" list="">2</parametr>
+	<parametr lang="ru" name="param31" title="Максимальное количество товаров в списке" list="">10</parametr>
+	<parametr lang="ru" name="param32" title="Ограничение размера превью картинки" list="">40x40</parametr>
+	<parametr lang="ru" name="param33" title="Перенаправление при поиске" list="Y|Всегда в начало каталога,N|Текущая страница с учетом выбранной группы">Y</parametr>
+	<parametr lang="ru" name="param34" title="Искать по артиклу" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param35" title="Сортировка товаров в выпадающем списке" list="na|Наименование (А - Я),nd|Наименование (Я - А),aa|Артикул (А - Я),ad|Артикул (Я - А),pa|Цена (по возрастанию),pd|Цена (по убыванию)">na</parametr>
+</params>

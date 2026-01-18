@@ -1,0 +1,57 @@
+ShopDiscount:
+  actAs: [Timestampable]
+  columns:
+    price_id: #товар\услуга
+      type: integer
+    group_id: #группа
+      type: integer
+      
+    percent: #процент
+      type: float(5)
+      notnull: true
+      
+    description: #описание
+      type: string(255)
+    
+    date_start: #дата начала
+      type: timestamp
+    date_end: #дата окончания
+      type: timestamp
+      
+    time_start: #время начала
+      type: time
+    time_end: #время окончания
+      type: time
+      
+    price_min: #минимальная сумма
+      type: float(10)
+    price_max: #максимальная сумма
+      type: float(10)
+      
+    price_type: #тип суммы (в корзине, накопительная)
+      type: integer(1)
+      default: 1
+      notnull: true
+      
+    count_min: #минимальное количество
+      type: integer
+    count_max: #максимальное количество
+      type: integer
+      
+    week: #дни недели
+      type: string(7)
+      fixed: true
+      
+  relations:
+    price:
+      class: ShopPrice
+      local: price_id
+      foreignAlias: discounts
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    group:
+      class: ShopGroup
+      local: group_id
+      foreignAlias: discounts
+      onDelete: CASCADE
+      onUpdate: CASCADE

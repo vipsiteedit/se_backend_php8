@@ -1,0 +1,39 @@
+shop_order_action:
+   tableName: shop_order_action
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_order_action_id
+     type:
+       type: string(20)
+     action:
+       type: string(250)
+     datestart:
+       type: datetime
+     id_order:
+       type: integer
+       unsigned: true
+       index: true
+     period:
+       type: integer
+       notnull: true
+     active:
+       type: enum
+       values: ['Y','N']
+       default: 'N'
+     logaction:
+       type: text
+   relations:
+     shop_order:
+       local: id_order
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

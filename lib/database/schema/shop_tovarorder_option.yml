@@ -1,0 +1,41 @@
+shop_tovarorder_option:
+   tableName: shop_tovarorder_option
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_tovarorder_option_id
+     id_tovarorder:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_option_value:
+       type: integer
+       unsigned: true
+       notnull: true
+     price:
+       type: float(10,2)
+       notnull: true
+       default: 0.00
+     base_price:
+       type: float(10,2)
+       notnull: true
+       default: 0.00
+     count:
+       type: float(10,3)
+       notnull: true
+       default: 0.000
+   relations:
+     shop_tovarorder:
+       local: id_tovarorder
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

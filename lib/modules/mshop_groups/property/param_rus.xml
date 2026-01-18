@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param18" title="::::::::::::: СВЯЗЬ С МАГАЗИНОМ :::::::::::" list=""></parametr>
+	<parametr lang="rus" name="param19" title="Страница магазина:" list=""></parametr>
+	<parametr lang="rus" name="param20" title="" list=""></parametr>
+	<parametr lang="rus" name="param1" title="::::::::::::: ПАРАМЕТРЫ ПОКАЗА ГРУПП ::::::::::::" list=""></parametr>
+	<parametr lang="rus" name="param27" title="Код группы по умолчанию" list=""></parametr>
+	<parametr lang="rus" name="param26" title="Искать товары во вложенных группах" list="N|Нет,Y|Да">Y</parametr>
+	<parametr lang="rus" name="param3" title="Строка &amp;quot;количество групп больше&amp;quot;" list="">...</parametr>
+	<parametr lang="rus" name="param4" title="Количество групп для отображения в родительской группе&amp;quot;" list="">2</parametr>
+	<parametr lang="rus" name="param5" title="Имя базовой группы:" list="">Каталог</parametr>
+	<parametr lang="rus" name="param7" title="Разделитель групп:" list="">, </parametr>
+	<parametr lang="rus" name="param21" title="Показать подгруппы в виде фото:" list="N|Нет,Y|Да">N</parametr>
+	<parametr lang="rus" name="param28" title="Отображать адреса страниц в новом формате:" list="N|Нет,Y|Да">Y</parametr>
+	<parametr lang="rus" name="param8" title="" list=""></parametr>
+	<parametr lang="rus" name="param9" title=":::::::::::: ПАРАМЕТРЫ ГРУППЫ ::::::::::::" list=""></parametr>
+	<parametr lang="rus" name="param10" title="Текст заголовка &amp;quot;Подбор модели&amp;quot;" list="">- Подбор модели</parametr>
+	<parametr lang="rus" name="param11" title="Текст кнопки &amp;quot;Подобрать&amp;quot;:" list="">Подобрать</parametr>
+	<parametr lang="rus" name="param12" title="Текст заголовка &amp;quot;Цена&amp;quot;:" list="">Цена: </parametr>
+	<parametr lang="rus" name="param13" title="Текст &amp;quot;от&amp;quot;" list="">от</parametr>
+	<parametr lang="rus" name="param14" title="Текст &amp;quot;до&amp;quot;" list="">до</parametr>
+	<parametr lang="rus" name="param15" title="" list=""></parametr>
+	<parametr lang="rus" name="param16" title=":::::::::::: ПАРАМЕТРЫ ПУТИ ::::::::::::" list=""></parametr>
+	<parametr lang="rus" name="param17" title="Символ разделитель для пути:" list=""> ›› </parametr>
+	<parametr lang="rus" name="param23" title="" list=""></parametr>
+	<parametr lang="rus" name="param22" title=":::::::::::: ПАРАМЕТРЫ ПОИСКА ::::::::::::" list=""></parametr>
+	<parametr lang="rus" name="param24" title="Текст &amp;quot;Поиск&amp;quot;" list="">Поиск</parametr>
+	<parametr lang="rus" name="param25" title="Текст в поле &amp;quot;Найти&amp;quot;" list="">Введите искомое и нажмите Enter</parametr>
+</params>

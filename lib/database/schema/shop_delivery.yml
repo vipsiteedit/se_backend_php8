@@ -1,0 +1,44 @@
+shop_delivery:
+   tableName: shop_delivery
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_delivery_id
+     name_recipient:
+       type: string(150)
+       notnull: true
+     id_order:
+       type: integer
+       unsigned: true
+       index: true
+     id_subdelivery:
+       type: integer
+       unsigned: true
+       index: true
+     telnumber:
+       type: string(125)
+     email:
+       type: string(125)
+     calltime:
+       type: string(150)
+     address:
+       type: string(255)
+     postindex:
+       type: string(255)
+     id_city:
+       type: integer
+       index: true
+   relations:
+     shop_order:
+       local: id_order
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

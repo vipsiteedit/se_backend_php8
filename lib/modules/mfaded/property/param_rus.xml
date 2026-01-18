@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Ссылка &amp;quot;Подробнее&amp;quot;" list=""> далее...</parametr>
+	<parametr lang="rus" name="param2" title="Скорость анимации (мс)" list="">500</parametr>
+	<parametr lang="rus" name="param3" title="Задержка слайда (мс)" list="">3000</parametr>
+	<parametr lang="rus" name="param4" title="Показывать объекты в случайном порядке" list="true|Да,false|Нет">false</parametr>
+</params>

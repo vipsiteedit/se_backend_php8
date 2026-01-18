@@ -1,0 +1,7 @@
+<?php
+$CONFIG["DBName"] = "dbname";
+$CONFIG["HostName"] = "localhost";
+$CONFIG["DBUserName"] = "dbuser";
+$CONFIG["DBPassword"] = "";
+$CONFIG["DBDsn"] = "mysql";
+?>

@@ -1,0 +1,28 @@
+﻿StatCountries:
+  tableName: stat_countries
+  tableAlias: sts
+  tableDrop: true
+  tableType:
+    engine: innoDB
+    charset: utf8
+  columns:
+    id:
+      type: integer
+      primary: true
+      sequence: stat_sities_id
+    domain:
+      type: char(2)
+      index: true
+    name:
+      type: string(255)
+      index: true
+
+  values:
+      1:
+        id: 1
+        domain: ru
+        name: Россия
+      2: 
+         id: 2
+         domain: us
+         name: Соединеные штаты Америки

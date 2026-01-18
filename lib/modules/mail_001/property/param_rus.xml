@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="e-Mail администратора:" list="">[%adminmail%]</parametr>
+	<parametr lang="rus" name="param2" title="Тема письма:" list="">Сообщение со страницы &amp;quot;Контакты&amp;quot;</parametr>
+	<parametr lang="rus" name="param3" title="Текст автоответчика:" list="{text}">Ваше сообщение отправлено администратору сайта.</parametr>
+	<parametr lang="rus" name="param4" title="Заголовок &amp;quot;Ваше имя&amp;quot;:" list="">Ваше Имя</parametr>
+	<parametr lang="rus" name="param5" title="Заголовок &amp;quot;Ваш e-Mail&amp;quot;:" list="">Ваш e-Mail</parametr>
+	<parametr lang="rus" name="param6" title="Заголовок &amp;quot;Сообщение&amp;quot;:" list="">Ваше Сообщение</parametr>
+	<parametr lang="rus" name="param7" title="Текст в начале письма" list="{text}">Вам пришло сообщение</parametr>
+	<parametr lang="rus" name="param8" title="Текст в конце письма" list="{text}">конец сообщения</parametr>
+	<parametr lang="rus" name="param9" title="Кнопка &amp;quot;Отправить&amp;quot;" list="">Отправить</parametr>
+	<parametr lang="rus" name="param10" title="Кнопка &amp;quot;Вернуться&amp;quot;" list="">Вернуться</parametr>
+	<parametr lang="rus" name="param11" title="Включить антиспам-защиту" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="rus" name="param12" title="Заголовок &amp;quot;Число с картинки&amp;quot;" list="">Число с картинки</parametr>
+	<parametr lang="rus" name="param13" title="Количество символов в поле вопроса (комментария)" list="">2500</parametr>
+	<parametr lang="rus" name="param14" title="Сообщение &amp;quot;Сервис временно недоступен&amp;quot;" list="">Сервис временно недоступен</parametr>
+	<parametr lang="rus" name="param15" title="Сообщение &amp;quot;Заполните поле&amp;quot;" list="">Заполните поле</parametr>
+	<parametr lang="rus" name="param16" title="Сообщение &amp;quot;Правильно заполните поле&amp;quot;" list="">Правильно заполните поле</parametr>
+	<parametr lang="rus" name="param17" title="Сообщение &amp;quot;Неверное число&amp;quot;" list="">Неверное число</parametr>
+	<parametr lang="rus" name="param18" title="Сообщение &amp;quot;Текст сообщения&amp;quot;" list="">Текст сообщения</parametr>
+	<parametr lang="rus" name="param20" title="Сообщение &amp;quot;Ошибка при отправке почты&amp;quot;" list="">Ошибка при отправке почты</parametr>
+	<parametr lang="rus" name="param21" title="::: ЗАГОЛОВКИ ПИСЬМА :::" list=""></parametr>
+	<parametr lang="rus" name="param22" title="Текст &amp;quot;От&amp;quot;:" list="">От</parametr>
+	<parametr lang="rus" name="param23" title="Текст &amp;quot;E-mail&amp;quot;:" list="">E-mail</parametr>
+</params>

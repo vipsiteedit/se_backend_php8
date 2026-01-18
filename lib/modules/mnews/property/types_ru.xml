@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Новости</group>
+	<name>Новости</name>
+	<comment>Форма раздела &amp;quot;Новости&amp;quot; с возможностью создания страницы &amp;quot;Архив&amp;quot;. Количество записей на странице устанавливается в дополнительных настройках раздела.</comment>
+</option>

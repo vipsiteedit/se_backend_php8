@@ -1,0 +1,27 @@
+﻿.contOnNews .addLink {
+    margin-bottom:15px; display:block;
+}
+.contOnNews .muchpages.top {
+    margin-bottom:10px;
+}
+.contOnNews .dataType_date {
+    margin-right:5px;
+}
+.contOnNews .objectPanel {
+    margin-top:10px;
+}
+.contOnNews .objectPanel .recordEdit {
+    margin-right:5px;
+}
+.view .contentBody {
+    clear:both;
+}
+.view .backLink {
+    margin-bottom:20px; display:block;
+}
+.contOnNews.view .buttonSend {
+    margin-top:10px;
+}
+.contOnNewsEdit #edittar {
+    height:350px; overflow:auto;
+}

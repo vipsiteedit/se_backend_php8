@@ -1,0 +1,180 @@
+shop_price:
+   tableName: shop_price
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_price_id
+     lang:
+       type: char(3)
+       index: true
+     id_group:
+       type: integer
+       unsigned: true
+       index: true
+     code:
+       type: string(255)
+       notnull: true
+       unique: true
+     article:
+       type: string(40)
+     name:
+       type: string(125)
+     price:
+       type: float(10,2)
+     price_opt:
+       type: float(10,2)
+       notnull: true
+     price_opt_corp:
+       type: float(10,2)
+       notnull: true
+     price_purchase:
+       type: decimal(10,2)
+       unsigned: true
+     img:
+       type: string(255)
+     img_alt:
+       type: string(255)
+     note:
+       type: text
+     text:
+       type: text
+     title:
+       type: string(255)
+     keywords:
+       type: string(255)
+     description:
+       type: text
+     page_title:
+       type: string(255)
+     presence_count:
+       type: float(10,3)
+       default: -1.000
+     step_count:
+       type: float(10,3)
+       notnull: true
+       default: 1.000
+     min_count:
+       type: float(10,3)
+       notnull: true
+     bonus:
+       type: float(10,2)
+       notnull: true
+     curr:
+       type: char(3)
+       notnull: true
+       default: RUB
+     presence:
+       type: string(125)
+     nds:
+       type: float(5,2)
+     manufacturer:
+       type: string(125)
+     id_brand:
+       type: integer
+       unsigned: true
+     id_type:
+       type: integer
+       unsigned: true
+     date_manufactured:
+       type: date
+     max_discount:
+       type: float(5,2)
+     measure:
+       type: string(50)
+     volume:
+       type: decimal(10,3)
+       unsigned: true
+     weight:
+       type: decimal(10,3)
+       unsigned: true
+     id_action:
+       type: integer
+       unsigned: true
+     marka:
+       type: string(127)
+     app_models:
+       type: string(127)
+     orig_numbers:
+       type: string(255)
+     special_price:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'Y'
+     discount:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'Y'
+     flag_new:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'N'
+     flag_hit:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'N'
+     special_offer:
+       type: enum
+       values: ['Y','N']
+       default: 'N'
+     enabled:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'Y'
+     is_show_feature:
+       type: integer
+       notnull: true
+       default: 1
+     rate:
+       type: decimal(10,2)
+     votes:
+       type: integer
+       notnull: true
+     unsold:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'N'
+     vizits:
+       type: integer
+       unsigned: true
+       notnull: true
+     is_market:
+       type: integer
+       notnull: true
+       default: 1
+     market_category:
+       type: integer
+       unsigned: true
+     market_available:
+       type: integer
+       notnull: true
+       default: 1
+     sort:
+       type: integer
+       unsigned: true
+       index: true
+     id_exchange:
+       type: string(50)
+       unique: true
+     signal_dt:
+       type: string(10)
+     delivery_time:
+       type: string(80)
+   relations:
+     shop_group:
+       local: id_group
+       foreign: id
+       onDelete: SET NULL
+       onUpdate: CASCADE

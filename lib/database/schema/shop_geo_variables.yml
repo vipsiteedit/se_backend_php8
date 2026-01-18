@@ -1,0 +1,37 @@
+shop_geo_variables:
+   tableName: shop_geo_variables
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_geo_variables_id
+     id_contact:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_variable:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     value:
+       type: string(255)
+   relations:
+     shop_contacts:
+       local: id_contact
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_variables:
+       local: id_variable
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

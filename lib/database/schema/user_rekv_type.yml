@@ -1,0 +1,64 @@
+user_rekv_type:
+   tableName: user_rekv_type
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: user_rekv_type_id
+     lang:
+       type: char(3)
+       index: true
+       default: rus
+     code:
+       type: string(20)
+       unique: true
+     size:
+       type: integer
+       unsigned: true
+       default: 40
+     title:
+       type: string(125)
+   relations:
+   values:
+     1:
+       id: 1
+       lang: rus
+       code: inn
+       size: 12
+       title: ИНН
+     2:
+       id: 2
+       lang: rus
+       code: kpp
+       size: 9
+       title: КПП
+     3:
+       id: 3
+       lang: rus
+       code: rs
+       size: 22
+       title: расч.счет
+     4:
+       id: 4
+       lang: rus
+       code: ks
+       size: 22
+       title: кор.счет
+     5:
+       id: 5
+       lang: rus
+       code: bik
+       size: 11
+       title: БИК
+     6:
+       id: 6
+       lang: rus
+       code: bank
+       size: 255
+       title: БАНК

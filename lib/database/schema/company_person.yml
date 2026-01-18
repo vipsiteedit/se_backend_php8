@@ -1,0 +1,33 @@
+company_person:
+   tableName: company_person
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: company_person_id
+     id_company:
+       type: integer
+       unsigned: true
+       index: true
+     id_person:
+       type: integer
+       unsigned: true
+       index: true
+   relations:
+     company:
+       local: id_company
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     se_user:
+       local: id_person
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

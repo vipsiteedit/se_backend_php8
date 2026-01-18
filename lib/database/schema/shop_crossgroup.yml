@@ -1,0 +1,24 @@
+shop_crossgroup:
+   tableName: shop_crossgroup
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_crossgroup_id
+     group_id:
+       type: integer
+       unsigned: true
+       index: true
+   relations:
+     shop_group:
+       local: group_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

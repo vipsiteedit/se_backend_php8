@@ -1,0 +1,54 @@
+shop_option:
+   tableName: shop_option
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_option_id
+     id_group:
+       type: integer
+       unsigned: true
+       index: true
+     code:
+       type: string(255)
+       notnull: true
+     name:
+       type: string(255)
+       notnull: true
+     note:
+       type: text
+     description:
+       type: text
+     image:
+       type: string(255)
+     type:
+       type: integer
+       notnull: true
+     type_price:
+       type: integer
+       notnull: true
+       default: 1
+     sort:
+       type: integer
+       notnull: true
+     is_active:
+       type: integer
+       unsigned: true
+       notnull: true
+       default: 1
+     is_counted:
+       type: integer
+       unsigned: true
+       notnull: true
+   relations:
+     shop_option_group:
+       local: id_group
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE

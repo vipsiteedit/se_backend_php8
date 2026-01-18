@@ -1,0 +1,33 @@
+shop_atol_operation:
+   tableName: shop_atol_operation
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_atol_operation_id
+     id_order:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     operation:
+       type: string(255)
+       notnull: true
+     uuid:
+       type: string(255)
+       notnull: true
+     log:
+       type: text
+   relations:
+     shop_order:
+       local: id_order
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

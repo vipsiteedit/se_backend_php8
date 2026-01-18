@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang020>Все группы</lang020>
+	<lang022>Наименование</lang022>
+	<lang023>Артикул</lang023>
+	<lang024>Код</lang024>
+	<lang025>Краткое описание</lang025>
+	<lang026>Полное описание</lang026>
+	<lang028>Количество</lang028>
+	<lang048>Цена</lang048>
+	<lang029>Оптовая цена</lang029>
+	<lang030>Корпоративная цена</lang030>
+	<lang052>Ед. измерения</lang052>
+	<lang033>Вес (гр.)</lang033>
+	<lang034>Объем (см3)</lang034>
+	<lang037>Скидка</lang037>
+	<lang038>Новинка</lang038>
+	<lang039>Хит</lang039>
+	<lang049>от</lang049>
+	<lang050>до</lang050>
+	<lang051>Производитель</lang051>
+	<lang053>Группы</lang053>
+	<lang044>Mercedes</lang044>
+	<lang045>Ford</lang045>
+	<lang046>Peugeot</lang046>
+	<lang047>Opel</lang047>
+	<lang054>Ferrari</lang054>
+	<lang055>Mazda</lang055>
+	<lang056>пар</lang056>
+	<lang057>шт.</lang057>
+	<lang058>ед.</lang058>
+	<lang059>0</lang059>
+	<lang060>1000</lang060>
+	<lang061>Автомобили</lang061>
+	<lang062>Игрушки</lang062>
+	<lang063>Обувь</lang063>
+	<lang064>Телефоны</lang064>
+	<lang065>Российский автопром</lang065>
+	<lang066>Иномарки</lang066>
+</language>

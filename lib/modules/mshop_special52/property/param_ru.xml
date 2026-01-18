@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param11" title="::: ПАРАМЕТРЫ ОТОБРАЖЕНИЯ :::" list=""></parametr>
+	<parametr lang="ru" name="param33" title="Режим отображения" list="block|Блочный,rotate|Ротатор товаров">rotate</parametr>
+	<parametr lang="ru" name="param18" title="Подбор товаров" list="all|Все,special|Спец.предложения,hit|Хиты,new|Новинки,oldOrders|Последние купленные,topOrders|Самые покупаемые,discount|Скидки,topVotes|Самые оцениваемые,topLooks|Самые просматриваемые,nowLooks|Сейчас смотрят,userLooks|Вы смотрели">special</parametr>
+	<parametr lang="ru" name="param5" title="Число выводимых объектов" list="">10</parametr>
+	<parametr lang="ru" name="param48" title="Ограничение размера превью картинки (200x200)" list="">200x200</parametr>
+	<parametr lang="ru" name="param13" title="Группы/подгруппы для отбора товаров" list="Y|Выбранная группа и подгруппы (также без группы),N|Только выбранная группа,all|Весь каталог">all</parametr>
+	<parametr lang="ru" name="param6" title="Сортировка:" list="name|Название,presence_count|Количество,price|Цена,article|Артикул,created_at|Дата добавления">name</parametr>
+	<parametr lang="ru" name="param20" title="Направление сортировки" list="asc|По возрастанию,desc|По убыванию">asc</parametr>
+	<parametr lang="ru" name="param10" title="Путь к магазину:" list="">catalogue</parametr>
+	<parametr lang="ru" name="param4" title="Путь к корзине:" list="">shopcart</parametr>
+	<parametr lang="ru" name="param14" title="Код группы по умолчанию" list=""></parametr>
+	<parametr lang="ru" name="param29" title="Округлять цены" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param50" title="Имя группы для оптовых цен" list="">optovik</parametr>
+	<parametr lang="ru" name="param51" title="Имя группы для корпоративных цен" list="">optcorp</parametr>
+	<parametr lang="ru" name="param44" title=":::РАБОТА С КОРЗИНОЙ :::" list=""></parametr>
+	<parametr lang="ru" name="param46" title="Возможность перетаскивать товар в корзину" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param32" title="Объект для перемещения/полета товара в корзину" list="blockGoodsInfo|Весь блок с информацией,blockImage|Блок с превью-картинкой,blockTitle|Блок с названием товара">blockGoodsInfo</parametr>
+	<parametr lang="ru" name="param8" title="Авто переход в корзину (при перезагрузке страницы)" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param43" title=":::ОТОБРАЖАЕМЫЕ ОБЪЕКТЫ :::" list=""></parametr>
+	<parametr lang="ru" name="param23" title="Отображать название группы товара" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param22" title="Отображать картинку товара" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param24" title="Отображать название товара" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param21" title="Отображать рейтинг товара" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param25" title="Отображать артикул товара" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param27" title="Отображать краткое описание товара" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param26" title="Отображать цену товара" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param49" title="Блок модификаций" list="radio|Переключатель,list|Выпадающий список,N|Не отображать">N</parametr>
+	<parametr lang="ru" name="param41" title="::: РЕЖИМ &amp;quot;Ротатор товаров&amp;quot; :::" list=""></parametr>
+	<parametr lang="ru" name="param34" title="Расположение ротатора" list="h|Горизонтальный,v|Вертикальный">h</parametr>
+	<parametr lang="ru" name="param35" title="Количество отображаемых объектов" list="">3</parametr>
+	<parametr lang="ru" name="param36" title="Количество прокручиваемых объектов" list="">1</parametr>
+	<parametr lang="ru" name="param42" title="Направление прокрутки кнопками" list="true|Вперед,false|Назад">true</parametr>
+	<parametr lang="ru" name="param37" title="Скорость прокрутки (мсек)" list="">1000</parametr>
+	<parametr lang="ru" name="param38" title="Включить автопрокрутку" list="true|Да,false|Нет">false</parametr>
+	<parametr lang="ru" name="param39" title="Задержка автопрокрутки (сек)" list="">10</parametr>
+	<parametr lang="ru" name="param40" title="Направление автопрокрутки" list="false|Вперед,true|Назад">false</parametr>
+</params>

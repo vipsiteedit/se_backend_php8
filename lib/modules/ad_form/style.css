@@ -1,0 +1,10 @@
+﻿.modal_block .fform { max-width: 400px; padding: 2%; border-radius: 3px; background: #f1f1f1; }
+.modal_block .inputTxt { width: 100%; box-sizing: border-box; margin: 2px 0 2% 0; padding: 2%; border: 1px solid rgba(0,0,0,.1); border-radius: 3px; box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent; }
+.modal_block .inputTxt:hover { border-color: #7eb4ea; box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent; }
+.modal_block .inputTxt:focus { outline: none; border-color: #7eb4ea; box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5); transition: .2s linear; }
+.modal_block .inputAr { width: 100%; box-sizing: border-box; margin: 2px 0 2% 0; padding: 2%; border: 1px solid rgba(0,0,0,.1); border-radius: 3px; box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent; }
+.modal_block .inputAr:hover { border-color: #7eb4ea; box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 transparent; }
+.modal_block .inputAr:focus { outline: none; border-color: #7eb4ea; box-shadow: 0 1px 2px -1px rgba(0,0,0,.2) inset, 0 0 4px rgba(35,146,243,.5); transition: .2s linear; }
+.modal_block .buttonForm.buttonSend { padding: 2%; border: none; border-radius: 3px; box-shadow: 0 0 0 1px rgba(0,0,0,.2) inset; background: #669acc; color: #fff;cursor:pointer; }
+.modal_block .buttonForm.buttonSend:hover { background: #5c90c2; }
+.modal_block .buttonForm.buttonSend:focus { box-shadow: 0 1px 1px #fff, inset 0 1px 2px rgba(0,0,0,.8), inset 0 -1px 0 rgba(0,0,0,.05); }

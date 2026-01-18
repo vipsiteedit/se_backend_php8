@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>User name and password are identical</lang001>
+	<lang002>Congratulations! Password successfully changed</lang002>
+	<lang003>Enter old password:</lang003>
+	<lang004>Enter new password:</lang004>
+	<lang005>Confirm password:</lang005>
+	<lang006>Change</lang006>
+	<lang007>Fields is not filled!</lang007>
+	<lang008>Old password is incorrect!</lang008>
+	<lang009>Passwords do not match. Repeat the registration!</lang009>
+	<lang010>You can&amp;apos;t change password</lang010>
+	<lang011>Too short</lang011>
+	<lang012>Easy</lang012>
+	<lang013>Good</lang013>
+	<lang014>Secure</lang014>
+</language>

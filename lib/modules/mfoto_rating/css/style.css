@@ -1,0 +1,8 @@
+﻿.cont_photo_rating #divclear {margin-bottom:10px;}
+.cont_photo_rating .photo.photoBrief {margin-bottom:30px; margin-right:5px; display:inline-block; vertical-align:top;}
+.cont_photo_rating #photoPrev {margin:0; float:none;}
+.cont_photo_rating .linkstitle {margin-top:3px; display:block;}
+.cont_photo_rating #objFooter {margin-top:10px;}
+.cont_photo_rating #objFooter #ratingTitle {margin-right:5px; float:left;}
+.cont_photo_rating #objFooter .buttonSend {margin-top:5px; display:block; clear:both;}
+.cont_photo_rating.photoDetailed .buttonSend {margin-top:10px;}

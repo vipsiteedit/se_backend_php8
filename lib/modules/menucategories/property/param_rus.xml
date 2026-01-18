@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param11" title="Список модераторов" list=""></parametr>
+	<parametr lang="rus" name="param14" title="Тип дерева каталога:" list="-1|Раскрывающееся,0|Открытые">0</parametr>
+	<parametr lang="rus" name="param15" title="Тип рубрикатора:" list="desk|Доска объявлений,news|Новости,blog|Блоги,vacancy|Вакансии">blog</parametr>
+	<parametr lang="rus" name="param24" title="ИМЯ БД" list="bbscategor|Доска объявлений,news|Новости,blog|Блоги,vacancy|Вакансии">blog</parametr>
+	<parametr lang="rus" name="param23" title="Страница для URL" list="">blog</parametr>
+	<parametr lang="rus" name="param1" title="Кнопка Добавить категорию" list="">Добавить категорию</parametr>
+	<parametr lang="rus" name="param2" title="Заголовок Наименование категории" list="">Наименование категории</parametr>
+	<parametr lang="rus" name="param3" title="Заголовок Адрес URL" list="">URL</parametr>
+	<parametr lang="rus" name="param4" title="Заголовок Keywords" list="">Ключевые слова</parametr>
+	<parametr lang="rus" name="param5" title="Заголовок Description" list="">Описание</parametr>
+	<parametr lang="rus" name="param8" title="Кнопка Принять" list="">Принять</parametr>
+	<parametr lang="rus" name="param9" title="Заголовок Родительская категория" list="">Родительская категория&amp;nbsp; </parametr>
+	<parametr lang="rus" name="param10" title="По умолчанию &amp;quot;Нет&amp;quot;" list="">Нет</parametr>
+	<parametr lang="rus" name="param19" title="Кнопка Назад" list="">Назад</parametr>
+	<parametr lang="rus" name="param20" title="Кнопка Редактирование" list="">Редактирование</parametr>
+	<parametr lang="rus" name="param21" title="Кнопка Завершить" list="">Завершить</parametr>
+	<parametr lang="rus" name="param22" title="Кнопка Удалить" list="">Удалить</parametr>
+	<parametr lang="rus" name="param28" title="Сообщение " list="">Введите наименование категории!</parametr>
+	<parametr lang="rus" name="param29" title="Сообщение об удалении" list="">Удалить категорию и ее подкатегории?</parametr>
+	<parametr lang="rus" name="param30" title="@Тип дерева для редактирования" list="-1|Раскрывающееся,0|Открытые">0</parametr>
+</params>

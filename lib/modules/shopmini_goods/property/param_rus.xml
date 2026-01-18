@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param5" title="Кол-во товаров на странице" list="">10</parametr>
+	<parametr lang="rus" name="param6" title="Валюта" list="руб,$,€">руб</parametr>
+	<parametr lang="rus" name="param4" title="Путь к корзине:" list="">shopcart</parametr>
+	<parametr lang="rus" name="param7" title="Код" list="">Код</parametr>
+	<parametr lang="rus" name="param1" title="Ссылка &amp;quot;Подробнее&amp;quot;" list="">Подробнее</parametr>
+	<parametr lang="rus" name="param2" title="Текст кнопки &amp;quot;Вернуться&amp;quot;:" list="">Вернуться назад</parametr>
+	<parametr lang="rus" name="param3" title="Кнопка &amp;quot;Заказать&amp;quot;:" list="">Заказать</parametr>
+</params>

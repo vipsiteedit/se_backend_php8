@@ -1,0 +1,36 @@
+shop_contacts:
+   tableName: shop_contacts
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_contacts_id
+     name:
+       type: string(255)
+     address:
+       type: string(255)
+     phone:
+       type: string(255)
+     additional_phones:
+       type: string(255)
+     image:
+       type: string(255)
+     description:
+       type: text
+     sort:
+       type: integer
+       notnull: true
+       default: 0
+     is_visible:
+       type: integer
+       notnull: true
+       default: 1
+     url:
+       type: string(255)
+   values:

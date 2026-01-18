@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>Service not accessible</lang001>
+	<lang002>A field Surname is not filled</lang002>
+	<lang003>A field Name is not filled</lang003>
+	<lang004>A field Email is not filled</lang004>
+	<lang005>A field Phone is not filled</lang005>
+	<lang006>Current subscribe</lang006>
+	<lang007>List</lang007>
+	<lang008>This Email exists</lang008>
+	<lang009>View contact</lang009>
+</language>

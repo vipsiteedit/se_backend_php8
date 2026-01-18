@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param0" title="Число записей:" list="">30</parametr>
+	<parametr lang="ru" name="param1" title="Добавлять публикации разрешено:" list="1|Зарегистрированным пользователям,2|Доверенным лицам,3|Администраторам">1</parametr>
+	<parametr lang="ru" name="param2" title="Число символов в кратком тексте:" list="">125</parametr>
+	<parametr lang="ru" name="param3" title="Текст кнопки &amp;quot;Добавить&amp;quot;:" list="">Добавить</parametr>
+	<parametr lang="ru" name="param4" title="Ширина рисунка &amp;quot;превью&amp;quot;: " list="">100</parametr>
+	<parametr lang="ru" name="param5" title="Ширина рисунка &amp;quot;подробно&amp;quot;:" list="">300</parametr>
+	<parametr lang="ru" name="param6" title="Символ редактора записи" list="">&amp;amp;nbsp;»&amp;amp;nbsp;</parametr>
+	<parametr lang="ru" name="param7" title="Текст подсказки &amp;quot;Изменить&amp;quot;" list="">Изменить</parametr>
+	<parametr lang="ru" name="param8" title="Текст заголовка &amp;quot;Добавить комментарий&amp;quot;:" list="">Добавить комментарий:</parametr>
+	<parametr lang="ru" name="param20" title="Текст кнопки &amp;quot;Добавить&amp;quot; (ком):" list="">Добавить</parametr>
+	<parametr lang="ru" name="param10" title="Текст кнопки &amp;quot;Вернуться&amp;quot;:" list="">Вернуться назад</parametr>
+	<parametr lang="ru" name="param11" title="Текст заголовка &amp;quot;Дата&amp;quot; (объ):" list="">дата:</parametr>
+	<parametr lang="ru" name="param12" title="Текст заголовка &amp;quot;Имя&amp;quot; (объ):" list="">имя:</parametr>
+	<parametr lang="ru" name="param14" title="Текст заголовка &amp;quot;Скачиваний&amp;quot; :" list="">Скачиваний:</parametr>
+	<parametr lang="ru" name="param102" title="Текст заголовка &amp;quot;Просмотров&amp;quot;" list="">Просмотров:</parametr>
+	<parametr lang="ru" name="param16" title="Текст заголовка &amp;quot;Добавить публикацию&amp;quot; (ред):" list="">Добавить публикацию:</parametr>
+	<parametr lang="ru" name="param17" title="Текст заголовка &amp;quot;Изменить публикацию&amp;quot; (ред):" list="">Изменить публикацию:</parametr>
+	<parametr lang="ru" name="param18" title="...Текст заголовка &amp;quot;Имя&amp;quot; (ред):" list="">Имя:</parametr>
+	<parametr lang="ru" name="param22" title="...Текст заголовка &amp;quot;Название&amp;quot; (ред):" list="">Название:</parametr>
+	<parametr lang="ru" name="param23" title="...Текст заголовка &amp;quot;Описание&amp;quot; (ред):" list="">Описание:</parametr>
+	<parametr lang="ru" name="param24" title="...Текст заголовка &amp;quot;Загрузить&amp;quot; (ред):" list="">Загрузить  рисунок:</parametr>
+	<parametr lang="ru" name="param39" title="Текст заголовка &amp;quot;Загрузить скриншот&amp;quot; (ред):" list="">Загрузить скриншот</parametr>
+	<parametr lang="ru" name="param44" title="Текст заголовка &amp;quot;Удалить картинку?&amp;quot;(ред)" list="">Удалить картинку?</parametr>
+	<parametr lang="ru" name="param25" title="...Текст заголовка &amp;quot;Удалить&amp;quot; (ред):" list="">Удалить публикацию?</parametr>
+	<parametr lang="ru" name="param26" title="...Текст кнопки &amp;quot;Добавить&amp;quot; (ред):" list="">Добавить</parametr>
+	<parametr lang="ru" name="param27" title="...Текст кнопки  &amp;quot;Сохранить&amp;quot; (ред):" list="">Сохранить</parametr>
+	<parametr lang="ru" name="param28" title="Срок жизни объявлений (дн):" list="">365</parametr>
+	<parametr lang="ru" name="param29" title="Текст &amp;quot;Не заполнено поле Имя&amp;quot;" list="">Не заполнено поле Имя</parametr>
+	<parametr lang="ru" name="param32" title="Текст &amp;quot;Не заполнено поле Название&amp;quot;" list="">Не заполнено поле Название</parametr>
+	<parametr lang="ru" name="param33" title="Текст &amp;quot;Не заполнено поле Описание:&amp;quot;" list="">Не заполнено поле Описание:</parametr>
+	<parametr lang="ru" name="param34" title="Кнопка &amp;quot;Скачать&amp;quot;" list="">Скачать</parametr>
+	<parametr lang="ru" name="param38" title="Размер подробного текста (символов)" list="">2000</parametr>
+	<parametr lang="ru" name="param40" title="Ширина скриншотов" list="">800</parametr>
+	<parametr lang="ru" name="param41" title="Высота скриншотов" list="">600</parametr>
+	<parametr lang="ru" name="param42" title="Максимальное количество ссылок" list="">20</parametr>
+	<parametr lang="ru" name="param43" title="Максимальное количество скриншотов" list="">20</parametr>
+	<parametr lang="ru" name="param45" title="Текст &amp;quot;Url&amp;quot; (ссылок)" list="">url</parametr>
+	<parametr lang="ru" name="param46" title="Текст &amp;quot;Имя ссылки:&amp;quot; (ссылок)" list="">Имя ссылки:</parametr>
+	<parametr lang="ru" name="param47" title="Модераторы: (Через запятую)" list=""></parametr>
+	<parametr lang="ru" name="param48" title="Текст &amp;quot;Удалить скриншот&amp;quot;(ред)" list="">Удалить скриншот</parametr>
+	<parametr lang="ru" name="param49" title="Текст &amp;quot;ссылка&amp;quot;" list="">Ссылка</parametr>
+	<parametr lang="ru" name="param50" title="Текст кнопки &amp;quot;Добавить скриншот&amp;quot;" list="">Добавить скриншот</parametr>
+	<parametr lang="ru" name="param51" title="Текст кнопки &amp;quot;Добавить ссылку&amp;quot;" list="">Добавить ссылку</parametr>
+	<parametr lang="ru" name="param52" title="Текст &amp;quot;Гость&amp;quot; (ком)" list="">Гость</parametr>
+	<parametr lang="ru" name="param53" title="Ширина скриншота превью" list="">72</parametr>
+	<parametr lang="ru" name="param54" title="Высота скриншота превью" list="">72</parametr>
+	<parametr lang="ru" name="param55" title="Текст кнопки  &amp;quot;Сохранить&amp;quot; (ком):" list="">Сохранить</parametr>
+	<parametr lang="ru" name="param56" title="Текст кнопки &amp;quot;Вернуться&amp;quot;(ком)" list="">Вернуться назад</parametr>
+	<parametr lang="ru" name="param57" title="Текст &amp;quot;Описание&amp;quot; (ком)" list="">Описание</parametr>
+	<parametr lang="ru" name="param58" title="Текст заголовка &amp;quot;Удалить&amp;quot; (ком):" list="">Удалить комментарий</parametr>
+	<parametr lang="ru" name="param59" title="Текст &amp;quot;Не верно введено число с картинки &amp;quot; (ком)" list="">Не верно введено число с картинки</parametr>
+	<parametr lang="ru" name="param60" title="Текст &amp;quot;Не введено число с картинки&amp;quot; (ком)" list="">Не введено число с картинки</parametr>
+	<parametr lang="ru" name="param61" title="Текст &amp;quot;Введите цифры с картинки&amp;quot;(ком)" list="">Введите цифры с картинки</parametr>
+	<parametr lang="ru" name="param62" title="::::::::::: Рейтинг ::::::::" list=""></parametr>
+	<parametr lang="ru" name="param63" title="Подсказка первой звездочки" list="">Ужасно</parametr>
+	<parametr lang="ru" name="param64" title="Подсказка второй звездочки" list="">Плохо</parametr>
+	<parametr lang="ru" name="param65" title="Подсказка третей звездочки" list="">Средне</parametr>
+	<parametr lang="ru" name="param66" title="Подсказка четвертой звездочки" list="">Хорошо</parametr>
+	<parametr lang="ru" name="param67" title="Подсказка пятой звездочки" list="">Отлично</parametr>
+	<parametr lang="ru" name="param68" title="Текст кнопки &amp;quot;Голосовать&amp;quot;" list="">Голосовать</parametr>
+	<parametr lang="ru" name="param69" title="Текст заголовка &amp;quot;Проголосовало&amp;quot;" list="">Проголосовало</parametr>
+	<parametr lang="ru" name="param70" title="Текст &amp;quot;чел.&amp;quot;" list="">чел.</parametr>
+	<parametr lang="ru" name="param71" title=":::::::::::Дополнительные поля ::::::::" list=""></parametr>
+	<parametr lang="ru" name="param72" title="Название дополнительного поля 1" list=""></parametr>
+	<parametr lang="ru" name="param73" title="Активность дополнительного поля 1" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param92" title="Размер текста дополнительного поля 1 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param74" title="Название дополнительного поля 2" list=""></parametr>
+	<parametr lang="ru" name="param75" title="Активность дополнительного поля 2" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param93" title="Размер текста дополнительного поля 2 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param76" title="Название дополнительного поля 3" list=""></parametr>
+	<parametr lang="ru" name="param77" title="Активность дополнительного поля 3" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param94" title="Размер текста дополнительного поля 3 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param78" title="Название дополнительного поля 4" list=""></parametr>
+	<parametr lang="ru" name="param79" title="Активность дополнительного поля 4" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param95" title="Размер текста дополнительного поля 4 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param80" title="Название дополнительного поля 5" list=""></parametr>
+	<parametr lang="ru" name="param81" title="Активность дополнительного поля 5" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param96" title="Размер текста дополнительного поля 5 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param82" title="Название дополнительного поля 6" list=""></parametr>
+	<parametr lang="ru" name="param83" title="Активность дополнительного поля 6" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param97" title="Размер текста дополнительного поля 6 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param84" title="Название дополнительного поля 7" list=""></parametr>
+	<parametr lang="ru" name="param85" title="Активность дополнительного поля 7" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param98" title="Размер текста дополнительного поля 7 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param86" title="Название дополнительного поля 8" list=""></parametr>
+	<parametr lang="ru" name="param87" title="Активность дополнительного поля 8" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param99" title="Размер текста дополнительного поля 8 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param88" title="Название дополнительного поля 9" list=""></parametr>
+	<parametr lang="ru" name="param89" title="Активность дополнительного поля 9" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param100" title="Размер текста дополнительного поля 9 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param90" title="Название дополнительного поля 10" list=""></parametr>
+	<parametr lang="ru" name="param91" title="Активность дополнительного поля 10" list="on|Включено,off|Выключено">off</parametr>
+	<parametr lang="ru" name="param101" title="Размер текста дополнительного поля 10 (символов)" list="">255</parametr>
+	<parametr lang="ru" name="param103" title=":::::::::::Поиск ::::::::" list=""></parametr>
+	<parametr lang="ru" name="param104" title="Текст &amp;quot;Искать на всех страницах&amp;quot;" list="">Искать на всех страницах</parametr>
+	<parametr lang="ru" name="param105" title="Текст &amp;quot;Поиск&amp;quot;" list="">Поиск</parametr>
+	<parametr lang="ru" name="param106" title="Текст кнопки &amp;quot;Искать&amp;quot;" list="">Искать</parametr>
+	<parametr lang="ru" name="param107" title=":::::::::::Комментарии ::::::::" list=""></parametr>
+	<parametr lang="ru" name="param108" title="Количество комментариев на странице" list="">2</parametr>
+</params>

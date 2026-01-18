@@ -1,0 +1,30 @@
+﻿.openid .loginblock {width:165px;}
+.openid .loginblock .title {margin-bottom:10px; display:block;}
+.openid .loginblock .authorlogin {margin-bottom:2px; vertical-align:middle;}
+.openid .loginblock .authorpassw {margin-bottom:2px; vertical-align:middle;}
+.openid .loginblock .loginsend {margin-bottom:10px; margin-right:15px; float:left;}
+.openid .loginblock .authorSave {margin-top:5px; margin-bottom:5px;}
+.openid .loginblock .authorSave #authorSaveCheck {margin:5px; margin-left:0px; width:13px; height:13px; vertical-align:middle;}
+.openid .loginblock .authorSave .authorSaveWord {vertical-align:middle;}
+.openid .loginblock .links.regi {margin-top:5px;}
+.openid .loginblock .links.remem {margin-top:5px;}
+.openid .loginblock .openIdBlock {padding-top:15px; border-top:1px dotted #b0b0b0; margin-top:15px;}
+.openid .loginblock .loginblocktxt {margin-bottom:5px; display:block; vertical-align:middle;}
+.openid .logoutblock {width:165px;}
+.openid .logoutblock .title {margin-bottom:5px; display:block;}
+.openid .logoutblock .invitation {margin-bottom:10px;}
+.openid .logoutblock .invitation .username {font-weight:bold; display:block; clear:both;}
+.openid .logoutblock .soc_link {display:inline-block;}
+.openid .logoutblock .soc_link_a {margin-bottom:10px; display:block;}
+.openid .logoutblock .soc_link_a a {display:block; clear:both;}
+.openid .logoutblock .soc_link .extra_images {display:inline-block; clear:both;}
+.openid .logoutblock .soc_link .extra_images .extra_title {margin-bottom:3px; display:block;}
+.openid .logoutblock .soc_link .extra_images img {margin-top:3px; margin-right:3px; float:left;}
+.openid .logoutblock .links {margin-top:10px; display:block; clear:both;}
+.openid.sub1 .mailbox {margin-right:10px; vertical-align:middle;}
+.openid.sub1 .mailboxinp {vertical-align:middle;}
+.openid.sub1 .mailboxsubm {vertical-align:middle;}
+.openid.sub2 .error {margin-bottom:10px; display:block;}
+.openid.sub2 .tableRow .links {padding-right:10px;}
+.openid.sub2 .tableRow .fio {padding-left:10px;}
+.openid.sub2 .buttonarea {margin-top:15px;}

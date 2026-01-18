@@ -1,0 +1,40 @@
+shop_price_param:
+   tableName: shop_price_param
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     price_id:
+       type: integer
+       unsigned: true
+       notnull: true
+     param_id:
+       type: integer
+       unsigned: true
+       notnull: true
+     parent_id:
+       type: integer
+       unsigned: true
+     value:
+       type: string(255)
+       notnull: true
+     price:
+       type: float(10,2)
+     count:
+       type: integer
+     imgparam:
+       type: string(255)
+     imgparam_alt:
+       type: string(255)
+     vtype:
+       type: enum
+       values: ['add','calc']
+       notnull: true
+       default: add
+   relations:
+   values:

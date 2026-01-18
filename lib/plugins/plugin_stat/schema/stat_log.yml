@@ -1,0 +1,107 @@
+﻿StatLog:
+  tableName: stat_log
+  tableAlias: stl
+  tableDrop: true
+  tableType:
+    engine: innoDB
+    charset: utf8
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      sequence: stat_log_id
+    id_session:
+      type: string(32)
+      index: true
+    id_user:
+      type: integer
+      index: true
+      unsigned: true
+      default: 0
+    ip:
+      type: integer
+      index: true
+      unsigned: true
+      default: 0
+    proxy:
+      type: integer
+      unsigned: true
+      default: 0
+    ref_domain: 
+      type: string(50)
+      index: true
+    ref_page:
+      type: string(255)
+      index: true
+    ref_pagequery:
+      type: string(255)
+    ref_catalog:
+      type: integer
+      unsigned: true
+      default: 0
+    ref_search_sys:
+      type: integer
+      index: true
+      unsigned: true
+      default: 0
+    ref_search_query:
+      type: string(255)
+      index: true
+    ref_mail_sys:
+      type: integer
+      unsigned: true
+      default: 0
+    ref_rating:
+      type: integer
+      unsigned: true
+      default: 0
+    agent:
+      type: string(255)
+    browser:
+      type: integer
+      unsigned: true
+      default: 0
+    os:
+      type: integer
+      unsigned: true
+      default: 0
+    acceptlang:
+      type: string(100)
+    date:
+      type: integer
+      index: true
+      unsigned: true
+      default: 0
+    time:
+      type: integer
+      index: true
+      unsigned: true
+      default: 0
+    domain:
+      type: string(50)
+    request_uri:
+      type: string(255)
+      index: true
+    page:
+      type: string(50)
+      index: true
+    titlepage:
+      type: string(255)
+      index: true
+    language:
+      type: char(3)
+    page_rateload:
+      type: float
+      unsigned: true
+      default: 0
+    existspage:
+      type: enum
+      values: [Y, N]
+      default: Y
+    city:
+      type: integer
+      unsigned: true
+    country:
+      type: integer
+      unsigned: true
+

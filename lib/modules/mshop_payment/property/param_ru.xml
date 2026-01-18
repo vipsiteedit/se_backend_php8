@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param2" title="Заголовок &amp;quot;Дата операции&amp;quot;:" list="">Дата операции</parametr>
+	<parametr lang="ru" name="param3" title="Заголовок &amp;quot;Приход&amp;quot;:" list="">Приход</parametr>
+	<parametr lang="ru" name="param4" title="Заголовок &amp;quot;Расход&amp;quot;:" list="">Расход</parametr>
+	<parametr lang="ru" name="param5" title="Заголовок &amp;quot;Баланс на&amp;quot;:" list="">Баланс на</parametr>
+	<parametr lang="ru" name="param6" title="Заголовок &amp;quot;№ заказа&amp;quot;:" list="">№ заказа</parametr>
+	<parametr lang="ru" name="param7" title="Заголовок &amp;quot;Способ оплаты&amp;quot;:" list="">Способ оплаты</parametr>
+	<parametr lang="ru" name="param8" title="Использовать внутренний счет?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param9" title="Заголовок &amp;quot;Лицевой счет&amp;quot;:" list="">Лицевой счет</parametr>
+	<parametr lang="ru" name="param10" title="Краткое описание лицевого счета:" list="{text}">Оплата осуществляется при наличии средств на Вашем лицевом счете.</parametr>
+	<parametr lang="ru" name="param11" title="Кнопка &amp;quot;Выбрать оплату&amp;quot;:" list="">Выбрать оплату</parametr>
+	<parametr lang="ru" name="param12" title="Текст &amp;quot;Оплата заказа&amp;quot;: " list="">Оплата заказа : </parametr>
+	<parametr lang="ru" name="param14" title="Кнопка &amp;quot;Вернуться&amp;quot;:" list="">Вернуться</parametr>
+	<parametr lang="ru" name="param15" title="Заголовок страницы &amp;quot;Движение&amp;quot;:" list="">Движение средств по счету</parametr>
+	<parametr lang="ru" name="param16" title="Заголовок &amp;quot;Дата&amp;quot;:" list="">Дата</parametr>
+	<parametr lang="ru" name="param17" title="Заголовок &amp;quot;Приход&amp;quot;:" list="">Приход</parametr>
+	<parametr lang="ru" name="param18" title="Заголовок &amp;quot;Расход&amp;quot;:" list="">Расход</parametr>
+	<parametr lang="ru" name="param19" title="Заголовок &amp;quot;Остаток&amp;quot;:" list="">Остаток</parametr>
+	<parametr lang="ru" name="param20" title="Заголовок &amp;quot;Тип операции&amp;quot;:" list="">Тип операции</parametr>
+	<parametr lang="ru" name="param21" title="Заголовок &amp;quot;Комментарий&amp;quot;:" list="">Комментарий</parametr>
+	<parametr lang="ru" name="param22" title="Сообщение &amp;quot;Оплата с лицевого счета&amp;quot;:" list="">Оплата с лицевого счета:</parametr>
+	<parametr lang="ru" name="param23" title="Текст подтверждения:" list="{text}">Подтвердите оплату заказа </parametr>
+	<parametr lang="ru" name="param24" title="Кнопка &amp;quot;Оплата&amp;quot;:" list="">Оплатить</parametr>
+	<parametr lang="ru" name="param25" title="Формат валюты по умолчанию:" list="RUR|Руб.,EUR|Евро,USD|Доллар США">RUR</parametr>
+	<parametr lang="ru" name="param26" title="Сумма заказа:" list="">Сумма заказа </parametr>
+	<parametr lang="ru" name="param27" title="Предупреждение по лицевому счету:" list="{text}">Оплата невозможна! Недостаточно средств на лицевом счете</parametr>
+	<parametr lang="ru" name="param28" title="Сообщение &amp;quot;Оплата успешно проведена&amp;quot;:" list="{text}">Оплата с лицевого счета успешно проведена!</parametr>
+	<parametr lang="ru" name="param29" title="Текст &amp;quot;Остаток на начало месяца&amp;quot;:" list="">Остаток на начало месяца</parametr>
+	<parametr lang="ru" name="param30" title="Текст &amp;quot;Учетный период&amp;quot;:" list="">Учетный период</parametr>
+	<parametr lang="ru" name="param31" title="Месяц:" list="">Январь,Февраль,Март,Апрель,Май,Июнь,Июль,Август,Сентябрь,Октябрь,Ноябрь,Декабрь</parametr>
+</params>

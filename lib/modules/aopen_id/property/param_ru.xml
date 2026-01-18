@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param6" title="Режим отображения" list="a|Ссылка,s|Строка">s</parametr>
+	<parametr lang="ru" name="param23" title="Тип регистрации" list="f|Стандартная форма авторизации,s|Сервис авторизации,t|Оба варианта">t</parametr>
+	<parametr lang="ru" name="param24" title="Отобразить строку Запомнить" list="y|да,n|нет">y</parametr>
+	<parametr lang="ru" name="param25" title="Отобразить ссылку Регистрация" list="y|да,n|нет">y</parametr>
+	<parametr lang="ru" name="param4" title="Страница регистрации" list="">registration</parametr>
+	<parametr lang="ru" name="param32" title="Страница восстановления пароля" list=""></parametr>
+	<parametr lang="ru" name="param34" title="Страница после авторизации" list=""></parametr>
+	<parametr lang="ru" name="param8" title="" list=""></parametr>
+	<parametr lang="ru" name="param9" title=":::::::::::::Страница авторизации ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param3" title="Заголовок авторизации" list="">Авторизация</parametr>
+	<parametr lang="ru" name="param21" title="Текст Логин" list="">Логин</parametr>
+	<parametr lang="ru" name="param22" title="Текст Пароль" list="">Пароль</parametr>
+	<parametr lang="ru" name="param19" title="Текст Запомнить" list="">Запомнить</parametr>
+	<parametr lang="ru" name="param10" title="Текст кнопки Сохранить" list="">Войти</parametr>
+	<parametr lang="ru" name="param20" title="Текст Регистрация" list="">Регистрация</parametr>
+	<parametr lang="ru" name="param33" title="Текст Забыл пароль" list="">Забыл пароль</parametr>
+	<parametr lang="ru" name="param2" title="Текст авторизации" list="">Войти как пользователь</parametr>
+	<parametr lang="ru" name="param1" title="Текст ссылки авторизации" list="">Авторизация</parametr>
+	<parametr lang="ru" name="param11" title="" list=""></parametr>
+	<parametr lang="ru" name="param12" title=":::::::::::::Страница приветствия ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param13" title="Связанные аккаунты" list="">Доступ</parametr>
+	<parametr lang="ru" name="param14" title="Текст приветствия" list="">Приветствуем,</parametr>
+	<parametr lang="ru" name="param18" title="Текст Связать с соц. сетями" list="">Связать аккаунт</parametr>
+	<parametr lang="ru" name="param26" title="Текст Отвязать аккаунт" list="">Отвязать аккаунт</parametr>
+	<parametr lang="ru" name="param15" title="Текст ссылки Выход" list="">Выход</parametr>
+	<parametr lang="ru" name="param16" title="" list=""></parametr>
+	<parametr lang="ru" name="param17" title=":::::::::::::Страница ввода e-mail::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param5" title="Текст Введите e-mail" list="">Введите ваш E-mail</parametr>
+	<parametr lang="ru" name="param7" title="Текст кнопки Сохранить" list="">Сохранить</parametr>
+	<parametr lang="ru" name="param27" title="" list=""></parametr>
+	<parametr lang="ru" name="param28" title=":::::::::::::Страница удаления связанных аккаунтов::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param29" title="Текст ссылки Удалить" list="">Удалить</parametr>
+	<parametr lang="ru" name="param30" title="Текст кнопки Назад" list="">Назад</parametr>
+	<parametr lang="ru" name="param31" title="Текст ошибки" list="">Cвязанных аккаунтов нет</parametr>
+</params>

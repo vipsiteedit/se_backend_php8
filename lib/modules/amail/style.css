@@ -1,0 +1,151 @@
+﻿.cont_mail_a *{
+   box-sizing: border-box;	
+}
+
+.cont_mail_a {
+	font-size: 16px;
+}
+
+.cont_mail_a .field input,
+.cont_mail_a .field textarea,
+.cont_mail_a .captcha input {
+	width: 100%;
+	display: block;
+	padding: 10px 10px;
+	margin: 6px 0 10px 0;
+	border: none;
+	border: 1px solid #aaa;
+}
+
+.cont_mail_a .field textarea {
+	border: 1px solid #aaa;
+	resize: vertical;
+}
+
+.cont_mail_a .captcha {
+	overflow: hidden;
+}
+
+.cont_mail_a .captcha input {
+	width: calc(100% - 235px);
+	float: right;
+}
+
+.cont_mail_a .captcha img {
+	float: left;
+	display: block;
+	height: 44px;
+	width: auto;
+	margin: 6px 15px 10px 0;
+}
+
+.cont_mail_a .err {
+	display: block;
+	color: red;
+	margin: 0 0 20px 0;
+}
+
+.cont_mail_a .errorinp {
+	border-color: red;
+	background: rgba(255, 0, 0, 0.05);
+}
+
+.cont_mail_a_center .field.field-btn {
+	text-align: center;
+}
+
+.cont_mail_a .field .buttonSend {
+	display: inline-block;
+	padding: 10px 10px;
+	margin: 6px 0 10px 0;
+}
+
+.cont_mail_a .getback {
+	margin: 15px 0 0 0;
+}
+
+.cont_mail_a_center {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.cont_mail_a_center .contentTitle {
+	text-align: center;
+}
+
+.cont_mail_a_center .field .buttonSend {
+	text-align: center;
+	width: auto;
+}
+
+.cont_mail_a div .btn,
+.cont_mail_a div input[type="submit"] {
+	width: auto;
+}
+
+.cont_mail_a_inline .field {
+	overflow: hidden;
+}
+
+.cont_mail_a_inline .field .caption,
+.cont_mail_a_inline .captcha .caption {
+	width: 30%;
+	float: left;
+	padding: 16px 16px 0 0;
+}
+
+.cont_mail_a_inline .field input,
+.cont_mail_a_inline .field textarea,
+.cont_mail_a_inline .captcha .captcha_block {
+	width: 70%;
+	float: left;
+}
+
+.cont_mail_a_inline .field-btn {
+	width: 70%;
+	float: right;
+}
+
+.cont_mail_a_inline .err {
+	margin: 0 0 20px 30%;
+	clear: both;
+}
+
+@media only screen and (max-width:480px) {
+	.cont_mail_a .captcha img {
+		float: none;
+		display: block;
+		height: auto;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.cont_mail_a .captcha input {
+		width: 100%;
+		float: none;
+	}
+
+	.cont_mail_a_inline .field .caption,
+	.cont_mail_a_inline .captcha .caption {
+		width: 100%;
+		float: none;
+		padding: 0;
+	}
+
+	.cont_mail_a_inline .field input,
+	.cont_mail_a_inline .field textarea,
+	.cont_mail_a_inline .captcha .captcha_block {
+		width: 100%;
+		float: none;
+	}
+
+	.cont_mail_a_inline .field-btn {
+		width: 100%;
+		float: none;
+	}
+
+	.cont_mail_a_inline .err {
+		margin: 0 0 20px 0;
+	}
+
+}

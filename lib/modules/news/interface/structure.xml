@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="btn" act="date" name="field" />
+		<field type="text" name="field">
+			<title lang="rus">Дата</title>
+		</field>
+		<field type="text" name="title">
+			<title lang="rus"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="rus"></title>
+		</field>
+		<field type="text" name="text">
+			<title lang="rus"></title>
+		</field>
+	</objects>
+</structure>

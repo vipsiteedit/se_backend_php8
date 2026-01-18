@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Доска объявлений</group>
+	<name>Доска объявлений</name>
+	<comment>Форма доски объявлений с возможнсотью редактирования on-line. Модуль работает начиная с версии Standart</comment>
+</option>

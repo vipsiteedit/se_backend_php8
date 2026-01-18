@@ -1,0 +1,116 @@
+﻿.forum {text-align:center; vertical-align:top;}
+.forum #info {margin-top:15px; margin-bottom:15px; display:block; clear:both;}
+.forum #menu {margin-top:20px; margin-bottom:10px;}
+.forum .menuitem {margin-right:10px;}
+.forum #forumPath {margin-top:5px; margin-bottom:10px; display:block; clear:both;}
+.forum #forumPath .menuitem {margin:0; margin-left:2px; margin-right:2px;}
+.forum .forumTitle {color:#ffffff; font-size:100%; background-color:#6c8bbd; background-image:url(mforum/title_forum.gif); background-repeat:repeat-x; padding-top:10px; padding-bottom:10px; padding-left:10px; border-width:1px; border-color:#7884ab; border-style:solid; margin:0; margin-top:10px;}
+.forum #steplist {margin-top:10px; margin-bottom:15px;}
+.forum .tableForum {border-width:1px; border-color:#7884ab; border-style:solid; width:100%;}
+.forum .title {font-weight:bold; background-color:#d6dbeb; background-image:url(mforum/title_f.gif); background-repeat:repeat-x; padding-top:8px; padding-bottom:8px; padding-left:10px; text-align:left; vertical-align:middle;}
+.forum td.field {background-color:#E6EAF9; padding-top:10px; padding-bottom:10px; padding-left:10px; text-align:left; vertical-align:middle;}
+.forum .inputForum {width:95%;}
+.forum .areaForum {width:95%; height:70px; overflow:auto;}
+.forum #footinfo {margin-top:15px;}
+.forum #main_Robots {color:#EC2F00; display:block;}
+.forum #title_MainForum {width:40%;}
+.forum #title_MainTopic {width:15%; padding:0; text-align:center; vertical-align:middle;}
+.forum #title_MainUpdate {width:40%; text-align:center;}
+.forum #table_main #statustd {background-color:#F7F8FD;}
+.forum #field_Topic {background-color:#ffffff;}
+.forum #field_MainTopic {background-color:#d6dbeb; padding:0;}
+.forum #main_MessMount {text-align:center; vertical-align:middle;}
+.forum #title_ShowThemMount {width:10%; padding:0; text-align:center;}
+.forum #title_ShowModerName {width:20%; text-align:center;}
+.forum #table_showAreas #statustd {background-color:#f7f8fd;}
+.forum #field_ShowThemMount {background-color:#d6dbeb; padding:0; text-align:center;}
+.forum #field_ShowModerName {text-align:center;}
+.forum #showForumModerator {padding-top:5px; padding-bottom:5px; border-bottom:1px dotted #C0C0C0;}
+.forum #showForumTopics {font-weight:bold; margin-top:5px;}
+.forum #showForumNewTopic {font-weight:bold; margin-top:15px; margin-bottom:10px; display:block; clear:both;}
+.forum #title_ShowForumMsgs {width:10%;}
+.forum #title_ShowForumViews {width:10%;}
+.forum #title_ShowForumCreate {width:20%;}
+.forum #title_ShowForumRefresh {width:20%;}
+.forum #show_LinkTopic {margin-bottom:3px; display:block;}
+.forum #field_ShowForumMsgs {background-color:#D6DBEB; padding:0; text-align:center; vertical-align:middle;}
+.forum #field_ShowForumViews {background-color:#D6DBEB; padding:0; text-align:center; vertical-align:middle;}
+.forum #field_ShowForumRefresh {background-color:#eeeeee;}
+.forum #title_ShowTopicAuthor {border-width:1px; border-color:#7884ab; border-style:solid; width:160px; text-align:center; vertical-align:middle;}
+.forum #topic_showTopicAuthorNick {margin-bottom:5px; display:block;}
+.forum #topic_showTopicAuthorImg {margin-bottom:5px;}
+.forum #field_ShowTopicMsg {border-width:1px; border-color:#7884ab; border-style:solid;}
+.forum #topic_showTopicMsgDate {margin-bottom:10px;}
+.forum #topic_showTopicMsgMenu {margin-bottom:20px;}
+.forum .shTmenitem {margin-right:5px;}
+.forum #topic_showTopicMsgText {margin-bottom:20px;}
+.forum #topic_showTopicMsgText #code {background-color:#FFFFFF; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px; border-width:1px; border-color:#c0c0c0; border-style:dotted; margin-bottom:10px; width:94%;}
+.forum #outlink {margin-bottom:5px; display:block;}
+.forum #topic_attach {margin-top:5px;}
+.forum #topic_linkat {margin-right:10px;}
+.forum #question {background-color:#FFFFFF; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px; border-width:1px; border-color:#c0c0c0; border-style:dotted; width:94%;}
+.forum #question .AnswerString {font-weight:bold;}
+.forum #question #qstntext {margin-top:10px; margin-bottom:10px; display:block;}
+.forum #user_menu {margin-top:10px;}
+.forum #title_ShowUserMess {width:160px; text-align:center; vertical-align:middle;}
+.forum #title_ShowUserMess #mess_showTopicAuthorNick {margin-bottom:5px;}
+.forum #title_ShowUserMess #mess_showTopicAuthorImg {margin-bottom:5px;}
+.forum #title_ShowUserMess #topic_showTopicLoc {font-weight:normal;}
+.forum #field_ShowUserMess {text-align:left; vertical-align:top;}
+.forum #field_ShowUserMess #mess_showTopicMsgDate {margin-bottom:15px;}
+.forum #field_ShowUserMess #mess_showTopicMsgText {margin-bottom:10px;}
+.forum #field_ShowUserMess #edit {font-size:11px; font-weight:bold;}
+.forum #field_ShowUserMess #moder {font-size:11px;}
+.forum #erm_ThemeName {margin-bottom:10px;}
+.forum #erm_ThemeName #erm_ThemeText {width:50%;}
+.forum #tableERM {background-image:url(mforum/fon_bg_f.gif); background-repeat:repeat-x; text-align:left; vertical-align:top;}
+.forum #tableERM #erm_ClrManag #clr {width:170px;}
+.forum #color_div {margin-top:-5px; position:absolute; float:right; text-align:right; vertical-align:top;}
+.forum #tableERM #erm_allSmiles {width:220px;}
+.forum #tableERM #erm_allSmiles .smileXXX {margin-bottom:3px; margin-right:5px; float:left;}
+.forum #tableERM #erm_TextArea {width:100%;}
+.forum #tableERM #erm_TextArea #erm_AreaForText {height:170px; overflow:auto;}
+.forum #tableERM #erm_mkattach {background-color:#e6eaf9; padding-top:15px; padding-bottom:15px;}
+.forum #tableERM #erm_mkattach #erm_attach {color:#808080; font-size:11px; margin-top:10px;}
+.forum #tableERM #erm_NewMess {margin-top:10px; margin-bottom:20px;}
+.forum #tableERM #erm_NewMess #erm_inpNewMess {width:40%;}
+.forum #tableERM #erm_ServicesButtons {margin-bottom:10px;}
+.forum #pvt_titleNick {width:30%;}
+.forum #pvt_LoadAvatar {margin-top:10px;}
+.forum #pvt_ServicesButtons {margin-top:20px; margin-bottom:10px; display:block;}
+.forum #users_Count {font-size:100%; font-weight:normal; padding-top:10px; padding-bottom:10px;}
+.forum #users_titleNick {text-align:center; vertical-align:middle;}
+.forum #users_titleRegDate {text-align:center; vertical-align:middle;}
+.forum #users_fieldUserName {text-align:center; vertical-align:middle;}
+.forum #users_fieldNumber {text-align:center; vertical-align:middle;}
+.forum #srch_titleWords {width:32%;}
+.forum #srch_btnStart {margin-top:10px; margin-bottom:10px;}
+.forum #found_titleTheme {width:18%;}
+.forum #found_titleForum {width:30%;}
+.forum #found_titleMessages {width:10%; padding:0; text-align:center;}
+.forum #found_titleShowed {width:10%; padding:0; text-align:center;}
+.forum #found_titleCreated {width:20%;}
+.forum #found_titleRefreshed {width:20%;}
+.forum #found_fieldMessages {background-color:#d6dbeb; padding:0; text-align:center;}
+.forum #found_fieldShowed {background-color:#d6dbeb; padding:0; text-align:center;}
+.forum #table_PvtMesg .title {background-image:url(none); width:35%;}
+.forum #msg_inpFrom {width:60%;}
+.forum #msg_ServiceButns {padding-top:10px; padding-bottom:10px;}
+.forum #mdr_ThNum {font-size:11px; font-weight:bold; font-family:tahoma; padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px; margin:0; width:100%;}
+.forum #mdr_Title {margin:0;}
+.forum #mdr_titleSt {width:12%; padding:0; text-align:center;}
+.forum #mdr_titleVis {width:12%; padding:0; text-align:center;}
+.forum #mdr_fieldSt {background-color:#d6dbeb; padding:0; text-align:center;}
+.forum #mdr_fStOff {color:#d50000; font-weight:bold;}
+.forum #mdr_fieldVis {background-color:#d6dbeb; padding:0; text-align:center;}
+.forum #mdr_fVisOff {color:#d50000; font-weight:bold;}
+.forum #mdr_SrvBtns {margin-top:10px; margin-bottom:10px;}
+.forum #butlayer {margin-top:10px;}
+.forum #title_ShowUserMess {text-align:center; vertical-align:middle;}
+.forum #mess_showTopicAuthorNick {margin-bottom:5px; display:block;}
+.forum #mess_showTopicAuthorImg {margin-bottom:5px;}
+.forum #mess_showTopicAuthorLocation {font-weight:normal;}
+.forum #field_ShowUserMess {text-align:left; vertical-align:top;}
+.forum #mess_showTopicMsgText #searchmsg {margin-bottom:15px; display:block;}
+.forum #message_warning {color:#ff0000; font-weight:bold; margin-top:30px; margin-bottom:10px;}
+.forum #butlayer {margin-top:10px; margin-bottom:10px;}

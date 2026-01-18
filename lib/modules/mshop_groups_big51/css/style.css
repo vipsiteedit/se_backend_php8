@@ -1,0 +1,18 @@
+﻿.shopgroups .groupPath {margin-bottom:20px;}
+.shopgroups .separPath {padding-left:5px; padding-right:5px;}
+.shopgroups .tableTable.itemgroup {margin-bottom:10px; margin-right:10px; display:inline-block; width:30%; vertical-align:top;}
+.shopgroups .celltlbGroupImg {width:100px; float:left;}
+.shopgroups .celltlbGroupName {vertical-align:middle;}
+.shopgroups .itemgroup dt {font-weight:bold;}
+.shopgroups .itemgroup dd {font-size:85%;}
+.shopgroups .titleGroup .grouptitle {font-size:180%; font-weight:normal; margin-bottom:10px;}
+.shopgroups .groupImage {margin-right:20px; float:left;}
+.shopgroups .groupcomment {overflow:hidden;}
+.shopgroups .groupsublinkblock {display:inline-block; width:100%;}
+.shopgroups .subgrouplink {margin-top:10px; margin-right:10px; display:inline-block; vertical-align:top;}
+.shopgroups .cellGroup {margin-top:10px; margin-right:10px; display:inline-block; text-align:center; vertical-align:top;}
+.shopgroups .cellGroup .lnkGroupImg {display:inline-block; width:100%;}
+.shopgroups .cellGroup .lnkGroupImg img {margin:auto; display:block;}
+.shopgroups .cellGroup h5 {font-weight:normal;}
+.shopgroups .cellGroup h5 a {font-weight:normal;}
+.shopgroups .cellGroup h5 span {font-weight:normal;}

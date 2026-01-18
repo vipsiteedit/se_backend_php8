@@ -1,0 +1,48 @@
+user_urid:
+   tableName: user_urid
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+     company:
+       type: string(250)
+     director:
+       type: string(80)
+     posthead:
+       type: string(40)
+     bookkeeper:
+       type: string(80)
+     postbookk:
+       type: integer
+     uradres:
+       type: text
+     fizadres:
+       type: text
+     tel:
+       type: string(125)
+     fax:
+       type: string(125)
+   relations:
+     se_user:
+       local: id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:
+     1:
+       id: 1
+       company: 
+       director: 
+       posthead: 
+       bookkeeper: 
+       postbookk: 
+       uradres: 
+       fizadres: 
+       tel: 
+       fax: 

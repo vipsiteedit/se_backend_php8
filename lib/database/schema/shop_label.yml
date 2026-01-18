@@ -1,0 +1,26 @@
+shop_label:
+   tableName: shop_label
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_label_id
+     image:
+       type: string(255)
+     name:
+       type: string(255)
+       notnull: true
+     code:
+       type: string(20)
+       notnull: true
+     sort:
+       type: integer
+       unsigned: true
+       notnull: true
+   values:

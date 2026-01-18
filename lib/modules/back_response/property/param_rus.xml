@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param4" title="ID подписка" list="">new</parametr>
+	<parametr lang="rus" name="param17" title="Кол-во контактов на страницу" list="">30</parametr>
+	<parametr lang="rus" name="param13" title="Обязательное поле Email?" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param14" title="Обязательное поле Телефон?" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="rus" name="param5" title="Задать дату события" list="">31.12.2030</parametr>
+	<parametr lang="rus" name="param3" title="Текст кнопки &amp;quot;Сохранить&amp;quot;" list="">Подписаться</parametr>
+	<parametr lang="rus" name="param6" title="Текст поля Фамилия" list="">Фамилия</parametr>
+	<parametr lang="rus" name="param7" title="Текст поля Имя" list="">Имя</parametr>
+	<parametr lang="rus" name="param8" title="Текст поля Отчество" list="">Отчество</parametr>
+	<parametr lang="rus" name="param9" title="Текст поля Email" list="">Email</parametr>
+	<parametr lang="rus" name="param10" title="Текст поля Телефон" list="">Телефон</parametr>
+	<parametr lang="rus" name="param12" title="Запись добавлена в БД" list="">Запись добавлена в БД</parametr>
+	<parametr lang="rus" name="param15" title="Текст кнопки &amp;quot;Сохранить лист&amp;quot;" list="">Сохранить в CSV-файл</parametr>
+	<parametr lang="rus" name="param16" title="Текст кнопки &amp;quot;Назад&amp;quot;" list="">Назад</parametr>
+	<parametr lang="rus" name="param18" title="Текст заголовка подписки" list="">Подписка</parametr>
+</params>

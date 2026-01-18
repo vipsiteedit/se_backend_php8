@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param37" title="Округлять цены до целых" list="Y|Да, N|Нет">N</parametr>
+	<parametr lang="ru" name="param35" title="Число заказов на странице:" list="">30</parametr>
+</params>

@@ -1,0 +1,24 @@
+﻿.contAuthCheskPass .errorText {color:#ff0000; font-weight:bold; margin-bottom:10px;}
+.contAuthCheskPass .contAuthBlock .obj {margin-bottom:20px; display:inline-block; width:100%; text-align:left; vertical-align:top;}
+.contAuthCheskPass .contAuthBlock .obj label {margin-top:5px; float:left;}
+.contAuthCheskPass .contAuthBlock .obj div.area {margin-left:170px;}
+.contAuthCheskPass .contAuthBlock .obj input {margin-right:10px; float:left;}
+.contAuthCheskPass .contAuthBlock .obj em {font-size:85%; font-style:normal; display:block; overflow:hidden;}
+.contAuthCheskPass .contAuthBlock .obj.passw {margin-bottom:3px;}
+.reg_testresult {color:#ffffff; margin-top:2px; margin-bottom:2px; display:block; clear:both; padding:5px;}
+.reg_shortPass {background-color:#c82604;}
+.reg_badPass {background-color:#df6602;}
+.reg_goodPass {color:#000000; background-color:#ffc600;}
+.reg_strongPass {background-color:#96c90e;}
+.reg_samePassword {color:#000000; margin-top:5px;}
+.contAuthCheskPass .contAuthBlock .obj.firstName {margin-bottom:5px;}
+.contAuthCheskPass .contAuthBlock .license {margin-left:170px;}
+.contAuthCheskPass .contAuthBlock .license input {cursor:pointer; margin-right:3px; vertical-align:middle;}
+.contAuthCheskPass .contAuthBlock .license label {vertical-align:middle;}
+.contAuthCheskPass .contAuthBlock .antiSpam {margin-top:20px; display:inline-block; width:330px;}
+.contAuthCheskPass .contAuthBlock .antiSpam label {width:170px; float:left;}
+.contAuthCheskPass .contAuthBlock .antiSpam input {margin-top:2px; margin-left:170px;}
+.contAuthCheskPass .contAuthBlock .buttonArea {margin-top:20px;}
+.contAuthCheskPass .contAuthBlock .buttonSend {margin-left:170px;}
+.contAuthCheskPassEnd .mailMessage {margin-top:10px;}
+.contAuthCheskPassEnd .regback {margin-top:10px; display:block;}

@@ -1,0 +1,18 @@
+﻿.notime .contentBody {margin-top:10px;}
+.notime .contentBody .errors {color:#ff0000; font-weight:bold; margin-bottom:10px; display:block;}
+.notime .contentBody .surrent {margin-bottom:20px;}
+.notime .contentBody #count_down_container {margin-bottom:20px; display:inline-block; clear:both;}
+.notime .contentBody #count_down_container .arg {font-weight:bold; margin-right:3px; float:left;}
+.notime .contentBody #count_down_container .name {margin-right:15px; float:left;}
+.notime .contentBody .main {margin-bottom:2px; clear:both;}
+.notime .contentBody .main.commmon_title {font-weight:bold; margin-bottom:10px;}
+.notime .contentBody .main .maintxt {margin-top:5px; width:140px; float:left;}
+.notime .contentBody .main .stars {color:#FF0000;}
+.notime .contentBody .button_area {margin-top:20px;}
+.notime .finish {margin-top:15px;}
+.notime.cont_sub1 .list .othertxt {font-weight:bold;}
+.notime.cont_sub1 .list li {margin-bottom:3px;}
+.notime.cont_sub1 .tables {width:100%;}
+.notime.cont_sub1 .tables th {padding-top:10px; padding-bottom:10px;}
+.notime.cont_sub1 .tables td {padding-top:5px; padding-bottom:5px;}
+.notime.cont_sub1 .but_area {margin-top:20px; display:block;}

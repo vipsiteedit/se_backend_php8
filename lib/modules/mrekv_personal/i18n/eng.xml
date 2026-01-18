@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>The year of birth entered  incorrectly</lang001>
+	<lang002>The month of birth entered  incorrectly</lang002>
+	<lang003>The day of birth entered  incorrectly</lang003>
+	<lang004>:: Personal data</lang004>
+	<lang005>Second name</lang005>
+	<lang006> </lang006>
+	<lang007>Last name</lang007>
+	<lang008>:: Birthday</lang008>
+	<lang009>Day</lang009>
+	<lang010>Month</lang010>
+	<lang011>Year</lang011>
+	<lang012>:: Address for correspondence</lang012>
+	<lang013>Zipcode</lang013>
+	<lang014>Country</lang014>
+	<lang015>Region</lang015>
+	<lang016>City</lang016>
+	<lang017>Address</lang017>
+	<lang018>Phone</lang018>
+	<lang019>E-mail</lang019>
+	<lang020>ICQ</lang020>
+	<lang021>Change</lang021>
+	<lang022>Data changed successfully!</lang022>
+	<lang023>:: Passport information</lang023>
+	<lang024>Serial</lang024>
+	<lang025>Number</lang025>
+	<lang026>Issued</lang026>
+	<lang027>Choose country</lang027>
+	<lang028>Choose region</lang028>
+	<lang029>Choose city</lang029>
+	<lang030>The data administrator can be changed directly in SiteEdit</lang030>
+	<lang031>Sex</lang031>
+	<lang032>Male</lang032>
+	<lang033>Female</lang033>
+</language>

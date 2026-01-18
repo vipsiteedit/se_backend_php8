@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param11" title="Список модераторов" list=""></parametr>
+	<parametr lang="ru" name="param14" title="Тип дерева каталога:" list="-1|Раскрывающееся,0|Открытые">0</parametr>
+	<parametr lang="ru" name="param15" title="Тип рубрикатора:" list="desk|Доска объявлений,news|Новости,blog|Блоги,vacancy|Вакансии">blog</parametr>
+	<parametr lang="ru" name="param24" title="ИМЯ БД" list="bbscategor|Доска объявлений,news|Новости,blog|Блоги,vacancy|Вакансии">blog</parametr>
+	<parametr lang="ru" name="param23" title="Страница для URL" list="">blog</parametr>
+	<parametr lang="ru" name="param30" title="@Тип дерева для редактирования" list="-1|Раскрывающееся,0|Открытые">0</parametr>
+</params>

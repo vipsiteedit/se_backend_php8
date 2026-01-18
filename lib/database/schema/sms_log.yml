@@ -1,0 +1,42 @@
+sms_log:
+   tableName: sms_log
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: sms_log_id
+     date:
+       type: datetime
+       notnull: true
+     id_sms:
+       type: string(50)
+       notnull: true
+     id_provider:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_user:
+       type: integer
+       unsigned: true
+     phone:
+       type: string(255)
+     code:
+       type: integer
+       unsigned: true
+     status:
+       type: string(255)
+     text:
+       type: string(255)
+     cost:
+       type: decimal(19,2)
+     count:
+       type: integer
+       unsigned: true
+   relations:
+   values:

@@ -1,0 +1,64 @@
+shop_userfields:
+   tableName: shop_userfields
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_userfields_id
+     id_group:
+       type: integer
+       unsigned: true
+       index: true
+     code:
+       type: string(255)
+       notnull: true
+     name:
+       type: string(255)
+       notnull: true
+     type:
+       type: enum
+       values: ['string','text','select','checkbox','radio','date','number']
+       notnull: true
+       default: string
+     required:
+       type: integer
+       notnull: true
+     placeholder:
+       type: string(255)
+     mask:
+       type: string(255)
+     description:
+       type: text
+     values:
+       type: text
+     sort:
+       type: integer
+       notnull: true
+     enabled:
+       type: integer
+       notnull: true
+       default: 1
+     data:
+       type: enum
+       values: ['contact','order','company','productgroup','product','public']
+     min:
+       type: integer
+       unsigned: true
+     max:
+       type: integer
+       unsigned: true
+     def:
+       type: string(255)
+   relations:
+     shop_userfield_groups:
+       local: id_group
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

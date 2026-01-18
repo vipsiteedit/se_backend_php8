@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Устаревшие</group>
+	<name>Быстрый поиск по товарам</name>
+	<comment>Предназначен для размещения в глобальном контенте.Передает параметры поиска на страницу  расширенного поиска  &amp;quot;searchlist&amp;quot; для выдачи результата.</comment>
+</option>

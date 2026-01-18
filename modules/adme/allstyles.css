@@ -1,0 +1,391 @@
+﻿#infobardm {
+	color: #FFF;
+	background: #D2D2D2 !important;
+	padding: 10px;
+	z-index:1000;
+	font-size:16px;
+	font-weight: bold;
+	text-align: center;
+    border-bottom: 1px solid #909090;
+}
+
+#infobardm .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#infobardm .dme-item {
+    padding: 0 15px;
+    font-size: 18px !important;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#infobardm .dme-item b {
+    margin-right: 10px;
+    font-weight: 100;
+    line-height: 24px;
+}
+
+#infobardm .dme-item .block-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#infobardm .dme-item:nth-child(3) a {
+    cursor: pointer;
+    border-style: solid;
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    float: right;
+    border-radius: 40px;
+    border-width: 0;
+    width:40px;
+    height:40px;
+    text-align:center;
+}
+
+.dmreset {
+    font-size:18px !important;
+    text-decoration:underline;
+}
+
+.dmchangea1:hover, .dmchangea2:hover, .dmdisableimage:hover, .dmenableimage:hover {
+	cursor: pointer !important;
+	padding:5px !important;
+	background: #000000 !important;
+	color: #FFF !important;
+}
+
+a.dmdisableimage, a.dmcolor4, a.dmenableimage, a.dmdisableimage {
+	color:#fff !important;
+    margin-right:5px;
+}
+
+a.dmchangea1, a.dmchangea2, a.dmchangea3 {
+    color:#000 !important; 
+    margin-right:5px;    
+}
+
+a.dmcolor1, a.dmcolor3 {
+	color: #000 !important;
+}
+
+.dmchangea3:hover {
+	cursor: pointer !important;
+	padding:8px !important;
+	background: #000000 !important;
+	color: #FFF !important;
+}
+
+.dmchangea1 {
+	padding:5px !important;
+	font-size:16px !important;
+	font-weight: bold !important;
+    line-height:20px !important;
+}
+
+.dmchangea2 {
+	padding:5px !important;
+	font-size:22px !important;
+	font-weight: bold !important;
+    line-height:28px !important;
+}
+
+.dmchangea3 {
+	padding:8px !important;
+	font-size:30px !important;
+	font-weight: bold !important;
+    line-height:32px !important;
+}
+
+#infobardm .dme-change-a1-active {
+    color:#ffffff !important;
+    font-size:16px;
+    background:#000000 !important;
+    line-height:20px;
+}
+
+#infobardm .dme-change-a2-active {
+    color:#ffffff !important;
+    font-size:22px;
+    background:#000000 !important;
+    line-height:28px;
+}
+
+#infobardm .dme-change-a3-active {
+    color:#ffffff !important;
+    font-size:30px;
+    background:#000000 !important;
+    line-height:32px;
+}
+
+.none {display:none !important;}
+
+.yesimg {display:block !important;}    
+
+.dmdisableimage, .dmenableimage {
+	padding:5px !important;
+	font-size:16px !important;
+	font-weight: bold !important;
+    line-height:24px !important;
+}
+
+.dmdisableimage:hover a, .dmenableimage:hover a {
+    color:#fff !important;
+}
+
+.dmimageActive {
+	color:#ffffff !important;
+	font-size:16px !important;
+	background:#000000 !important;
+    line-height:24px !important;
+}
+
+.dmimageActive span {
+    color:#fff !important;
+}
+
+.dmimageActive span:hover {
+    color:#fff !important;
+}
+
+.big-text-img {
+    display:block;
+    font-size:16px !important;
+    line-height:32px !important;
+}
+
+.small-text-img {
+    display:none;
+    font-size:16px !important;
+    line-height:32px !important;
+}
+
+.dmdisableimage span:hover, .dmenableimage span:hover, .dmdisableimage:hover span, .dmenableimage:hover span {
+    color:#fff !important;
+}
+    
+.dmchangeaActive {color:#ffffff !important; background:#000000 !important;}
+
+.dmcolor1,.dmcolor1:hover {margin-left:1%;background:#FFFFFF !important;width:1%;padding:7px;border:soild 1px black;font-weight: bold; cursor: pointer;}
+
+.dmcolor2,.dmcolor2:hover  {margin-left:1%;background:#000000!important;color:#fff !important;width:1%;padding:7px;border:soild 1px black;font-weight: bold; cursor: pointer;}
+
+.dmcolor3,.dmcolor3:hover  {margin-left:1%;background:#9DD1FF !important;width:1%;padding:7px;border:soild 1px black;font-weight: bold; cursor: pointer;}
+
+.dmcolor4 {margin-left:1%;background:#003064 !important;color:#fff !important;width:1%;padding:7px;border:soild 1px black;font-weight: bold; cursor: pointer;}
+
+.dmcolor4:hover {color:#E2E2E2 !important;}
+    
+.dmchangecolor2_style {background:#000  !important; color:#fff !important;}
+
+.dmchangecolor3_style {background:#9DD1FF  !important; color:#063462 !important;}
+
+.dme-img-icon { display:none; }
+
+.dmreset .dme-reset-text {
+    font-size: 16px !important;
+    line-height: 30px !important;    
+}
+
+.dme-reset-img {
+    width:30px;
+    height:30px;
+    background:url(dme-close-b-a.png) no-repeat !important;
+    background-size:100% !important;    
+}
+
+#dme .dme-no-image, #dme.dme-no-image {
+    background:none;
+}
+
+#dme .dme-size-1-class {
+    font-size:16px;
+    line-height:30px;    
+}
+
+#dme .dme-size-1-h1 {
+    font-size:20px;
+    line-height:30px;    
+} 
+
+#dme .dme-size-1-h2 {
+    font-size:17px;
+    line-height:30px;    
+}
+
+#dme .dme-size-1-panel {
+    font-size:16px;
+    line-height:30px;
+}
+
+#dme .dme-size-2-class {
+    font-size:22px;
+    line-height:35px;
+}
+
+#dme .dme-size-2-h1 {
+    font-size:28px;
+    line-height:35px;
+}
+
+#dme .dme-size-2-h2 {
+    font-size:24px;
+    line-height:35px;
+}
+
+#dme .dme-size-2-panel {
+    font-size:16px;
+    line-height:30px;
+}
+
+#dme .dme-size-3-class {
+    font-size:30px;
+    line-height:40px;
+}
+
+#dme .dme-size-3-h1 {
+    font-size:36px;
+    line-height:40px;
+}
+
+#dme .dme-size-3-h2 {
+    font-size:32px;
+    line-height:40px;
+}
+
+#dme .dme-size-3-panel {
+    font-size:16px;
+    line-height:30px;
+}
+
+
+
+@media (min-width:992px) and (max-width:1200px) {
+    #infobardm .dme-item {
+        font-size:16px !important;    
+    }  
+    .big-text-img {
+        display:none;
+    }  
+    .small-text-img {
+        display:block;
+    }
+}
+
+
+@media (max-width:991px) {
+    #infobardm .container {
+        width:100%;
+    } 
+    .big-text-img {
+        display:none;
+    }
+    .small-text-img {
+        display:block;
+        font-size:14px !important;
+        line-height:22px !important;
+    }
+    .dme-img-icon {
+        display:block;
+        background:url(show-img.png) no-repeat !important;
+        width: 44px;
+        height: 44px;
+        background-size: 100% !important;
+        margin-right: 7px;
+    }
+    .dmreset {
+        font-size: 16px !important;    
+    }
+    #infobardm .dme-item b {
+        display:none;
+    }
+}
+
+@media (max-width:767px) {
+    #infobardm .container {
+        padding:0;
+    }
+    #infobardm .dme-item {
+        padding:0 5px;
+    }   
+    .dme-reset-text {
+        display:none;
+    }  
+    .dme-reset-img {
+        display:block;
+    }
+    .dme-item-reset a {
+        margin-left:0 !important;
+    }
+}
+
+@media (max-width:480px) {
+    #infobardm .dme-item {
+        display:block;
+        padding: 0 10px;
+    }
+    #infobardm .dme-item .block-item {
+        display:block;
+    }
+    #infobardm .dme-item:nth-child(3) a {
+        padding: 0px;
+        margin-left:0;
+        float:none;
+        width: 30px;
+        height: 30px;
+        display: block;
+        margin-bottom: 5px;
+        font-size: 16px;
+        padding: 6px;
+    }
+    .dme-item-font a {
+        display:block;
+        margin-right:0;
+        line-height: 16px !important;
+        margin-bottom:3px;
+    }
+    .dme-item-img a {
+        display:block;
+        margin-bottom:3px;
+        margin-right:0;
+    }
+    #infobardm .row {
+        margin:0;
+    }
+    .dme-img-icon {
+        background:url(show-img.png) no-repeat !important;
+        background-size:100% !important;
+        margin:0 auto 10px auto;
+        width: 50px;
+        height: 44px;
+    }
+    .small-text-img {
+        line-height:18px !important;    
+    }
+}

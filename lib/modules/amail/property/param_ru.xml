@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="E-mail администратора (через запятую)" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param2" title="Отправить" list="">Отправить</parametr>
+	<parametr lang="ru" name="param3" title="Включить защиту от спама" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param4" title="Введите цифры с картинки" list="">Введите цифры с картинки</parametr>
+	<parametr lang="ru" name="param5" title="Количество символов в тексте" list="">65000</parametr>
+	<parametr lang="ru" name="param6" title="Вы не ввели имя" list="">Вы не ввели имя</parametr>
+	<parametr lang="ru" name="param7" title="Вы не ввели E-mail" list="">Вы не ввели E-mail</parametr>
+	<parametr lang="ru" name="param8" title="Не Верно введен E-mail" list="">Не Верно введен E-mail</parametr>
+	<parametr lang="ru" name="param9" title="Не введен текст сообщения" list="">Не введен текст сообщения</parametr>
+	<parametr lang="ru" name="param10" title="Не верно введено число с картинки" list="">Не верно введено число с картинки</parametr>
+	<parametr lang="ru" name="param11" title="Не введено число с картинки" list="">Не введено число с картинки</parametr>
+	<parametr lang="ru" name="param12" title="Заголовок письма" list="">Сообщение со страницы &amp;quot;Контакты&amp;quot;</parametr>
+	<parametr lang="ru" name="param13" title="Служба временно отключена" list="">Служба временно отключена</parametr>
+	<parametr lang="ru" name="param14" title="Ошибка отправки почты" list="">Ошибка отправки почты</parametr>
+	<parametr lang="ru" name="param15" title="Сообщение отправлено успешно" list="">Ваше сообщение отправлено администратору сайта.</parametr>
+	<parametr lang="ru" name="param16" title="Ваше имя" list="">Ваше имя</parametr>
+	<parametr lang="ru" name="param17" title="Ваш E-mail" list="">Ваш E-mail</parametr>
+	<parametr lang="ru" name="param18" title="Введите текст" list="">Введите текст</parametr>
+	<parametr lang="ru" name="param19" title="Текст &amp;quot;Назад&amp;quot;" list="">Назад</parametr>
+	<parametr lang="ru" name="param20" title="Текст в письме &amp;quot;От&amp;quot;" list="">От:</parametr>
+	<parametr lang="ru" name="param21" title="Текст в письме &amp;quot;Текст сообщения&amp;quot;" list="">Текст сообщения:</parametr>
+	<parametr lang="ru" name="param22" title="Режим модуля" list="responsiv|Резиновый,center|По центру,inline|Инлайн,fixed|Фиксированный">fixed</parametr>
+	<parametr lang="ru" name="param23" title="" list=""></parametr>
+	<parametr lang="ru" name="param24" title="::::::::: ПАРАМЕТРЫ ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param25" title="Подтверждение о сборе персональных данных" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param26" title="Текст подтверждения о сборе персональных данных" list="{text}">Нажимая кнопку «Отправить», я принимаю условия &amp;lt;a class=&amp;quot;lnkLicense&amp;quot; href=&amp;quot;/license/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Пользовательского соглашения&amp;lt;/a&amp;gt; и даю своё согласие на обработку моих персональных данных</parametr>
+	<parametr lang="ru" name="param27" title="Подтверждение дополнительных условий" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param28" title="Текст подтверждения дополнительных условий" list="{text}">Принимаю &amp;lt;a href=&amp;quot;#&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;условия&amp;lt;/a&amp;gt;</parametr>
+</params>

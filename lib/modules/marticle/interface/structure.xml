@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="text" name="title">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="text">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="url">
+		<field type="text" name="meta_title">
+		<field type="text" name="meta_keywords">
+		<field type="textarea" name="meta_description">
+		<field type="text" name="image">
+		<field type="text" name="image_size" default="500">
+		<field type="text" name="image_prev">
+		<field type="text" name="image_prev_size" default="200">
+		<field type="text" name="text1">
+			<title lang="ru">E-mail автора статьи:</title>
+			<list lang="ru"></list>
+			<default lang="ru"></default>
+		</field>
+	</objects>
+</structure>

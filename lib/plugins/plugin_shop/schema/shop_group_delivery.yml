@@ -1,0 +1,9 @@
+ShopGroupDelivery:
+  actAs: [Timestampable]
+  columns:
+    group_id:
+      type: integer
+      notnull: true
+    delivery_id:
+      type: integer
+      notnull: true

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Устаревшие</group>
+	<name>Регистрация на сайте</name>
+	<comment>Форма регистрации пользователей сайта. Модуль работает начиная с версии Standart</comment>
+</option>

@@ -1,0 +1,10 @@
+lang:
+     mes_noauthor: NOT LOGIN AND PASSWORD
+     mes_regerror: Registration ERROR!
+     mes_baseerror: In Base Author ERROR!
+     mes_authorerror: ERROR LOGIN AND PASSWORD!
+     mes_authorized: Set Login and Password
+     mes_login: Login
+     mes_password: Password
+     mes_login_back: Back
+     mes_login_next: Next

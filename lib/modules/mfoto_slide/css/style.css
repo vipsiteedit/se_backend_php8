@@ -1,0 +1,15 @@
+﻿.photoAlbumSplash .obj {margin-bottom:30px; margin-right:5px; display:inline-block; text-align:center; vertical-align:top;}
+.photoAlbumSplash .obj .photoPreview .textLink {margin-top:5px; display:block;}
+.photoAlbumSplash .showImgFon {background-color:#000000; width:100%;}
+.photoAlbumSplash table {color:#ffffff; text-align:center;}
+.photoAlbumSplash table tr.topImg .center {padding-bottom:5px;}
+.photoAlbumSplash .objectTitle {font-size:100%; font-weight:normal; margin:0; float:left; padding:0;}
+.photoAlbumSplash .hideImage {cursor:pointer; background-image:url(mfoto_slide/fs_close.png); background-repeat:no-repeat; width:18px; height:18px; float:right;}
+.photoAlbumSplash .loading {width:100%; position:absolute; top:45%; text-align:center;}
+.photoAlbumSplash .text {font-size:90%; margin-top:5px; display:block;}
+.photoAlbumSplash .navigPanel {display:inline-block; width:100%; clear:both;}
+.photoAlbumSplash .navigPanel .prev {font-size:0; cursor:pointer; background-image:url(mfoto_slide/fs_punkt_left.png); background-position:center left; background-repeat:no-repeat; width:49%; height:30px; float:left;}
+.photoAlbumSplash .navigPanel .next {font-size:0; cursor:pointer; background-image:url(mfoto_slide/fs_punkt_right.png); background-position:center right; background-repeat:no-repeat; width:49%; height:30px; float:right;}
+.photoAlbumSplash .photoDetailed .objectTitle {margin-bottom:10px; display:block; width:100%;}
+.photoAlbumSplash .photoDetailed .objectImage {clear:both;}
+.photoAlbumSplash .photoDetailed .buttonSend {margin-top:10px; display:block; clear:both;}

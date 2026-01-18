@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Страница с поиском" list="">searchlist</parametr>
+	<parametr lang="ru" name="param17" title="Страница каталога" list="">catalogue</parametr>
+	<parametr lang="ru" name="param9" title="Показывать пункт &amp;quot;По артикулу&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param10" title="Показывать пункт &amp;quot;По наименованию&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param11" title="Показывать пункт &amp;quot;По содержанию&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param12" title="Показывать ссылку &amp;quot;Расширенный поиск&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param16" title="Параметр поиска по умолчанию" list="art|По артиклу,lot|По наименованию,descr|По содержанию,com|Общий поиск">com</parametr>
+</params>

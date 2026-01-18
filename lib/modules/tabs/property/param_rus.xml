@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Тип вкладок" list="Y|Горизонтальные,N|Вертикальные">Y</parametr>
+</params>

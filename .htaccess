@@ -1,0 +1,35 @@
+DirectoryIndex index.php
+#CharsetRecodeMultipartForms Off
+#AddDefaultCharset windows-1252
+AddDefaultCharset utf-8
+
+
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+#<Files ~ "\.(yml|xml|cfg|dat)$">
+#  deny from all
+#</Files>
+
+RewriteEngine On 
+Options +FollowSymLinks 
+RewriteBase /
+
+RewriteCond %{SERVER_PORT} !^443$ 
+RewriteCond %{HTTPS} !=on  
+RewriteRule ^(.*)$ https://flowershop-ku.ru/$1 [R=301,L]
+
+RewriteCond %{DOCUMENT_ROOT}/$1 !-f 
+RewriteRule ^([^/\?]+)\.html$  /robots.php?file=$1.html&%{QUERY_STRING}
+RewriteRule ^([^/\?]+\.txt|favicon\.ico|sitemap\.xml)$  /robots.php?file=$1&%{QUERY_STRING}
+
+RewriteCond %{DOCUMENT_ROOT}/$1 !-f 
+RewriteRule ^(.*)$  /index.php?%{QUERY_STRING}
+
+php_flag display_startup_errors on
+php_flag display_errors on
+php_flag html_errors on
+php_value docref_root 0
+php_value docref_ext 0

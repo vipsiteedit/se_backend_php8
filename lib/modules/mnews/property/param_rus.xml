@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Число записей на странице" list="">3</parametr>
+	<parametr lang="rus" name="param6" title="Показывать ссылку &amp;quot;Подробнее&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="rus" name="param2" title="Ссылка &amp;quot;Подробнее&amp;quot;" list="">подробнее</parametr>
+	<parametr lang="rus" name="param3" title="Ссылка &amp;quot;Архив&amp;quot;:" list="">Архив</parametr>
+	<parametr lang="rus" name="param4" title="Кнопка &amp;quot;Назад&amp;quot;" list="">Вернуться назад</parametr>
+	<parametr lang="rus" name="param5" title="Выводить краткий текст в просмотре:" list="Y|Да,N|Нет">Y</parametr>
+</params>

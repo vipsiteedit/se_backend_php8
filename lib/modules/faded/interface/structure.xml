@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="text" name="field">
+			<title lang="rus">Путь к странице:</title>
+		</field>
+		<field type="text" name="title">
+			<title lang="rus"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="rus"></title>
+		</field>
+	</objects>
+</structure>

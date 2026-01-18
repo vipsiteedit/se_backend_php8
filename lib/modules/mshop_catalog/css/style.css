@@ -1,0 +1,6 @@
+﻿.shopGroup .groupList .menu {padding-top:10px; padding-bottom:10px; display:block;}
+.shopGroup .groupList .menu.menuActive {font-weight:bold;}
+.shopGroup .groupList .submenu {padding-top:5px; padding-bottom:5px; margin-left:20px;}
+.shopGroup .groupList .submenu .menu {padding-top:2px; padding-bottom:2px;}
+.shopGroup .groupList .submenu1 {padding-top:5px; padding-bottom:5px; margin-left:20px;}
+.shopGroup .groupList .submenu2 {padding-top:5px; padding-bottom:5px; margin-left:20px;}

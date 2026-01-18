@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param35" title=":::信数据:::" list="=========================">============================</parametr>
+	<parametr lang="ru" name="param1" title="版主E-mail (给谁) - 如有几个用分点写" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param20" title="调査表" list=""></parametr>
+	<parametr lang="ru" name="param2" title="开信文" list="">Анкета</parametr>
+	<parametr lang="ru" name="param4" title="开信" list="{text}">Начало письма</parametr>
+	<parametr lang="ru" name="param5" title="信端文" list="{text}">Конец письма</parametr>
+	<parametr lang="ru" name="param3" title="信端" list="">Ваша анкета отправлена!</parametr>
+	<parametr lang="ru" name="param32" title="自动应答器文" list=""></parametr>
+	<parametr lang="ru" name="param33" title="你的调査表被寄的!" list="=========================">============================</parametr>
+	<parametr lang="ru" name="param21" title=":::申请人组:::" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param23" title="表示“名“区吗?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param24" title="&amp;quot;名&amp;quot; - 不能空的吗?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param26" title="是" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param27" title="否" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param29" title="表示“地址“区吗?" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param38" title="“地址“不能空的吗?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param39" title="表示“手机号“区吗?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param31" title="“手机号“不能空的吗?" list=""></parametr>
+	<parametr lang="ru" name="param34" title="表示“email“区吗?" list="=========================">============================</parametr>
+	<parametr lang="ru" name="param14" title="“email“不能空的吗?" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param41" title=":::挡垃圾:::" list=""></parametr>
+	<parametr lang="ru" name="param42" title="开动挡垃圾" list="=========================">============================</parametr>
+	<parametr lang="ru" name="param43" title=":::信里结果的表示:::" list="">Да</parametr>
+	<parametr lang="ru" name="param45" title="选择“开关钮”点的文" list="">Нет</parametr>
+	<parametr lang="ru" name="param48" title="不选择“开关钮”点的文" list=""></parametr>
+	<parametr lang="ru" name="param47" title=":::装上文件的数据:::" list="============================">============================</parametr>
+	<parametr lang="ru" name="param51" title="最大装上的文件为 (Кb)" list="">200</parametr>
+</params>

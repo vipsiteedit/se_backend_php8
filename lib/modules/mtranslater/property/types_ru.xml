@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Тексты</group>
+	<name>Переводчик сайта</name>
+	<comment>Модуль позволяет автоматически перевести весь сайт с помощью Google.</comment>
+</option>

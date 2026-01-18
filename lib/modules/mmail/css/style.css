@@ -1,0 +1,9 @@
+﻿.cont_mail .err {color:#FF0000; font-weight:bold;}
+.cont_mail .tableTable {width:300px;}
+.cont_mail .tablefield {text-align:right;}
+.cont_mail .texttitle {margin-bottom:5px; display:block;}
+.cont_mail .errorinp {border-width:1px; border-color:#FF0000; border-style:solid;}
+.cont_mail #pin_img {margin-bottom:2px; margin-right:10px; float:left;}
+.cont_mail .inppin {display:block; clear:both;}
+.cont_mail .buttonSend#Send {margin-top:20px;}
+.cont_sub_mail .getback {margin-top:20px;}

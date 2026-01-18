@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param2" title="Страница корзины заказа:" list="">shopcart</parametr>
+	<parametr lang="ru" name="param5" title="Внешний сервис:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param10" title="Округлять цену до целых" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param6" title="" list=""></parametr>
+	<parametr lang="ru" name="param7" title=":::::: ЦЕНЫ ОПТ ::::::" list=""></parametr>
+	<parametr lang="ru" name="param8" title="Имя группы для оптовых цен" list="">optovik</parametr>
+	<parametr lang="ru" name="param9" title="Имя группы для корпоративных цен" list="">optcorp</parametr>
+</params>

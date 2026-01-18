@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Ширина графика в пикселах (150-1000):" list="">400</parametr>
+	<parametr lang="ru" name="param2" title="Идентификатор:" list="">[namepage]</parametr>
+	<parametr lang="ru" name="param3" title="Точность (знаков после запятой):" list="0|0,1|1,2|2,3|3,4|4,5|5">2</parametr>
+</params>

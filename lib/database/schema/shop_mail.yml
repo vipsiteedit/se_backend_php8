@@ -1,0 +1,300 @@
+shop_mail:
+   tableName: shop_mail
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_mail_id
+     shop_mail_group_id:
+       type: integer
+       unsigned: true
+       index: true
+       default: 1
+     lang:
+       type: char(3)
+       default: rus
+     title:
+       type: string(125)
+     letter:
+       type: text
+     subject:
+       type: string(250)
+     mailtype:
+       type: char(40)
+       default: reguser
+     itempost:
+       type: integer
+   relations:
+     shop_mail_group:
+       local: shop_mail_group_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:
+     1:
+       id: 1
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту о регистрации
+       letter: |
+         <p style="font-size:medium"><br></p>
+         <p>Здравствуйте, [USERNAME]! Вы зарегистрировались на сайте:&nbsp;валтек.москва   &nbsp;Сантехмонтаж77.рф  <a href="http://valtec-msk.ru"></a>
+         </p>
+         <p>Ваши коды авторизации: Ваш логин : [SHOP_USERLOGIN] Ваш пароль: [SHOP_USERPASSW] </p>
+         <p>С уважением, Компания Сантехмонтаж</p>
+         <p>E-Mail: <a href="mailto:4951757673@mail.ru">4951757673@mail.ru</a>  , 6110806@mail.ru  &nbsp;- отдел продаж </p>
+         <p>Тел. +7 (495) 175-7673  , +7&nbsp;(499) 611-08-06</p>
+       subject: Регистрация на сайте: Сантехмонтаж77.рф
+       mailtype: reguser
+       itempost: 0
+     2:
+       id: 2
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо Администратору о регистрации клиента
+       letter: |
+         <p>Здравствуйте, Администратор! </p>
+         <p>У Вас на сайте Сантехмонтаж77.рф, валтек.москва  зарегистрировался клиент: [USERNAME] </p>
+         <p>Его коды авторизации: </p>
+         <p>Логин : [SHOP_USERLOGIN] </p>
+         <p>Пароль: [SHOP_USERPASSW] </p>
+       subject: Регистрации клиента Сантехмонтаж77.рф
+       mailtype: regadm
+       itempost: 0
+     3:
+       id: 3
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту о заказе
+       letter: |
+         <p>Здравствуйте, [NAMECLIENT]! </p>
+         <p>Вы оформили предварительный заказ №[SHOP_ORDER_NUM] на сайте&nbsp;Сантехмонтаж77.рф   <a href="http://valtec-msk.ru"></a></p>
+         <p>Ожидайте обработки вашего предварительного заказа менеджером! <br>
+         <br>
+         [SHOP_ORDER_VALUE_LIST] ; </p>
+         <p>Сумма заказа :[SHOP_ORDER_SUMM] </p>
+         <p>Сумма доставки:[SHOP_ORDER_DEVILERY] </p>
+         <p>Сумма скидки: [SHOP_ORDER_DISCOUNT]</p>
+         <p>Итого: [SHOP_ORDER_TOTAL] </p>
+         <p>Режим работы: Пн.-Пт. 9.00-18.00.</p>
+         <p>Мы работаем как с физическими так и с юридическими лицами. </p>
+         <p>Стоимость доставки по Москве в пределах МКАД: - бесплатная доставка при заказе на сумму от 20 000 руб. </p>
+         <p>при заказе на сумму от 0 до 20 000&nbsp;руб. - 500 руб.</p>
+         <p>Доставка за МКАД - 25 руб./км. </p>
+         <p>Доставка осуществляется до подъезда. Просим Вас подготовить необходимую сумму без сдачи при получении заказа. Время доставки с 9:00 до 18:00 часов. Доставка заказов по Москве и Московской области осуществляется в течении 2-х суток. (Возможно день в день или как правило на следующий день - в зависимости от времени когда был сделан заказ). Вы всегда можете узнать о состоянии Вашего заказа или внести в него изменения по телефону +7 (495) 175-7673  , +7 (499) 611-08-06&nbsp;или по электронной почте <a href="mailto:4951757673@mail.ru">4951757673@mail.ru</a>  , 6110806@mail.ru</p>
+         <p>С уважением, Компания Сантехмонтаж</p>
+         <p>E-Mail: <a href="mailto:4951757673@mail.ru">4951757673@mail.ru</a>  ,&nbsp; 6110806@mail.ru      - отдел продаж </p>
+         <p>Тел. +7 (495) 175-76-73, +7(499) 611-08-06</p>
+       subject: Сантехмонтаж77.рф - предварительный заказ  [SHOP_ORDER_NUM]
+       mailtype: orderuser
+       itempost: 0
+     4:
+       id: 4
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо Администратору о заказе
+       letter: |
+         <p>Здравствуйте, Администратор!&nbsp;на сайте&nbsp;Сантехмонтаж77.рф  <a href="http://valtec-msk.ru"></a> </p>
+         <p>Ваш клиент:[NAMECLIENT] оформил заказ №[SHOP_ORDER_NUM] ,&nbsp;e-mail: [ORDER.EMAIL],&nbsp;Телефон: [ORDER.TELNUMBER],&nbsp;Сумма доставки: [ORDER_DELIVERY],&nbsp;Адрес доставки: [ORDER.ADDRESS],&nbsp;Комментарий к заказу: [ORDER.COMMENTARY]  </p>
+         <p>[SHOP_ORDER_VALUE_LIST]&nbsp; </p>
+         <p>Сумма заказа :[ORDER_SUMMA] </p>
+         <p>Сумма доставки:[SHOP_ORDER_DEVILERY] </p>
+         <p>Способ доставки: [ORDER.DELIVERY_NAME]</p>
+         <p>Способ оплаты: [PAYMENT.NAME]</p>
+         <p>Итого: [SHOP_ORDER_TOTAL] </p>
+         <p>e-mail: [ORDER.EMAIL] </p>
+         <p>Телефон: [ORDER.TELNUMBER] </p>
+         <p>Удобное время звонка: [ORDER.CALLTIME] </p>
+         <p>Наименование доставки: [ORDER.DELIVERY_NAME] </p>
+         <p>Сумма доставки: [ORDER_DELIVERY] </p>
+         <p>Общее число позиций в заказе (включая доставку): [ORDER.ITEMCOUNT] </p>
+         <p>Индекс доставки: [ORDER.POSTINDEX] </p>
+         <p>Адрес доставки: [ORDER.ADDRESS] </p>
+         <p>Реквизиты компании: [USER.REQUISITES]</p>
+         <p>Комментарий к заказу: [ORDER.COMMENTARY] </p>
+         {attachment: order_list}
+       subject: Сантехмонтаж77.рф Order [SHOP_ORDER_ Сантехмонтаж77.рф], Ваш клиент:[NAMECLIENT] оформил заказ №[SHOP_ORDER_NUM]
+       mailtype: orderadm
+       itempost: 0
+     5:
+       id: 6
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту о регистрации
+       letter: |
+         <p>Здравствуйте, [USERNAME]! </p>
+         <p>Вы зарегистрировались на сайте Сантехмонтаж77.рф  <a href="http://valtec-msk.ru"></a></p>
+         <p>Ваши коды авторизации: </p>
+         <p>Ваш логин : [SHOP_USERLOGIN] </p>
+         <p>Ваш пароль: [SHOP_USERPASSW] </p>
+         <p>С уважением, Сантехмонтаж77.рф   </p>
+         <p>E-Mail: <a href="mailto:4951757673@mail.ru">4951757673@mail.ru</a>  ,&nbsp;6110806@mail.ru     - отдел продаж </p>
+         <p>Тел. +7 (495) 175-7673  </p>
+       subject: Регистрация на сайте Сантехмонтаж77.рф
+       mailtype: reguser
+       itempost: 0
+     6:
+       id: 7
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту об оплате
+       letter: |
+         <p>Уважаемый(ая) [CLIENTNAME] Ваш заказ №[ORDER.ID] оплачен через [PAYMENT.NAME] в сумме [ORDER_SUMMA]. Спасибо за доверие! </p>
+         <p>С уважением, Сантехмонтаж77.рф   </p>
+         <p>E-Mail: <a href="mailto:4951757673@mail.ru">4951757673@mail.ru</a>  ,&nbsp;6110806@mail.ru    - отдел продаж </p>
+         <p>Тел. +7 (495) 175-76-73</p>
+       subject: Your order [ORDER.ID] is paid!
+       mailtype: payuser
+       itempost: 0
+     7:
+       id: 8
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо Администратору об оплате
+       letter: |
+         Уважаемый Администратор!
+         
+         Ваш клиент [CLIENTNAME] проивел плату заказа [ORDER.ID] 
+         с помошью [PAYMENT.NAME] в сумме [ORDER_SUMMA]
+         Дата транзакции: [ORDER.date_payee]
+         
+         Прошу проконтролировать данную операцию.
+         
+       subject: Automatic payment of the order [ORDER.ID]
+       mailtype: payadm
+       itempost: 0
+     8:
+       id: 9
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту об изменении суммы заказа
+       letter: |
+         Здравствуйте,  [NAMECLIENT]!
+         Сумма вашего заказа №[SHOP_ORDER_NUM] на сайте valtec-msk.ru изменена.
+         Сумма доставки для вашего региона составит [SHOP_ORDER_DEVILERY].
+         ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+         <table width="600" style="border:1px solid #000"><tbody><tr><td>[SHOP_ORDER_VALUE_LIST]</td></tr></tbody></table>
+         ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+         Сумма заказа : [SHOP_ORDER_SUMM]
+         Сумма скидки: [SHOP_ORDER_DISCOUNT] 
+         Сумма доставки: [SHOP_ORDER_DEVILERY] 
+         Итого: [SHOP_ORDER_TOTAL]
+         <p>Посмотреть статус заказа и оплатить можно на странице "ВАШ ЗАКАЗ", по адресу Сантехмонтаж77.рф  </p>
+         <p>С уважением, Сантехмонтаж77.рф   </p>
+         <p>E-Mail: 7611225@bk.ru,&nbsp; 6110806@mail.ru   - отдел продаж </p>
+         <p>Тел. +7 (495) 175-7673  </p>
+       subject: Сумма вашего заказа №[SHOP_ORDER_NUM] изменена.
+       mailtype: orduserch
+       itempost: 0
+     9:
+       id: 10
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту о предзаказе
+       letter: |
+         <table style="margin-right:auto;margin-left:auto" cellpadding="0" cellspacing="0" width="700px">
+         					<tbody>
+         						<tr><td>
+         						<p>Здравствуйте, <strong>[CLIENT.NAME].</strong></p>
+         						<br>
+         						<p><strong>Ваш предзаказ</strong></p>
+         						<p>[PRODUCT.NAME]</p>
+         						<br>
+         						<p>Ваша заявка принята.</p>
+         						<p>Когда товар появится на складе, Вам поступит уведомление о наличии.</p>
+         						<br>
+         						<p>С уважением, [ADMIN_COMPANY]</p>
+         						<br>
+         						<p>Наши контакты</p>
+         						<p>[ADMIN_MAIL_SALES] - отдел продаж</p>
+         						<p>[ADMIN_MAIL_SUPPORT] - техподдержка</p>
+         						</td></tr>
+         					</tbody>
+         				</table>
+       subject: Заявка на поступление товара
+       mailtype: preorderuser
+       itempost: 
+     10:
+       id: 11
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо администратору о предзаказе
+       letter: |
+         <table style="margin-right:auto;margin-left:auto" cellpadding="0" cellspacing="0" width="700">
+                   <tbody>
+                     <tr><td>
+                     <p>Здравствуйте, <strong>Администратор.</strong></p>
+         <p>С вашего сайта [THISNAMESITE] поступила заявка на предзаказ.</p>
+         <p>[PRODUCT.NAME]</p>
+         <p>Данные пользователя:</p>
+                     <p>Имя: [CLIENT.NAME]</p>
+                     <p>E-mail: [CLIENT.EMAIL]</p>
+                     <p>Телефон: [CLIENT.PHONE]</p>
+         <p>Реквизиты: [USER.REQUISITES]</p>
+                     </td></tr>
+                   </tbody>
+                 </table>
+       subject: Заявка на поступление товара
+       mailtype: preorderadmin
+       itempost: 
+     11:
+       id: 12
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту о поступлении товара
+       letter: |
+         <table style="margin-right:auto;margin-left:auto" cellpadding="0" cellspacing="0" width="700">
+         					<tbody>
+         						<tr><td>
+         						<p>Здравствуйте, <strong>[CLIENT.NAME].</strong></p>
+         						<br>
+         						<p>Товар, на который Вы оставляли заявку, поступил на склад:</p>
+         						<br>
+         						<p>[PRODUCT.NAME]</p>
+         						<br>
+         						<p><a href="[PRODUCT.LINK]">Перейти на сайт</a></p>
+         						<br>
+         						<p>С уважением, [ADMIN_COMPANY]</p>
+         						<br>
+         						<p>Наши контакты</p>
+         						<p>[ADMIN_MAIL_SALES] - отдел продаж</p>
+         						<p>[ADMIN_MAIL_SUPPORT] - техподдержка</p>
+         						</td></tr>
+         					</tbody>
+         				</table>
+       subject: Товар поступил на склад
+       mailtype: notifystockuser
+       itempost: 
+     12:
+       id: 13
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту о принятии заказа в работу
+       letter: Здравствуйте, [NAMECLIENT]! Ваш заказ №[SHOP_ORDER_NUM] принят к исполнению. Посмотреть статус заказа и оплатить можно на странице <a href="http://valtec-msk.ru/clientaccount">"Мои заказы"</a> Любые пожелания и вопросы, касающиеся прибретения продукта и работы с ним, присылайте в наш отдел продаж по адресу [ADMIN_MAIL_SALES] С уважением, Компания [ADMIN_COMPANY] E-Mail: [ADMIN_MAIL_SALES] - отдел продаж [ADMIN_MAIL_SUPPORT] - техподдержка
+       subject: Order [SHOP_ORDER_NUM] принят к обработке
+       mailtype: orderdelivM
+       itempost: 
+     13:
+       id: 14
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту об отправке заказа
+       letter: Здравствуйте, [NAMECLIENT]! Ваш заказ №[SHOP_ORDER_NUM] отправлен на&nbsp;Ваш адрес. Посмотреть статус заказа и оплатить можно на странице "<a href="http://valtec-msk.ru/clientaccount/" title="Мои заказы" target="_blank">Мои заказы</a>" Любые пожелания и вопросы, касающиеся прибретения продукта и работы с ним, присылайте в наш отдел продаж по адресу [ADMIN_MAIL_SALES] С уважением, Компания [ADMIN_COMPANY] E-Mail: [ADMIN_MAIL_SALES] - отдел продаж [ADMIN_MAIL_SUPPORT] - техподдержка
+       subject: Order [SHOP_ORDER_NUM] отправлен в Ваш адрес
+       mailtype: orderdelivP
+       itempost: 
+     14:
+       id: 15
+       shop_mail_group_id: 1
+       lang: rus
+       title: Письмо клиенту о доставке заказа
+       letter: Здравствуйте, [NAMECLIENT]! Ваш заказ №[SHOP_ORDER_NUM] доставлен. Посмотреть статус заказа и оплатить можно на странице <a href="http://valtec-msk.ru/clientaccount">"Мои заказы"</a> Любые пожелания и вопросы, касающиеся прибретения продукта и работы с ним, присылайте в наш отдел продаж по адресу [ADMIN_MAIL_SALES] С уважением, Компания [ADMIN_COMPANY] E-Mail: [ADMIN_MAIL_SALES] - отдел продаж [ADMIN_MAIL_SUPPORT] - техподдержка
+       subject: Order [SHOP_ORDER_NUM] доставлен
+       mailtype: orderdelivY
+       itempost: 

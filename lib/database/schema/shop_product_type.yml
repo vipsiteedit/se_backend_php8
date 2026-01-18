@@ -1,0 +1,16 @@
+shop_product_type:
+   tableName: shop_product_type
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     name:
+       type: string(255)
+       notnull: true
+   relations:
+   values:

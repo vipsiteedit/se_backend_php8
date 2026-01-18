@@ -1,0 +1,16 @@
+﻿.shopSearchList .searchBlock .obj.searchFor label {margin-right:5px; float:left;}
+.shopSearchList .searchBlock .obj.fromTo {margin-top:10px; margin-bottom:10px;}
+.shopSearchList .searchBlock .obj.fromTo label {margin-right:20px; float:left;}
+.shopSearchList .searchBlock .obj.fromTo div.from {float:left;}
+.shopSearchList .searchBlock .obj.fromTo div.from .title {float:left;}
+.shopSearchList .searchBlock .obj.fromTo div.from input {margin-right:5px;}
+.shopSearchList .searchBlock .obj.fromTo div.to .title {float:left;}
+.shopSearchList .searchBlock .obj.manufacture {margin-bottom:10px;}
+.shopSearchList .searchBlock .obj.manufacture label {margin-right:5px; float:left;}
+.shopSearchList .searchBlock .obj.cat {margin-bottom:10px;}
+.shopSearchList .searchBlock .obj.cat label {margin-bottom:5px; display:block;}
+.shopSearchList .selSearchRezult {margin-bottom:20px;}
+.shopSearchList .selSearchRezult .block_message {color:#FF0000;}
+.shopSearchList .selSearchRezult .nameHeader {margin-right:20px; float:left;}
+.shopSearchList .tablePrice th {padding:3px; text-align:left;}
+.shopSearchList .tablePrice td {padding:3px;}

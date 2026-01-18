@@ -1,0 +1,135 @@
+ShopPrice:
+  tableName: se_shop_price
+  tableAlias: sp
+  tableType:
+    engine: innoDB
+    charset: utf8
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      sequence: shop_price_id
+    articles: #артикул
+      type: string(30)
+      notnull: true
+    code: #код
+      type: string(30)
+      notnull: true
+      unique: true
+      comment: code
+    name: #наименование
+      type: string(125)
+      notnull: true
+    description: #подробное описание
+      type: string(2147483647)
+    description_short: #краткое описание
+      type: string(65535)
+      
+    action_id: #действие
+      type: integer
+      
+    picture_id: #картинка
+      type: integer
+      
+    group_id: #группа
+      type: integer
+      notnull: true
+      
+    price: #цена
+      type: float(10)
+      notnull: true
+    price_wholesale: #оптовая цена
+      type: float(10)
+    price_bonus: #бонусная цена
+      type: float(10)
+      notnull: true
+    tax: #налог (%)
+      type: float(5)
+      default: 0
+      notnull: true
+    discount_max: #максимальная скидка (%)
+      type: float(5)
+      default: '100.00'
+      notnull: true
+      
+    has_discount: #наличие скидки
+      type: boolean
+      default: false
+      notnull: true
+    has_special: #наличие специальной цены
+      type: boolean
+      default: false
+      notnull: true
+      
+    is_active: #активность
+      type: boolean
+      default: true
+      notnull: true
+      
+    count: #количество
+      type: integer
+      unsigned: true
+    measure: #единица измерения
+      type: string(50)
+      
+    volume: #объем (куб.м)
+      type: float(5)
+
+    weight: #вес (кг)
+      type: float(5)
+      
+    presence: #наличие (описание)
+      type: string(50)
+      
+    manufacturer_id: #производитель
+      type: integer
+    manufactured_date: #дата производства
+      type: date
+    expiration_date: #срок годности (дни)
+      type: integer
+      
+    country_id: #язык
+      type: integer
+#      default: 1
+      notnull: true
+      
+    currency_id: #валюта
+      type: integer
+#      default: 1
+      notnull: true
+      
+  relations:
+    se_shop_group:
+      class: ShopGroup
+      local: group_id
+      foreign:  id
+      onUpdate: CASCADE
+    se_country:
+      class: Country
+      local: country_id
+      foreign:  id
+      onUpdate: CASCADE
+    se_currency:
+      local: currency_id
+      foreign:  id
+      onUpdate: CASCADE
+    se_shop_picture:
+      class: ShopPicture
+      local: picture_id
+      foreign:  id
+      foreignType: one
+      onDelete: 'SET NULL'
+      onUpdate: CASCADE
+    se_shop_manufacturer:
+      class: ShopManufacturer
+      local: manufacturer_id
+      foreign:  id
+      onDelete: 'SET NULL'
+      onUpdate: CASCADE
+    se_shop_action:
+      class: ShopAction
+      foreign:  id
+      local: action_id
+      onDelete: 'SET NULL'
+      onUpdate: CASCADE

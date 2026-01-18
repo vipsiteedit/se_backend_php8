@@ -1,0 +1,24 @@
+﻿.contArt .object .objectNote {margin-bottom:10px;}
+.contArt .object .links {margin-top:10px; display:inline-block; width:100%;}
+.contArt .object .artMore {margin-right:10px; float:left;}
+.contArt .object .comments {float:left;}
+.contArt #view .buttonArea {margin-top:20px;}
+.contArt .guestList {margin-top:20px; clear:both;}
+.contArt .guestList .passert .commentTitle {font-weight:bold; margin-bottom:20px;}
+.contArt .guestList .passert .comment {margin-bottom:30px;}
+.contArt .guestList .passert .comment .date {margin-right:15px; float:left;}
+.contArt .guestList .passert .comment .text {margin-top:10px;}
+.contArt .guestList .passert .comment .DelCommPre {margin-top:5px;}
+.contArt .guestList .addComment {margin-top:20px;}
+.contArt .guestList .addComment .blockError .errorMessage {color:#ff0000; font-weight:bold; margin-bottom:10px;}
+.contArt .guestList .addComment .title {font-weight:bold; margin-bottom:10px; display:block;}
+.contArt .guestList .addComment .obj {margin-bottom:10px;}
+.contArt .guestList .addComment .obj label {margin-bottom:5px; margin-right:5px; float:left;}
+.contArt .guestList .addComment .obj textarea {width:320px;}
+.contArt .guestList .addComment .obj.name {margin-right:5px; float:left;}
+.contArt .guestList .addComment .obj.email {float:left;}
+.contArt .guestList .addComment .obj.note {clear:both;}
+.contArt .guestList .addComment .obj.note label {display:block; float:none;}
+.contArt .guestList .addComment .antiSpam img {margin-bottom:2px; margin-right:10px; float:left;}
+.contArt .guestList .addComment .antiSpam input {display:block; clear:both;}
+.contArt .guestList .addComment .buttonAreaEdit {margin-top:20px; clear:both;}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Навигация</group>
+	<name>Меню ссылки</name>
+	<comment>Модуль для создания записей, являющихся ссылками на страницы, либо файлы. Модуль работает начиная с версии StartPlus</comment>
+</option>

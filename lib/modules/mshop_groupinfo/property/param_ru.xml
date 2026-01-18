@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Базовая группа" list=""></parametr>
+	<parametr lang="ru" name="param2" title="Передавать имя группы в заголовок страницы:" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param3" title="текст к заголовку" list="">страница</parametr>
+</params>

@@ -1,0 +1,67 @@
+﻿.contFCtlg .search .paramsearch .inputs {float:left;}
+.contFCtlg .newMsg {margin-top:10px; margin-bottom:10px; display:inline-block;}
+.contFCtlg .seNavigator {clear:both;}
+.contFCtlg .object {margin-bottom:20px; margin-left:10px; width:40%; height:450px; float:left; overflow:clip;}
+.contFCtlg .object .objectTitle {clear:both;}
+.contFCtlg .object .objectNote {margin-bottom:20px;}
+.contFCtlg .object .contact {margin-bottom:3px; display:inline-block; clear:left;}
+.contFCtlg .object .contact .obj {display:block; clear:both;}
+.contFCtlg .object .contact .obj .name {width:120px; float:left;}
+.contFCtlg .object .buttonDowload {margin-top:10px; margin-bottom:10px;}
+.contPodrFCtlg .skrinsots {display:block; clear:both;}
+.contPodrFCtlg .rating {margin-top:10px;}
+.contPodrFCtlg .rating .golosa {clear:both;}
+.contPodrFCtlg .rating .golosa_titl {float:left;}
+.contPodrFCtlg .rating .golosa_kol {float:left;}
+.contPodrFCtlg .rating .golosa_izm {float:left;}
+.contPodrFCtlg .rating .goRtngButton {margin-bottom:15px; clear:both;}
+.contPodrFCtlg .prosmotri .name {float:left;}
+.contPodrFCtlg .statistics {margin-bottom:15px;}
+.contPodrFCtlg .statistics .name {float:left;}
+.contPodrFCtlg .buttonDowload {margin-bottom:10px;}
+.contPodrFCtlg .comments {margin-bottom:15px; display:block; clear:both;}
+.contPodrFCtlg .comments .comments_list .comments_vse .comment_un {margin-bottom:10px;}
+.contPodrFCtlg .comments .comments_list .comments_vse .comment_un .comments_link {float:left;}
+.contPodrFCtlg .comments .comments_list .comments_vse .comment_un .comments_athor {font-weight:bolder;}
+.contPodrFCtlg .comments .comments_ins {margin-top:20px;}
+.contPodrFCtlg .comments .comments_ins .comments_ins_title {font-weight:bolder;}
+.contPodrFCtlg .comments .comments_ins .comments_ins_text {width:60%; height:120px;}
+.contPodrFCtlg .comments .comments_ins .tablrow .err {color:#FF0000;}
+.contPodrFCtlg .comments .comments_ins .goButton {display:block;}
+.contEditFCtlg .errortext {color:#FF0000; margin-bottom:10px;}
+.contEditFCtlg .form {width:360px;}
+.contEditFCtlg .form .obj {margin-bottom:15px;}
+.contEditFCtlg .form .obj .title {margin-bottom:5px; width:200px; float:left;}
+.contEditFCtlg .form .obj.text .title {float:none;}
+.contEditFCtlg .form .obj.text .field textarea {width:360px; height:150px;}
+.contEditFCtlg .form .obj.userfile .title {float:none;}
+.contEditFCtlg .form .skrinshoti .title {float:none;}
+.contEditFCtlg .form .linksins .title {display:block;}
+.contEditFCtlg .form .linksins .namelinks {display:block; clear:both;}
+.contEditFCtlg .form .linksins .namelinks .field {float:none;}
+.contEditFCtlg .form .linksins .urllinks .field {float:none;}
+.contRedFCtlg .errortext {color:#FF0000; margin-bottom:10px;}
+.contRedFCtlg .form {width:360px;}
+.contRedFCtlg .form .obj {margin-bottom:10px;}
+.contRedFCtlg .form .obj .title {margin-bottom:5px; width:200px; float:left;}
+.contRedFCtlg .form .obj.userfile {margin-bottom:10px;}
+.contRedFCtlg .form .imgred {display:block;}
+.contRedFCtlg .form .obj.userfile .title {float:none;}
+.contRedFCtlg .form .obj.userfile .imgdel input {float:left;}
+.contRedFCtlg .form .obj.text {margin-bottom:15px;}
+.contRedFCtlg .form .obj.text .title {float:none;}
+.contRedFCtlg .form .obj.text .field textarea {width:360px; height:150px;}
+.contRedFCtlg .form .linksins {margin-bottom:15px;}
+.contRedFCtlg .form .linksins .title {display:block;}
+.contRedFCtlg .form .linksins .namelinks {display:block; clear:both;}
+.contRedFCtlg .form .linksins .namelinks .field {float:none;}
+.contRedFCtlg .form .linksins .urllinks .field {float:none;}
+.contRedFCtlg .form .skrinvivod .skrin {display:block; clear:both;}
+.contRedFCtlg .form .skrinvivod .skrindel {display:item-block; float:left; clear:left;}
+.contRedFCtlg .form .skrinvivod .skrindel .inputs {display:block; float:left; clear:both;}
+.contRedFCtlg .form .skrinshoti {margin-bottom:15px; display:block; clear:both;}
+.contRedFCtlg .form .skrinshoti .title {float:none;}
+.contRedFCtlg .form .obj.del {display:block; float:left; clear:both;}
+.contRedFCtlg .form .obj.del .title {display:block; float:left;}
+.contRedFCtlg .form .obj.del .field input {float:left;}
+.contModKomFCtlg .mod_kom_del .field {float:left;}

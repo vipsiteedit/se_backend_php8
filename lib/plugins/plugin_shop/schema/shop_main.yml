@@ -1,0 +1,49 @@
+ShopMain:
+  actAs: [Timestampable]
+  columns:
+    country_id:
+      type: integer
+#      default: 1
+      notnull: true
+    tax:
+      type: float(6)
+      notnull: true
+    currency_id:
+      type: integer
+#      default: 1
+      notnull: true
+    company: 
+      type: string(250)
+      notnull: true
+    director:
+      type: string(80)
+      notnull: true
+    posthead:
+      type: string(40)
+    bookkeeper:
+      type: string(80)
+    addr_f:
+      type: string(2147483647)
+    addr_u:
+      type: string(2147483647)
+    phone:
+      type: string(125)
+    fax:
+      type: string(50)
+    esupport:
+      type: string(250)
+    esales:
+      type: string(250)
+  relations:
+    country:
+      class: Country
+      local: country_id
+      foreignAlias: shop_base
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    currency:
+      class: Currency
+      local: currency_id
+#      foreignAlias: shop_base
+      onDelete: CASCADE
+      onUpdate: CASCADE

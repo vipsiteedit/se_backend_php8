@@ -1,0 +1,70 @@
+se_account_operation:
+   tableName: se_account_operation
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: se_account_operation_id
+     operation_id:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     lang:
+       type: char(3)
+       notnull: true
+     name:
+       type: string(40)
+       notnull: true
+   values:
+     1:
+       id: 1
+       operation_id: 0
+       lang: rus
+       name: Баланс
+     2:
+       id: 2
+       operation_id: 1
+       lang: rus
+       name: Приход
+     3:
+       id: 3
+       operation_id: 2
+       lang: rus
+       name: Расход
+     4:
+       id: 4
+       operation_id: 3
+       lang: rus
+       name: Премия
+     5:
+       id: 5
+       operation_id: 4
+       lang: rus
+       name: Комиссионные
+     6:
+       id: 6
+       operation_id: 5
+       lang: rus
+       name: Возврат средств
+     7:
+       id: 7
+       operation_id: 6
+       lang: rus
+       name: Списание
+     8:
+       id: 8
+       operation_id: 7
+       lang: rus
+       name: Перевод
+     9:
+       id: 9
+       operation_id: 8
+       lang: rus
+       name: Перенос

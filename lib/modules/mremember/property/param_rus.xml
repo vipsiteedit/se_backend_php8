@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="E-Mail администратора сайта:" list="">[%adminmail%]</parametr>
+	<parametr lang="rus" name="param2" title="Путь к странице (для ссылки):" list="">home</parametr>
+	<parametr lang="rus" name="param3" title="Имя страницы (для ссылки):" list="">Главная</parametr>
+	<parametr lang="rus" name="param4" title="Текст письма:" list="{text}">Уважаемый(ая) [USERNAME]\r\nОт вас поступил запрос восстановления пароля на сайт [SITENAME]\r\n\r\nВаши авторизационные данные:\r\nЛогин: [USERLOGIN]\r\nПароль: [USERPASSWORD]\r\n</parametr>
+	<parametr lang="rus" name="param5" title="Заголовок &amp;quot;Логин&amp;quot;:" list="">Логин</parametr>
+	<parametr lang="rus" name="param6" title="Текст &amp;quot;и&amp;quot;:" list="">и</parametr>
+	<parametr lang="rus" name="param7" title="Заголовок &amp;quot;e-mail&amp;quot;:" list="">e-mail</parametr>
+	<parametr lang="rus" name="param8" title="Текст сообщения &amp;quot;Новый пароль будет выслан...&amp;quot;" list="">Новый пароль будет выслан вам по e-mail,  который вы оставили при регистрации.</parametr>
+	<parametr lang="rus" name="param9" title="Текст кнопки &amp;quot;Отправить&amp;quot;:" list="">Отправить пароль</parametr>
+	<parametr lang="rus" name="param10" title="Сообщение &amp;quot;Не верно указаны данные!&amp;quot;:" list="">Не верно указаны данные!</parametr>
+	<parametr lang="rus" name="param11" title="Текст письма Администратору:" list="">Уважаемый Админ!\r\nВаш клиент [USERNAME] запросил восстановление пароля, который был отправлен на [USEREMAIL]</parametr>
+	<parametr lang="rus" name="param12" title="Сообщение &amp;quot;Адресат не найден&amp;quot;:" list="">Указанный адресат не найден!</parametr>
+	<parametr lang="rus" name="param13" title="Текст сообщения &amp;quot;Выслан пароль&amp;quot;:" list="">На Ваш почтовый адрес [USEREMAIL] выслан новый пароль.</parametr>
+	<parametr lang="rus" name="param14" title="Текст заголовка письма &amp;quot;Новый пароль&amp;quot;:" list="">Новый пароль</parametr>
+	<parametr lang="rus" name="param15" title="Отправлять письмо  администратору:" list="Y|Да,N|Нет">N</parametr>
+</params>

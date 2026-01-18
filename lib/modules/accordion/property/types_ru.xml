@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Тексты</group>
+	<name>Аккордеон</name>
+	<comment>Модуль помогает отображать или скрывать информацию, расположенную в нескольких панелях.</comment>
+</option>

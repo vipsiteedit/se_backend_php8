@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param96" title="::: ПАРАМЕТРЫ ПОИСКА :::" list=""></parametr>
+	<parametr lang="rus" name="param89" title="Значение ИСКАТЬ ПО по умолчанию" list="art|По артикулу,lot|По наименованию,descr|По содержанию">lot</parametr>
+	<parametr lang="rus" name="param50" title="Страница корзины:" list="">shopcart</parametr>
+	<parametr lang="rus" name="param81" title="Страница магазина:" list="">catalogue</parametr>
+	<parametr lang="rus" name="param104" title="Код группы по умолчанию" list=""></parametr>
+	<parametr lang="rus" name="param97" title="" list=""></parametr>
+	<parametr lang="rus" name="param73" title="::: ФОРМА ПОИСКА :::" list=""></parametr>
+	<parametr lang="rus" name="param62" title="Текст на кнопке &amp;quot;Очистить поиск&amp;quot;" list="">Очистить</parametr>
+	<parametr lang="rus" name="param103" title="Текст в списке &amp;quot;Выберите производителя&amp;quot;" list="">Выберите производителя</parametr>
+	<parametr lang="rus" name="param88" title="Текст в списке &amp;quot;Выберите категорию&amp;quot;" list="">Выберите категорию</parametr>
+	<parametr lang="rus" name="param63" title="Текст на кнопке &amp;quot;Искать&amp;quot;:" list="">Искать</parametr>
+	<parametr lang="rus" name="param64" title="Заголовок &amp;quot;Категории&amp;quot;:" list="">Категории</parametr>
+	<parametr lang="rus" name="param65" title="Заголовок &amp;quot;Производитель&amp;quot;:" list="">Производитель</parametr>
+	<parametr lang="rus" name="param66" title="Заголовок &amp;quot;Диапазон цен&amp;quot;:" list="">Диапазон цен</parametr>
+	<parametr lang="rus" name="param67" title="Текст &amp;quot;от&amp;quot;:" list="">от</parametr>
+	<parametr lang="rus" name="param68" title="Текст &amp;quot;до&amp;quot;:" list="">до</parametr>
+	<parametr lang="rus" name="param69" title="Текст в списке &amp;quot;Все группы&amp;quot;:" list="">Все группы</parametr>
+	<parametr lang="rus" name="param70" title="Текст в списке &amp;quot;По содержанию&amp;quot;:" list="">По содержанию</parametr>
+	<parametr lang="rus" name="param71" title="Текст в списке &amp;quot;По наименованию&amp;quot;:" list="">По наименованию</parametr>
+	<parametr lang="rus" name="param72" title="Текст в списке &amp;quot;По артикулу&amp;quot;:" list="">По артикулу</parametr>
+	<parametr lang="rus" name="param74" title="Заголовок &amp;quot;Искать по&amp;quot;" list="">Искать по</parametr>
+	<parametr lang="rus" name="param28" title="" list=""></parametr>
+	<parametr lang="rus" name="param91" title="::: ЗАГОЛОВКИ СТОЛБЦОВ ПРАЙСА :::" list=""></parametr>
+	<parametr lang="rus" name="param75" title="Текст столбца &amp;quot;Группа товара&amp;quot;" list="">Группа товара</parametr>
+	<parametr lang="rus" name="param3" title="Текст столбца &amp;quot;Артикул&amp;quot;:" list="">Артикул</parametr>
+	<parametr lang="rus" name="param4" title="Текст столбца &amp;quot;Наименование&amp;quot;:" list="">Наименование</parametr>
+	<parametr lang="rus" name="param5" title="Текст столбца &amp;quot;В наличии&amp;quot;" list="">Наличие</parametr>
+	<parametr lang="rus" name="param6" title="Текст столбца &amp;quot;Цена&amp;quot;:" list="">Цена</parametr>
+	<parametr lang="rus" name="param7" title="Текст столбца &amp;quot;Аналоги&amp;quot;:" list="">Аналоги</parametr>
+	<parametr lang="rus" name="param8" title="Текст столбца &amp;quot;В корзину&amp;quot;" list="">Купить</parametr>
+	<parametr lang="rus" name="param29" title="Заголовок таблицы &amp;quot;Аналоги&amp;quot;" list="">Похожие товары</parametr>
+	<parametr lang="rus" name="param77" title="Отображать поле &amp;quot;Группа товара&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="rus" name="param57" title="Отображать поле &amp;quot;Артикул&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param90" title="Текст &amp;quot;Неограниченное число&amp;quot;:" list="">Есть</parametr>
+	<parametr lang="rus" name="param55" title="Отображать поле &amp;quot;В наличии&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param56" title="Отображать поле &amp;quot;Аналоги&amp;quot;:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param79" title="Отображать поле &amp;quot;Производитель&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param80" title="Текст ссылки &amp;quot;Есть аналоги&amp;quot;" list="">Есть аналоги</parametr>
+	<parametr lang="rus" name="param94" title="" list=""></parametr>
+	<parametr lang="rus" name="param92" title="::: КНОПКИ :::" list=""></parametr>
+	<parametr lang="rus" name="param11" title="Текст кнопки &amp;quot;Назад&amp;quot;" list="">Назад</parametr>
+	<parametr lang="rus" name="param59" title="Текст или символ кнопок &amp;quot;Добавить в корзину&amp;quot;" list="">Купить</parametr>
+	<parametr lang="rus" name="param95" title="" list=""></parametr>
+	<parametr lang="rus" name="param93" title="::: КАРТОЧКА ТОВАРА :::" list=""></parametr>
+	<parametr lang="rus" name="param24" title="Просмотр товара, текст &amp;quot;Цена&amp;quot;" list="">Цена:</parametr>
+	<parametr lang="rus" name="param26" title="Просмотр товара, текст ссылки &amp;quot;показать все фото товара&amp;quot;" list="">ещё фото</parametr>
+	<parametr lang="rus" name="param52" title="Текст кнопки &amp;quot;Вернуться в каталог&amp;quot;" list="">В каталог</parametr>
+	<parametr lang="rus" name="param44" title="Текст для картинки, если нет фото" list="">нет фото</parametr>
+	<parametr lang="rus" name="param43" title="Текст сообщения &amp;quot;Есть аналоги&amp;quot;" list="">есть</parametr>
+	<parametr lang="rus" name="param61" title="" list=""></parametr>
+	<parametr lang="rus" name="param86" title="::: ДРУГИЕ ПАРАМЕТРЫ :::" list=""></parametr>
+	<parametr lang="rus" name="param9" title="Текст комментария &amp;quot;В корзину&amp;quot;" list="">В корзину</parametr>
+	<parametr lang="rus" name="param21" title="Сообщение об отсутствии товара" list="">Данный товар отсутствует в каталоге!</parametr>
+	<parametr lang="rus" name="param58" title="Всплывающая подсказка &amp;quot;Сортировать по&amp;quot;" list="">Сортировать по этому параметру</parametr>
+	<parametr lang="rus" name="param85" title="Заголовок &amp;quot;Выражение для поиска&amp;quot;" list="">Выражение для поиска</parametr>
+	<parametr lang="rus" name="param87" title="Текст &amp;quot;Найдено товаров&amp;quot;" list="">Найдено товаров</parametr>
+	<parametr lang="rus" name="param98" title="" list=""></parametr>
+	<parametr lang="rus" name="param99" title="::: ПАРАМЕТРЫ СОРТИРОВКИ ::: " list=""></parametr>
+	<parametr lang="rus" name="param100" title="Текст подсказки &amp;quot;по возрастанию&amp;quot;:" list="">по возрастанию</parametr>
+	<parametr lang="rus" name="param101" title="Текст подсказки &amp;quot;по убыванию&amp;quot;:" list="">по убыванию</parametr>
+</params>

@@ -1,0 +1,25 @@
+shop_stat_contact:
+   tableName: shop_stat_contact
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id_session:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     contact:
+       type: string(50)
+       notnull: true
+     value:
+       type: string(255)
+       notnull: true
+   relations:
+     shop_stat_session:
+       local: id_session
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

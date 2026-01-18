@@ -1,0 +1,37 @@
+news_userfields:
+   tableName: news_userfields
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: news_userfields_id
+     id_news:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_userfield:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     value:
+       type: text
+   relations:
+     news:
+       local: id_news
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_userfields:
+       local: id_userfield
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

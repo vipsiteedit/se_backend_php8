@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param98" title="Спрятать пустую ячейку в главной таблице?" list="1|Нет, 2|Да">1</parametr>
+	<parametr lang="rus" name="param1" title="Количество сообщений на странице:" list="">10</parametr>
+	<parametr lang="rus" name="param99" title="Количество тем на странице:" list="">10</parametr>
+	<parametr lang="rus" name="param2" title="Максимальная длина сообщения:" list="">1000</parametr>
+	<parametr lang="rus" name="param3" title="Максимальная длина темы форума:" list="">100</parametr>
+	<parametr lang="rus" name="param4" title="Название форума:" list="">Форум</parametr>
+	<parametr lang="rus" name="param5" title="Продолжительность сессии (секунд):" list="">600</parametr>
+	<parametr lang="rus" name="param6" title="Ник незарегистрированного пользователя:" list="">Гость</parametr>
+	<parametr lang="rus" name="param91" title="Ник администратора сайта" list="">Администратор</parametr>
+	<parametr lang="rus" name="param7" title="Время задержки для защиты от флуда:" list="">10</parametr>
+	<parametr lang="rus" name="param14" title="Вид стрелки в строке пути:" list="">=&gt;</parametr>
+	<parametr lang="rus" name="param16" title="Максимальное количество файлов к сообщению для пользователя" list="">5</parametr>
+	<parametr lang="rus" name="param17" title="Размер (в байтах) файлов для одного сообщения" list="">204800</parametr>
+	<parametr lang="rus" name="param18" title="Общий размер (в байтах) файлов для одного пользователя" list="">2048000</parametr>
+	<parametr lang="rus" name="param100" title="Добавить статутс по умолчанию, если нет ни одного статуса" list="">Пользователь</parametr>
+</params>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Ширина раздела" list="y|Резиновая,n|Фиксированная,d|Не использовать">n</parametr>
+</params>

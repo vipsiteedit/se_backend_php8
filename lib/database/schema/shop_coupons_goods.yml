@@ -1,0 +1,43 @@
+shop_coupons_goods:
+   tableName: shop_coupons_goods
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_coupons_goods_id
+     coupon_id:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     group_id:
+       type: integer
+       unsigned: true
+       index: true
+     price_id:
+       type: integer
+       unsigned: true
+       index: true
+   relations:
+     shop_coupons:
+       local: coupon_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_group:
+       local: group_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_price:
+       local: price_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

@@ -1,0 +1,9 @@
+ShopGroupParameter:
+  actAs: [Timestampable]
+  columns:
+    group_id:
+      type: integer
+      notnull: true
+    parameter_id:
+      type: integer
+      notnull: true

@@ -1,0 +1,34 @@
+shop_stat_cart:
+   tableName: shop_stat_cart
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id_session:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_product:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     modifications:
+       type: string(255)
+     count:
+       type: float(10,3)
+       unsigned: true
+   relations:
+     shop_stat_session:
+       local: id_session
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_price:
+       local: id_product
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

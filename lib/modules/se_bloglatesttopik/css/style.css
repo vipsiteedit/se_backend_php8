@@ -1,0 +1,22 @@
+﻿.ui-tabs {min-width:250px;}
+.ui-tabs .ui-tabs-nav {margin:0; display:inline-block; padding:0;}
+.ui-tabs .ui-tabs-nav li {margin:0; position:relative; top:3px; float:left; padding:8px 11px 12px 11px; list-style-type:none;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected {background-color:#ffffff; border-width:1px; border-color:#adadad; border-style:solid; border-bottom:1px  transparent; padding:7px 10px 11px 10px; -moz-border-radius: 3px 3px 0 0; -webkit-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0; background: -webkit-gradient(linear, 0 0, 0 bottom, from(#F5F5F5), to(#ffffff)); background: -webkit-linear-gradient(#F5F5F5, #ffffff); background: -moz-linear-gradient(#F5F5F5, #ffffff); background: -ms-linear-gradient(#F5F5F5, #ffffff); background: -o-linear-gradient(#F5F5F5, #ffffff); background: linear-gradient(#F5F5F5, #ffffff); -pie-background: linear-gradient(#F5F5F5, #ffffff); behavior: url(/lib/js/pie.htc) url(lib/js/pie.htc);}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {text-decoration:none; border-bottom:1px dotted ;}
+.ui-tabs .ui-tabs-panel {border-width:1px; border-color:#adadad; border-style:solid; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; behavior: url(/lib/js/pie.htc) url(lib/js/pie.htc);}
+.ui-tabs .ui-tabs-hide {display:none;}
+.populartopik .poslcomm {padding:10px;}
+.populartopik .poslcomm .kazdcomm {margin-bottom:10px;}
+.populartopik .poslcomm .kazdcomm .link {display:inline;}
+.populartopik .poslcomm .kazdcomm .razdelitel {display:inline;}
+.populartopik .poslcomm .kazdcomm .kolvomsg {display:inline;}
+.populartopik .poslcomm .kazdcomm .kolvomsg .msglink {display:inline;}
+.populartopik .poslcomm .kazdcomm .razdelitel2 {display:inline;}
+.populartopik .poslcomm .kazdcomm .data {display:inline;}
+.populartopik .blogspopularposts {padding:10px;}
+.populartopik .blogspopularposts .kazdcomm {margin-bottom:10px;}
+.populartopik .blogspopularposts .kazdcomm .link {display:inline;}
+.populartopik .blogspopularposts .kazdcomm .razdelitel {display:inline;}
+.populartopik .blogspopularposts .kazdcomm .kolvomsg {display:inline;}
+.populartopik .blogspopularposts .kazdcomm .razdelitel3 {display:inline;}
+.populartopik .blogspopularposts .kazdcomm .prosm {display:inline;}

@@ -1,0 +1,4 @@
+﻿.cont_photo .photo {margin-bottom:30px; margin-right:5px; display:inline-block; vertical-align:top;}
+.cont_photo .photo .photoBriefImg .objectImage {margin:0; float:none;}
+.cont_photo .photo .linkText {margin-top:3px; display:block;}
+.cont_photo.photoDetailed .buttonSend {margin-top:10px;}

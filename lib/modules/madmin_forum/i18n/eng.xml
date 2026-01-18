@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>Status management</lang001>
+	<lang002>Add</lang002>
+	<lang003>Edit</lang003>
+	<lang004>Delete</lang004>
+	<lang005>Assignment of the status</lang005>
+	<lang006>Choose a user</lang006>
+	<lang007>Establish</lang007>
+	<lang008>Blacklist</lang008>
+	<lang009>Add to list</lang009>
+	<lang010>Delete from list</lang010>
+	<lang011>Add/Edit section title</lang011>
+	<lang012>Enter new section title</lang012>
+	<lang013>Save</lang013>
+	<lang014>Get back</lang014>
+	<lang015>Enter section title</lang015>
+	<lang016>Forum options</lang016>
+	<lang017>Forum title</lang017>
+	<lang018>Brief description of the forum</lang018>
+	<lang019>The status of the forum</lang019>
+	<lang020>Visible</lang020>
+	<lang021>Invisible</lang021>
+	<lang022>Section</lang022>
+	<lang023>Enter the title of the forum</lang023>
+	<lang024>Impossible to raise the forum</lang024>
+	<lang025>Impossible to drop the forum</lang025>
+	<lang026>Impossible to raise the section</lang026>
+	<lang027>Impossible to drop the section</lang027>
+	<lang028>Notice of confirmation</lang028>
+	<lang029>Yes</lang029>
+	<lang030>No</lang030>
+	<lang031>Are you sure you want to delete the section</lang031>
+	<lang032>The section is not empty and can not be removed</lang032>
+	<lang033>Are you sure you want to delete the forum</lang033>
+	<lang034>The forum is not empty. Delete a forum with all the topics?</lang034>
+	<lang035>You can not remove administrator from the moderators list!</lang035>
+	<lang036>Error message</lang036>
+	<lang037>Assignment of a moderator for the forum</lang037>
+	<lang038>Current moderator:</lang038>
+	<lang039>Forum moderator</lang039>
+	<lang040>is not assigned!</lang040>
+	<lang041>Moderator</lang041>
+	<lang042>Assignment of a super moderator for the forum</lang042>
+	<lang043>There is no moderators on this forum </lang043>
+	<lang044>Enter the status</lang044>
+	<lang045>You can not delete the status, defined by default</lang045>
+	<lang046>Enter new title of the status</lang046>
+	<lang047>Enter title</lang047>
+	<lang048>No such user</lang048>
+	<lang049>&amp;gt;Move the topics</lang049>
+	<lang050>Topic</lang050>
+	<lang051>Move</lang051>
+	<lang052>Subpages</lang052>
+	<lang053>Working with the Status and blacklist</lang053>
+	<lang054>Creating or editing a topic</lang054>
+	<lang055>Creating or editing a forum</lang055>
+	<lang056>Assignment of a moderator or super moderator the forum</lang056>
+	<lang057>Move the topics</lang057>
+	<lang058>Forums</lang058>
+	<lang059>Users</lang059>
+	<lang060>List of super moderators</lang060>
+	<lang061>List of forums</lang061>
+	<lang062>Forums</lang062>
+	<lang063>Topics</lang063>
+	<lang064>Management</lang064>
+	<lang065>Up</lang065>
+	<lang066>Down</lang066>
+	<lang067>Add forum</lang067>
+	<lang068>Add section</lang068>
+</language>

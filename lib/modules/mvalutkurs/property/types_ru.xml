@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Информеры</group>
+	<name>Информер курса валют</name>
+	<comment>Модуль показа курса валют на сайте</comment>
+</option>

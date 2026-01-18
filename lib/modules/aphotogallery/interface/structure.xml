@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="text" name="title">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="ru">Текст</title>
+		</field>
+		<field type="text" name="url">
+		<field type="text" name="meta_title">
+		<field type="text" name="meta_keywords">
+		<field type="textarea" name="meta_description">
+		<field type="text" name="image">
+		<field type="text" name="image_size" default="1024">
+		<field type="text" name="image_prev">
+		<field type="text" name="image_prev_size" default="300x300">
+	</objects>
+</structure>

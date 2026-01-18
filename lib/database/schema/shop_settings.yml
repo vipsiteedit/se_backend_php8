@@ -1,0 +1,161 @@
+shop_settings:
+   tableName: shop_settings
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_settings_id
+     code:
+       type: string(100)
+       notnull: true
+       unique: true
+     type:
+       type: string(25)
+       notnull: true
+       index: true
+       default: string
+     name:
+       type: string(100)
+       notnull: true
+     default:
+       type: string(100)
+       notnull: true
+     list_values:
+       type: string(255)
+     id_group:
+       type: integer
+       unsigned: true
+       index: true
+     description:
+       type: text
+     sort:
+       type: integer
+       notnull: true
+       index: true
+     enabled:
+       type: integer
+       notnull: true
+       default: 1
+   relations:
+     shop_setting_groups:
+       local: id_group
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:
+     1:
+       id: 1
+       code: size_picture
+       type: string
+       name: Максимальный размер изображения
+       default: 650x650
+       list_values: 
+       id_group: 1
+       description: При включенном параметре все изображения при загрузке в программе будут сжиматься пропорционально до заданных значений. Значения задаются в пикселях: ШИРИНАxВЫСОТА (пример: 1920x1080).
+       sort: 0
+       enabled: 0
+     2:
+       id: 2
+       code: weight_view
+       type: string
+       name: Код отображаемой меры веса
+       default: 163
+       list_values: 
+       id_group: 2
+       description: Код ОКЕИ отображаемой меры веса
+       sort: 0
+       enabled: 1
+     3:
+       id: 3
+       code: volume_view
+       type: string
+       name: Код отображаемой меры объема
+       default: 111
+       list_values: 
+       id_group: 2
+       description: Код ОКЕИ отображаемой меры обема
+       sort: 1
+       enabled: 1
+     4:
+       id: 4
+       code: weight_edit
+       type: string
+       name: Код редактируемой меры веса
+       default: 163
+       list_values: 
+       id_group: 2
+       description: Код ОКЕИ редактируемой меры веса
+       sort: 2
+       enabled: 1
+     5:
+       id: 5
+       code: volume_edit
+       type: string
+       name: Код редактируемой меры объема
+       default: 111
+       list_values: 
+       id_group: 2
+       description: Код ОКЕИ редактируемой меры объема
+       sort: 3
+       enabled: 1
+     6:
+       id: 6
+       code: atol_login
+       type: string
+       name: Логин пользователя API "АТОЛ Онлайн"
+       default: 
+       list_values: 
+       id_group: 3
+       description: Логин для отправки данных можно получить из файла настроек для CMS в личном кабинете пользователя "АТОЛ Онлайн".
+       sort: 1
+       enabled: 1
+     7:
+       id: 7
+       code: atol_password
+       type: password
+       name: Пароль пользователя API "АТОЛ Онлайн"
+       default: 
+       list_values: 
+       id_group: 3
+       description: Пароль для отправки данных можно получить из файла настроек для CMS в личном кабинете пользователя "АТОЛ Онлайн".
+       sort: 2
+       enabled: 1
+     8:
+       id: 8
+       code: atol_group
+       type: string
+       name: Идентификатор группы ККТ
+       default: 
+       list_values: 
+       id_group: 3
+       description: Идентификатор группы для отправки данных можно получить из файла настроек для CMS в личном кабинете пользователя "АТОЛ Онлайн".
+       sort: 3
+       enabled: 1
+     9:
+       id: 9
+       code: atol_inn
+       type: string
+       name: ИНН организации
+       default: 
+       list_values: 
+       id_group: 3
+       description: Используется для предотвращения ошибочных регистраций чеков на ККТ зарегистрированных с другим ИНН (сравнивается со значением в ФН). Допустимое количество символов 10 или 12. Если ИНН имеет длину меньше 12 цифр, то значение дополняется справа пробелами.
+       sort: 4
+       enabled: 1
+     10:
+       id: 10
+       code: atol_payment_address
+       type: string
+       name: Адрес  места  расчетов
+       default: 
+       list_values: 
+       id_group: 3
+       description: Используется для предотвращения ошибочных регистраций чеков на ККТ зарегистрированных с другим адресом места расчёта (сравнивается со значением в ФН). Максимальная длина строки – 256 символов.
+       sort: 5
+       enabled: 1

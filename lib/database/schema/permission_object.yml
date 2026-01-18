@@ -1,0 +1,73 @@
+permission_object:
+   tableName: permission_object
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: permission_object_id
+     code:
+       type: string(100)
+       notnull: true
+       unique: true
+     name:
+       type: string(255)
+       notnull: true
+   values:
+     1:
+       id: 1
+       code: contacts
+       name: Контакты
+     2:
+       id: 2
+       code: orders
+       name: Заказы
+     3:
+       id: 3
+       code: products
+       name: Товары
+     4:
+       id: 4
+       code: comments
+       name: Комментарии
+     5:
+       id: 5
+       code: reviews
+       name: Отзывы
+     6:
+       id: 6
+       code: news
+       name: Новости
+     7:
+       id: 7
+       code: images
+       name: Картинки
+     8:
+       id: 8
+       code: deliveries
+       name: Доставки
+     9:
+       id: 9
+       code: paysystems
+       name: Платежные системы
+     10:
+       id: 10
+       code: mails
+       name: Шаблоны писем
+     11:
+       id: 11
+       code: settings
+       name: Настройки магазина
+     12:
+       id: 15
+       code: currencies
+       name: Настройки валют
+     13:
+       id: 18
+       code: payments
+       name: Платежи

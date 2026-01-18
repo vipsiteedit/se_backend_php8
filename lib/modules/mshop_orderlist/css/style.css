@@ -1,0 +1,24 @@
+﻿.orderList .mainOrderList {width:100%;}
+.orderList .mainOrderList .tableHeader th {padding-top:10px; padding-bottom:10px; padding-right:10px; text-align:left;}
+.orderList .mainOrderList .tableRow td {padding-top:4px; padding-bottom:4px; padding-right:10px;}
+.orderList .mainOrderList .tableRow:nth-child(odd) td {background-image:url(mshop_orderlist/black_5.png);}
+.orderList .fontdeliv_yd {margin-left:5px;}
+.orderList .fontstatus_yd {margin-left:5px;}
+.subDetailOrder .tableDetailOrder {margin-bottom:20px; width:100%;}
+.subDetailOrder .tableDetailOrder .tableHeader th {padding-top:10px; padding-bottom:10px; padding-right:10px;}
+.subDetailOrder .tableDetailOrder .tableRow td {padding-top:10px; padding-bottom:10px; padding-right:10px;}
+.subDetailOrder .tableDetailOrder .tableRow:nth-child(odd) td {background-image:url(mshop_orderlist/black_5.png);}
+.subDetailOrder .tableDetailOrder .tableRowDiscount td {text-align: right; font-weight: bold;}
+.subDetailOrder .tableDetailOrder .tableRowDiscount .totalTitle {text_align:right;}
+.subDetailOrder .tableDetailOrder .tableRowDiscount .totalSum {font-weight:bold;}
+.subDetailOrder .tableDetailOrder .tableRowTotal td {text-align: right; font-weight: bold;}
+.subDetailOrder .tableDetailOrder .tableRowTotal .totalSum {font-weight:bold;}
+.subDetailOrder .blockDeliveryInfo {margin-bottom:20px;}
+.subDetailOrder .blockDeliveryInfo .titleDelivery {font-weight:bold; padding-top:10px; padding-bottom:10px;}
+.subDetailOrder .deliveryTable .tdDeliveryTitle {padding-top:4px; padding-bottom:4px; width:150px;}
+.subDetailOrder .deliveryTable .tableRow:nth-child(odd) td {background-image:url(mshop_orderlist/black_5.png);}
+.subDetailOrder .blockPaidInfo {margin-bottom:20px;}
+.subDetailOrder .blockPaidInfo .titlePaid {font-weight:bold; padding-top:10px; padding-bottom:10px;}
+.subDetailOrder .paymentTable .tdPaidTitle {padding-top:4px; padding-bottom:4px; width:150px;}
+.subDetailOrder .paymentTable .tableRow:nth-child(odd) td {background-image:url(mshop_orderlist/black_5.png);}
+.subDetailOrder .blockButton {margin-top:15px;}

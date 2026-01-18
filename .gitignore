@@ -1,0 +1,14 @@
+.idea
+/system/config_db.php
+/rss/
+/system/logs
+/vendor
+/cachedb
+/lib/database/tables
+/lib/database/sql
+/projects
+/www
+/images
+hostname.dat
+sitelang.dat
+/admin/config.json

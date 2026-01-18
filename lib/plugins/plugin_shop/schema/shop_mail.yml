@@ -1,0 +1,27 @@
+ShopMail:
+  actAs: [Timestampable]
+  columns:
+    country_id:
+      type: integer
+#      default: 1
+      notnull: true
+    mailtype:
+      type: string(20)
+      fixed: true
+      default: reguser
+    itempost:
+      type: integer
+      default: 0
+    title:
+      type: string(125)
+    letter:
+      type: string(2147483647)
+    subject:
+      type: string(250)
+  relations:
+    country:
+      class: Country
+      local: country_id
+#      foreignAlias: shop_mails
+      onDelete: CASCADE
+      onUpdate: CASCADE

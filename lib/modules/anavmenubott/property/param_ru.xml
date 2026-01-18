@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param14" title=":::Общие настройки:::" list=""></parametr>
+	<parametr lang="ru" name="param1" title="Номер меню" list="amenu,pmenu,001,002,003,004,005">002</parametr>
+	<parametr lang="ru" name="param15" title="Количество колонок" list="">4</parametr>
+</params>

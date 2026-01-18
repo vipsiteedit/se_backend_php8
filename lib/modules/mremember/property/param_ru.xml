@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="E-Mail администратора сайта:" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param2" title="Путь к странице (для ссылки):" list="">home</parametr>
+	<parametr lang="ru" name="param3" title="Имя страницы (для ссылки):" list="">Главная</parametr>
+	<parametr lang="ru" name="param4" title="Текст письма:" list="{text}">Уважаемый(ая) [USERNAME]\r\nОт вас поступил запрос восстановления пароля на сайт [SITENAME]\r\n\r\nВаши авторизационные данные:\r\nЛогин: [USERLOGIN]\r\nПароль: [USERPASSWORD]\r\n</parametr>
+	<parametr lang="ru" name="param11" title="Текст письма Администратору:" list="{text}">Уважаемый Админ!\r\nВаш клиент [USERNAME] запросил восстановление пароля, который был отправлен на [USEREMAIL]</parametr>
+	<parametr lang="ru" name="param15" title="Отправлять письмо  администратору:" list="Y|Да,N|Нет">N</parametr>
+</params>

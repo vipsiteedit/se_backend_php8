@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>Paid</lang001>
+	<lang002>Credit</lang002>
+	<lang003>Not paid</lang003>
+	<lang004>Not delivered</lang004>
+	<lang005>Present</lang005>
+	<lang006>Delivered</lang006>
+	<lang013>On the way</lang013>
+	<lang016>#</lang016>
+	<lang017>Date</lang017>
+	<lang018>Order #</lang018>
+	<lang019>Grand total</lang019>
+	<lang020>Order status</lang020>
+	<lang021>Article</lang021>
+	<lang022>Product</lang022>
+	<lang023>Price</lang023>
+	<lang024>Quantity</lang024>
+	<lang025>Delivery</lang025>
+	<lang026>Serial number</lang026>
+	<lang027>Contract</lang027>
+	<lang028>Cancel order</lang028>
+	<lang029>Return</lang029>
+	<lang030>Payment information</lang030>
+	<lang031>Payment type</lang031>
+	<lang032>Account #</lang032>
+	<lang033>Total payment</lang033>
+	<lang034>Delivery information</lang034>
+	<lang035>Delivery type</lang035>
+	<lang036>Total</lang036>
+	<lang037>Status</lang037>
+	<lang038>Account</lang038>
+	<lang039>Total:</lang039>
+</language>

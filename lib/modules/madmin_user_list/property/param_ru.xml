@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param45" title=":::Главная страница:::" list=""></parametr>
+	<parametr lang="ru" name="param115" title="Количество пользователей на странице" list="">30</parametr>
+	<parametr lang="ru" name="param80" title="" list=""></parametr>
+	<parametr lang="ru" name="param43" title=":::Редактирование/создание пользователя:::" list=""></parametr>
+	<parametr lang="ru" name="param131" title="Email администратора" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param4" title="Текст письма пользователю при активации:" list="{text}">Здравствуйте, %user% \r\n Администратор %site% активизировал Вам доступ на сайте.\r\nКоды Авторизации (логин и пароль) были высланы на указанный Вами E-Mail во время регистрации.\r\n\r\nС уважением, %site%</parametr>
+	<parametr lang="ru" name="param5" title="Заголовок письма пользователю:" list="">Активизация доступа на сайте %site%</parametr>
+	<parametr lang="ru" name="param79" title="" list=""></parametr>
+	<parametr lang="ru" name="param44" title=":::Редактирование группы пользователей:::" list=""></parametr>
+	<parametr lang="ru" name="param111" title="Количество пользователей на странице" list="">20</parametr>
+</params>

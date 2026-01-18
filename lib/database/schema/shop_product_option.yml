@@ -1,0 +1,54 @@
+shop_product_option:
+   tableName: shop_product_option
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_product_option_id
+     id_product:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_modification:
+       type: integer
+       unsigned: true
+       index: true
+     id_option_value:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     price:
+       type: float(10,2)
+       notnull: true
+       default: 0.00
+     sort:
+       type: integer
+       notnull: true
+     is_default:
+       type: integer
+       unsigned: true
+       notnull: true
+   relations:
+     shop_price:
+       local: id_product
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_option_value:
+       local: id_option_value
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_modifications:
+       local: id_modification
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE

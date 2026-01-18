@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>Do not forget to specify a link to a page with the license agreement in the parameters of the module</lang001>
+	<lang002>The specified page:</lang002>
+	<lang003>Name:</lang003>
+	<lang004>Name:</lang004>
+	<lang005>Registration</lang005>
+	<lang006>Not specified password, try again!</lang006>
+	<lang007>Not all fields are filled in, try again!</lang007>
+	<lang008>Passwords do not match, try again!</lang008>
+	<lang009>E-mail:</lang009>
+	<lang010>Repeat the password:</lang010>
+	<lang011>Password:</lang011>
+	<lang012>Login:</lang012>
+	<lang013>(Please enter a valid e-mail)</lang013>
+	<lang014>(Think hard to guess passwords consisting of letters of the alphabet and numbers)</lang014>
+	<lang015>(Login is required to login. Use latin letters and numbers)</lang015>
+	<lang016>On mail page</lang016>
+	<lang017>Click on link to access the activation</lang017>
+	<lang018>Confirmation of registration</lang018>
+	<lang019>This login is already exists, choose another!</lang019>
+	<lang020>Congratulations! Registration is successful.</lang020>
+	<lang021>To your email address sent a link to activate.</lang021>
+	<lang022>Enter number:</lang022>
+	<lang023>Wrong number</lang023>
+	<lang024>I accept</lang024>
+	<lang025>user agreement</lang025>
+	<lang026>Did not indicate that you have read the license. re-enter</lang026>
+	<lang027>Registration on site</lang027>
+	<lang028>Too short</lang028>
+	<lang029>Easy</lang029>
+	<lang030>Good</lang030>
+	<lang031>Secure</lang031>
+	<lang032>Password and login don&amp;apos;t match</lang032>
+	<lang033>Phone:</lang033>
+	<lang034>(Please enter a valid phone)</lang034>
+</language>

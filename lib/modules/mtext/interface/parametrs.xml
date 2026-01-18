@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Ссылка \"Подробнее\"" list="">подробнее</parametr>
+	<parametr lang="rus" name="param2" title="Текст кнопки \"Вернуться\":" list="">Вернуться назад</parametr>
+	<parametr lang="rus" name="param3" title="Включить отображение краткого текста при просмотре:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param4" title="Включить режим позиционирования подробного содержания:" list="Y|Да,N|Нет">N</parametr>
+</params>

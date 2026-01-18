@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Сколько отображать блоггеров (главная страница)" list="">5</parametr>
+	<parametr lang="ru" name="param3" title="Кол-во блоггеров на странице (полный список)" list="">50</parametr>
+	<parametr lang="ru" name="param4" title="Ширина картинок" list="">50</parametr>
+	<parametr lang="ru" name="param2" title="Страница блога" list=""></parametr>
+</params>

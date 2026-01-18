@@ -1,0 +1,7 @@
+#cont_news .contentImage {margin-right:10px; float:left;}
+#cont_news .contentText {display:block;}
+#cont_news .object {margin:0; clear:both;}
+#cont_news .objectTitle {margin-top:10px;}
+#cont_news #dataType_date {color:#808080; margin-right:10px;}
+#cont_news .objectImage {margin-right:10px; float:left;}
+#cont_news .buttonSend {margin-top:10px;}

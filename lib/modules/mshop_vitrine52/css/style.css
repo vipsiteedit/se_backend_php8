@@ -1,0 +1,225 @@
+﻿.e_shopvit .modifications {position:relative;margin-bottom:10px;}
+.e_shopvit .modifications .overlay {display: block; position: absolute; background: black; opacity: 0.4; width: 100%; height: 100%;z-index:10; display:none;}
+.e_shopvit .modifications .groupFeature {margin-top:10px;}
+.e_shopvit .modifications .itemFeature {margin-bottom:10px;}
+.e_shopvit .modifications .nameFeature {margin-bottom:5px; display:block;}
+.e_shopvit .modifications .nameFeature .markDescription {border:1px solid lightgrey;cursor:pointer;border-radius:10px;color:grey;display: inline-block;width: 14px;text-align: center;font-size: 11px;}
+.e_shopvit .modifications .nameFeature .markDescription:hover {background:lightgrey;color:white;}
+.e_shopvit .modifications .nameFeature .contentDescription {border:1px solid lightgrey;background:white;width:200px;padding:15px 20px;border-radius:5px;box-shadow:1px 1px 10px -1px rgba(0,0,0,0.4);margin:2px;}
+.e_shopvit .modifications .itemValue {display:inline-block;}
+.e_shopvit .modifications .itemValue input {display:none;}
+.e_shopvit .modifications .featureValue {cursor:pointer; background-image:url(ashop_vitrine53/white_80.png); border-width:1px; border-color:#e2e2e2; border-style:solid; margin-bottom:1px; margin-right:1px; display:inline-block; padding:0px 5px;}
+.e_shopvit .modifications input:checked + .featureValue {color:#ffffff; cursor:auto; background-image:url(ashop_vitrine53/black_70.png);}
+.e_shopvit .modifications .itemFeature.colorFeature .featureValue {background-image:none; margin-right:3px; padding:0;}
+.e_shopvit .modifications .itemFeature.colorFeature img.featureValue {width:16px;height:16px;}
+.e_shopvit .modifications .itemFeature.colorFeature .featureValue span {display: block; width: 14px; height: 14px; border: 1px solid white;}
+.e_shopvit .modifications .itemFeature.colorFeature input:checked + .featureValue {background-image:none; -moz-box-shadow: 0px 0px 0 2px #fa570a; -webkit-box-shadow: 0px 0px 0 2px #fa570a; box-shadow: 0px 0px 0 2px #fa570a;}
+.e_shopvit .goodsContent .blockPanel {background-image:url(ashop_vitrine53/black_5.png); padding:10px;}
+.e_shopvit .goodsContent .vitrineSort .vitrineSortDirLabel {margin-left:10px;}
+.e_shopvit .goodsContent .changeView {float:right;}
+.e_shopvit .goodsContent .changeView .buttonSend {cursor:pointer; background-color:transparent; background-image:none; background-position:6px 6px; background-repeat:no-repeat; padding-top:2px; padding-bottom:2px; padding-left:22px; padding-right:7px; border-style:none; margin:0; display:inline-block;}
+.e_shopvit .goodsContent .changeView .buttonSend.vitrina {background-image:url(ashop_vitrine53/icon_shop_onvitrin.png);}
+.e_shopvit .goodsContent .changeView .buttonSend.table {background-image:url(ashop_vitrine53/icon_shop_ontable.png);}
+.e_shopvit .goodsContent .goodsNavigator {margin-bottom:20px;margin-top:20px;}
+.e_shopvit .goodsGoods {display:inline-block; width:100%;}
+.e_shopvit .tables .productItem:nth-child(even) {background-image:url(ashop_vitrine53/black_5.png);}
+.e_shopvit .tables .productItem .blockImage {position:relative;}
+.e_shopvit .tables .productItem .blockImage .quickView {position:absolute;top:35px;left:-10px;width:120px;background:rgba(10,10,10,0.5);padding:5px;color:white;text-decoration:none;border-radius:4px;display:none;z-index:1;outline:none;border:none;font-size:12px;cursor:pointer;}
+.e_shopvit .tables .productItem .blockImage .quickView:hover {background: rgba(10,10,10,0.8);}
+.e_shopvit .tables .productItem .flag_hit {background-image:url(ashop_vitrine53/icon_hit_new.png); width:20px; height:20px; top:0px; right:0px; padding:2px 4px;}
+.e_shopvit .tables .productItem .flag_new {background-image:url(ashop_vitrine53/icon_new_new.png); width:20px; height:20px; top:15px; right:0px; padding:2px 4px;}
+.e_shopvit .tables .productItem .flag_discount {background-image:url(ashop_vitrine53/icon_procent_new.png); width:20px; height:20px; top:30px; right:0px; padding:2px 4px;}
+.e_shopvit .tables .productItem .textTitle {display:block; margin-bottom:10px;}
+.e_shopvit .tables .productItem .objectNote {display:block;}
+.e_shopvit .tables .productItem .objectArticle {margin-bottom:10px; display:block;}
+.e_shopvit .tables .productItem .objectRating {margin-bottom:10px;}
+.e_shopvit .tables .productItem .priceBox .oldPrice {margin-bottom:5px; display:block; white-space:nowrap;text-decoration:line-through;}
+.e_shopvit .tables .productItem .priceBox .newPrice {font-weight:bold; display:block; white-space:nowrap;}
+.e_shopvit .tables .productItem .presenceLabel {display:block; text-align:center;}
+.e_shopvit .tables .productItem .presenceValue {display:block; text-align:center;}
+.e_shopvit .tables .productItem .cartscount {margin-bottom:2px;width:50px;}
+.e_shopvit .tables .productItem:hover .blockImage {position:relative;}
+.e_shopvit .tables .productItem:hover .blockImage .quickView {display:inline-block;}
+.e_shopvit .vitrina .productItem {margin-bottom:30px; display:inline-block; text-align:left; border:1px solid transparent;height: 485px;}
+.e_shopvit .vitrina .objectTitle {height:38px; overflow:hidden;}
+.e_shopvit .vitrina .blockImage {margin-bottom:10px; position:relative;}
+.e_shopvit .vitrina .productItem .quickView {position: absolute;top: calc(50% - 13px);width: 120px;background: rgba(10,10,10,0.5);padding: 5px;color: white;text-decoration: none;border-radius: 4px;left: calc(50% - 60px);display:none;z-index:1;border: none;font-size: 12px;cursor:pointer;outline:none;}
+.e_shopvit .vitrina .productItem .quickView:hover {background: rgba(10,10,10,0.8);}
+.e_shopvit .vitrina .objectImage {margin:auto; margin-top:0px; margin-bottom:0px; display:block; float:none;}
+.e_shopvit .vitrina .productItem .flag_hit {background-image:url(ashop_vitrine53/icon_hit_2.png); width:25px; height:25px; top:0px; right:0px;}
+.e_shopvit .vitrina .productItem .flag_new {background-image:url(ashop_vitrine53/icon_new_2.png); width:25px; height:25px; top:0px; right:15px;}
+.e_shopvit .vitrina .productItem .flag_discount {background-image:url(ashop_vitrine53/icon_proc_new.png); width:25px; height:25px; top:0px; right:30px;}
+.e_shopvit .vitrina .objectRating {margin-bottom:10px;}
+.e_shopvit .vitrina .objectRating .ratingLabel {display:none;}
+.e_shopvit .vitrina .objectRating .ratingOff {width:80px;height:16px;display:inline-block;background:url(ashop_vitrine53/star_off.png);margin-bottom:-3px;}
+.e_shopvit .vitrina .objectRating .ratingOn {height:100%;background:url(ashop_vitrine53/star_on.png);float:left;}
+.e_shopvit .vitrina .objectRating .ratingValue {display:none;}
+.e_shopvit .vitrina .objectNote {margin-bottom:10px; display:block; height:38px; clear:both; overflow:hidden;}
+.e_shopvit .vitrina .objectArticle {margin-bottom:5px;}
+.e_shopvit .vitrina .objectBrand {margin-bottom:5px;}
+.e_shopvit .vitrina .objectPresence {margin-bottom:5px;}
+.e_shopvit .vitrina .productItem .priceStyle {margin-top:10px; margin-bottom:10px; display:inline-block; width:100%;}
+.e_shopvit .vitrina .productItem .priceLabel {margin-bottom:5px; display:block;}
+.e_shopvit .vitrina .productItem .oldPrice {margin-right:5px; white-space:nowrap;text-decoration:line-through;}
+.e_shopvit .vitrina .productItem .newPrice {font-size:110%; font-weight:bold; white-space:nowrap;}
+.e_shopvit .vitrina .buttonBox {display:inline-block; width:100%;}
+.e_shopvit .vitrina .details {margin-left:5px; display:none;}
+.e_shopvit .vitrina .productItem:hover {border-color:#ddd;}
+.e_shopvit .vitrina .productItem:hover .quickView {display:inline-block;}
+.e_shopvit .list .productItem .oldPrice {text-decoration:line-through;}
+.e_shopvit .sg_footer_text {margin-top:20px;}
+.e_shopvit .goodsPath {margin-bottom:20px;}
+.e_shopvit .goodsPathSepar {padding-left:5px; padding-right:5px;}
+.e_shopvit .goodsDetail {position:relative;}
+.e_shopvit .goodsDetTitle {font-size:160%; font-weight:normal; margin-bottom:20px;}
+.e_shopvit .goodsLinkPhoto {margin-bottom:20px;}
+.e_shopvit .goodsPhoto {margin:auto;}
+.e_shopvit .goodsLinkPhoto .cloud-zoom-big {background-color:#FFFFFF;}
+.e_shopvit .goodsDetNote {margin-bottom:20px; display:block;}
+.e_shopvit .brandImage {float:right;margin-right:100px;}
+.e_shopvit .brandImage img {width:100px;}
+.e_shopvit .goodsDetArticle {margin-bottom:10px;}
+.e_shopvit .goodsBrand {margin-bottom:10px;}
+.e_shopvit .goodsRating .ratingOff {width:80px;height:16px;display:inline-block;background:url(ashop_vitrine53/star_off.png);margin-bottom:-3px;}
+.e_shopvit .goodsRating .ratingOn {height:100%;background:url(ashop_vitrine53/star_on.png);float:left;}
+.e_shopvit .goodsDetPriceBox {margin-top:20px; margin-bottom:20px; display:inline-block;}
+.e_shopvit .presence {margin-bottom:10px;}
+.e_shopvit .goodsPrice {margin-bottom:20px;}
+.e_shopvit .goodsPrice .priceLabel {margin-right:10px;}
+.e_shopvit .goodsPrice .priceValue .oldPrice {margin-right:10px;text-decoration:line-through;}
+.e_shopvit .goodsPrice .priceValue .newPrice {font-size:140%; font-weight:bold;}
+.e_shopvit .goodsDetail .addCount label {color:grey;}
+.e_shopvit .goodsDetail .addCount input {width:60px;}
+.e_shopvit .goodsDetail .goodsButton {display:inline-block; width:100%;}
+.e_shopvit .goodsDetail .buttonSend {margin:0; display:inline-block;}
+.e_shopvit .socialButtons {position:absolute; top:0px; right:0px;}
+.e_shopvit .morephotos {margin-bottom:20px; display:inline-block; width:100%;}
+.e_shopvit .imageList {list-style:none;margin:0;padding:0;}
+.e_shopvit .imageList .imageItem {margin-right:3px; display:inline-block; vertical-align:top;}
+.e_shopvit .imageList .imageItem a {margin:2px; display:inline-block; text-align:center;display:block; width:70px; height:70px;overflow:hidden;}
+.e_shopvit .imageList .activeImg a {-moz-box-shadow: 0px 0px 0px 2px #fa570a; -webkit-box-shadow: 0px 0px 0px 2px #fa570a; box-shadow: 0px 0px 0px 2px #fa570a;}
+.e_shopvit .morephotos .prev {opacity: 0.5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); -moz-opacity: 0.5; -khtml-opacity: 0.5; font-size:0; cursor:pointer; background-image:url(ashop_vitrine53/strelkishopnext.png); background-repeat:no-repeat; display:inline-block; width:9px; height:22px; vertical-align:middle;}
+.e_shopvit .morephotos .prev:hover {opacity:1;}
+.e_shopvit .morephotos .prev.disabled {opacity:0.1;cursor:auto;}
+.e_shopvit .morephotos .next {opacity: 0.5; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50); -moz-opacity: 0.5; -khtml-opacity: 0.5; font-size:0; cursor:pointer; background-image:url(ashop_vitrine53/strelkishopnext.png); background-position:top right; display:inline-block; width:9px; height:22px; vertical-align:middle;}
+.e_shopvit .morephotos .next:hover {opacity:1;}
+.e_shopvit .morephotos .next.disabled {opacity:0.1;cursor:auto;}
+.e_shopvit .morephotos .photoSlider {margin-left:3px; display:inline-block; vertical-align:middle;}
+.e_shopvit .tabs {margin-bottom:20px;clear: both;}
+.e_shopvit .tabs .tabsNav {display:inline-block;padding:0;margin-bottom:0;}
+.e_shopvit .tabs .tabsNav .itemTab {cursor:pointer; background-image:url(ashop_vitrine53/black_5.png); border:1px solid #ccc; margin-bottom:-1px; margin-right:3px; display:inline-block; padding:5px; -moz-border-radius: 2px 2px 0 0; -webkit-border-radius: 2px 2px 0 0; border-radius: 2px 2px 0 0;}
+.e_shopvit .tabs .tabsNav .activeTab {background-color:white; background-image:none; border-bottom:1px solid white;}
+.e_shopvit .tabs .tabsContent {background-color:#FFFFFF; border:1px solid #ccc; padding:15px;}
+.e_shopvit .goodsDetText {margin-top:20px; margin-bottom:20px;}
+.e_shopvit .goodsFeatures {margin-bottom:-15px; margin-right:-15px;}
+.e_shopvit .goodsFeatures .featureGroup {margin-bottom:15px; margin-right:15px; display:inline-block;}
+.e_shopvit .goodsFeatures .featureGroup .blockGroupName {margin-bottom:10px; display:inline-block; width:100%;}
+.e_shopvit .goodsFeatures .featureGroup .blockGroupName .groupImage {margin-right:5px; width:18px; height:18px; float:left;}
+.e_shopvit .goodsFeatures .featureGroup .blockGroupName .groupName {font-weight:bold;}
+.e_shopvit .goodsFeatures .featureGroup .blockGroupName .markDescription {border:1px solid lightgrey;cursor:pointer;border-radius:10px;color:grey;display: inline-block;width: 14px;text-align: center;font-size: 11px;}
+.e_shopvit .goodsFeatures .featureGroup .blockGroupName .markDescription:hover {background:lightgrey;color:white;}
+.e_shopvit .goodsFeatures .featureGroup .blockGroupName .groupDescription {border:1px solid lightgrey;background:white;width:200px;padding:15px 20px;border-radius:5px;box-shadow:1px 1px 10px -1px rgba(0,0,0,0.4);margin:2px;}
+.e_shopvit .goodsFeatures .featureGroup .featureList {margin:0; padding:0px;}
+.e_shopvit .goodsFeatures .featureGroup .featureItem {padding-top:3px; padding-bottom:3px; padding-left:15px; display:block;}
+.e_shopvit .goodsFeatures .featureGroup .featureItem .featureImage {margin-right:5px; width:16px; height:16px; float:left;}
+.e_shopvit .goodsFeatures .featureGroup .featureItem .blockFeatureName {display:inline-block;width:200px;border-bottom:1px dotted lightgray;}
+.e_shopvit .goodsFeatures .featureGroup .featureItem .markDescription {color:grey; font-size:10px; cursor:pointer; border:1px solid lightgrey; display:inline-block; width:14px; height:14px; position:relative; top:-2px; text-align:center; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px;}
+.e_shopvit .goodsFeatures .featureGroup .featureItem .markDescription:hover {color:white; background-color:gray; position:relative;}
+.e_shopvit .goodsFeatures .featureGroup .featureItem .featureDescription {border:1px solid lightgrey;background:white;width:200px;padding:15px 20px;border-radius:5px;box-shadow:1px 1px 10px -1px rgba(0,0,0,0.4);margin:2px;}
+.e_shopvit .goodsFeatures .featureGroup .featureItem .blockFeatureValue {display:inline-block;}
+.e_shopvit .goodsFeatures .featureGroup .featureItem .valueIcon {width:16px;height:16px;display:inline-block;vertical-align: bottom;}
+.e_shopvit .comment .titleHead {font-size:160%; font-weight:normal; margin-bottom:20px;}
+.e_shopvit .comment .tableComment .tableRow td {padding-bottom:30px;}
+.e_shopvit .comment .tableComment .headComment {background-image:url(ashop_vitrine53/black_5.png); padding-top:7px; padding-bottom:7px; margin-bottom:10px; display:table; width:100%;}
+.e_shopvit .comment .tableComment .comm_date {opacity: 0.6; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=60); -moz-opacity: 0.6; -khtml-opacity: 0.6; margin-right:10px; float:right;}
+.e_shopvit .comment .tableComment .comm_titlename {margin-left:10px; float:left;}
+.e_shopvit .comment .tableComment .comm_admnote {border-width:1px; border-color:#808080; border-style:dashed; margin-top:10px; padding:10px;}
+.e_shopvit .comment .addComment .error {color:#FF0000;}
+.e_shopvit .comment .addComment .title {margin-top:10px; margin-bottom:5px;}
+.e_shopvit .comment .addComment .areatext {width:100%; height:100px; overflow:auto; -moz-box-sizing:border-box; box-sizing:border-box;}
+.e_shopvit .comment .addComment .buttonSend {margin-top:3px; display:block;}
+.e_shopvit .comment .comm_info {margin-top:10px;}
+.e_shopvit .reviews .linkShow {margin-bottom:20px; display:block;}
+.e_shopvit .reviews .addReview {margin-bottom:40px;}
+.e_shopvit .reviews .addMark .markLabel {margin-top:2px; margin-right:10px; float:left;}
+.e_shopvit .reviews .blockEditMark {overflow:hidden;}
+.e_shopvit .reviews .blockEditMark .markItem {display:inline-block; width:16px; height:16px; background:url(ashop_vitrine53/star_off.png); vertical-align:bottom; cursor:pointer;}
+.e_shopvit .reviews .blockEditMark .activeMark {background:url(ashop_vitrine53/star_on.png);}
+.e_shopvit .reviews .blockEditMark.editMark .selectedMark {background:url(ashop_vitrine53/star_on.png);}
+.e_shopvit .reviews .blockEditMark .markTitle {color:grey;}
+.e_shopvit .reviews .addMerits {margin:10px 0; display:table; width:100%;}
+.e_shopvit .reviews .addMerits label {display:table-cell; width:130px; vertical-align:middle;}
+.e_shopvit .reviews .addMerits textarea {width:100%; height:70px; float:right; vertical-align:middle; -moz-box-sizing:border-box; box-sizing:border-box;}
+.e_shopvit .reviews .addDemerits {margin:10px 0; display:table; width:100%;}
+.e_shopvit .reviews .addDemerits label {display:table-cell; width:130px; vertical-align:middle;}
+.e_shopvit .reviews .addDemerits textarea {width:100%; height:70px; float:right; vertical-align:middle; -moz-box-sizing:border-box; box-sizing:border-box;}
+.e_shopvit .reviews .addComment {margin:10px 0; display:table; width:100%;}
+.e_shopvit .reviews .addComment label {display:table-cell; width:130px; vertical-align:middle;}
+.e_shopvit .reviews .addComment textarea {width:100%; height:70px; float:right; vertical-align:middle; -moz-box-sizing:border-box; box-sizing:border-box;}
+.e_shopvit .reviews .addUsetime {margin:10px 0;}
+.e_shopvit .reviews .addUsetime label {display:inline-block; width:130px; vertical-align:top;}
+.e_shopvit .reviews .addUsetime select {margin:0; display:inline-block; vertical-align:top;}
+.e_shopvit .reviews .msgRequired {margin:20px 0;}
+.e_shopvit .reviews .blockButton .btnAdd {margin-right:10px;}
+.e_shopvit .reviews .addReview .star {margin-right:3px; color:red;}
+.e_shopvit .reviews .msgReviewed {color:grey;}
+.e_shopvit .reviews .msgSuccess {color:green;}
+.e_shopvit .reviews .msgNotReviews {margin: 10px 0;}
+.e_shopvit .reviews .sortReviews {margin:10px 0;}
+.e_shopvit .reviews .sortField {margin-left:5px;padding:3px 3px 0 3px;color:inherit;text-decoration:none;border-bottom:1px dotted;}
+.e_shopvit .reviews .sortField.selected {background-image:url(ashop_vitrine53/black_10.png);}
+.e_shopvit .reviews .sortField i {margin-left: 2px;}
+.e_shopvit .reviews .reviewItem {margin-top:10px;}
+.e_shopvit .reviews .headReview {background-image:url(ashop_vitrine53/black_5.png); padding-top:7px; padding-bottom:7px; margin-bottom:10px; display:table; width:100%;}
+.e_shopvit .reviews .reviewUser {margin-left:10px; float:left;}
+.e_shopvit .reviews .reviewDate {color:grey; margin-right:10px; float:right;}
+.e_shopvit .reviews .reviewRating {margin-bottom:10px; display:table; width:100%;}
+.e_shopvit .reviews .reviewRating .markValue {margin-right:5px; display:inline-block;}
+.e_shopvit .reviews .reviewRating .markItem {display:inline-block; width:16px; height:16px; background:url(ashop_vitrine53/star_off.png); vertical-align:bottom;}
+.e_shopvit .reviews .reviewRating .selectedMark {background:url(ashop_vitrine53/star_on.png);}
+.e_shopvit .reviews .reviewRating .markTitle {color:grey; vertical-align:middle;}
+.e_shopvit .reviews .reviewRating .usetimeLabel {color:grey; margin-left:40px; margin-right:5px; vertical-align:middle;}
+.e_shopvit .reviews .reviewRating .usetimeValue {color:grey; vertical-align:middle;}
+.e_shopvit .reviews .reviewRating .rateValue {color:white; background-color:grey; float:right; padding:0 5px;}
+.e_shopvit .reviews .reviewRating .rateValue.positive {background-color:#66a025;}
+.e_shopvit .reviews .reviewRating .rateValue.negative {background-color:#BE3308;}
+.e_shopvit .reviews .reviewMerits {margin-bottom:10px;}
+.e_shopvit .reviews .meritsLLabel {font-weight:bold;margin-bottom:3px;display:inline-block;}
+.e_shopvit .reviews .reviewDemerits {margin-bottom:10px;}
+.e_shopvit .reviews .demeritsLabel {font-weight:bold;margin-bottom:3px;display:inline-block;}
+.e_shopvit .reviews .reviewComment {margin-bottom:10px;}
+.e_shopvit .reviews .commentLabel {font-weight:bold;margin-bottom:3px;display:inline-block;}
+.e_shopvit .reviews .reviewVoiting {text-align:right;visibility:hidden;opacity:0;transition:all .4s;-webkit-transition: all .4s;}
+.e_shopvit .reviews .reviewItem:hover .reviewVoiting {visibility:visible;opacity:1;}
+.e_shopvit .reviews .reviewVoiting .helpful {color:grey; margin-right:10px;}
+.e_shopvit .reviews .reviewVoiting .likeReview {color:grey; cursor:pointer; border-bottom:1px dotted;}
+.e_shopvit .reviews .reviewVoiting.disabled .likeReview {cursor:auto;border:none;}
+.e_shopvit .reviews .reviewVoiting .likeReview.selected {color:#ffffff; background-color:grey; padding:0 3px;}
+.e_shopvit .reviews .reviewVoiting .countLikes {font-weight:bold;color:green;}
+.e_shopvit .reviews .reviewVoiting .dislikeReview {color:grey; cursor:pointer; border-bottom:1px dotted; margin-left:10px;}
+.e_shopvit .reviews .reviewVoiting.disabled .dislikeReview {cursor:auto;border:none;}
+.e_shopvit .reviews .reviewVoiting .dislikeReview.selected {color:#ffffff; background-color:grey; padding:0 3px;}
+.e_shopvit .reviews .reviewVoiting .countDislikes {color:#BE3308; font-weight:bold;}
+.e_shopvit .reviews .moreReviews {text-align:center;}
+.e_shopvit .reviews .preloader {display:inline-block;width:16px;height:16px;background:url(ashop_vitrine53/preloader.gif);vertical-align:bottom;margin-left: 3px;}
+.e_shopvit .accompTitle {font-size:160%; font-weight:normal;}
+.e_shopvit .analogTitle {font-size:160%; font-weight:normal;}
+.e_shopvit .specialProducts .specialItem {margin-bottom:30px; margin-right:10px; display:inline-block; width:150px; text-align:center; vertical-align:top;}
+.e_shopvit .specialProducts .specialImage {position:relative;}
+.e_shopvit .specialProducts .flag_hit {background-image:url(ashop_vitrine53/icon_hit_new.png); width:20px; height:20px; top:0px; right:0px; padding:2px 4px;z-index:10;}
+.e_shopvit .specialProducts .flag_new {background-image:url(ashop_vitrine53/icon_new_new.png); width:20px; height:20px; top:15px; right:0px; padding:2px 4px;z-index:10;}
+.e_shopvit .specialProducts .flag_discount {background-image:url(ashop_vitrine53/icon_procent_new.png); width:20px; height:20px; top:30px; right:0px; padding:2px 4px;z-index:10;}
+.e_shopvit .specialProducts .user_price {background-image:url(ashop_vitrine53/icon_price_new.png); width:20px; height:20px; top:45px; right:0px; padding:2px 4px;z-index:10;}
+.e_shopvit .specialProducts .specialTitle {font-weight:bold;margin:10px 0;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;padding: 0 5px;}
+.e_shopvit .specialRating .ratingOff {width:80px;height:16px;display:inline-block;background:url(ashop_vitrine53/star_off.png);margin-bottom:-3px;}
+.e_shopvit .specialRating .ratingOn {height:100%;background:url(ashop_vitrine53/star_on.png);float:left;}
+.e_shopvit .specialRating .ratingValue {display:none;}
+.e_shopvit .specialRating .marks {display:none;}
+.e_shopvit .specialProducts .specialPrice {margin:10px 0;}
+.e_shopvit .specialProducts .specialPrice .oldPrice {white-space:nowrap;text-decoration:line-through;}
+.e_shopvit .specialProducts .specialPrice .newPrice {font-size:110%; font-weight:bold; white-space:nowrap;}
+.e_shopvit .specialButton .details {display:none;}
+.e_shopvit .flag_hit {color:transparent; font-size:0; background-position:center center; background-repeat:no-repeat; position:absolute; white-space:nowrap;}
+.e_shopvit .flag_new {color:transparent; font-size:0; background-position:center center; background-repeat:no-repeat; position:absolute; white-space:nowrap;}
+.e_shopvit .flag_discount {color:transparent; font-size:0; background-position:center center; background-repeat:no-repeat; position:absolute; white-space:nowrap;}
+.e_shopvit .user_price {color:transparent; font-size:0; background-position:center center; background-repeat:no-repeat; position:absolute; white-space:nowrap;}

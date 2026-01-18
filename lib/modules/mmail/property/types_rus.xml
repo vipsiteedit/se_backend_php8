@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Контакты</group>
+	<name>Почтовая служба (e-mail)</name>
+	<comment>Форма для отправки письма со страницы сайта по адресу, указанному администратором сайта.</comment>
+</option>

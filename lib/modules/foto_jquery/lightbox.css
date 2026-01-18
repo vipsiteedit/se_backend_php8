@@ -1,0 +1,119 @@
+#lightbox, #lightbox-overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom:auto;
+	right:auto;
+	z-index:1010;
+	width:100%;
+	height:auto;
+	text-align:center;
+	color:#333333;
+	/* stop stupid conflicts */
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+	line-height:0;
+	/* general conflict stopper */
+	text-decoration:none;
+	background:none;
+	word-spacing:normal;
+	letter-spacing:normal;
+	float:none;
+	clear:none;
+	display:block;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 1010;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1005;
+}
+#lightbox-container-image-box > #lightbox-nav {
+left: 0;
+}
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev {
+	left: 0;
+	float: left;
+    background-position:left 95% !important;
+    background-repeat:no-repeat !important;
+	background-attachment:scroll !important;
+    background-image:url(/./modules/foto_jquery/foto_arrow_left.png) !important;
+}
+#lightbox-nav-btnNext {
+	right: 0;
+	float: right;
+    background-position:right 95% !important;
+    background-repeat:no-repeat !important;
+	background-attachment:scroll !important;
+    background-image:url(/./modules/foto_jquery/foto_arrow_right.png) !important;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 3em;
+	overflow: auto;
+	width:100%;
+	padding: 0 0 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px;
+	color: #666;
+}
+#lightbox-container-image-data #lightbox-image-details {
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block;
+	clear: left;
+	padding-bottom: 1.0em;
+}
+#lightbox-secNav-btnClose {
+	width: 70px;
+	float: right;
+	padding-bottom: 0.7em;
+}
+#lightbox-infoFooter {
+	margin-top:3px;
+	color:#999999;

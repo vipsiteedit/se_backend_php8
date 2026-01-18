@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param0" title="Записей на одной странице:" list="">10</parametr>
+	<parametr lang="ru" name="param1" title="E-mail администратора:" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param2" title="Количество запросов в лог-письме:" list="">10</parametr>
+	<parametr lang="ru" name="param8" title="Текст письма:" list="{text}">&amp;quot;Уважаемый администратор сайта [SITE]!\r\n\r\nНа Вашем сайте с помощью системы &amp;quot;Поиск по сайту&amp;quot; искали следующие слова и выражения:\r\n\r\n    Дата       Время       IP адрес       Строка запроса\r\n</parametr>
+	<parametr lang="ru" name="param9" title="Поиск в модулях с on-line содержанием (перечилить через запятую):" list="">monlinenews,</parametr>
+</params>

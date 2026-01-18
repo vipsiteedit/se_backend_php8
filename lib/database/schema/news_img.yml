@@ -1,0 +1,36 @@
+news_img:
+   tableName: news_img
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: news_img_id
+     id_news:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     picture:
+       type: string(255)
+     picture_alt:
+       type: string(255)
+     title:
+       type: string(255)
+     sort:
+       type: integer
+       notnull: true
+       index: true
+   relations:
+     news:
+       local: id_news
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:
+

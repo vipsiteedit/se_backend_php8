@@ -1,0 +1,22 @@
+shop_stat_info:
+   tableName: shop_stat_info
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id_session:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     ip:
+       type: string(15)
+     user_agent:
+       type: string(255)
+   relations:
+     shop_stat_session:
+       local: id_session
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE

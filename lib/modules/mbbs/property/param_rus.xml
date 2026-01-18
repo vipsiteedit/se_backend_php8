@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param0" title="Число записей:" list="">30</parametr>
+	<parametr lang="rus" name="param1" title="Добавлять объявления разрешено:" list="1|Зарегистрированным пользователям,2|Доверенным лицам,3|Администраторам">1</parametr>
+	<parametr lang="rus" name="param2" title="Число символов в кратком тексте:" list="">125</parametr>
+	<parametr lang="rus" name="param3" title="Текст кнопки &amp;quot;Добавить&amp;quot;:" list="">Добавить</parametr>
+	<parametr lang="rus" name="param4" title="Ширина рисунка &amp;quot;превью&amp;quot;: " list="">100</parametr>
+	<parametr lang="rus" name="param5" title="Ширина рисунка &amp;quot;подробно&amp;quot;:" list="">300</parametr>
+	<parametr lang="rus" name="param6" title="Текст кнопки редактирования" list="">Изменить</parametr>
+	<parametr lang="rus" name="param7" title="Текст подсказки &amp;quot;Изменить&amp;quot;" list="">Изменить</parametr>
+	<parametr lang="rus" name="param8" title="Текст заголовка &amp;quot;Выберите город&amp;quot;:" list="">Выберите город:</parametr>
+	<parametr lang="rus" name="param9" title="Текст кнопки &amp;quot;Выбрать&amp;quot;:" list="">Выбрать</parametr>
+	<parametr lang="rus" name="param10" title="Текст кнопки &amp;quot;Вернуться&amp;quot;:" list="">Вернуться назад</parametr>
+	<parametr lang="rus" name="param11" title="Текст заголовка &amp;quot;Дата&amp;quot; (объ):" list="">дата:</parametr>
+	<parametr lang="rus" name="param12" title="Текст заголовка &amp;quot;Имя&amp;quot; (объ):" list="">имя:</parametr>
+	<parametr lang="rus" name="param13" title="Текст заголовка &amp;quot;Город&amp;quot; (объ):" list="">город:</parametr>
+	<parametr lang="rus" name="param14" title="Текст заголовка &amp;quot;EMAIL&amp;quot; (объ):" list="">e-mail:</parametr>
+	<parametr lang="rus" name="param15" title="Текст заголовка &amp;quot;URL&amp;quot; (объ):" list="">url:</parametr>
+	<parametr lang="rus" name="param16" title="Текст заголовка &amp;quot;Добавить объявление&amp;quot; (ред):" list="">Добавить объявление:</parametr>
+	<parametr lang="rus" name="param17" title="Текст заголовка &amp;quot;Изменить объявление&amp;quot; (ред):" list="">Изменить объявление:</parametr>
+	<parametr lang="rus" name="param18" title="...Текст заголовка &amp;quot;Имя&amp;quot; (ред):" list="">Имя:</parametr>
+	<parametr lang="rus" name="param19" title="...Текст заголовка &amp;quot;Город&amp;quot; (ред):" list="">Город:</parametr>
+	<parametr lang="rus" name="param20" title="...Текст заголовка &amp;quot;email&amp;quot; (ред):" list="">EMail:</parametr>
+	<parametr lang="rus" name="param21" title="...Текст заголовка &amp;quot;URL&amp;quot; (ред):" list="">URL:</parametr>
+	<parametr lang="rus" name="param22" title="...Текст заголовка &amp;quot;Кр.текст&amp;quot; (ред):" list="">Краткая информация:</parametr>
+	<parametr lang="rus" name="param23" title="...Текст заголовка &amp;quot;Текст&amp;quot; (ред):" list="">Текст объявления:</parametr>
+	<parametr lang="rus" name="param24" title="...Текст заголовка &amp;quot;Загрузить&amp;quot; (ред):" list="">Загрузить рисунок:</parametr>
+	<parametr lang="rus" name="param25" title="...Текст заголовка &amp;quot;Удалить&amp;quot; (ред):" list="">Удалить запись?</parametr>
+	<parametr lang="rus" name="param26" title="...Текст кнопки &amp;quot;Добавить&amp;quot; (ред):" list="">Добавить</parametr>
+	<parametr lang="rus" name="param27" title="...Текст кнопки  &amp;quot;Сохранить&amp;quot; (ред):" list="">Сохранить</parametr>
+	<parametr lang="rus" name="param28" title="Срок жизни объявлений (дн):" list="">365</parametr>
+	<parametr lang="rus" name="param29" title="Текст &amp;quot;Не заполнено поле Имя&amp;quot;" list="">Не заполнено поле Имя</parametr>
+	<parametr lang="rus" name="param30" title="Текст &amp;quot;Не заполнено поле Город&amp;quot;" list="">Не заполнено поле Город</parametr>
+	<parametr lang="rus" name="param31" title="Текст &amp;quot;Не корректный e-mail&amp;quot;" list="">Не корректный e-mail</parametr>
+	<parametr lang="rus" name="param32" title="Текст &amp;quot;Не заполнено поле Краткая информация&amp;quot;" list="">Не заполнено поле Краткая информация</parametr>
+	<parametr lang="rus" name="param33" title="Текст &amp;quot;Не заполнено поле Текст объявления&amp;quot;" list="">Не заполнено поле Текст объявления</parametr>
+	<parametr lang="rus" name="param34" title="Поле Телефон" list="">Телефон</parametr>
+	<parametr lang="rus" name="param35" title="Текст &amp;quot;Не верно введен телефон&amp;quot;" list="">Не верно введен телефон</parametr>
+	<parametr lang="rus" name="param36" title="Текст заголовка &amp;quot;Телефон&amp;quot; (объ):" list="">телефон:</parametr>
+	<parametr lang="rus" name="param37" title="Размер краткого текста (символов)" list="">250</parametr>
+	<parametr lang="rus" name="param38" title="Размер подробного текста (символов)" list="">2000</parametr>
+</params>

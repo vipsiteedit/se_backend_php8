@@ -1,0 +1,30 @@
+shop_userfield_groups:
+   tableName: shop_userfield_groups
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_userfield_groups_id
+     name:
+       type: string(255)
+       notnull: true
+     description:
+       type: text
+     sort:
+       type: integer
+       notnull: true
+     enabled:
+       type: integer
+       notnull: true
+       default: 1
+     data:
+       type: enum
+       values: ['contact','order','company','productgroup','product','public']
+   relations:
+   values:

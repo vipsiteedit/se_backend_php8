@@ -1,0 +1,44 @@
+shop_delivery_param:
+   tableName: shop_delivery_param
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_delivery:
+       type: integer
+       unsigned: true
+       notnull: true
+     type_param:
+       type: enum
+       values: ['sum','weight','volume']
+       default: sum
+     price:
+       type: float(16,2)
+       unsigned: true
+       notnull: true
+     min_value:
+       type: float(16,3)
+     max_value:
+       type: float(16,3)
+     priority:
+       type: integer
+     operation:
+       type: enum
+       values: ['=','+','-']
+       default: =
+     type_price:
+       type: enum
+       values: ['a','s','d']
+       default: a
+   relations:
+     shop_deliverytype:
+       local: id_delivery
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE           
+   values:

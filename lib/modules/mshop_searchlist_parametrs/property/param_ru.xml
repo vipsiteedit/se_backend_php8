@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param140" title="Список модераторов" list=""></parametr>
+	<parametr lang="ru" name="param104" title=":::: ПАРАМЕТРЫ ПОИСКА ::::" list=""></parametr>
+	<parametr lang="ru" name="param106" title="Значение кода группы стартовой ветви" list=""></parametr>
+	<parametr lang="ru" name="param116" title="" list=""></parametr>
+	<parametr lang="ru" name="param73" title="::: ФОРМА ПОИСКА :::" list=""></parametr>
+	<parametr lang="ru" name="param115" title="Использовать скрытие блока поиска при отсутствии строки &amp;apos;search&amp;apos; в запросе" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param62" title="Текст на кнопке &amp;quot;Очистить поиск&amp;quot;" list="">Очистить</parametr>
+	<parametr lang="ru" name="param63" title="Текст на кнопке &amp;quot;Искать&amp;quot;:" list="">Искать</parametr>
+	<parametr lang="ru" name="param67" title="Текст &amp;quot;от&amp;quot;:" list="">от</parametr>
+	<parametr lang="ru" name="param68" title="Текст &amp;quot;до&amp;quot;:" list="">до</parametr>
+	<parametr lang="ru" name="param145" title="Текст вкладки &amp;quot;Быстрый&amp;quot;" list="">Быстрый</parametr>
+	<parametr lang="ru" name="param146" title="Текст владки &amp;quot;Расширенный&amp;quot;" list="">Расширенный</parametr>
+	<parametr lang="ru" name="param147" title="Текст ссылки &amp;quot;Редактировать&amp;quot;" list="">Редактировать</parametr>
+	<parametr lang="ru" name="param148" title="Текст кнопки &amp;quot;Сохранить&amp;quot;" list="">Сохранить</parametr>
+	<parametr lang="ru" name="param149" title="Текст радиокнопки &amp;quot;да&amp;quot;" list="">да</parametr>
+	<parametr lang="ru" name="param150" title="Текст радиокнопки &amp;quot;нет&amp;quot;" list="">нет</parametr>
+	<parametr lang="ru" name="param151" title="Текст радиокнопки &amp;quot;неважно&amp;quot;" list="">неважно</parametr>
+	<parametr lang="ru" name="param152" title="Заголовок &amp;quot;Все параметры&amp;quot;" list="">Все параметры</parametr>
+	<parametr lang="ru" name="param153" title="Текст ссылки &amp;quot;Расширенный поиск&amp;quot;" list="">Расширенный поиск</parametr>
+	<parametr lang="ru" name="param154" title="Текст кнопки &amp;quot;Назад&amp;quot;" list="">Назад</parametr>
+	<parametr lang="ru" name="param155" title="Текст кнопки &amp;quot;Очистить все выделеные&amp;quot;" list="">Очистить все</parametr>
+	<parametr lang="ru" name="param156" title="Текст в списке &amp;quot;Все группы&amp;quot;" list="">Все группы</parametr>
+</params>

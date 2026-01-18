@@ -1,0 +1,11 @@
+lang:
+     mes_noauthor: Вы не авторизованы на сайте или доступ запрещен!
+     mes_baseerror: Ошибка в базе авторизации!
+     mes_regerror: Ошибка при регистрации!<br>Возможно использованы недопустимые символы.
+     mes_authorerror: Неправильный или не активизированный Логин и Пароль!
+     mes_authorized: Пожалуйста, введите Ваши данные
+     mes_login: Логин
+     mes_password: Пароль
+     mes_login_back: Назад
+     mes_login_next: Войти
+     mes_replacepassword: Password was replaced successfully!

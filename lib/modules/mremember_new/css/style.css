@@ -1,0 +1,7 @@
+﻿.contRemember .obj.name {display:table;}
+.contRemember .obj.name label {margin-top:5px; margin-right:5px; width:130px; float:left;}
+.contRemember .antiSpam {margin-top:10px; display:table;}
+.contRemember .antiSpam label {margin-right:5px; width:130px; float:left;}
+.contRemember .antiSpam input {margin-left:2px; float:right;}
+.contRemember .forgetPass {margin-top:20px;}
+.contRemember .buttonArea {margin-top:20px;}

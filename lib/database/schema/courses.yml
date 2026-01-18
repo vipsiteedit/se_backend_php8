@@ -1,0 +1,17 @@
+courses:
+   tableName: courses
+   tableType:
+     engine: innoDB
+     charset: utf8
+   columns:
+     curr:
+       type: string(255)
+       notnull: true
+       primary: true
+     course:
+       type: float
+   relations:
+   values:
+     1:
+       curr: RUB
+       course: 1

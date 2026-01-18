@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Текст надписи &amp;quot;Цены-валюта&amp;quot;" list="">Цены-валюта</parametr>
+	<parametr lang="rus" name="param2" title="Отображать Российский Рубль в списке" list="Y|Да,N|нет">Y</parametr>
+</params>

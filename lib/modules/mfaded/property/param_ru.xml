@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param2" title="Скорость анимации (мс)" list="">500</parametr>
+	<parametr lang="ru" name="param3" title="Задержка слайда (мс)" list="">3000</parametr>
+	<parametr lang="ru" name="param4" title="Показывать объекты в случайном порядке" list="true|Да,false|Нет">false</parametr>
+</params>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param8" title="::Главная страница::" list=""></parametr>
+	<parametr lang="ru" name="param16" title="Ограничение количества записей" list="">100</parametr>
+	<parametr lang="ru" name="param9" title="Скрывать содержимое всех панелей" list="true|Да,false|Нет">false</parametr>
+	<parametr lang="ru" name="param10" title="Высота видимых панелей" list="auto|На основе самой высокой панели,fill|На основе указанной высоты,contents|На основе содержимого">contents</parametr>
+	<parametr lang="ru" name="param11" title="Скорость анимации (милисекунды)" list="">200</parametr>
+	<parametr lang="ru" name="param14" title="Индексировать заголовок записи" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param13" title="Индексировать ссылку &amp;quot;Подробнее&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param4" title="Включить режим позиционирования подробного содержания:" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param1" title="Ссылка &amp;quot;Подробнее&amp;quot;" list="">подробнее</parametr>
+	<parametr lang="ru" name="param15" title="" list=""></parametr>
+	<parametr lang="ru" name="param12" title="::Страница подробного просмотра::" list=""></parametr>
+	<parametr lang="ru" name="param5" title="Показывать кнопку &amp;quot;Печать&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param3" title="Включить отображение краткого текста" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param7" title="Включить возможность поделиться в соц. сетях" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param6" title="Текст кнопки &amp;quot;Печать&amp;quot;" list="">Печать</parametr>
+	<parametr lang="ru" name="param2" title="Текст кнопки &amp;quot;Вернуться&amp;quot;:" list="">Вернуться назад</parametr>
+</params>

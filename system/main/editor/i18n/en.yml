@@ -1,0 +1,151 @@
+lang:
+     mes_noauthor: Authorization required
+     mes_regerror: Registration ERROR!
+     mes_baseerror: Authorization Database ERROR!
+     mes_authorerror: Invalid or inactive login or password!
+     mes_authorized: Please, fill in the fields
+     mes_login: Login
+     mes_password: Password
+     mes_login_back: Back
+     mes_login_next: Next
+     mes_replacepassword: Password has been successfully changed!
+     ed_copyright: Copyright
+     ed_sitetitle: Site Title
+     ed_title_edit_info: Double-click or left-clik selected area to edit
+     ed_sitesubtitle: Site Subtitle
+     ed_reclamform: Advertising block
+     ed_searchform: Search form
+     ed_authorizeform: Login form
+     ed_statistic: Counters block
+     ed_contact: Contact block
+     ed_reklamform: Advertising block
+     ed_loadlogo: Upload logotype
+     ed_enteringtext: Intro text
+     ed_closingtext: Outro text
+     ed_alt_title: Hint
+     ed_title_photo: Photo
+     ed_title_records: Records
+     ed_alt_info: Alternative text to the image (used for promotion of the site), appears if the picture is not loaded from the server
+     ed_add_content: Adding section
+     ed_edit_content: Edit section
+     ed_edit_title: Title
+     ed_edit_select: Choose
+     ed_part_menu_content: Content
+     ed_part_menu_picture: Picture
+     ed_part_menu_type: Module type	 
+     ed_part_menu_params: Parameters
+     ed_part_menu_access: Access
+     ed_part_menu_langs: Translations
+     ed_part_menu_rec: Records
+     ed_rec_menu_content: Content
+     ed_rec_menu_picture: Picture
+     ed_rec_menu_fulltext: Detail	 
+     ed_rec_checkrec: Show
+     ed_edit: Edit
+     ed_upload_photo: Upload photo
+     ed_page_edit: Edit page
+     ed_page_option: Settings
+     ed_page_seo: Search engine promotion
+     ed_page_meta: Meta-data blocks
+     ed_page_title: Page Title
+     ed_page_name: Page Name
+     ed_page_translite_title: Transliteration page title
+     ed_page_translite: Transliteration
+     ed_page_redirect: Redirect
+     ed_page_redirect_title: Address URL to redirect to another page or website
+     ed_page_show_menu: Display page in menu
+     ed_page_in_mainmenu: In main
+     ed_page_in_mainmenu_title: Display in main menu
+     ed_page_in_universalmenu: In universal
+     ed_page_in_universalmenu_title: Display in universal menu
+     ed_icon_menu_button: Icon menu button
+     ed_download_icon_library: Download icon from Library
+     ed_indexes: Index
+     ed_indexes_title: Index for the site map and search
+     ed_page_priority:  Page Priority
+     ed_page_priority_title: Priority of Page relative to other pages. Use for in Google search
+     ed_make_homepage: Make Your Homepage
+     ed_access_rights: Access rights
+     ed_page_show: Show page
+     ed_teg_title: Tag Title
+     ed_teg_title_title: Tag field Title (text appears in the title of the browser) and is an important element of the promotion in search engines
+     ed_keywords: Keywords
+     ed_keywords_title: The field for a keyword pages for search engines. (the words are written in lower case and separated by a space or a comma)
+     ed_description: Description
+     ed_description_title: The field for a brief description of the page to search engines
+     ed_domain_name: Domain name
+     ed_domain_name_title: The domain name of the site that will be displayed in the search engines
+     ed_webmaster_tools: Webmaster Tools
+     ed_addpage_in_search: Add this page to Yandex
+     ed_block_head: Block HEAD
+     ed_block_head_title: In this field you can put meta tags
+     ed_block_javascript: Block JavaScript
+     ed_block_javascript_title: In this field, you can put a global javascript
+     ed_entering_text_title: In this field, you can put an introductory text or ad unit. (This should only be provided in the design)
+     ed_closing_text_title: In this field, you can put the final text or lower ad unit. (This should only be provided in the design)
+     ed_option_this: This
+     ed_level_access: Level Access
+     ed_group_access: Group Access
+     ed_access_all: All
+     ed_access_user: Authorized
+     ed_access_suser: Superusers
+     ed_access_admin: Administrators
+     ed_access_nouser: Not authorized
+     ed_no_access: Without access group
+     ed_hide_section: Hide section
+     ed_hide_records: Hide records
+     ed_rec_full_text: Full text
+     ed_pages: Pages
+     ed_modules: Modules
+     ed_exit: Exit
+     ed_office: Private office
+     ed_publication: Publication
+     ed_publication_info: Publish changes to the site
+     ed_editor_hide: View site (remove control icons)
+     ed_editor_show: Edit mode (show icon)
+     ed_menu_list: Manage website menu
+     ed_addpage: Add page
+     ed_edpage: Edit page
+     ed_delpage: Remove page
+     ed_editor_cancel: Cancel
+     ed_editor_cancel_info: Cancel editing site
+     ed_select_language: Selected interface language
+     ed_contacts_info: Contact Information
+     ed_select_pages: Site pages
+     ed_menu_editor: Menu editor
+     ed_menu_editor_help: Highlight the desired page, and by holding the left mouse button, drag it to the right box. Or click on the button located next to "move page". Thus, you are building your menu.
+     ed_menu_all_pages: All pages
+     ed_menu_main_title: Menu pages
+     ed_menu_universal_title: Universal menu
+     ed_menu_main: Main menu
+     ed_menu_universal: Universal menu
+     ed_menu_additional: Additional menu
+     ed_contact_edit: Contact Information
+     ed_contact_fullname: Full name
+     ed_contact_shortname: Short name
+     ed_contact_phone: Contact phone
+     ed_contact_fax: Fax
+     ed_contact_email: Contact e-mail
+     ed_contact_postindex: Postcode
+     ed_contact_country: Country
+     ed_contact_city: City
+     ed_contact_addres: Address
+     ed_contact_key: Map key Geo-positioning
+     ed_contact_emailadmin: e-mail site administrator
+     ed_contact_emailadmin_info: e-mail is used in all modules that require site administrator e-mail address
+     ed_contact_refer: Referral ID Site
+     icon_add_section: Add section
+     icon_edit_section: Edit section
+     icon_add_record: Add record
+     icon_edit_record: Edit record
+     ed_add: Add
+     ed_delete: Delete
+     ed_add_picture: Add picture
+     ed_del_picture: Delete picture
+     ed_width: Width
+     ed_button_up: Up
+     ed_button_down: Down
+     ed_button_putting: Putting
+     ed_button_getting: Getting	 
+     ed_button_add: Add	 
+     ed_button_remove: Remove	 

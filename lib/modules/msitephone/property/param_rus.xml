@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Цвет сайтофона" list="blue|Голубой,red|Красный,green|Зленый,violet|Фиолетовый,yellow|Желтый,gray|Серый,none|Свой/прозрачный">blue</parametr>
+	<parametr lang="rus" name="param2" title="Размер" list="1|200x100,2|240x400,3|300x250,4|480x60">1</parametr>
+	<parametr lang="rus" name="param3" title="Анимированная картинка" list="phone|Телефон,man|Звонящий человек">phone</parametr>
+	<parametr lang="rus" name="param4" title="Текст" list="callme|Позвоните нам бесплатно,callorder|Заказать звонок">callme</parametr>
+	<parametr lang="rus" name="param5" title="Ключ" list=""> </parametr>
+</params>

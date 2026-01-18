@@ -1,0 +1,19 @@
+shop_variables:
+   tableName: shop_variables
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_variables_id
+     name:
+       type: string(255)
+       notnull: true
+     value:
+       type: text
+

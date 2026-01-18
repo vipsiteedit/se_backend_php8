@@ -1,0 +1,7 @@
+﻿#con_photo {width:100%; clear:both;}
+#con_photo .contentImage {margin-right:10px; float:left;}
+#con_photo .photo#photoBrief {background-color:#c0c0c0; margin-right:10px; float:left; text-align:center;}
+#con_photo .photo#photoBriefImg {background-color:#FFFFFF;}
+#con_photo .photo #links {color:#000000; text-decoration:none;}
+#show_photo .objectImage {margin-right:10px; float:left;}
+#show_photo .buttonSend {margin-top:10px;}

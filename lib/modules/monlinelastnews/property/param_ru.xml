@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Количество выводимых новостей" list="">3</parametr>
+	<parametr lang="ru" name="param2" title="Страница с новостями:" list="{pages=monlinenews}">news</parametr>
+	<parametr lang="ru" name="param9" title="Показывать ссылку &amp;quot;подробнее...&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param3" title="Текст ссылки &amp;quot;подробней&amp;quot;:" list="">подробнее</parametr>
+	<parametr lang="ru" name="param4" title="Число символов в кратком тексте:" list="">150</parametr>
+	<parametr lang="ru" name="param6" title="Максимальная ширина рисунка:" list="">70</parametr>
+	<parametr lang="ru" name="param7" title="Идентификатор новостей:" list="">news</parametr>
+	<parametr lang="ru" name="param8" title="Ссылка &amp;quot;Все новости&amp;quot;:" list="">Все новости</parametr>
+</params>

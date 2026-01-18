@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Регистрация и авторизация</group>
+	<name>Персональные данные пользователя</name>
+	<comment>Форма для изменения личных данных пользователя.</comment>
+</option>

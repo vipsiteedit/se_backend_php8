@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param21" title="E-mail администратора " list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param1" title="Тип блога" list="blog|Блог,info|Информер,goods|Карточка товара">blog</parametr>
+	<parametr lang="ru" name="param2" title="Модераторы блога (Через запятую)" list=""></parametr>
+	<parametr lang="ru" name="param3" title="Добавлять публикации разрешено" list="1|Зарегистрированным пользователям,2|Модераторам сайта,3|Администраторам">1</parametr>
+	<parametr lang="ru" name="param4" title="Кол-во записей на странице" list="">15</parametr>
+	<parametr lang="ru" name="param5" title="Кол-во символов в кратком описаний" list="">0</parametr>
+	<parametr lang="ru" name="param6" title="Вид подробного описания" list="text|Простой текст,tabs|Вкладки">text</parametr>
+	<parametr lang="ru" name="param7" title="Ширина картинок в ленте" list="">300</parametr>
+	<parametr lang="ru" name="param8" title="Кто может оставлять комментарий" list="U|Авторизованный пользователь,A|Все">U</parametr>
+	<parametr lang="ru" name="param9" title="Использовать капчу в комментариях" list="N|Нет,Y|Да">N</parametr>
+	<parametr lang="ru" name="param10" title="Оставить пост можно через (в часах)" list="">0</parametr>
+	<parametr lang="ru" name="param11" title="URL страницы списка постов пол-ля" list=""></parametr>
+	<parametr lang="ru" name="param12" title="Вид списка категории" list="popup|Cписок,list|Список с выбором">popup</parametr>
+	<parametr lang="ru" name="param13" title="Использовать визуальный редактор при создании поста" list="N|Нет,Y|Да">N</parametr>
+	<parametr lang="ru" name="param23" title="Ширина загружаемых картинок" list="">1280</parametr>
+	<parametr lang="ru" name="param14" title="Max размер загружаемой картинки (Mb)" list="">1</parametr>
+	<parametr lang="ru" name="param15" title="Min кол-во символов в описании" list="">0</parametr>
+	<parametr lang="ru" name="param16" title="Max кол-во символов в описании" list="">0</parametr>
+	<parametr lang="ru" name="param17" title="Min кол-во картинок в записи" list="">0</parametr>
+	<parametr lang="ru" name="param18" title="Max кол-во картинок в записи" list="">0</parametr>
+	<parametr lang="ru" name="param19" title="Расширение загружаемых картинок" list="A|.jpg .gif .png,J|только .jpg">A</parametr>
+	<parametr lang="ru" name="param20" title="@Премодерация записи" list="N|Нет,Y|Да">N</parametr>
+	<parametr lang="ru" name="param22" title="Отображать фотопараметры" list="N|Нет,Y|Да">N</parametr>
+</params>

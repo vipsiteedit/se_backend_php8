@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Страница интернет-магазина:" list="">catalogue</parametr>
+	<parametr lang="ru" name="param2" title="Страница заказов:" list="">clientaccount</parametr>
+	<parametr lang="ru" name="param55" title="Минимальная сумма для заказа и валюта, разделитель &amp;quot;;&amp;quot; (500;RUR)" list="">100;RUR</parametr>
+	<parametr lang="ru" name="param56" title="Сообщение при сумме заказа ниже заданной" list="">Внимание! Минимальная сумма заказа составляет </parametr>
+	<parametr lang="ru" name="param3" title="Текст столбца &amp;quot;Артикул&amp;quot;:" list="">Артикул </parametr>
+	<parametr lang="ru" name="param4" title="Текст столбца &amp;quot;Наименование&amp;quot;:" list="">Наименование</parametr>
+	<parametr lang="ru" name="param6" title="Текст столбца &amp;quot;Цена&amp;quot;:" list="">Цена</parametr>
+	<parametr lang="ru" name="param5" title="Текст столбца &amp;quot;В наличии&amp;quot;" list="">В&amp;amp;nbsp;нал.</parametr>
+	<parametr lang="ru" name="param7" title="Текст столбца &amp;quot;Количество&amp;quot;:" list="">Кол.</parametr>
+	<parametr lang="ru" name="param8" title="Текст столбца &amp;quot;Сумма&amp;quot;" list="">Сумма</parametr>
+	<parametr lang="ru" name="param9" title="Текст кнопки &amp;quot;Удалить товар&amp;quot;" list="">Удалить</parametr>
+	<parametr lang="ru" name="param10" title="Текст столбца &amp;quot;Скидка за единицу товара&amp;quot;" list="">Скидка за ед.</parametr>
+	<parametr lang="ru" name="param11" title="Текст кнопки &amp;quot;Продолжить покупки&amp;quot;" list="">Продолжить покупки</parametr>
+	<parametr lang="ru" name="param12" title="Текст кнопки &amp;quot;Пересчитать&amp;quot;:" list="">Пересчитать</parametr>
+	<parametr lang="ru" name="param13" title="Текст кнопки &amp;quot;Очистить корзину&amp;quot;:" list="">Очистить</parametr>
+	<parametr lang="ru" name="param118" title="Показывать сообщения истории заказов (&amp;quot;Вы заказывали этот товар...&amp;quot;)" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param102" title="Режим регистрации пользователя" list="Y|Обязательная регистрация,N|Без регистрации,M|Смешанный режим">M</parametr>
+	<parametr lang="ru" name="param101" title="Текст кнопки &amp;quot;Заказать без регистрации&amp;quot;" list="">Заказать без регистрации</parametr>
+	<parametr lang="ru" name="param103" title="Текст предупреждения о недостатках заказа без регистрации" list="">Внимание! В случае заказа без регистрации Вы лишаетесь преимуществ, таких как скидки и спеццены, распространяемые на зарегистрированных пользователей.</parametr>
+	<parametr lang="ru" name="param104" title="Текст финишной страницы заказа без регистрации" list="">Заказ отправлен. В ближайшее время наш менеджер свяжется с Вами.</parametr>
+	<parametr lang="ru" name="param14" title="Текст кнопки &amp;quot;Оформить заказ&amp;quot;:" list="">Оформить заказ</parametr>
+	<parametr lang="ru" name="param36" title="Заголовок &amp;quot;Оформление заказа&amp;quot;" list="">Оформление заказа</parametr>
+	<parametr lang="ru" name="param97" title="Округлять цену до целых" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param98" title="Форматировать цену пробелами(по 3 разряда)" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param114" title="Сопроводительный текст пункта заказа с пользовательской ценой" list="">Предложите свою цену</parametr>
+	<parametr lang="ru" name="param88" title="" list=""></parametr>
+	<parametr lang="ru" name="param89" title="::: ИНФОРМАЦИЯ О ДОСТАВКЕ :::" list=""></parametr>
+	<parametr lang="ru" name="param57" title="Текст списка &amp;quot;Без доставки&amp;quot;:" list="">Без доставки</parametr>
+	<parametr lang="ru" name="param95" title="Сделать доставку обязательной:" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param37" title="Заголовок таблицы &amp;quot;Контактная информация о заказчике&amp;quot;" list="">Контактная информация о заказчике</parametr>
+	<parametr lang="ru" name="param38" title="Заголовок поля &amp;quot;Имя&amp;quot;" list="">Имя</parametr>
+	<parametr lang="ru" name="param39" title="Заголовок поля &amp;quot;Ваш e-mail&amp;quot;" list="">Ваш e-mail</parametr>
+	<parametr lang="ru" name="param40" title="Заголовок поля &amp;quot;Ваш телефон&amp;quot;" list="">Ваш телефон</parametr>
+	<parametr lang="ru" name="param90" title="Сделать номер телефона обязательным:" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param92" title="Номер телефона не должен быть пустым!" list="">Поле &amp;quot;Ваш телефон&amp;quot; не должен быть пустым!</parametr>
+	<parametr lang="ru" name="param41" title="Заголовок поля &amp;quot;Удобное время звонка&amp;quot;" list="">Удобное время звонка</parametr>
+	<parametr lang="ru" name="param124" title="Показывать поле &amp;quot;Удобное время звонка&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param42" title="Заголовок таблицы &amp;quot;Информация о доставке&amp;quot;" list="">Информация о доставке</parametr>
+	<parametr lang="ru" name="param43" title="Заголовок поля &amp;quot;Почтовый индекс&amp;quot;" list="">Почтовый индекс</parametr>
+	<parametr lang="ru" name="param91" title="Отображать поле &amp;quot;Почтовый индекс&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param120" title="Сделать почтовый индекс обязательным" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param50" title="Заголовок поля &amp;quot;Адрес&amp;quot;" list="">Введите адрес</parametr>
+	<parametr lang="ru" name="param119" title="Заголовок поля &amp;quot;Выбор адреса&amp;quot;" list="">или выберите из списка</parametr>
+	<parametr lang="ru" name="param122" title="Текст выпадающего поля адресов &amp;quot;Выбор адреса&amp;quot;" list="">-- Выбор адреса --</parametr>
+	<parametr lang="ru" name="param105" title="@Заголовок поля &amp;quot;Город&amp;quot;" list="">Город</parametr>
+	<parametr lang="ru" name="param110" title="@Заголовок поля &amp;quot;Служба доставки&amp;quot;" list="">Служба доставки:</parametr>
+	<parametr lang="ru" name="param112" title="Заголовок поля &amp;quot;Вес отправления&amp;quot;" list="">Вес (кг)</parametr>
+	<parametr lang="ru" name="param111" title="@Заголовок поля &amp;quot;Срок доставки&amp;quot;" list="">Срок (дней)</parametr>
+	<parametr lang="ru" name="param106" title="@Элемент списка выбора &amp;quot;Город доставки&amp;quot;" list="">Город доставки</parametr>
+	<parametr lang="ru" name="param107" title="@Элемент списка выбора &amp;quot;Регион доставки&amp;quot;" list="">Регион доставки</parametr>
+	<parametr lang="ru" name="param51" title="Заголовок поля &amp;quot;Способ доставки&amp;quot;" list="">Способ доставки</parametr>
+	<parametr lang="ru" name="param44" title="Текст заголовка &amp;quot;Итого&amp;quot;" list="">Итого</parametr>
+	<parametr lang="ru" name="param45" title="Текст заголовка &amp;quot;Общая скидка&amp;quot;" list="">Общая скидка</parametr>
+	<parametr lang="ru" name="param46" title="Текст заголовка &amp;quot;Сумма доставки&amp;quot;" list="">Сумма доставки</parametr>
+	<parametr lang="ru" name="param47" title="Текст заголовка &amp;quot;Общая сумма&amp;quot;" list="">Общая сумма заказа</parametr>
+	<parametr lang="ru" name="param59" title="Поле комментария администратора по доставке" list="{text}"></parametr>
+	<parametr lang="ru" name="param100" title="@Текст ошибки &amp;quot;Администратор не может покупать&amp;quot;" list="">Администратор не может осуществлять заказ товара. Войдите под другим логином.</parametr>
+	<parametr lang="ru" name="param108" title="@Текст ошибки &amp;quot;Превышен допустимый вес&amp;quot;" list="">Превышен допустимый вес для данной службы доставки</parametr>
+	<parametr lang="ru" name="param109" title="@Текст ошибки &amp;quot;Неизвестен город начального пункта отправки&amp;quot;" list="">Неизвестен город начального пункта отправки для выбранной службы доставки. Обратитесь к администратору магазина.</parametr>
+	<parametr lang="ru" name="param113" title="@Текст предупреждения &amp;quot;Выберите город доставки&amp;quot;" list="">Выберите город доставки.</parametr>
+	<parametr lang="ru" name="param115" title="@Текст ошибки &amp;quot;Имя не может быть пустым&amp;quot;" list="">Поле &amp;quot;Имя&amp;quot; не может быть пустым!</parametr>
+	<parametr lang="ru" name="param64" title="E-mail введен неверно!" list="">E-mail введен неверно!</parametr>
+	<parametr lang="ru" name="param99" title="E-mail не должен быть пустым!" list="">Поле e-mail не должно быть пустым!</parametr>
+	<parametr lang="ru" name="param121" title="Почтовый индекс не должен быть пустым!" list="">Почтовый индекс не должен быть пустым!</parametr>
+	<parametr lang="ru" name="param123" title="Почтовый индекс введен неверно!" list="">Почтовый индекс введен неверно!</parametr>
+	<parametr lang="ru" name="param94" title="Минимальное число символов в адресе:" list="">5</parametr>
+	<parametr lang="ru" name="param66" title="Адрес должен содержать как нимимум %N% символов!" list="">Адрес должен содержать как минимум %N% символов!</parametr>
+	<parametr lang="ru" name="param93" title="Поле адрес не должно быть пустым!" list="">Поле адрес не должно быть пустым!</parametr>
+	<parametr lang="ru" name="param69" title="Текст &amp;quot;Неограниченное количество&amp;quot;" list="">Есть</parametr>
+	<parametr lang="ru" name="param70" title="Заголовок &amp;quot;Комментарий к заказу&amp;quot;" list="">Комментарий к заказу</parametr>
+	<parametr lang="ru" name="param71" title="Выводить комментарий к заказу:" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param72" title="" list=""></parametr>
+	<parametr lang="ru" name="param73" title="::: НАСТРОЙКИ РЕГИСТРАЦИИ :::" list=""></parametr>
+	<parametr lang="ru" name="param58" title="Текст сообщения email при регистрации:" list="">Регистрация в магазине </parametr>
+	<parametr lang="ru" name="param67" title="Сообщение &amp;quot;Регистрация невозможна&amp;quot;" list="">Регистрация невозможна по техническим причинам</parametr>
+	<parametr lang="ru" name="param49" title="Сообщение для неавторизованных пользователей" list="{text}">Внимание! Для оформления заказа необходимо авторизоваться.</parametr>
+	<parametr lang="ru" name="param61" title="Ошибка регистрации - поле &amp;quot;Фамилия&amp;quot; пустое" list="">Поле Фамилия не должно быть пустым!</parametr>
+	<parametr lang="ru" name="param18" title="Ошибка регистрации - поле &amp;quot;Имя&amp;quot; пустое" list="">Поле Имя не должно быть пустым!</parametr>
+	<parametr lang="ru" name="param62" title="Ошибка регистрации - поле &amp;quot;Отчество&amp;quot; пустое" list="">Поле Отчество не должно быть пустым!</parametr>
+	<parametr lang="ru" name="param86" title="Ошибка регистрации - поле &amp;quot;e-mail&amp;quot; пустое" list="">Поле e-mail не должно быть пустым!</parametr>
+	<parametr lang="ru" name="param87" title="Ошибка регистрации - e-mail введен неверно" list="">e-mail введен неверно!</parametr>
+	<parametr lang="ru" name="param19" title="Ошибка регистрации - неверный Логин" list="">Логин введен неверно!</parametr>
+	<parametr lang="ru" name="param20" title="Ошибка регистрации - поле &amp;quot;Пароль&amp;quot; пустое" list="">Не введен пароль!</parametr>
+	<parametr lang="ru" name="param21" title="Ошибка регистрации - &amp;quot;пароли не совпадают&amp;quot;" list="">Введеные пароли не совпадают!</parametr>
+	<parametr lang="ru" name="param22" title="Ошибка регистрации - введенный логин уже зарегистрирован" list="">Логин уже существует,  повторите регистрацию!</parametr>
+	<parametr lang="ru" name="param23" title="Заголовок для блока авторизации" list="">Блок авторизации</parametr>
+	<parametr lang="ru" name="param24" title="Заголовок таблицы авторизации" list="">Авторизация</parametr>
+	<parametr lang="ru" name="param26" title="Авторизация - заголовок &amp;quot;Пароль&amp;quot;" list="">Ваш пароль</parametr>
+	<parametr lang="ru" name="param116" title="Ошибка авторизации - &amp;quot;Неверный пароль!&amp;quot;" list="">Неверный пароль!</parametr>
+	<parametr lang="ru" name="param117" title="Авторизация - текст &amp;quot;Забыли пароль?&amp;quot;" list="">Забыли пароль?</parametr>
+	<parametr lang="ru" name="param25" title="Авторизация - заголовок &amp;quot;Логин&amp;quot;" list="">Ваш логин</parametr>
+	<parametr lang="ru" name="param54" title="Авторизация - Текст кнопки &amp;quot;Войти&amp;quot;" list="">Войти</parametr>
+	<parametr lang="ru" name="param27" title="Заголовок для блока регистрации" list="">Для новых клиентов</parametr>
+	<parametr lang="ru" name="param28" title="Заголовок таблицы регистрации" list="">Данные клиента</parametr>
+	<parametr lang="ru" name="param30" title="Регистрация - Заголовок &amp;quot;Имя&amp;quot;" list="">Имя</parametr>
+	<parametr lang="ru" name="param29" title="Регистрация - Заголовок &amp;quot;Фамилия&amp;quot;" list="">Фамилия</parametr>
+	<parametr lang="ru" name="param31" title="Регистрация - Заголовок &amp;quot;Отчество&amp;quot;" list="">Отчество</parametr>
+	<parametr lang="ru" name="param84" title="Выводить поле &amp;quot;Отчество&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param85" title="Поле &amp;quot;Отчество&amp;quot; обязательно" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param32" title="Регистрация - Заголовок &amp;quot;E-mail&amp;quot;" list="">E-mail</parametr>
+	<parametr lang="ru" name="param33" title="Регистрация - Заголовок &amp;quot;Пароль&amp;quot;" list="">Пароль</parametr>
+	<parametr lang="ru" name="param34" title="Регистрация - Заголовок &amp;quot;Повтор пароля&amp;quot;" list="">Повтор пароля</parametr>
+	<parametr lang="ru" name="param35" title="Регистрация - Текст кнопки &amp;quot;Регистрация&amp;quot;" list="">Регистрация</parametr>
+	<parametr lang="ru" name="param74" title="Использовать в виде логина:" list="email|e-mail,phone|Номер телефона,username|Псевдоним">email</parametr>
+	<parametr lang="ru" name="param75" title="Заголовок поля &amp;quot;Ваш e-mail&amp;quot;:" list="">Ваш e-mail</parametr>
+	<parametr lang="ru" name="param76" title="Заголовок поля &amp;quot;Ваш номер телефона&amp;quot;:" list="">Ваш номер телефона</parametr>
+	<parametr lang="ru" name="param77" title="Заголовок поля &amp;quot;Ваш логин&amp;quot;:" list="">Ваш логин</parametr>
+	<parametr lang="ru" name="param78" title="Информация по регистрации:" list="{text}"></parametr>
+	<parametr lang="ru" name="param79" title="Включить блок информации:" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param80" title="" list=""></parametr>
+	<parametr lang="ru" name="param81" title="::: Цены :::" list=""></parametr>
+	<parametr lang="ru" name="param82" title="Имя группы оптовых цен:" list="">optovik</parametr>
+	<parametr lang="ru" name="param83" title="Имя группы корпоративных цен:" list="">optcorp</parametr>
+</params>

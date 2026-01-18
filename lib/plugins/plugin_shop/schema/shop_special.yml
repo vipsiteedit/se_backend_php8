@@ -1,0 +1,34 @@
+ShopSpecial:
+  actAs: [Timestampable]
+  columns:
+    price_id: #товар, услуга
+      type: integer
+    group_id: #группа
+      type: integer
+      
+    price: #цена
+      type: float(10)
+    percent: #процент
+      type: float(5)
+
+    expires_at: #дата истечения
+      type: timestamp
+      
+    is_active: #активность
+      type: boolean
+      default: true
+      notnull: true
+     
+  relations:
+    price:
+      class: ShopPrice
+      local: price_id
+      foreignAlias: specials
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    group:
+      class: ShopGroup
+      local: group_id
+      foreignAlias: specials
+      onDelete: CASCADE
+      onUpdate: CASCADE

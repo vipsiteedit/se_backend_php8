@@ -1,0 +1,12 @@
+﻿.fadedImages .faded {width:600px; height:400px; position:relative; overflow:hidden;}
+.fadedImages .faded .fadedArea {margin:0; width:100%; height:100%; position:absolute; top:0px; left:0px;}
+.fadedImages .faded .fadedArea .object {width:100%; height:100%; position:absolute; top:0px; left:0px; list-style-type:none;}
+.fadedImages .objectTitle {position:absolute; top:20px; left:20px;}
+.fadedImages .objectImage {z-index:1;}
+.fadedImages .objectNote {position:absolute; top:100px; left:20px; z-index:2;}
+.fadedImages .linkNext {text-decoration:none; position:absolute; bottom:100px; left:20px;}
+.fadedImages .faded .pagination {position:absolute; bottom:40px; right:30px; z-index:15; padding:0;}
+.fadedImages .faded .pagination li {margin-left:1px; width:22px; height:22px; position:relative; float:left; overflow:hidden; list-style-type:none;}
+.fadedImages .faded .pagination li a {background-color:#242424; width:100%; height:100%; position:absolute; overflow:hidden; text-indent:100px;}
+.fadedImages .faded .pagination li.current a {background-color:#ffffff;}
+.fadedImages .faded .pagination li a:hover {background-color:#ffffff;}

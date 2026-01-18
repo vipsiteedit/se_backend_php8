@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="btn" act="url" name="field" />
+		<field type="text" name="field">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="title">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="image">
+		<field type="text" name="image_size" default="1920x700">
+		<field type="text" name="text1">
+			<title lang="ru">Цена</title>
+			<list lang="ru"></list>
+			<default lang="ru"></default>
+		</field>
+	</objects>
+</structure>

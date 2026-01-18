@@ -1,0 +1,14 @@
+.photoAlbumSplash .obj {margin-bottom:5px; margin-right:5px; height:180px; float:left; text-align:center; vertical-align:top;}
+.photoAlbumSplash .obj .photoPreview {color:#808080; font-size:11px; text-decoration:none; margin-top:2px; display:block;}
+.photoAlbumSplash .obj .photoPreview .textLink {display:block;}
+.photoAlbumSplash .showImgFon {background-color:#000000; width:100%;}
+.photoAlbumSplash table {background-color:#ffffff; padding-top:3px; padding-bottom:3px; padding-left:3px; padding-right:3px;}
+.photoAlbumSplash .navigPanel {margin-bottom:10px; display:inline-block; width:100%; clear:both;}
+.photoAlbumSplash .navigPanel .prev {font-size:0; background-image:url(foto_slide/ic2_left.gif); background-position:center left; background-repeat:no-repeat; width:48%; height:32px; float:left;}
+.photoAlbumSplash .navigPanel .next {font-size:0; background-image:url(foto_slide/ic2_right.gif); background-position:center right; background-repeat:no-repeat; width:48%; height:32px; float:right;}
+.photoAlbumSplash .objectTitle {margin:0; margin-top:7px; margin-left:5px; float:left; padding:0;}
+.photoAlbumSplash .hideImage {color:#ffffff; font-size:0; cursor:pointer; background-image:url(foto_slide/x.gif); background-repeat:no-repeat; margin-top:5px; width:20px; height:20px; float:right;}
+.photoAlbumSplash .loading {width:100%; position:absolute; top:45%; text-align:center;}
+.photoAlbumSplash .text {color:#808080; margin-top:5px; margin-bottom:5px; display:block;}
+.photoAlbumSplash .navigPanel .prev {cursor:pointer;}
+.photoAlbumSplash .navigPanel .next {cursor:pointer;}

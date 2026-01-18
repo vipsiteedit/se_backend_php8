@@ -1,0 +1,100 @@
+﻿.e_shopvit .paramsLineBlock {clear:both;}
+.e_shopvit .goodsParam {margin-bottom:2px; display:block;}
+.e_shopvit .goodsParamTitle {width:90px; float:left; text-align:left;}
+.e_shopvit .goodsContent .changeView {margin-bottom:15px;}
+.e_shopvit .goodsContent .goodsNavigator {margin-bottom:20px;}
+.e_shopvit .goodsGoods {display:inline-block; width:100%;}
+.e_shopvit .goodsGoods .goodsHat {font-size:160%; font-weight:normal; margin-bottom:10px;}
+.e_shopvit .tablePrice {margin-bottom:30px; width:100%;}
+.e_shopvit .tablePrice th {padding-top:10px; padding-bottom:10px; padding-left:5px; padding-right:5px; text-align:left;}
+.e_shopvit .tablePrice .tableRow td {padding-top:10px; padding-bottom:10px; padding-left:5px; padding-right:5px; text-align:left; vertical-align:top;}
+.e_shopvit .tablePrice .tableRowOdd td {background-image:url(mshop_vitrine_big/black_5.png);}
+.e_shopvit .tablePrice .tableRow .hpicture {padding-left:10px; padding-right:10px; position:relative;}
+.e_shopvit .tablePrice .tableRow .hpicture > div {position:relative;}
+.e_shopvit .tablePrice .tableRow .hpicture .image {position:relative;}
+.e_shopvit .tablePrice .tableRow .hname {width:18%;}
+.e_shopvit .tablePrice .tableRow .hart {margin-bottom:10px; display:block;}
+.e_shopvit .tablePrice .tableRow .goodsname {display:block;}
+.e_shopvit .tablePrice .divparam {margin-top:10px;}
+.e_shopvit .tablePrice .goodsParam {margin-bottom:10px;}
+.e_shopvit .tablePrice .goodsParamTitle {margin-bottom:3px; display:block;}
+.e_shopvit .tablePrice .goodsParamValue {display:block;}
+.e_shopvit .tablePrice .tableRow .hnote .text {display:block;}
+.e_shopvit .tablePrice .tableRow .hmanuf {width:10%;}
+.e_shopvit .tablePrice .tableRow .hpresence {width:6%;}
+.e_shopvit .tablePrice .tableRow .hpresence .cpresence {display:block; text-align:center;}
+.e_shopvit .tablePrice .tableRow .hprice .old_price {margin-bottom:5px; display:block; white-space:nowrap;}
+.e_shopvit .tablePrice .tableRow .hprice .new_price {font-weight:bold; display:block; white-space:nowrap;}
+.e_shopvit .tablePrice .tableRow .hcart {width:8%;}
+.e_shopvit .tablePrice .tableRow .hcart .cartscount {margin-bottom:2px;}
+.e_shopvit .goodsGoods.vitrina .vitrineSort {margin-bottom:20px;}
+.e_shopvit .goodsGoods.vitrina .vitrineSort .vitrineSortDirLabel {margin-left:15px;}
+.e_shopvit .objectTable {margin-bottom:30px; margin-right:20px; display:inline-block; width:30%; text-align:left; vertical-align:top;}
+.e_shopvit .theGoodContent {text-align:left; vertical-align:top;}
+.e_shopvit .objectTitle {height:2.6em; overflow:hidden;}
+.e_shopvit .blockImage {margin-bottom:10px; display:inline-block; width:100%; position:relative; text-align:center;}
+.e_shopvit .objectImage {margin:auto; margin-top:0px; margin-bottom:0px; display:block; float:none;}
+.e_shopvit .objectRating {margin-bottom:10px;}
+.e_shopvit .objectVotes {font-weight:bold;}
+.e_shopvit .objectNote {margin-bottom:10px; display:block; height:2.6em; clear:both; overflow:hidden;}
+.e_shopvit .objectText {margin-bottom:10px;}
+.e_shopvit .objectCode {margin-bottom:5px;}
+.e_shopvit .objectManufacturer {margin-bottom:5px;}
+.e_shopvit .objectPresent {margin-bottom:5px;}
+.e_shopvit .priceBox .paramsLineBlock {margin-bottom:5px; display:block;}
+.e_shopvit .priceBox .goodsParam {padding-right:5px;}
+.e_shopvit .objectTable .priceStyle {margin-top:10px; margin-bottom:10px; display:inline-block; width:100%;}
+.e_shopvit .objectTable .priceHeader {margin-bottom:5px; display:block;}
+.e_shopvit .objectTable .priceStyle .old_price {margin-right:5px; white-space:nowrap;}
+.e_shopvit .objectTable .priceStyle .new_price {font-size:110%; font-weight:bold; white-space:nowrap;}
+.e_shopvit .buttonBox {display:inline-block; width:100%;}
+.e_shopvit .buttonSend {display:inline-block;}
+.e_shopvit .buttonSend.addcart {margin-right:5px;}
+.e_shopvit .buttonSend.details {background-color:transparent; background-image:none;}
+.e_shopvit .sg_footer_text {margin-top:20px;}
+.e_shopvit .goodsPath {margin-bottom:20px;}
+.e_shopvit .goodsPathSepar {padding-left:5px; padding-right:5px;}
+.e_shopvit .goodsDetTitle {font-size:160%; font-weight:normal; margin-bottom:20px;}
+.e_shopvit .goodsDetArticle {font-weight:normal; margin-bottom:10px;}
+.e_shopvit .goodsLinkPhoto {margin-bottom:15px; margin-right:20px; float:left;}
+.e_shopvit .goodsPhotoBig {float:left;}
+.e_shopvit .goodsPhoto {float:left;}
+.e_shopvit .goodsDetRating {margin-bottom:10px;}
+.e_shopvit .goodsDetVotesTitle {margin-right:3px;}
+.e_shopvit .goodsDetUp {margin-right:3px;}
+.e_shopvit .goodsDetVotes {font-weight:bold;}
+.e_shopvit .goodsDetDown {margin-left:30px;}
+.e_shopvit .goodsDetRatingErr {color:#FF0000; padding:10px;}
+.e_shopvit .goodsDetail .manuf {margin-bottom:10px;}
+.e_shopvit .goodsDetail .manuftitle {margin-right:10px;}
+.e_shopvit .goodsDetail .commentBlock {margin-bottom:10px;}
+.e_shopvit .goodsDetail .commentBlock .read {margin-right:10px;}
+.e_shopvit .presence {margin-bottom:10px;}
+.e_shopvit .goodsDetPriceBox {margin-top:20px; margin-bottom:20px; display:inline-block;}
+.e_shopvit .goodsDetPriceBox .divparam {margin-bottom:20px;}
+.e_shopvit .price {margin-bottom:20px;}
+.e_shopvit .price .goodsDetPriceNaim {margin-right:10px;}
+.e_shopvit .price .goodsDetPriceStyle .old_price {margin-right:10px;}
+.e_shopvit .price .goodsDetPriceStyle .new_price {font-size:140%; font-weight:bold;}
+.e_shopvit .goodsDetail .goodsDetButtonBox {display:inline-block; width:100%;}
+.e_shopvit .goodsDetail .buttonSend {margin:0; display:inline-block;}
+.e_shopvit .goodsDetNote {margin-bottom:20px; display:block; clear:both;}
+.e_shopvit .morephotos {clear:left;}
+.e_shopvit .goodsMorephotoHat {font-size:160%; font-weight:normal; margin-bottom:20px;}
+.e_shopvit .goodsDetText {margin-top:20px; margin-bottom:20px;}
+.e_shopvit .comment .titleHead {font-size:160%; font-weight:normal; margin-bottom:20px;}
+.e_shopvit .comment .tableComment .tableRow td {padding-bottom:25px;}
+.e_shopvit .comment .tableComment .comm_date {margin-right:15px; float:left;}
+.e_shopvit .comment .tableComment .comm_titlename {font-weight:bold; margin-bottom:10px;}
+.e_shopvit .comment .tableComment .comm_admnote {border-width:1px; border-color:#C0C0C0; border-style:dotted; margin-top:10px; padding:10px;}
+.e_shopvit .comment .addComment .error {color:#FF0000;}
+.e_shopvit .comment .addComment .title {margin-top:10px; margin-bottom:5px;}
+.e_shopvit .comment .addComment .areatext {width:100%; height:100px; overflow:auto; -moz-box-sizing:border-box; box-sizing:border-box;}
+.e_shopvit .comment .addComment .buttonSend {margin-top:3px; display:block;}
+.e_shopvit .comment .comm_info {margin-top:10px;}
+.e_shopvit .objectTable .flag_hit {color:#ffffff; background-color:#ca0000; position:absolute; top:-5px; right:-5px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .objectTable .flag_new {color:#ffffff; background-color:#417d2b; position:absolute; top:20px; right:-5px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .objectTable .user_price {color:#ffffff; background-color:#0080ff; position:absolute; bottom:0px; right:-5px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .tablePrice .flag_hit {color:#ffffff; background-color:#ca0000; position:absolute; top:-5px; right:0px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .tablePrice .flag_new {color:#ffffff; background-color:#417d2b; position:absolute; top:20px; right:0px; padding:2px 4px; white-space:nowrap;}
+.e_shopvit .tablePrice .user_price {color:#ffffff; background-color:#0080ff; position:absolute; bottom:0px; right:0px; padding:2px 4px; white-space:nowrap;}

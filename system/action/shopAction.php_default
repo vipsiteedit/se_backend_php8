@@ -1,0 +1,23 @@
+<?php
+/**
+** User-defined function, or activation key generation
+**/
+function shopAction($order_id){
+    /*Your activation code key*/
+    $arr = array();  // An array of IDs for which the key
+    $order = new seShopOrder($order_id);
+    $goods = $order->getGoods();
+    foreach($goods->getList() as $item){
+	if (in_array($item['price_id'], $arr)){
+	/*Your activation code key*/
+	    $license = '';
+	
+	    $goods->update('license', $license);
+	    $goods->where("id=?", $item['id']);
+	    $goods->save();
+	}
+	
+    }
+    return true;
+}
+?>

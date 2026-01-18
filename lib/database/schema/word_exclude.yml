@@ -1,0 +1,18 @@
+word_exclude:
+   tableName: word_exclude
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: word_exclude_id
+     value:
+       type: string(255)
+       notnull: true
+   relations:
+   values:

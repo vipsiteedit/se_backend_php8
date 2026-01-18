@@ -1,0 +1,31 @@
+﻿.shopFilter .filterNotify {background-color:white; border:2px solid lightgray; display:none; position:absolute; padding:10px;}
+.shopFilter .filterNotify .notifyOverlay {width:100%;height:100%;background-color: white;position: absolute;top: 0;left: 0;opacity: 0.8;background-image: url(mshop_filter/preloader.gif);background-repeat: no-repeat;background-position: center;display:none;cursor:progress;}
+.shopFilter .filterItem {margin-bottom:20px;}
+.shopFilter .filterItem .filterTitle {cursor:pointer; padding-left:12px; background-image:url(mshop_filter/filter1.png); background-repeat:no-repeat; background-position: 0 center; margin-bottom:7px; dispaly:inline-block;}
+.shopFilter .filterItem .filterTitle .nameFilter {border-bottom:1px dotted gray;}
+.shopFilter .filterItem .filterTitle.closed {background-image:url(mshop_filter/filter2.png);}
+.shopFilter .filterItem .filterValueList {margin:0; padding:0; list-style-type:none;max-height:150px;overflow:auto;}
+.shopFilter .filterItem .filterValueItem .inpCheckbox {cursor:pointer; margin-right:3px; vertical-align:middle;}
+.shopFilter .filterItem .filterValueItem .inpRadio {cursor:pointer; margin-right:3px; vertical-align:middle;}
+.shopFilter .filterItem .filterValueItem .filterValue {vertical-align:middle;}
+.shopFilter .filterItem .filterValueItem.colorFeature {display:inline-block;}
+.shopFilter .filterItem .filterValueItem.colorFeature input {display:none;}
+.shopFilter .filterItem .filterValueItem.colorFeature .featureValue {background-image:none; border-width:1px; border-color:#BEBEBE; border-style:solid; margin:0; margin-right:3px; float:left; padding:0;}
+.shopFilter .filterItem .filterValueItem.colorFeature .featureValue span {border-width:1px; border-color:#ffffff; border-style:solid; margin:0; display:inline-block; width:14px; height:14px; position:relative; float:left; padding:0;}
+.shopFilter .filterItem .filterValueItem.colorFeature input:checked + .featureValue {background-image:none; border-width:1px; border-color:#000000; border-style:solid;}
+.shopFilter .filterItem .filterValueItem.listFeature .filterValue {vertical-align:middle;}
+.shopFilter .filterItem .filterValueItem.listFeature .inpCheckbox {cursor:pointer; margin-right:3px; vertical-align:middle;}
+.shopFilter .irs {height: 40px; position:relative; overflow:hidden;}
+.shopFilter .irs-with-grid {height: 60px;}
+.shopFilter .irs-line {height: 6px; top: 25px; border-radius:5px;border:1px solid #99A4AC;background:white;}
+.shopFilter .irs-line-left {height: 8px;}
+.shopFilter .irs-line-mid {height: 8px;}
+.shopFilter .irs-line-right {height: 8px;}
+.shopFilter .irs-min, .shopFilter .irs-max {color: #999; font-size: 10px; line-height: 1.333; text-shadow: none; top: 0; padding: 1px 3px; background: rgba(0,0,0,0.1); border-radius: 3px;}
+.shopFilter .irs-from,.shopFilter .irs-to,.shopFilter .irs-single {color: #fff; font-size: 10px; line-height: 1.333; text-shadow: none; padding: 1px 3px; background: rgba(0,0,0,0.3); border-radius: 3px;}
+.shopFilter .irs-diapason {height: 8px; top: 25px;background:#99A4AC;}
+.shopFilter .irs-slider {width: 20px; height: 20px; top: 19px;background:url(mshop_filter/slider.png);cursor:pointer;}
+.shopFilter .irs-slider:hover {background-position:20px 0;}
+.shopFilter #irs-active-slider {background-position:20px 0;}
+.shopFilter .irs-grid .irs-grid-pol {background: #99a4ac;}
+.shopFilter .irs-grid .irs-grid-text {color: #99a4ac;}

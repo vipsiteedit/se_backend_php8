@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Количество тегов в облаке" list="10|10,20|20,30|30,40|40,50|50">10</parametr>
+	<parametr lang="rus" name="param2" title="Минимальный размер шрифта, %" list="">70</parametr>
+	<parametr lang="rus" name="param3" title="Максимальный размер шрифта, %" list="">150</parametr>
+	<parametr lang="rus" name="param4" title="Выводить количество:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param5" title="Страница блоги" list="">blog</parametr>
+</params>

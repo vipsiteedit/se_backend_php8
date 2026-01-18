@@ -1,0 +1,121 @@
+﻿.square_banner_block {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.square_banner_block-link {
+	display: block;
+	width: 23%;
+	width: -webkit-calc(25% - 9px);
+	width: -moz-calc(25% - 9px);
+	width: calc(25% - 9px);
+	margin-right: 13px;
+	margin-bottom: 13px;
+	position: relative;
+}
+
+.square_banner_block-link:nth-child(3n) {
+	width: 48%;
+	width: -webkit-calc(50% - 8px);
+	width: -moz-calc(50% - 8px);
+	width: calc(50% - 8px);
+	margin-right: 0;
+}
+
+.square_banner_block-link:before {
+	content: '';
+	padding-bottom: 100%;
+	display: block;
+}
+
+.square_banner_block-link:nth-child(3n):before {
+	padding-bottom: 48.5%;
+}
+
+.square_banner_block-image {
+    background-position: 50%;
+    background-size: 100% auto;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.square_banner_block-link:nth-child(n+4) {
+	display: none;
+}
+
+
+.apromo-item_text{
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    left: 0;
+    right: 0;
+    margin: 0;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    z-index:11;
+    color:#fff;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 14px;
+}
+
+.apromo-item_text h4 {
+    font-size: 1.5em; 
+}
+
+
+@media (max-width:1199px) {
+	.square_banner_block {
+		margin-top:40px;
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width:600px) {
+	.square_banner_block-link {
+		width: 48%;
+	        width: -webkit-calc(50% - 6.5px);
+                width: -moz-calc(50% - 6.5px);
+		width: calc(50% - 6.5px);
+	}
+
+	.square_banner_block-link:nth-child(2n) {
+		margin-right: 0;
+	}
+
+	.square_banner_block-link:nth-child(3n) {
+		width: 100%;
+	}
+ 
+        .square_banner_block-image:hover {
+            top: 0;
+        }
+ 
+        .apromo-item_text {
+            font-size: 12px;
+        }
+        
+        .apromo-item_text div {
+            display: none;
+        }
+
+}

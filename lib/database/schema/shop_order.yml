@@ -1,0 +1,110 @@
+shop_order:
+    tableName: shop_order
+    tableType:
+        engine: innoDB
+        charset: utf8
+    actAs: [Timestampable]
+    columns:
+        id:
+            type: integer
+            unsigned: true
+            notnull: true
+            primary: true
+            sequence: shop_order_id
+        manager_id:
+            type: integer
+            unsigned: true
+            default: null
+        id_author:
+            type: integer
+            unsigned: true
+        id_company:
+            type: integer
+            unsigned: true
+            default: null
+        date_order:
+            type: date
+            default: null
+        discount:
+            type: float(10,2)
+            notnull: true
+            default: 0.00
+        curr:
+            type: string(3)
+            notnull: true
+            default: RUB
+        status:
+            type: enum
+            values: ['Y','N','K','P','W','T','A','D']
+            notnull: true
+            default: 'N'
+        date_payee:
+            type: date
+            default: null
+        payee_doc:
+            type: text
+            default: null
+        commentary:
+            type: text
+            default: null
+        account:
+            type: integer
+            default: null
+        payment_type:
+            type: integer
+            unsigned: true
+            default: null
+        transact_amount:
+            type: float(10,2)
+            unsigned: true
+            default: 0.00
+        transact_id:
+            type: string(20)
+            default: null
+        transact_curr:
+            type: char(4)
+            default: null
+        delivery_payee:
+            type: float(10,2)
+            unsigned: true
+            notnull: true
+            default: 0.00
+        delivery_type:
+            type: integer
+            unsigned: true
+            default: null
+        delivery_status:
+            type: enum
+            values: ['N','Y','P','M']
+            default: 'N'
+        delivery_date:
+            type: date
+            default: null
+        id_admin:
+            type: integer
+            unsigned: true
+            default: null
+        date_credit:
+            type: datetime
+            default: null
+        inpayee:
+            type: enum
+            values: ['N','Y']
+            default: 'N'
+        is_delete:
+            type: enum
+            values: ['N','Y']
+            default: 'N'
+        id_main:
+            type: integer
+            unsigned: true
+            default: 1
+        managers:
+            type: text
+            default: null
+    relations:
+        se_user:
+            local: id_author
+            foreign: id
+            onDelete: CASCADE
+            onUpdate: CASCADE

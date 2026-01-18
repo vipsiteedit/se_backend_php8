@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Страница каталога" list="">catalogue</parametr>
+	<parametr lang="ru" name="param2" title="Страница заказов" list="">clientaccount</parametr>
+	<parametr lang="ru" name="param3" title="Минимальная сумма заказа" list=""></parametr>
+	<parametr lang="ru" name="param7" title="Округление цен до целых" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param4" title="Обязательная авторизация для оформления заказа" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param5" title="Использовать пункт &amp;quot;без доставки&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param6" title="Наименование пункта &amp;quot;без доставки&amp;quot;" list="">Самовывоз</parametr>
+	<parametr lang="ru" name="param14" title="Сроки для пункта &amp;quot;без доставки&amp;quot;" list="">0</parametr>
+	<parametr lang="ru" name="param8" title="Использовать купоны на скидку" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param9" title="Выбор способа оплаты" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param10" title="Обязательное заполнение поля &amp;quot;телефон&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param11" title="Обязательное заполнение поля &amp;quot;почтовый индекс&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param12" title="Группа для оптовых цен" list="">optovik</parametr>
+	<parametr lang="ru" name="param13" title="Группа для корпоративных цен" list="">optcorp</parametr>
+	<parametr lang="ru" name="param15" title="Размер превью-картинки" list="">80</parametr>
+	<parametr lang="ru" name="param16" title="@Режим безопасности Ajax" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param17" title="Блок с выбором физическое/юридическое лицо" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param18" title="Страница подтверждения заказа" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param19" title="Включить дополнительные поля" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param26" title="Отображать сопутствующие элементы" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param23" title="" list=""></parametr>
+	<parametr lang="ru" name="param20" title="::::::::: ПАРАМЕТРЫ ПОЛЬЗОВАТЕЛЬСКОГО СОГЛАШЕНИЯ ::::::::::::" list=""></parametr>
+	<parametr lang="ru" name="param21" title="Подтверждение о сборе персональных данных" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param22" title="Текст подтверждения о сборе персональных данных" list="{text}">Нажимая кнопку «Оформить», я принимаю условия &amp;lt;a class=&amp;quot;lnkLicense&amp;quot; href=&amp;quot;/license/&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;Пользовательского соглашения&amp;lt;/a&amp;gt; и даю своё согласие на обработку моих персональных данных</parametr>
+	<parametr lang="ru" name="param24" title="Подтверждение дополнительных условий" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param25" title="Текст подтверждения дополнительных условий" list="{text}">Принимаю &amp;lt;a href=&amp;quot;#&amp;quot; target=&amp;quot;_blank&amp;quot;&amp;gt;условия&amp;lt;/a&amp;gt;</parametr>
+</params>

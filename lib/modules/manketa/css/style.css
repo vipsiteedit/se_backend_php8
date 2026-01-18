@@ -1,0 +1,19 @@
+﻿.cont_ank .ank_tderr {color:#ff0000; font-weight:bold; margin-bottom:10px; display:block;}
+.cont_ank #anketa {width:80%;}
+.cont_ank .tableTable {width:100%;}
+.cont_ank .ank_spctd {font-size:0; display:none;}
+.cont_ank .tableTable#objects .ObjRow td {vertical-align:middle;}
+.cont_ank .objTitls {font-weight:bold; padding-top:15px; padding-bottom:15px;}
+.cont_ank #objects .objTitl {width:28%;}
+.cont_ank #objects .objectTitleImage {display:none;}
+.cont_ank #objects .objArea {padding-top:1px; padding-bottom:1px;}
+.cont_ank #objects .textArea {height:100px; overflow:auto;}
+.cont_ank #objects .objcheck {cursor:pointer; margin-right:3px; vertical-align:middle;}
+.cont_ank #objects .objchecktext {vertical-align:middle;}
+.cont_ank #objects .radioblock {padding-top:10px; padding-bottom:10px;}
+.cont_ank #objects .objRadio {cursor:pointer; margin-top:2px; margin-right:3px; vertical-align:middle;}
+.cont_ank #objects .objRadiotext {vertical-align:middle;}
+.cont_ank #general .objTitl {width:28%;}
+.cont_ank #general .objArea {padding-top:1px; padding-bottom:1px;}
+.cont_ank #general .ank_img {margin-bottom:2px;}
+.cont_ank #autoreply {margin-top:10px; margin-bottom:20px;}

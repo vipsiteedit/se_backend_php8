@@ -1,0 +1,35 @@
+shop_section_gcontacts:
+   tableName: shop_section_gcontacts
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_section_gcontacts_id
+     id_item:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_gcontact:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+   relations:
+     shop_section_item:
+       local: id_item
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_contacts:
+       local: id_gcontact
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

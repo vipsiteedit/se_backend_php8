@@ -1,0 +1,67 @@
+shop_discounts:
+   tableName: shop_discounts
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_discounts_id
+     title:
+       type: string(255)
+       notnull: true
+     action:
+       type: enum
+       values: ['single','constant','increase','falling']
+       notnull: true
+       default: single
+     step_time:
+       type: integer
+       unsigned: true
+       notnull: true
+     step_discount:
+       type: float(10,3)
+       notnull: true
+       default: 0.000
+     date_from:
+       type: string(19)
+     date_to:
+       type: string(19)
+     summ_from:
+       type: float(10,2)
+     summ_to:
+       type: float(10,2)
+     count_from:
+       type: integer
+       default: -1
+     count_to:
+       type: integer
+       default: -1
+     discount:
+       type: float(10,3)
+       default: 5.000
+     type_discount:
+       type: enum
+       values: ['percent','absolute']
+       notnull: true
+       default: percent
+     week:
+       type: char(7)
+     sort:
+       type: integer
+       unsigned: true
+       index: true
+     summ_type:
+       type: integer
+       unsigned: true
+     customer_type:
+       type: integer
+       unsigned: true
+     week_product:
+       type: integer
+       notnull: true
+   values:

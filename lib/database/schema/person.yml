@@ -1,0 +1,142 @@
+person:
+   tableName: person
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+     id_up:
+       type: integer
+       unsigned: true
+       index: true
+     manager_id:
+       type: integer
+       unsigned: true
+       index: true
+     last_name:
+       type: string(40)
+     first_name:
+       type: string(50)
+     sec_name:
+       type: string(40)
+     sex:
+       type: enum
+       values: ['M','F','N']
+       notnull: true
+       default: 'N'
+     birth_date:
+       type: date
+     nick:
+       type: string(25)
+     doc_ser:
+       type: string(10)
+     doc_num:
+       type: string(20)
+     doc_registr:
+       type: string(255)
+     email:
+       type: string(125)
+     post_index:
+       type: string(20)
+     country_id:
+       type: integer
+       unsigned: true
+     state_id:
+       type: integer
+       unsigned: true
+     town_id:
+       type: integer
+       unsigned: true
+     overcity:
+       type: string(255)
+     addr:
+       type: string(255)
+     phone:
+       type: string(125)
+     icq:
+       type: string(20)
+     skype:
+       type: string(127)
+     discount:
+       type: float(5,2)
+     reg_date:
+       type: datetime
+     reg_info:
+       type: string(255)
+     note:
+       type: mediumtext
+     loyalty:
+       type: integer
+       default: 5
+     subscriber_news:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'N'
+     avatar:
+       type: string(255)
+     enable:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'N'
+     email_valid:
+       type: enum
+       values: ['Y','N','C']
+       default: C
+     referer:
+       type: text
+     price_type:
+       type: integer
+       unsigned: true
+   relations:
+     se_user:
+       local: id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     se_user:
+       local: id_up
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:
+     1:
+       id: 1
+       id_up: 
+       manager_id: 
+       last_name: 
+       first_name: Администратор
+       sec_name: 
+       sex: 'N'
+       birth_date: 1970-01-01
+       nick: 
+       doc_ser: 
+       doc_num: 
+       doc_registr: 
+       email: 
+       post_index: 
+       country_id: 
+       state_id: 
+       town_id: 
+       overcity: 
+       addr: 
+       phone: 
+       icq: 
+       skype: 
+       discount: 
+       reg_date: 2019-02-15 00:00:00
+       reg_info: 
+       note: 
+       loyalty: 5
+       subscriber_news: 'N'
+       avatar: 
+       enable: 'N'
+       email_valid: C
+       referer: 
+       price_type: 0

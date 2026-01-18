@@ -1,0 +1,31 @@
+shop_delivery_payment:
+   tableName: shop_delivery_payment
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_delivery:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_payment:
+       type: integer
+       unsigned: true
+       notnull: true
+   relations:
+     shop_deliverytype:
+       local: id_delivery
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE    
+     shop_payment:
+       local: id_payment
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE    
+   values:

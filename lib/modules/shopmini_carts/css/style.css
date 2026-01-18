@@ -1,0 +1,9 @@
+.shcart .tableTable {margin-bottom:20px; width:100%;}
+.shcart .tableRow#tableHeader td {font-weight:bold; padding-top:15px; padding-bottom:15px;}
+.shcart .tableRow td {padding-top:1px; padding-bottom:1px; padding-right:15px;}
+.shcart .tableRow#tableTotal td {font-weight:bold;}
+.shcart #tableButtons td {padding-top:20px;}
+.shcart_sub1 .errortext {color:#ff0000; font-weight:bold; margin-bottom:10px;}
+.shcart_sub1 .tablePayment .tableRow#RowEven .tableClientTitle {width:23%;}
+.shcart_sub1 .miniobjects .titletext {font-weight:bold; padding-top:10px; padding-bottom:10px; display:block;}
+.shcart_sub1 .miniobjects .objTitl {width:20%;}

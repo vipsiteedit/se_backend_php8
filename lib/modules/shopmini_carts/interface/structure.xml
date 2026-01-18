@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="text" name="field">
+			<title lang="ru">Размер поля:</title>
+		</field>
+		<field type="text" name="title">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="ru">Список меню:</title>
+		</field>
+		<field type="menu" name="text1">
+			<title lang="ru">Тип записей:</title>
+			<list lang="ru">title|Заголовок,string|Строка,*string|*Строка,list|Список,*list|*Список,field|Поле,chbox|Флажок,radio|Радиокнопка,file|Загрузка  файла</list>
+			<default lang="ru">STRING</default>
+		</field>
+	</objects>
+</structure>

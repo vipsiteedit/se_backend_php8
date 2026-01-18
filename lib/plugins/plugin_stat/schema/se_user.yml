@@ -1,0 +1,92 @@
+seUser:
+   tableName: se_user
+   tableType:
+     engine: innoDB
+     charset: utf8
+   columns:
+     id:
+       type: integer
+       unsigned: unsigned
+       sequence: author_id
+     upid:
+       type: integer
+       index: true
+     last_name:
+       type: string(40)
+       notnull: true
+     first_name:
+       type: string(50)
+       notnull: true
+     sec_name:
+       type: string(40)
+       notnull: true
+     sex:
+       type: enum
+       values: [M,F,N]
+       notnull: true
+       default: N
+     birth_date:
+       type: date
+       notnull: true
+       default: 0000-00-00
+     nick:
+       type: string(25)
+       notnull: true
+     email:
+       type: string(40)
+       notnull: true
+     reg_date:
+       type: date
+       notnull: true
+       default: 0000-00-00
+     log_date:
+       type: date
+       notnull: true
+       default: 0000-00-00
+     doc_ser:
+       type: string(6)
+       notnull: true
+     doc_num:
+       type: string(10)
+       notnull: true
+     doc_registr:
+       type: string(250)
+       notnull: true
+     post_index:
+       type: string(6)
+       notnull: true
+     country_id:
+       type: integer
+       notnull: true
+     state_id:
+       type: string(30)
+       notnull: true
+     town_id:
+       type: string(30)
+       notnull: true
+     overcity:
+       type: string(250)
+       notnull: true
+     addr:
+       type: string(250)
+       notnull: true
+     phone:
+       type: string(125)
+       notnull: true
+     icq:
+       type: string(20)
+       notnull: true
+     discount:
+       type: float(5,2)
+       unsigned: unsigned
+     is_active:
+       type: enum
+       values: [Y,N]
+       notnull: true
+       default: N
+     updated_at:
+       type: timestamp
+       default: 0000-00-00 00:00:00
+     created_at:
+       type: timestamp
+       default: 0000-00-00 00:00:00

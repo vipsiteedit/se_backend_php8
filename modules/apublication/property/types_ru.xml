@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Текст</group>
+	<name>Гео-публикации</name>
+	<comment>Модуль публикации позволяет выводить события, текста и фотоальбом в зависимости от ГЕО-настроек. (добавление через shop.siteedit24.com)</comment>
+</option>

@@ -1,0 +1,109 @@
+main:
+   tableName: main
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: main_id
+     lang:
+       type: char(3)
+       unique: true
+       default: rus
+     shopname:
+       type: string(255)
+     subname:
+       type: string(255)
+       notnull: true
+     logo:
+       type: string(255)
+       notnull: true
+     company:
+       type: string(250)
+     director:
+       type: string(125)
+     posthead:
+       type: string(125)
+     bookkeeper:
+       type: string(125)
+     addr_f:
+       type: text
+     addr_u:
+       type: text
+     phone:
+       type: string(125)
+     fax:
+       type: string(50)
+     esupport:
+       type: string(250)
+     esales:
+       type: string(250)
+     nds:
+       type: float(10,2)
+     basecurr:
+       type: char(3)
+       default: RUB
+     domain:
+       type: string(255)
+     is_store:
+       type: integer
+       notnull: true
+     is_pickup:
+       type: integer
+       notnull: true
+     is_delivery:
+       type: integer
+       notnull: true
+       default: 1
+     local_delivery_cost:
+       type: float
+       notnull: true
+     city_from_delivery:
+       type: string(127)
+     is_manual_curr_rate:
+       type: integer
+     time_modified:
+       type: integer
+       unsigned: true
+     folder:
+       type: string(255)
+     sms_phone:
+       type: string(255)
+     sms_sender:
+       type: string(255)
+   relations:
+   values:
+     1:
+       id: 1
+       lang: rus
+       shopname: Имя магазина
+       subname: 
+       logo: 
+       company: Ваша компания
+       director: Ваше имя
+       posthead: 
+       bookkeeper: 
+       addr_f:
+       addr_u:
+       phone:
+       fax: 
+       esupport: 
+       esales:
+       nds: 0.00
+       basecurr: RUB
+       domain:
+       is_store: 0
+       is_pickup: 0
+       is_delivery: 1
+       local_delivery_cost: 0
+       city_from_delivery:
+       is_manual_curr_rate: 0
+       time_modified: 0
+       folder: 
+       sms_phone: 
+       sms_sender: 

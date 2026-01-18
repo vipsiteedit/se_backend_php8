@@ -1,0 +1,26 @@
+ShopParameter:
+  tableName: se_shop_parameter
+  tableAlias: spm
+  tableType:
+    engine: innoDB
+    charset: utf8
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(2)
+      primary: true
+      sequence: shop_parameter_id
+    name: string(255)
+    
+    type:
+      type: enum
+      values: [string, integer, boolean, choice]
+      index: true    
+    choices: string(1000)
+    
+    pattern: string(255)
+    
+    required:
+      type: boolean
+      default: true
+      index: true    

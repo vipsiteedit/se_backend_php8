@@ -1,0 +1,32 @@
+shop_files:
+   tableName: shop_files
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_files_id
+     id_price:
+       type: integer
+       unsigned: true
+       index: true
+     file:
+       type: string(255)
+       notnull: true
+     name:
+       type: string(255)
+     sort:
+       type: integer
+       index: true
+   relations:
+     shop_price:
+       local: id_price
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

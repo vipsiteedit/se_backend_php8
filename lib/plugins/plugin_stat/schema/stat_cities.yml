@@ -1,0 +1,1137 @@
+﻿StatSities:
+  tableName: stat_cities
+  tableAlias: sts
+  tableDrop: true
+  tableType:
+    engine: innoDB
+    charset: utf8
+  columns:
+    id:
+      type: integer
+      primary: true
+      sequence: stat_sities_id
+    region:
+      type: integer
+      unsigned: true
+    name:
+      type: string(255)
+
+  values:
+      1:
+        id: 1
+        region: 77
+        name: Москва
+      2: 
+         id: 2
+         region: 78
+         name: Санкт-Петербург
+      3: 
+         id: 3
+         region: 54
+         name: Новосибирск
+      4:
+         id: 4
+         region: 25
+         name: Владивосток
+      5:
+         id: 5
+         region: 55
+         name: Омск
+      6:
+         id: 6
+         region: 70
+         name: Томск
+      7:
+         id: 7
+         region: 76
+         name: Ярославль
+      8:
+         id: 8
+         region: 61
+         name: Ростов-на-Дону
+      9:
+         id: 9
+         region: 66
+         name: Екатеринбург
+      10:
+         id: 10
+         region: 23
+         name: Новороссийск
+      11:
+         id: 11
+         region: 44
+         name: Кострома
+      12:
+         id: 12
+         region: 60
+         name: Псков
+      13:
+         id: 13
+         region: 29
+         name: Архангельск
+      14:
+         id: 14
+         region: 37
+         name: Иваново
+      15:
+         id: 15
+         region: 58
+         name: Пенза
+      16:
+         id: 16
+         region: 63
+         name: Самара
+      17:
+         id: 17
+         region: 40
+         name: Обнинск
+      18:
+         id: 18
+         region: 53
+         name: Великий Новгород
+      19:
+         id: 19
+         region: 27
+         name: Комсомольск-на-Амуре
+      20:
+         id: 20
+         region: 59
+         name: Пермь
+      21:
+         id: 21
+         region: 89
+         name: Надым
+      22:
+         id: 22
+         region: 24
+         name: Норильск
+      24:
+         id: 24
+         region: 69
+         name: Тверь
+      25:
+         id: 25
+         region: 27
+         name: Хабаровск
+      26:
+         id: 26
+         region: 72
+         name: Тюмень
+      27:
+         id: 27
+         region: 69
+         name: Сахалин
+      28:
+         id: 28
+         region: 10
+         name: Петрозаводск
+      29:
+         id: 29
+         region: 36
+         name: Воронеж
+      30:
+         id: 30
+         region: 35
+         name: Вологда
+      31:
+         id: 31
+         region: 13
+         name: Саранск
+      32:
+         id: 32
+         region: 18
+         name: Ижевск
+      33:
+         id: 33
+         region: 16
+         name: Нижнекамск
+      34:
+         id: 34
+         region: 38
+         name: Иркутск
+      35:
+         id: 35
+         region: 64
+         name: Саратов
+      36:
+         id: 36
+         region: 42
+         name: Кемерово
+      37:
+         id: 37
+         region: 63
+         name: Тольятти
+      38:
+         id: 38
+         region: 33
+         name: Владимир
+      39:
+         id: 39
+         region: 24
+         name: Красноярск
+      40:
+         id: 40
+         region: 26
+         name: Ставрополь
+      41:
+         id: 41
+         region: 23
+         name: Краснодар
+      42:
+         id: 42
+         region: 16
+         name: Казань
+      43:
+         id: 43
+         region: 30
+         name: Астрахань
+      44:
+         id: 44
+         region: 61
+         name: Таганрог
+      45:
+         id: 45
+         region: 52
+         name: Нижний Новгород
+      46:
+         id: 46
+         region: 66
+         name: Нижний Тагил
+      47:
+         id: 47
+         region: 23
+         name: Сочи
+      48:
+         id: 48
+         region: 40
+         name: Калуга
+      49:
+         id: 49
+         region: 16
+         name: Набережные Челны
+      50:
+         id: 50
+         region: 6
+         name: Назрань
+      51:
+         id: 51
+         region: 22
+         name: Барнаул
+      52:
+         id: 52
+         region: 14
+         name: Якутск
+      53:
+         id: 53
+         region: 49
+         name: Магадан
+      54:
+         id: 54
+         region: 74
+         name: Челябинск
+      55:
+         id: 55
+         region: 86
+         name: Сургут
+      56:
+         id: 56
+         region: 34
+         name: Волгоград
+      57:
+         id: 57
+         region: 86
+         name: Ханты-Мансийск
+      58:
+         id: 58
+         region: 74
+         name: Магнитогорск
+      59:
+         id: 59
+         region: 1
+         name: Майкоп
+      60:
+         id: 60
+         region: 41
+         name: Петропавловск-Камчатский
+      61:
+         id: 61
+         region: 39
+         name: Калининград
+      62:
+         id: 62
+         region: 71
+         name: Тула
+      63:
+         id: 63
+         region: 25
+         name: Находка
+      64:
+         id: 64
+         region: 22
+         name: Бийск
+      65:
+         id: 65
+         region: 50
+         name: Подольск
+      66:
+         id: 66
+         region: 50
+         name: Зеленоград
+      67:
+         id: 67
+         region: 32
+         name: Брянск
+      68:
+         id: 68
+         region: 68
+         name: Тамбов
+      69:
+         id: 69
+         region: 62
+         name: Рязань
+      70:
+         id: 70
+         region: 67
+         name: Смоленск
+      71:
+         id: 71
+         region: 57
+         name: Орел
+      72:
+         id: 72
+         region: 48
+         name: Липецк
+      73:
+         id: 73
+         region: 31
+         name: Белгород
+      74:
+         id: 74
+         region: 46
+         name: Курск
+      75:
+         id: 75
+         region: 21
+         name: Чебоксары
+      76:
+         id: 76
+         region: 35
+         name: Череповец
+      77:
+         id: 77
+         region: 16
+         name: Альметьевск
+      78:
+         id: 78
+         region: 26
+         name: Ессентуки
+      79:
+         id: 79
+         region: 73
+         name: Ульяновск
+      80:
+         id: 80
+         region: 50
+         name: Черноголовка
+      81:
+         id: 81
+         region: 2
+         name: Уфа
+      82:
+         id: 82
+         region: 2
+         name: Стерлитамак
+      83:
+         id: 83
+         region: 2
+         name: Салават
+      84:
+         id: 84
+         region: 89
+         name: Новый Уренгой
+      85:
+         id: 85
+         region: 89
+         name: Салехард
+      86:
+         id: 86
+         region: 86
+         name: Нефтеюганск
+      87:
+         id: 87
+         region: 89
+         name: Ноябрьск
+      88:
+         id: 88
+         region: 66
+         name: Первоуральск
+      89:
+         id: 89
+         region: 74 
+         name: Снежинск
+      90:
+         id: 90 
+         region: 43 
+         name: Киров
+      91:
+         id: 91 
+         region: 26 
+         name: Пятигорск
+      92:
+         id: 92 
+         region: 86 
+         name: Когалым
+      93:
+         id: 93 
+         region: 51 
+         name: Мурманск
+      94:
+         id: 94 
+         region: 56 
+         name: Оренбург
+      96:
+         id: 95 
+         region: 11 
+         name: Сыктывкар
+      97:
+         id: 97 
+         region: 75 
+         name: Чита
+      98:
+         id: 98 
+         region: 72 
+         name: Нижневартовск
+      99:
+         id: 99 
+         region: 19 
+         name: Абакан
+      100:
+         id: 100 
+         region: 45 
+         name: Курган
+      101:
+         id: 101 
+         region: 56 
+         name: Орск
+      102:
+         id: 102 
+         region: 38 
+         name: Братск
+      103:
+         id: 103 
+         region: 3 
+         name: Улан-Удэ
+      104:
+         id: 104 
+         region: 25 
+         name: Уссурийск
+      105:
+         id: 105 
+         region: 79 
+         name: Биробиджан
+      106:
+         id: 106 
+         region: 27 
+         name: Лучегорск
+      107:
+         id: 107 
+         region: 28 
+         name: Белогорск
+      108:
+         id: 108 
+         region: 19 
+         name: Саяногорск
+      109:
+         id: 109 
+         region: 5 
+         name: Махачкала
+      110:
+         id: 110 
+         region: 63 
+         name: Сызрань
+      111:
+         id: 111 
+         region: 50 
+         name: Жуковский
+      116:
+         id: 116 
+         region: 7 
+         name: Нальчик
+      117:
+         id: 117 
+         region: 42
+         name: Новокузнецк
+      118:
+         id: 118 
+         region: 60 
+         name: Великие Луки
+      119:
+         id: 119 
+         region: 65 
+         name: Южно-Сахалинск
+      120:
+         id: 120 
+         region: 15 
+         name: Владикавказ
+      121:
+         id: 121 
+         region: 8 
+         name: Элиста
+      122:
+         id: 122 
+         region: 61 
+         name: Новочеркасск
+      123:
+         id: 123 
+         region: 66 
+         name: Красноуральск
+      124:
+         id: 124 
+         region: 25 
+         name: Дальнегорск
+      125:
+         id: 125 
+         region: 51 
+         name: Мончегорск
+      126:
+         id: 126 
+         region: 61 
+         name: Красный Сулин
+      127:
+         id: 127 
+         region: 50 
+         name: Дубна
+      128:
+         id: 128 
+         region: 74 
+         name: Озерск
+      129:
+         id: 129 
+         region: 50 
+         name: Серпухов
+      130:
+         id: 130 
+         region: 28 
+         name: Благовещенск
+      131:
+         id: 131 
+         region: 26 
+         name: Кисловодск
+      132:
+         id: 132 
+         region: 43 
+         name: Кирово-Чепецк
+      133:
+         id: 133 
+         region: 63 
+         name: Новокуйбышевск
+      134:
+         id: 134 
+         region: 10 
+         name: Костомукша
+      135:
+         id: 135 
+         region: 61 
+         name: Волгодонск
+      136:
+         id: 136 
+         region: 40 
+         name: Балабаново
+      137:
+         id: 137 
+         region: 66 
+         name: Кушва
+      138:
+         id: 138 
+         region: 51 
+         name: Апатиты
+      139:
+         id: 139 
+         region: 16 
+         name: Чистополь
+      140:
+         id: 140 
+         region: 29 
+         name: Новодвинск
+      141:
+         id: 141 
+         region: 86 
+         name: Нягань
+      142:
+         id: 142 
+         region: 9 
+         name: Нижний Архыз
+      143:
+         id: 143 
+         region: 64 
+         name: Балашов
+      144:
+         id: 144 
+         region: 41 
+         name: Елизово
+      145:
+         id: 145 
+         region: 61 
+         name: Шахты
+      146:
+         id: 146 
+         region: 61 
+         name: Каменск
+      147:
+         id: 147 
+         region: 61 
+         name: Семикаракорск
+      148:
+         id: 148 
+         region: 73 
+         name: Димитровград
+      149:
+         id: 149 
+         region: 74 
+         name: Миасс
+      150:
+         id: 150 
+         region: 66 
+         name: Верхняя Пышма
+      151:
+         id: 151 
+         region: 66 
+         name: Серов
+      152:
+         id: 152 
+         region: 66 
+         name: Каменск-Уральский
+      153:
+         id: 153 
+         region: 66 
+         name: Богданович
+      154:
+         id: 154 
+         region: 42 
+         name: Междуреченск
+      155:
+         id: 155 
+         region: 47 
+         name: Сосновый Бор
+      156:
+         id: 156 
+         region: 24 
+         name: Минусинск
+      157:
+         id: 157 
+         region: 24 
+         name: Кызыл
+      158:
+         id: 158 
+         region: 11 
+         name: Воркута
+      159:
+         id: 159 
+         region: 45 
+         name: Шадринск
+      160:
+         id: 160 
+         region: 12 
+         name: Йошкар-Ола
+      161:
+         id: 161 
+         region: 66 
+         name: Среднеуральск
+      162:
+         id: 162 
+         region: 4 
+         name: Горно-Алтайск
+      163:
+         id: 163 
+         region: 33 
+         name: Муром
+      164:
+         id: 164 
+         region: 22 
+         name: Рубцовск
+      165:
+         id: 165 
+         region: 72 
+         name: Угорск
+      166:
+         id: 166 
+         region: 76 
+         name: Переславль-Залесский
+      167:
+         id: 167 
+         region: 11 
+         name: Ухта
+      168:
+         id: 168 
+         region: 51 
+         name: Кировск
+      169:
+         id: 169 
+         region: 51 
+         name: Ковдор
+      170:
+         id: 170 
+         region: 9 
+         name: Черкесск
+      171:
+         id: 171 
+         region: 64 
+         name: Энгельс
+      172:
+         id: 172 
+         region: 47 
+         name: Луга
+      173:
+         id: 173 
+         region: 11 
+         name: Печора
+      174:
+         id: 174 
+         region: 33 
+         name: Ковров
+      176:
+         id: 176 
+         region: 42 
+         name: Анжеро-Судженск
+      177:
+         id: 177 
+         region: 66 
+         name: Реж
+      178:
+         id: 178 
+         region: 66 
+         name: Новоуральск
+      179:
+         id: 179 
+         region: 50 
+         name: Воскресенск
+      180:
+         id: 180 
+         region: 76 
+         name: Рыбинск
+      181:
+         id: 181 
+         region: 50 
+         name: Дмитров
+      182:
+         id: 182 
+         region: 50 
+         name: Королев
+      183:
+         id: 183 
+         region: 50 
+         name: Троицк
+      184:
+         id: 184 
+         region: 50 
+         name: Пущино
+      185:
+         id: 185 
+         region: 50 
+         name: Юбилейный
+      186:
+         id: 186 
+         region: 50 
+         name: Одинцово
+      187:
+         id: 187 
+         region: 50 
+         name: Химки
+      188:
+         id: 188 
+         region: 50 
+         name: Реутов
+      189:
+         id: 189 
+         region: 50 
+         name: Люберцы
+      190:
+         id: 190 
+         region: 50 
+         name: Томилино
+      191:
+         id: 191 
+         region: 50 
+         name: Красногорск
+      192:
+         id: 192 
+         region: 47 
+         name: Пушкин
+      193:
+         id: 193 
+         region: 47 
+         name: Кронштадт
+      194:
+         id: 194 
+         region: 69 
+         name: Удомля
+      195:
+         id: 195 
+         region: 50 
+         name: Сергиев Посад
+      196:
+         id: 196 
+         region: 22 
+         name: Заринск
+      197:
+         id: 197 
+         region: 50 
+         name: Можайск
+      198:
+         id: 198 
+         region: 70 
+         name: Северск
+      199:
+         id: 199 
+         region: 28 
+         name: Тында
+      200:
+         id: 200 
+         region: 25 
+         name: Славянка
+      201:
+         id: 201 
+         region: 25 
+         name: Артем
+      202:
+         id: 202 
+         region: 42 
+         name: Мариинск
+      203:
+         id: 203 
+         region: 51 
+         name: Кандалакша
+      204:
+         id: 204 
+         region: 16 
+         name: Елабуга
+      205:
+         id: 205 
+         region: 66 
+         name: Асбест
+      206:
+         id: 206 
+         region: 0 
+         name: не определен
+      207:
+         id: 207 
+         region: 65 
+         name: Корсаков
+      208:
+         id: 208 
+         region: 2 
+         name: Нефтекамск
+      209:
+         id: 209 
+         region: 50 
+         name: Лобня
+      210:
+         id: 210 
+         region: 50 
+         name: Шатура
+      212:
+         id: 212 
+         region: 42 
+         name: Мыски
+      213:
+         id: 213 
+         region: 2 
+         name: Кумертау
+      214:
+         id: 214 
+         region: 50 
+         name: Фрязино
+      215:
+         id: 215 
+         region: 42 
+         name: Тайга
+      216:
+         id: 216 
+         region: 14 
+         name: Мирный
+      217:
+         id: 217 
+         region: 50 
+         name: Пушкино
+      218:
+         id: 218 
+         region: 11 
+         name: Усинск
+      219:
+         id: 219 
+         region: 52 
+         name: Дзержинск
+      220:
+         id: 220 
+         region: 52 
+         name: Заволжье
+      221:
+         id: 221 
+         region: 50 
+         name: Лыткарино
+      222:
+         id: 222 
+         region: 50 
+         name: Балашиха
+      223:
+         id: 223 
+         region: 50 
+         name: Мытищи
+      225:
+         id: 225 
+         region: 45 
+         name: Далматово
+      226:
+         id: 226 
+         region: 50 
+         name: Щербинка
+      227:
+         id: 227 
+         region: 50 
+         name: Истра
+      229:
+         id: 229 
+         region: 20 
+         name: Грозный
+      230:
+         id: 230 
+         region: 16 
+         name: Менделеевск
+      231:
+         id: 231 
+         region: 38 
+         name: Ангарск
+      232:
+         id: 232 
+         region: 36 
+         name: Россошь
+      233:
+         id: 233 
+         region: 87 
+         name: Анадырь
+      234:
+         id: 234 
+         region: 38 
+         name: Зима
+      235:
+         id: 235 
+         region: 15 
+         name: Беслан
+      236:
+         id: 236 
+         region: 26 
+         name: Минеральные Воды
+      237:
+         id: 237 
+         region: 50 
+         name: Раменское
+      238:
+         id: 238 
+         region: 86 
+         name: Пыть-Ях
+      239:
+         id: 239 
+         region: 46 
+         name: Железногорск
+      240:
+         id: 240 
+         region: 50 
+         name: Клин
+      241:
+         id: 241 
+         region: 50 
+         name: Долгопрудный
+      242:
+         id: 242 
+         region: 23 
+         name: Ейск
+      243:
+         id: 243 
+         region: 23 
+         name: Новошахтинск
+      244:
+         id: 244 
+         region: 66 
+         name: Березовский(Свердл. обл.)
+      245:
+         id: 245 
+         region: 23 
+         name: Туапсе
+      246:
+         id: 246 
+         region: 50 
+         name: Ногинск
+      247:
+         id: 247 
+         region: 50 
+         name: Старая Купавна
+      248:
+         id: 248 
+         region: 66 
+         name: Ревда
+      249:
+         id: 249 
+         region: 26 
+         name: Невинномысск
+
+
+      250:
+         id: 250 
+         region: 66 
+         name: Качканар
+      251:
+         id: 251 
+         region: 47 
+         name: Гатчина
+      252:
+         id: 252 
+         region: 50 
+         name: Электросталь
+      253:
+         id: 253 
+         region: 50 
+         name: Бронницы
+      254:
+         id: 254 
+         region: 59 
+         name: Соликамск
+      255:
+         id: 255 
+         region: 25 
+         name: Арсеньев
+      256:
+         id: 256 
+         region: 52 
+         name: Бор
+      257:
+         id: 257 
+         region: 50 
+         name: Наро-Фоминск
+      258:
+         id: 258 
+         region: 59 
+         name: Лысьва
+      259:
+         id: 259 
+         region: 59 
+         name: Кудымкар
+      260:
+         id: 260 
+         region: 47 
+         name: Выборг
+      261:
+         id: 261 
+         region: 59 
+         name: Березники
+      262:
+         id: 262 
+         region: 52 
+         name: Кстово
+      263:
+         id: 263 
+         region: 59 
+         name: Очер
+      264:
+         id: 264 
+         region: 52 
+         name: Арзамас
+      265:
+         id: 265 
+         region: 83 
+         name: Нарьян-Мар
+      266:
+         id: 266 
+         region: 61 
+         name: Аксай
+      267:
+         id: 267 
+         region: 50 
+         name: Домодедово
+      268:
+         id: 268 
+         region: 64 
+         name: Балаково
+      269:
+         id: 269 
+         region: 26 
+         name: Георгиевск
+      270:
+         id: 270 
+         region: 52 
+         name: Городец
+      271:
+         id: 271 
+         region: 50 
+         name: Железнодорожный
+      272:
+         id: 272 
+         region: 50 
+         name: Щелково
+      273:
+         id: 273 
+         region: 40 
+         name: Мосальск
+      274:
+         id: 274 
+         region: 64 
+         name: Вольск
+      275:
+         id: 275 
+         region: 50 
+         name: Павловский Посад
+      276:
+         id: 276 
+         region: 50 
+         name: Волоколамск
+      277:
+         id: 277 
+         region: 50 
+         name: Коломна
+      278:
+         id: 278 
+         region: 24 
+         name: Назарово
+      279:
+         id: 279 
+         region: 24 
+         name: Ачинск
+      280:
+         id: 280 
+         region: 52 
+         name: Богородск
+      281:
+         id: 281 
+         region: 2 
+         name: Белорецк
+      282:
+         id: 282 
+         region: 50 
+         name: Протвино
+      283:
+         id: 283 
+         region: 24 
+         name: Канск
+      284:
+         id: 284 
+         region: 61 
+         name: Гуково
+      285:
+         id: 285 
+         region: 16 
+         name: Лениногорск
+      286:
+         id: 286 
+         region: 66 
+         name: Краснотурьинск
+      287:
+         id: 287 
+         region: 59 
+         name: Краснокамск
+      288:
+         id: 288 
+         region: 72 
+         name: Мегион
+      289:
+         id: 289 
+         region: 54 
+         name: Краснообск

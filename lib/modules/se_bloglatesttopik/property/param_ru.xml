@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Количество последних коментариев" list="2|2,5|5,10|10,20|20,30|30,40|40,50|50">10</parametr>
+	<parametr lang="ru" name="param5" title="Страница блоги" list="">blog</parametr>
+	<parametr lang="ru" name="param6" title="Символ разделения" list="">&amp;amp;#8594;</parametr>
+	<parametr lang="ru" name="param7" title="Вкладка &amp;quot;Последние топики&amp;quot;" list="">Последние</parametr>
+	<parametr lang="ru" name="param8" title="Вкладка &amp;quot;Популярные топики&amp;quot;" list="">Популярные</parametr>
+	<parametr lang="ru" name="param9" title="Второй символ разделения" list=""> Просм. </parametr>
+	<parametr lang="ru" name="param10" title="Третий символ разделения" list=""> Дата. </parametr>
+</params>

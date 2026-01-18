@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>Confirm your order</lang001>
+	<lang002>Article</lang002>
+	<lang003>Title</lang003>
+	<lang004>Price</lang004>
+	<lang005>Quantity</lang005>
+	<lang006>Total</lang006>
+	<lang007>Checkout total</lang007>
+	<lang008>Total discount</lang008>
+	<lang009>Coupon discount</lang009>
+	<lang010>Coupon not available</lang010>
+	<lang011>Delivery price</lang011>
+	<lang012>Grand total</lang012>
+	<lang013>Name</lang013>
+	<lang014>E-mail</lang014>
+	<lang015>Phone</lang015>
+	<lang016>Postal code</lang016>
+	<lang017>Address</lang017>
+	<lang018>Delivery method</lang018>
+	<lang019>Payment method</lang019>
+	<lang020>Confirm order</lang020>
+	<lang021>free</lang021>
+	<lang022>Not selected</lang022>
+	<lang023>Product</lang023>
+	<lang024>Price:</lang024>
+	<lang025>Delete product from cart</lang025>
+	<lang026>Clear</lang026>
+	<lang027>Recalculate</lang027>
+	<lang028>Discount:</lang028>
+	<lang029>Total:</lang029>
+	<lang030>Select current delivery method</lang030>
+	<lang031>Name</lang031>
+	<lang032>Phone</lang032>
+	<lang033>Delivery address</lang033>
+	<lang034>Comment</lang034>
+	<lang035>Field, marked with an asterisk (*) are required</lang035>
+	<lang036>Coupon</lang036>
+	<lang037>discount</lang037>
+	<lang038>Coupon not found</lang038>
+	<lang039>Products list:</lang039>
+	<lang040>Enter coupon code:</lang040>
+	<lang041>Apply coupon</lang041>
+	<lang042>Apply</lang042>
+	<lang043>Coupon is not selected</lang043>
+	<lang044>Delivery methods:</lang044>
+	<lang045>Customer information:</lang045>
+	<lang046>Payment method:</lang046>
+	<lang047>Total:</lang047>
+	<lang048>Check in</lang048>
+	<lang049>Cart is empty</lang049>
+	<lang050>Proceed to shopping</lang050>
+	<lang051>Return</lang051>
+	<lang052>Article:</lang052>
+	<lang053>Presence:</lang053>
+	<lang054>Name must be filled in</lang054>
+	<lang055>E-mail must be filled in</lang055>
+	<lang056>Invalid E-mail</lang056>
+	<lang057>Phone must be filled in</lang057>
+	<lang058>Postal code must be filled in</lang058>
+	<lang059>Invalid postal code</lang059>
+	<lang060>Address must be filled in</lang060>
+	<lang061>Invalid contact data</lang061>
+	<lang062>Authorization required for checkout</lang062>
+	<lang063>Administrator cannot make an order</lang063>
+	<lang064>Minimum order total must be not less than</lang064>
+	<lang065>Close</lang065>
+	<lang066>Choose your location</lang066>
+	<lang067>Country:</lang067>
+	<lang068>Region:</lang068>
+	<lang069>City:</lang069>
+	<lang070>Select</lang070>
+	<lang071>Select current location</lang071>
+	<lang072>Continue shopping</lang072>
+	<lang073>day,day,days</lang073>
+	<lang074>today,tomorrow,day after tomorrow</lang074>
+	<lang075>Region</lang075>
+</language>

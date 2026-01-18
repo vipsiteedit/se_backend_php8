@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Логины модераторов (через запятую)" list=""></parametr>
+	<parametr lang="ru" name="param36" title="Имя группы модераторов:" list="">publication</parametr>
+	<parametr lang="ru" name="param32" title="Показывать ссылку &amp;quot;подробнее...&amp;quot;" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param37" title="Текст ссылки &amp;quot;подробнее...&amp;quot;" list="">Подробнее</parametr>
+	<parametr lang="ru" name="param35" title="Краткий вид даты:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param3" title="Количество новостей на странице" list="">15</parametr>
+	<parametr lang="ru" name="param4" title="Ширина рисунка" list="">200</parametr>
+	<parametr lang="ru" name="param5" title="Ширина превью-картинки" list="">100</parametr>
+	<parametr lang="ru" name="param17" title="Число символов в кратком тексте:" list="">250</parametr>
+	<parametr lang="ru" name="param20" title="Идентификатор новостей:" list="">news</parametr>
+	<parametr lang="ru" name="param31" title="Включить возможность поделиться в соц. сетях" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param34" title="Ваш ID на сайте siteedit.ru" list=""></parametr>
+	<parametr lang="ru" name="param38" title="Ширина блока" list="y|Резиновая,n|Фиксированная,d|Не использовать">d</parametr>
+</params>

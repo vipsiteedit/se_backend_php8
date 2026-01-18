@@ -1,0 +1,51 @@
+main_log:
+   tableName: main_log
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: main_log_id
+     date:
+       type: datetime
+     client_name:
+       type: string(125)
+     manager_name:
+       type: string(125)
+     comment:
+       type: string(125)
+     log_type:
+       type: char(1)
+       default: O
+     id_author:
+       type: integer
+       unsigned: true
+     datepayee:
+       type: datetime
+     id_order:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     summa:
+       type: float(10,4)
+     bonus:
+       type: float(10,2)
+     type_payee:
+       type: integer
+       notnull: true
+     admin:
+       type: string(40)
+       notnull: true
+     ip:
+       type: string(16)
+     status:
+       type: char(1)
+       default: 'Y'
+   relations:
+   values:

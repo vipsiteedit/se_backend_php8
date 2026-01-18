@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param8" title="Число записей на странице" list="">30</parametr>
+	<parametr lang="rus" name="param1" title="Режим вывода:" list="0|Не сортировать,1|Сортировать">0</parametr>
+	<parametr lang="rus" name="param2" title="Идентификатор:" list="">[namepage]</parametr>
+	<parametr lang="rus" name="param3" title="Ссылка &amp;quot;Далее&amp;quot;:" list="">[далее..]</parametr>
+	<parametr lang="rus" name="param4" title="Кнопка &amp;quot;Назад&amp;quot;:" list="">Вернуться назад</parametr>
+	<parametr lang="rus" name="param5" title="Текст &amp;quot;Рейтинг&amp;quot;" list="">Рейтинг</parametr>
+	<parametr lang="rus" name="param6" title="Текст &amp;quot;Голосовать&amp;quot;" list="">Голосовать</parametr>
+	<parametr lang="rus" name="param7" title="Кнопка очистки рейтинга" list="">Очистить рейтинг</parametr>
+</params>

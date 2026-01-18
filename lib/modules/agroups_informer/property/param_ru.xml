@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param2" title="Ограничение размера картинки" list="">400x400</parametr>
+	<parametr lang="ru" name="param3" title="Ширина раздела" list="y|Резиновая,n|Фиксированная">n</parametr>
+	<parametr lang="ru" name="param4" title="Страница каталога" list="">catalogue</parametr>
+</params>

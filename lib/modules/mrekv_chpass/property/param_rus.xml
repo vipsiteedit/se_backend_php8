@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param1" title="Сообщение при удачной регистрации:" list="">Поздравляем! Пароль успешно изменен</parametr>
+	<parametr lang="rus" name="param2" title="Текст заголовка &amp;quot;Введите старый пароль&amp;quot;:" list="">Введите старый пароль:</parametr>
+	<parametr lang="rus" name="param3" title="Текст заголовка &amp;quot;Введите новый пароль&amp;quot;:" list="">Введите новый пароль:</parametr>
+	<parametr lang="rus" name="param4" title="Текст заголовка &amp;quot;Подтвердите пароль&amp;quot;:" list="">Подтвердите пароль:</parametr>
+	<parametr lang="rus" name="param5" title="Текст кнопки &amp;quot;Изменить&amp;quot;:" list="">Изменить</parametr>
+	<parametr lang="rus" name="param6" title="Текст сообщения &amp;quot;Не заполнены поля&amp;quot;:" list="">Не заполнены поля!</parametr>
+	<parametr lang="rus" name="param7" title="Текст сообщения &amp;quot;Не верный старый пароль&amp;quot;:" list="">Старый пароль введен неверно!</parametr>
+	<parametr lang="rus" name="param8" title="Текст сообщения &amp;quot;Пароли не совпадают&amp;quot;:" list="">Пароли не совпадают. Повторите регистрацию!</parametr>
+	<parametr lang="rus" name="param9" title="Использовать старый пароль?:" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="rus" name="param10" title="Текст &amp;quot;Невозможно сменить пароль&amp;quot;" list="">Невозможно сменить пароль</parametr>
+	<parametr lang="rus" name="param11" title="Текст анализатора пароля &amp;quot;Слишком короткий&amp;quot;" list="">Слишком короткий</parametr>
+	<parametr lang="rus" name="param12" title="Текст анализатора пароля &amp;quot;Простой&amp;quot;" list="">Простой</parametr>
+	<parametr lang="rus" name="param13" title="Текст анализатора пароля &amp;quot;Хороший&amp;quot;" list="">Хороший</parametr>
+	<parametr lang="rus" name="param14" title="Текст анализатора пароля &amp;quot;Надежный&amp;quot;" list="">Надежный</parametr>
+</params>

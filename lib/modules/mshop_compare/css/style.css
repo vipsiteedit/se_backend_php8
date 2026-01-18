@@ -1,0 +1,11 @@
+﻿.contShopCompare .blockRating .ratingOff {width: 80px;height: 16px;display: inline-block;vertical-align: bottom;background: url(mshop_compare/star_off.png);}
+.contShopCompare .blockRating .ratingOn {height: 100%;display: inline-block;float: left;background: url(mshop_compare/star_on.png);}
+.contShopCompare .tableCompare .tableHeader th {background-color:white;}
+.contShopCompare .tableCompare .thMainSelect {width:220px;}
+.contShopCompare .tableCompare .thMainSelect .showCompare .showAll {cursor:pointer;border-bottom:1px dotted;}
+.contShopCompare .tableCompare .thMainSelect .showCompare .showAll.selected {cursor:default;border:none;}
+.contShopCompare .tableCompare .thMainSelect .showCompare .showDiff {cursor:pointer;border-bottom:1px dotted;}
+.contShopCompare .tableCompare .thMainSelect .showCompare .showDiff.selected {cursor:default;border:none;}
+.contShopCompare .tableCompare .thProduct {width:180px;}
+.contShopCompare .tableCompare .thProduct .blockGoods {position:relative;}
+.contShopCompare .tableCompare .thProduct .blockGoods .lnkRemove {position: absolute;top: 0px;right: 5px;display: inline-block;width: 16px;height: 16px;font-size: 0;background: url(mshop_compare/icon_closepanel.png); background-repeat: no-repeat;}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Новости</group>
+	<name>RSS-лента новостей</name>
+	<comment>Лента новостей RSS. Модуль работает начиная с версии StartPlus</comment>
+</option>

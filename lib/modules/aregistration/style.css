@@ -1,0 +1,87 @@
+﻿.contAuthCheskPass .errorText {
+    color:#ff0000; font-weight:bold; margin-bottom:10px;
+}
+
+.contAuthCheskPass .contAuthBlock {
+    max-width: 400px;
+    margin: 0 auto !important;
+}
+
+.contAuthCheskPass .contentTitle {
+    max-width: 400px;
+    margin: 0 auto 30px auto !important;
+}
+
+.contAuthCheskPass .contAuthBlock em {
+    display: none;
+}
+
+.contAuthCheskPass .contAuthBlock .obj {
+    margin-bottom: 15px;
+}
+
+.contAuthCheskPass .contAuthBlock .obj input, .contAuthCheskPass .contAuthBlock .antiSpam input {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    padding: 10px 20px;
+    border: 1px solid #e9e9e9;
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.contAuthCheskPass .contAuthBlock .antiSpam input {
+    width: -webkit-calc(100% - 168px);
+    width: calc(100% - 168px);
+}
+
+.contAuthCheskPass .contAuthBlock .antiSpam label {
+    display: block;
+}
+
+.contAuthCheskPass .contAuthBlock .antiSpam {
+    margin: 15px 0;
+}
+
+.contAuthCheskPass .contAuthBlock .antiSpam img {
+    padding: 6px;
+    box-sizing: content-box;
+    background-color: #fff;
+    border: 1px solid #e9e9e9;
+}
+
+.contAuthCheskPass .contAuthBlock .obj label {
+    padding-right: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.contAuthCheskPass .contAuthBlock .buttonSend {
+    background-color: #313131;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    padding: 0.78em 2.25em;
+    font-size: 1em;
+    line-height: 1.42857143;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-appearance: button;
+}
+
+.contAuthCheskPass .contAuthBlock .buttonSend:hover {
+    background-color: #3bb375;
+}
+
+.contAuthCheskPass .contAuthBlock {
+    padding-bottom: 40px;
+}

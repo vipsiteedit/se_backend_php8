@@ -1,0 +1,29 @@
+shop_delivery_settings:
+   tableName: shop_delivery_settings
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_delivery:
+       type: integer
+       unsigned: true
+       notnull: true
+     code:
+       type: string(255)
+       notnull: true
+     name:
+       type: string(255)
+     value:
+       type: text
+   relations:
+     shop_deliverytype:
+       local: id_delivery
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE           
+   values:

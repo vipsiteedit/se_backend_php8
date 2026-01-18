@@ -1,0 +1,67 @@
+shop_reviews:
+   tableName: shop_reviews
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_reviews_id
+     id_price:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_user:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     mark:
+       type: integer
+       unsigned: true
+       notnull: true
+     merits:
+       type: text
+     demerits:
+       type: text
+     comment:
+       type: text
+       notnull: true
+     use_time:
+       type: integer
+       unsigned: true
+       notnull: true
+       default: 1
+     date:
+       type: datetime
+       notnull: true
+     likes:
+       type: integer
+       unsigned: true
+       notnull: true
+     dislikes:
+       type: integer
+       unsigned: true
+       notnull: true
+     active:
+       type: integer
+       unsigned: true
+       notnull: true
+       default: 1
+   relations:
+     shop_price:
+       local: id_price
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     se_user:
+       local: id_user
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

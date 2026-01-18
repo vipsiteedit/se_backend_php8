@@ -1,0 +1,8 @@
+﻿.headerCatalog .groupList .headerCatalogItem.horiz {margin-right:20px;display:inline-block;list-style-type:none;}
+.headerCatalog .groupList .headerCatalogItem.horiz a {ext-decoration:none;}
+.headerCatalog .groupList .headerCatalogItem.horiz a>span {text-decoration:none; padding-top:2px; padding-bottom:2px; display:inline-block; width:100%;}
+.headerCatalog .groupList .headerCatalogItem.horiz a>span img {margin-right:5px; width:24px; float:left; vertical-align:middle;}
+.headerCatalog .groupList .headerCatalogItem.horiz.Active {font-weight:bold;}
+.headerCatalog .groupList .headerCatalogSub {padding-top:30px; margin-top:0px; width:100%; position:absolute; left:0px;}
+.headerCatalog .groupList .headerCatalogSub .headerCatalogCol {margin-bottom:25px; margin-left:20px; display:inline-block; height:auto; position:relative; float:left; list-style-type:none;}
+.headerCatalog .groupList .headerCatalogSub .headerCatalogSubItem.headerCatalogSubSection {font-weight:bold; margin-bottom:5px; display:inline-block;}

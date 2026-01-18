@@ -1,0 +1,21 @@
+shop_product_type_feature:
+   tableName: shop_product_type_feature
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_type:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_feature:
+       type: integer
+       unsigned: true
+       notnull: true
+   relations:
+   values:

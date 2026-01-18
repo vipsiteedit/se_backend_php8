@@ -1,0 +1,6 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "umisoft/phpmorphy": "^1.0"
+    }
+}

@@ -1,0 +1,44 @@
+shop_measure_weight:
+   tableName: shop_measure_weight
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_measure_weight_id
+     code:
+       type: string(255)
+     name:
+       type: string(255)
+       notnull: true
+     designation:
+       type: string(50)
+     value:
+       type: float(10,6)
+     is_base:
+       type: integer
+       notnull: true
+     precision:
+       type: integer
+   values:
+     1:
+       id: 1
+       code: 163
+       name: Грамм
+       designation: г
+       value: 1.000000
+       is_base: 1
+       precision: 0
+     2:
+       id: 2
+       code: 166
+       name: Килограмм
+       designation: кг
+       value: 0.001000
+       is_base: 0
+       precision: 3

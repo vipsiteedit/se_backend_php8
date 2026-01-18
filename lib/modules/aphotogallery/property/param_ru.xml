@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title=":::ОБЩИЕ ПАРАМЕТРЫ ГАЛЕРЕИ:::" list="::::::">::::::</parametr>
+	<parametr lang="ru" name="param2" title="Ширина раздела" list="y|Резиновая,n|Фиксированная,d|Не использовать">n</parametr>
+	<parametr lang="ru" name="param20" title="Скорость анимации перехода слайда (мс)" list="">800</parametr>
+	<parametr lang="ru" name="param21" title="Отключать эмуляцию ТачУстройств на компьютерах" list="false|ДА,true|НЕТ">false</parametr>
+	<parametr lang="ru" name="param22" title="Прятать скроллбар при просмотре фото" list="true|ДА,false|НЕТ">false</parametr>
+	<parametr lang="ru" name="param23" title="Максимальное кол-во записей" list="">100</parametr>
+</params>

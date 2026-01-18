@@ -1,0 +1,28 @@
+news_subscriber_se_group:
+   tableName: news_subscriber_se_group
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: news_subscriber_se_group_id
+     id_news:
+       type: integer
+       unsigned: true
+       index: true
+     id_group:
+       type: integer
+       unsigned: true
+       index: true
+   relations:
+     news:
+       local: id_news
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

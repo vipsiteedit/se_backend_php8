@@ -1,0 +1,33 @@
+﻿.contDesk .newMsg {color:#ffffff; text-decoration:none; background-color:#0858a1; padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; margin-top:10px; margin-bottom:10px; display:inline-block; clear:both;}
+.contDesk .newMsg:hover {background-color:#0A6FC9;}
+.contDesk .Cnri {margin-bottom:15px; width:100%;}
+.contDesk .Cnri .title {margin-top:3px; margin-right:20px; float:left;}
+.contDesk .Cnri .CnriBox {margin-right:10px; float:left;}
+.contDesk .Cnri .CnriBox .CnriSel {width:200px;}
+.contDesk .seNavigator {margin-bottom:10px; display:block;}
+.contDesk .seNavigator .pagen {padding:0;}
+.contDesk .seNavigator .pagen a:hover {text-decoration:none;}
+.contDesk .object {padding-top:10px; padding-bottom:10px; padding-left:10px; padding-right:10px; border-width:1px; border-color:#c0c0c0; border-style:dotted; margin-bottom:10px;}
+.contDesk .object .objectTitle {margin:0; margin-bottom:5px;}
+.contDesk .object .objectImage {margin-right:15px; float:left;}
+.contDesk .object .objectNote {margin-bottom:10px;}
+.contDesk .object .contact {padding-top:5px; padding-bottom:5px; padding-left:5px; padding-right:5px; margin-bottom:3px; display:inline-block;}
+.contDesk .object .contact .obj {padding-top:2px; display:block; clear:both;}
+.contDesk .object .contact .obj .name {width:120px; float:left;}
+.contDesk .footEditBlock {text-align:right;}
+.contDesk .footEditBlock .editbbs {color:#ffffff; background-color:#0858a1; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px;}
+#view .objectImage {margin-right:20px; float:left;}
+#view .buttonSend {margin-top:15px;}
+.contEditDesk .errortext {color:#ff0000; margin-bottom:10px; display:block;}
+.contEditDesk .form .obj {margin-bottom:3px;}
+.contEditDesk .form .obj .title {margin-top:5px; width:180px; float:left;}
+.contEditDesk .form .obj .title .star {color:#FF0000;}
+.contEditDesk .form .obj .field input,textarea {width:200px;}
+.contEditDesk .form .obj.short .field {display:block; clear:both;}
+.contEditDesk .form .obj.short .field input {width:380px;}
+.contEditDesk .form .obj.textmany .title {float:none;}
+.contEditDesk .form .obj.textmany .field textarea {width:380px; height:150px; overflow:auto;}
+.contEditDesk .form .obj.userfile .title {width:120px;}
+.contEditDesk .form .obj.userfile .field {display:block; clear:both;}
+.contEditDesk .form .obj.del .field input {margin-top:3px; width:auto;}
+.contEditDesk .groupButton {margin-top:20px;}

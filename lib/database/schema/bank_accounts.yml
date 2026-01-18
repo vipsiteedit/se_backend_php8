@@ -1,0 +1,120 @@
+bank_accounts:
+   tableName: bank_accounts
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: bank_accounts_id
+     account:
+       type: integer
+       unsigned: true
+       index: true
+     id_payment:
+       type: integer
+       unsigned: true
+       index: true
+     codename:
+       type: string(20)
+     title:
+       type: string(125)
+     value:
+       type: string(255)
+   relations:
+   values:
+     1:
+       id: 1
+       account: 1
+       id_payment: 1
+       codename: inn
+       title: ИНН
+       value: 
+     2:
+       id: 2
+       account: 1
+       id_payment: 1
+       codename: kpp
+       title: КПП
+       value: 
+     3:
+       id: 3
+       account: 1
+       id_payment: 1
+       codename: rs
+       title: Расчетный счет
+       value: 
+     4:
+       id: 4
+       account: 1
+       id_payment: 1
+       codename: ks
+       title: Кор.счет
+       value: 
+     5:
+       id: 5
+       account: 1
+       id_payment: 1
+       codename: bik
+       title: БИК
+       value: 
+     6:
+       id: 6
+       account: 1
+       id_payment: 1
+       codename: bank
+       title: БАНК
+       value: 
+     7:
+       id: 7
+       account: 1
+       id_payment: 1
+       codename: stamp
+       title: URL Штампа
+       value: 
+     8:
+       id: 8
+       account: 1
+       id_payment: 4
+       codename: wm_r
+       title: WMR
+       value: 
+     9:
+       id: 9
+       account: 1
+       id_payment: 4
+       codename: wm_z
+       title: WMZ
+       value: 
+     10:
+       id: 10
+       account: 1
+       id_payment: 4
+       codename: wm_e
+       title: WME
+       value: 
+     11:
+       id: 11
+       account: 1
+       id_payment: 3
+       codename: yan_m
+       title: Яндекс-деньги
+       value: 
+     12:
+       id: 12
+       account: 1
+       id_payment: 5
+       codename: rbk_m
+       title: RBK-money
+       value: 
+     13:
+       id: 13
+       account: 1
+       id_payment: 2
+       codename: z_pay
+       title: Z-paymoney
+       value: 

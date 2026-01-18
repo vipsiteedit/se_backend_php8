@@ -1,0 +1,19 @@
+﻿shopParam:
+  tableName: shop_param
+  tableType:
+    engine: innoDB
+    charset: utf8
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer
+      unsigned: true
+      primary: true
+      sequence: shop_param_id_sec
+    nameparam:
+      type: string(125)
+      notnull: true
+  indexes:
+    nameparam:
+      type: unique
+      fields: ['nameparam']

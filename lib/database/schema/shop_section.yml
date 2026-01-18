@@ -1,0 +1,18 @@
+shop_section:
+   tableName: shop_section
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_section_id
+     code:
+       type: string(40)
+       notnull: true
+       unique: true
+

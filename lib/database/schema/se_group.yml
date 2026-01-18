@@ -1,0 +1,54 @@
+se_group:
+   tableName: se_group
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: se_group_id
+     level:
+       type: integer
+       default: 1
+     name:
+       type: string(40)
+     title:
+       type: string(255)
+     id_parent:
+       type: integer
+       unsigned: true
+     email_settings:
+       type: string(255)
+   values:
+     1:
+       id: 9
+       level: 1
+       name: 
+       title: User
+       id_parent: 
+       email_settings: 
+     2:
+       id: 10
+       level: 2
+       name: 
+       title: Super User
+       id_parent: 
+       email_settings: 
+     3:
+       id: 11
+       level: 3
+       name: 
+       title: Admin
+       id_parent: 
+       email_settings: 
+     4:
+       id: 12
+       level: 1
+       name:  
+       title: 
+       id_parent: 
+       email_settings: 

@@ -1,0 +1,15 @@
+se_settings:
+   tableName: se_settings
+   tableType:
+     engine: innoDB
+     charset: utf8
+   columns:
+     version:
+       type: string(10)
+       notnull: true
+     db_version:
+       type: integer
+   values:
+     1:
+       version: 86
+       db_version: 127

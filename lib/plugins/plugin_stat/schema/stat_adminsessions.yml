@@ -1,0 +1,17 @@
+statAdminsessions:
+  tableName: stat_adminsessions
+  tableAlias: sta
+  tableType:
+    engine: innoDB
+    charset: utf8
+  columns:
+    hash: string(32)
+    login: string(32)
+    time_first: datetime
+    time_last: datetime
+    ip: string(64)
+    c:
+      type: integer
+      notnull: true
+      unsigned: true
+

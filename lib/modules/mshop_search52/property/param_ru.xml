@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param16" title="Страница каталога" list="">catalogue</parametr>
+	<parametr lang="ru" name="param19" title="Включить функцию &amp;quot;живой поиск&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param15" title="Код стартовой группы" list=""></parametr>
+	<parametr lang="ru" name="param14" title="Минимальная длина символов в запросе" list="">2</parametr>
+	<parametr lang="ru" name="param17" title="Максимальное количество товаров в списке" list="">10</parametr>
+	<parametr lang="ru" name="param18" title="Ограничение размера превью картинки" list="">40x40</parametr>
+	<parametr lang="ru" name="param20" title="Перенаправление при поиске" list="Y|Всегда в начало каталога,N|Текущая страница с учетом выбранной группы">Y</parametr>
+	<parametr lang="ru" name="param21" title="Искать по артиклу" list="Y|Да,N|Нет">N</parametr>
+</params>

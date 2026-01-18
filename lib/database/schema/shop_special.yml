@@ -1,0 +1,34 @@
+shop_special:
+   tableName: shop_special
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_group:
+       type: integer
+       unsigned: true
+     id_price:
+       type: integer
+       unsigned: true
+     newprice:
+       type: float(10,2)
+     newproc:
+       type: float(6,4)
+     curr:
+       type: char(3)
+     date_added:
+       type: datetime
+     last_modified:
+       type: datetime
+     expires_date:
+       type: datetime
+     status:
+       type: enum
+       values: ['Y','N']
+   relations:
+   values:

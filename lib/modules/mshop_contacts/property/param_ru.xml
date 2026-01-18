@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Выводить контакты только выбранного города" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param2" title="Отображать Яндекс карту для адреса" list="Y|Да,N|Нет">Y</parametr>
+</params>

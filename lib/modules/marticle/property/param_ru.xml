@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param2" title="Число записей на странице:" list="">30</parametr>
+	<parametr lang="ru" name="param1" title="E-Mail администратора:" list="">[%adminmail%]</parametr>
+	<parametr lang="ru" name="param3" title="Список модераторов через запятую:" list=""></parametr>
+	<parametr lang="ru" name="param15" title="Использовать антиспам-картинку" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param28" title="Количество выводимых комментариев" list="">30</parametr>
+	<parametr lang="ru" name="param33" title="Идентификатор: " list="">[namepage]</parametr>
+	<parametr lang="ru" name="param36" title="Гость" list="">Гость</parametr>
+	<parametr lang="ru" name="param37" title="Письмо администратору" list="">Уважаемый, Админ! \r\n На сайте [SITENAME] в статье [NAMETITLE] был добавлен комментарий</parametr>
+	<parametr lang="ru" name="param38" title="Письмо автору" list="">В вашей статье [NAMETITLE], написанной на сайте [SITENAME] был добавлен комментарий</parametr>
+	<parametr lang="ru" name="param39" title="Посылать письмо администратору" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param40" title="Посылать письмо автору статьи" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param42" title="Показывать страницы" list="Yes|Да,No|Нет">Yes</parametr>
+	<parametr lang="ru" name="param45" title="Скрывать в подробном описание возможность поделиться в соц. сетях" list="Yes|Да,No|Нет">No</parametr>
+	<parametr lang="ru" name="param43" title="::: Данные партнерской сети :::" list=""></parametr>
+	<parametr lang="ru" name="param44" title="Ваш ID на сайте edgestile.ru" list=""></parametr>
+</params>

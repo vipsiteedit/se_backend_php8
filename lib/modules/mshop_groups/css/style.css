@@ -1,0 +1,34 @@
+﻿.shopgroups .contentBody {display:inline-block; width:99%; clear:both;}
+.shopgroups .groupPath {margin-bottom:20px;}
+.shopgroups .separPath {padding-left:5px; padding-right:5px;}
+.shopgroups .search {margin-bottom:20px; display:inline-block;}
+.shopgroups .search label {margin-top:5px; margin-right:10px; float:left;}
+.shopgroups .search .inputHint {float:left;}
+.shopgroups .search #searchString {width:300px;}
+.shopgroups .search .suggestionsBox#suggestions {background-color:#ffffff; border-width:1px; border-color:#c0c0c0; border-style:solid; width:309px;}
+.shopgroups #suggestions div {cursor:pointer; padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px; display:block;}
+.shopgroups #suggestions div:hover {background-color:#F2F2F2;}
+.shopgroups .groupContent {display:inline-block; width:100%;}
+.shopgroups .tableTable.itemgroup {margin-bottom:20px; margin-right:25px; display:inline-block; width:29%; vertical-align:top;}
+.shopgroups .celltlbGroupImg {width:115px; height:100px; overflow:hidden;}
+.shopgroups .celltlbGroupImg .lnkGroupImg .imgtlbGroupImg {width:100px;}
+.shopgroups .celltlbGroupName {padding-top:15px;}
+.shopgroups .itemgroup dt {font-weight:bold; margin-bottom:5px;}
+.shopgroups .itemgroup dd {font-size:85%;}
+.shopgroups .titleGroup h2.grouptitle {font-size:200%; font-weight:normal; margin-bottom:15px;}
+.shopgroups .titleGroup .grouptitleg {font-weight:bold; margin-bottom:5px; display:block;}
+.shopgroups .searchform {margin-bottom:20px; display:inline-block; width:100%;}
+.shopgroups .searchform .price {margin-right:10px;}
+.shopgroups .searchform label.from {margin-right:3px;}
+.shopgroups .searchform input.from {margin-right:10px; width:50px;}
+.shopgroups .searchform label.to {margin-right:3px;}
+.shopgroups .searchform input.to {margin-right:3px; width:50px;}
+.shopgroups .searchform .buttonSend {margin-left:5px;}
+.shopgroups .groupImage {margin-right:20px; float:left;}
+.shopgroups .grouptitleblock {margin-bottom:10px;}
+.shopgroups .groupsublinkblock {margin-top:10px; display:inline-block; width:100%;}
+.shopgroups .subgrouplink {margin-bottom:5px; margin-right:12px; float:left;}
+.shopgroups .cellGroup {margin-bottom:20px; margin-right:10px; display:inline-block;}
+.shopgroups .cellGroup .lnkGroupImg {width:120px; height:120px; overflow:hidden;}
+.shopgroups .cellGroup .lnkGroupImg img {margin-bottom:3px; width:80px;}
+.shopgroups .cellGroup h5 {font-weight:normal;}

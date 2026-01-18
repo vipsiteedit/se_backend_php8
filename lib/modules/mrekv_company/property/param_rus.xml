@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="rus" name="param2" title="Заголовок &amp;quot;Реквизиты компании&amp;quot;:" list="">Реквизиты компании</parametr>
+	<parametr lang="rus" name="param3" title="Заголовок &amp;quot;Предприятие&amp;quot;:" list="">Предприятие:</parametr>
+	<parametr lang="rus" name="param4" title="Заголовок &amp;quot;Руководитель&amp;quot;:" list="">Руководитель:</parametr>
+	<parametr lang="rus" name="param5" title="Заголовок &amp;quot;Юридический адрес&amp;quot;:" list="">Юридический адрес:</parametr>
+	<parametr lang="rus" name="param6" title="Заголовок &amp;quot;Телефон&amp;quot;:" list="">Телефон:</parametr>
+	<parametr lang="rus" name="param7" title="Заголовок &amp;quot;Факс&amp;quot;:" list="">Факс:</parametr>
+	<parametr lang="rus" name="param8" title="Заголовок &amp;quot;Банковские реквизиты&amp;quot;:" list="">Банковские реквизиты</parametr>
+	<parametr lang="rus" name="param9" title="Кнопка &amp;quot;Изменить&amp;quot;:" list="">Изменить</parametr>
+	<parametr lang="rus" name="param13" title="Кнопка &amp;quot;Назад&amp;quot;:" list="">Вернуться</parametr>
+	<parametr lang="rus" name="param10" title="Сообщение &amp;quot;Данные изменить не удалось&amp;quot;:" list="">Данные изменить не удалось</parametr>
+	<parametr lang="rus" name="param11" title="Сообщение &amp;quot;Данные успешно изменены&amp;quot;:" list="">Данные успешно изменены</parametr>
+	<parametr lang="rus" name="param12" title="Сообщение &amp;quot;Администратор не может изменять свой реквизиты&amp;quot;" list="">Администратор не может изменять свой реквизиты</parametr>
+</params>

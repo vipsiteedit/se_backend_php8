@@ -1,0 +1,28 @@
+ShopPicture:
+  tableName: se_shop_picture
+  tableAlias: spic
+  tableType:
+    engine: innoDB
+    charset: utf8
+  actAs: [Timestampable]
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      sequence: shop_price_parameter_id
+    picture:
+      type: string(255)
+      notnull: true
+    title:
+      type: string(50)
+      
+    price_id:
+      type: integer
+      unsigned: true
+      
+  relations:
+    se_shop_price:
+      foreign:  id
+      local: price_id
+      onDelete: CASCADE
+      onUpdate: CASCADE

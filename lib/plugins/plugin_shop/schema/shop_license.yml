@@ -1,0 +1,4 @@
+ShopLicense:
+  actAs: [Timestampable]
+  columns:
+    

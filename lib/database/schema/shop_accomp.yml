@@ -1,0 +1,43 @@
+shop_accomp:
+   tableName: shop_accomp
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_accomp_id
+     id_price:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_acc:
+       type: integer
+       unsigned: true
+       index: true
+     id_group:
+       type: integer
+       unsigned: true
+       index: true
+   relations:
+     shop_price:
+       local: id_acc
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_price:
+       local: id_price
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_group:
+       local: id_group
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

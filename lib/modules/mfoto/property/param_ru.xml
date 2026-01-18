@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Число записей на странице" list="">30</parametr>
+	<parametr lang="ru" name="param2" title="Кнопка &amp;quot;Вернуться&amp;quot;" list="">Вернуться</parametr>
+	<parametr lang="ru" name="param3" title="Включить возможность поделиться в соц. сетях" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param4" title="Ваш ID на сайте edgestile.ru" list=""></parametr>
+</params>

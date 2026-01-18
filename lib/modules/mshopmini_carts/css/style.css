@@ -1,0 +1,18 @@
+﻿.shcart .tableTable {margin-bottom:20px;}
+.shcart .tableRow#tableHeader td {font-weight:bold; padding-top:15px; padding-bottom:15px;}
+.shcart .tableRow td {padding-right:15px;}
+.shcart .tableRow#tableRowEven td {background-image:url(black_5.png);}
+.shcart .tableTable#tableListGoods {width:100%;}
+.shcart .tableRow#tableTotal td {font-weight:bold;}
+.shcart #tableButtons td {padding-top:20px;}
+.shcart_sub1 .errortext {color:#ff0000; font-weight:bold; margin-bottom:10px;}
+.shcart_sub1 .tablePayment .tableRow#RowEven .tableClientTitle {width:23%;}
+.shcart_sub1 .tablePayment .objTitls {font-weight:bold; padding-top:10px; padding-bottom:10px; display:block;}
+.shcart_sub1 .tablePayment .objTitl {width:20%;}
+.shcart_sub1 .tablePayment .objArea {padding-top:1px; padding-bottom:1px;}
+.shcart_sub1 .tablePayment .textArea {width:100%; height:100px; overflow:auto;}
+.shcart_sub1 .tablePayment .objcheck {margin-right:2px; vertical-align:middle;}
+.shcart_sub1 .tablePayment .objchecktext {vertical-align:middle;}
+.shcart_sub1 .tablePayment .commonradio {padding-top:10px; padding-bottom:10px;}
+.shcart_sub1 .tablePayment .objRadio {cursor:pointer; margin-right:5px; vertical-align:middle;}
+.shcart_sub1 .tablePayment .objRadiotext {vertical-align:middle;}

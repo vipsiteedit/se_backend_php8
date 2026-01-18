@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Кол-во отображаемых топиков" list="">5</parametr>
+	<parametr lang="ru" name="param2" title="Страница блога" list=""></parametr>
+	<parametr lang="ru" name="param3" title="Выводить типики" list="last|Последние,rating|По рейтингу">rating</parametr>
+</params>

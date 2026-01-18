@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Обратная связь</group>
+	<name>Яндекс-карта</name>
+	<comment>Отображение информации о компании и ее местоположении на Яндекс-карте. Модуль работает начиная с версии StartPlus</comment>
+</option>

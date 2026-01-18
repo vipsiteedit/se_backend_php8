@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<structure>
+	<objects>
+		<field type="text" name="title">
+			<title lang="ru"></title>
+		</field>
+		<field type="text" name="note">
+			<title lang="ru"></title>
+		</field>
+		<field type="menu" name="text1">
+			<title lang="ru">Подбор товаров</title>
+			<list lang="ru">all|Все,special|Спец.предложения,hit|Хиты,new|Новинки,oldOrders|Последние купленные,topOrders|Самые покупаемые,discount|Скидки,topVotes|Самые оцениваемые,topLooks|Самые просматриваемые,nowLooks|Сейчас смотрят,userLooks|Вы смотрели</list>
+			<default lang="ru">special</default>
+		</field>
+	</objects>
+</structure>

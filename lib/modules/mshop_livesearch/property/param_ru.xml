@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Страница с поиском" list="">searchlist</parametr>
+	<parametr lang="ru" name="param16" title="Страница каталога:" list="">catalogue</parametr>
+	<parametr lang="ru" name="param15" title="Код стартовой группы" list=""></parametr>
+	<parametr lang="ru" name="param13" title="Показать ссылку &amp;quot;Расширенный поиск&amp;quot;" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param14" title="Минимальная длина символов в запросе" list="">1</parametr>
+	<parametr lang="ru" name="param2" title="Текст на кнопке &amp;quot;Искать&amp;quot;:" list="">Искать</parametr>
+	<parametr lang="ru" name="param12" title="Текст ссылки &amp;quot;Расширенный поиск&amp;quot;" list="">Расширенный поиск</parametr>
+	<parametr lang="ru" name="param17" title="Текст в строке ввода" list="">Поиск по каталогу</parametr>
+</params>

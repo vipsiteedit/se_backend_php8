@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="" list="top|Вверху,bott|Снизу,left|Слева,right|Справа">top</parametr>
+</params>

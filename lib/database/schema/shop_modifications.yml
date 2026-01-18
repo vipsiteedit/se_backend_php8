@@ -1,0 +1,68 @@
+shop_modifications:
+   tableName: shop_modifications
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_modifications_id
+     id_mod_group:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     id_price:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     code:
+       type: string(40)
+     value:
+       type: float(10,2)
+       notnull: true
+       default: 0.00
+     value_opt:
+       type: float(10,2)
+       notnull: true
+       default: 0.00
+     value_opt_corp:
+       type: float(10,2)
+       notnull: true
+       default: 0.00
+     value_purchase:
+       type: decimal(10,2)
+       notnull: true
+       default: 0.00
+     count:
+       type: float(10,3)
+       default: null
+     description:
+       type: mediumtext
+       default: null
+     sort:
+       type: integer
+       notnull: true
+       default: 0
+     default:
+       type: boolean
+       notnull: true
+       default: 0
+     id_exchange:
+       type: string(80)
+   relations:
+     shop_modifications_group:
+       local: id_mod_group
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_price:
+       local: id_price
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE

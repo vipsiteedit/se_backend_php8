@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Число записей на странице:" list="">30</parametr>
+	<parametr lang="ru" name="param2" title="Ширина контейнера" list="a|Фиксированная,r|Резиновая">r</parametr>
+	<parametr lang="ru" name="param3" title="Скрывать ссылки от индексации" list="Y|Да,N|Нет">Y</parametr>
+</params>

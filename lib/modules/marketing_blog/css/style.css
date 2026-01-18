@@ -1,0 +1,157 @@
+﻿.blogposts #message a {background-image:url(marketing_blog/up.png);}
+.blogposts .posts .post_but_area {margin-bottom:20px;}
+.blogposts .posts .postList .post {margin-bottom:40px;}
+.blogposts .posts .postList .post .post_title {font-size:170%; margin-bottom:15px;}
+.blogposts .posts .postList .post .post_com_inf {background-image:url(marketing_blog/black_5.png); padding-top:10px; padding-bottom:10px; margin-bottom:20px; display:inline-block; width:100%;}
+.blogposts .posts .postList .post .post_date {margin-right:10px; float:right;}
+.blogposts .posts .postList .post .post_author {margin-left:10px; float:left;}
+.blogposts .posts .postList .post .post_author .post_autho_fio {font-weight:bold;}
+.blogposts .posts .postList .post .post_short {margin-bottom:10px; display:inline-block; width:100%;}
+.blogposts .posts .postList .post .post_short img {margin-right:20px; float:left;}
+.blogposts .posts .postList .post .post_show {margin-right:20px; float:left;}
+.blogposts .posts .postList .post .post_com_block {font-size:85%; background-image:url(marketing_blog/black_5.png); padding-top:10px; padding-bottom:10px; margin-top:20px; display:inline-block; width:100%;}
+.blogposts .posts .postList .post .post_com_block .com_block {margin-top:3px; margin-left:10px; margin-right:10px; display:inline-block; vertical-align:top;}
+.blogposts .posts .postList .post .post_com_block .com_block .pb_val {font-weight:bold;}
+.blogposts .posts .postList .post .post_tags .post_tags_area .post_tags_a {font-weight:normal; margin-right:3px;}
+.blogposts .posts .postList .post .post_cats .post_cats_area .post_cats_a {font-weight:normal; margin-right:3px;}
+.blogposts .posts .postList .post .post_rating .post_rating_com {margin-left:5px; display:inline-block;}
+.blogposts .posts .postList .post .post_rating .post_rating_com .post_rating_plus {color:transparent; font-size:0; cursor:pointer; background-color:transparent; background-image:url(marketing_blog/palec_up.png); background-position:center center; background-repeat:no-repeat; border-style:none; width:16px; height:16px; position:relative; top:-6px; padding:0px;}
+.blogposts .posts .postList .post .post_rating .post_rating_com .post_rating_minus {color:transparent; font-size:0; cursor:pointer; background-color:transparent; background-image:url(marketing_blog/palec_down.png); background-position:center center; background-repeat:no-repeat; border-style:none; width:16px; height:16px; position:relative; top:-2px; padding:0px;}
+.blogposts .posts .postList .post .post_favorite {background-image:url(marketing_blog/blogpodpiska.png); background-position:center left; background-repeat:no-repeat; padding-left:15px;}
+.blogposts .posts .postList .post .post_views {background-image:url(marketing_blog/blogsmotreli.png); background-position:center left; background-repeat:no-repeat; padding-left:15px;}
+.blogposts .posts .postList .post .post_comment {margin-top:10px;}
+.blogposts .post_info .user {margin-bottom:20px; display:inline-block; width:100%; position:relative;}
+.blogposts .post_info .user .user_avatar {margin-right:20px; width:70px; height:70px; float:left; overflow:hidden; -moz-border-radius: 80px; -webkit-border-radius: 80px; border-radius: 80px;}
+.blogposts .post_info .user .user_avatar img {width:70px; height:auto;}
+.blogposts .post_info .user .user_fio {font-size:140%; margin-bottom:5px; display:block; width:57%;}
+.blogposts .post_info .user .user_point {display:block;}
+.blogposts .post_info .user .user_but {margin-top:5px; margin-left:90px; display:block;}
+.blogposts .post_info .user .user_static {position:absolute; top:0px; right:0px;}
+.blogposts .post_info .user .user_static .user_view {display:inline-block; vertical-align:top;}
+.blogposts .post_info .user .user_static .user_view .user_view_count {font-size:140%; display:block;}
+.blogposts .post_info .user .user_static .user_comment {margin-left:20px; display:inline-block; vertical-align:top;}
+.blogposts .post_info .user .user_static .user_comment .user_comment_count {font-size:140%; display:block;}
+.blogposts .post_info .user .user_static .user_favorite {margin-left:20px; display:inline-block; vertical-align:top;}
+.blogposts .post_info .user .user_static .user_favorite .user_favorite_count {font-size:140%; display:block;}
+.blogposts .post_info .navigator {margin-bottom:20px;}
+.blogposts .post_info .navigator ul {border-bottom:1px solid #C0C0C0; padding:0;}
+.blogposts .post_info .navigator ul li {cursor:pointer; padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-bottom:3px solid transparent; display:inline-block; vertical-align:top;}
+.blogposts .post_info .navigator ul li a {color:inherit; text-decoration:none;}
+.blogposts .post_info .navigator ul li a:hover {text-decoration:underline;}
+.blogposts .post_info .navigator ul li.active {font-weight:bold; border-bottom:3px solid #000000;}
+.blogposts .post_info .post_but_area {margin-bottom:20px;}
+.blogposts .post_info .postlist .post {margin-bottom:30px; margin-right:5px; display:inline-block; width:300px; vertical-align:top;}
+.blogposts .post_info .postlist .post .post_picture {color:#ffffff; background-image:url(marketing_blog/black_70.png); border-bottom:1px solid #e5e5e5; display:block; width:100%; height:160px; overflow:hidden;}
+.blogposts .post_info .postlist .post .post_picture .post_picture_img_area img {margin:auto; margin-bottom:0px; display:block;}
+.blogposts .post_info .postlist .post .post_picture .insidetext {display:block; padding:15px;}
+.blogposts .post_info .postlist .post .post_picture .insidetext .post_picture_titl {font-weight:bold; margin-bottom:10px; display:block;}
+.blogposts .post_info .postlist .post .post_picture .insidetext .post_picture_txt {display:block;}
+.blogposts .post_info .postlist .post .post_picture .insidetext .post_picture_txt img {margin-right:20px; float:left;}
+.blogposts .post_info .postlist .post .post_common {font-size:85%; display:inline-block; padding:10px;}
+.blogposts .post_info .postlist .post .post_common .post_views {background-image:url(marketing_blog/blogsmotreli.png); background-position:center left; background-repeat:no-repeat; padding-left:15px; margin-right:10px; display:inline-block;}
+.blogposts .post_info .postlist .post .post_common .post_views .post_views_count {font-weight:bold;}
+.blogposts .post_info .postlist .post .post_common .post_comment {background-image:url(marketing_blog/blogcomment.png); background-position:center left; background-repeat:no-repeat; padding-left:15px; margin-right:10px; display:inline-block;}
+.blogposts .post_info .postlist .post .post_common .post_comment .post_comment_a_count {font-weight:bold;}
+.blogposts .post_info .postlist .post .post_common .post_favorite {background-image:url(marketing_blog/blogpodpiska.png); background-position:center left; background-repeat:no-repeat; padding-left:15px; display:inline-block;}
+.blogposts .post_info .postlist .post .post_common .post_favorite .post_favorites_count {font-weight:bold;}
+.blogposts .post_info .postlist .post .post_edit {margin:10px; margin-top:0px;}
+.blogposts .post_goods .goodslist .goods {background-color:#FFFFFF; border-width:1px; border-color:#e5e5e5; border-style:solid; margin-bottom:9px; margin-right:5px; display:inline-block; width:300px; position:relative; vertical-align:top;}
+.blogposts .post_goods .goodslist .goods .main {display:block; position:relative;}
+.blogposts .post_goods .goodslist .goods .main .underImg {background-color:#ffffff; display:block; width:100%; height:160px; position:relative; overflow:hidden; text-align:center;}
+.blogposts .post_goods .goodslist .goods .main .underImg a {display:block; width:100%; overflow:hidden;}
+.blogposts .post_goods .goodslist .goods .main .underImg a img {margin:auto; margin-bottom:0px; display:block;}
+.blogposts .post_goods .goodslist .goods .main .underPrice {font-weight:bold; background-color:#ffffff; margin-top:10px; margin-bottom:10px; position:absolute; bottom:50px; left:0px; padding:10px; -moz-box-shadow: 1px 1px 7px #e4e4e4; -webkit-box-shadow: 1px 1px 7px #e4e4e4; box-shadow: 1px 1px 7px #e4e4e4;}
+.blogposts .post_goods .goodslist .goods .main .underPrice .pri {font-weight:bold;}
+.blogposts .post_goods .goodslist .goods .main .titl {background-image:url(marketing_blog/black_70.png); padding:10px;}
+.blogposts .post_goods .goodslist .goods .main .titl a {color:#FFFFFF;}
+.blogposts .post_goods .goodslist .goods .underGoods {background-image:url(marketing_blog/special.png); background-position:top right; background-repeat:no-repeat; width:77px; height:77px; position:absolute; top:0px; right:0px;}
+.blogposts .post_goods .goodslist .goods .post_edit {margin:10px;}
+.blogposts.view .post_author {margin-bottom:10px; display:inline-block; width:100%; position:relative;}
+.blogposts.view .post_author .post_autho_avatar {margin-right:20px; width:70px; height:70px; float:left; overflow:hidden; -moz-border-radius: 80px; -webkit-border-radius: 80px; border-radius: 80px;}
+.blogposts.view .post_author .post_autho_avatar img {display:block; width:70px;}
+.blogposts.view .post_author .post_autho_com {display:inline-block;}
+.blogposts.view .post_author .post_autho_fio {font-size:140%; display:block;}
+.blogposts.view .post_date {position:absolute; top:0px; right:0px;}
+.blogposts.view .post_title {font-size:170%; margin-bottom:20px; display:inline-block; width:100%;}
+.blogposts.view .post_full {margin-bottom:20px;}
+.blogposts.view .post_short_text {margin-bottom:20px;}
+.blogposts.view .post_full ul {border-bottom:1px solid #c0c0c0; margin-bottom:20px; padding:0;}
+.blogposts.view .post_full ul li {padding-top:5px; padding-bottom:5px; padding-left:15px; padding-right:15px; border-bottom:3px solid transparent; display:inline-block; vertical-align:top;}
+.blogposts.view .post_full ul li a {color:inherit; text-decoration:none;}
+.blogposts.view .post_full ul li a:hover {text-decoration:underline;}
+.blogposts.view .post_full ul li.active {font-weight:bold; border-bottom:3px solid #000000;}
+.blogposts.view .post_full .tab-content {display:inline-block; width:100%;}
+.blogposts.view .post_full .tab-content .tab-pane img {margin-top:5px; margin-right:20px; float:left;}
+.blogposts.view .post_com_full {background-image:url(marketing_blog/black_5.png); margin-bottom:20px; padding:10px;}
+.blogposts.view .post_com_full .post_com {margin-top:3px; margin-left:10px; margin-right:10px; display:inline-block; vertical-align:top;}
+.blogposts.view .post_com_full .post_com .pb_val {font-weight:bold;}
+.blogposts.view .post_tags .post_tags_tsg .post_tags_a {font-weight:normal; margin-right:3px;}
+.blogposts.view .post_cats .post_cats_cat .post_cats_a {font-weight:normal; margin-right:3px;}
+.blogposts.view .post_rating .post_rating_common {margin-left:5px; display:inline-block;}
+.blogposts.view .post_rating .post_rating_common .post_rating_plus {color:transparent; font-size:0; cursor:pointer; background-color:transparent; background-image:url(marketing_blog/palec_up.png); background-position:center center; background-repeat:no-repeat; border-style:none; width:16px; height:16px; position:relative; top:-6px; padding:0px;}
+.blogposts.view .post_rating .post_rating_common .post_rating_minus {color:transparent; font-size:0; cursor:pointer; background-color:transparent; background-image:url(marketing_blog/palec_down.png); background-position:center center; background-repeat:no-repeat; border-style:none; width:16px; height:16px; position:relative; top:-2px; padding:0px;}
+.blogposts.view .post_favorite {background-image:url(marketing_blog/blogpodpiska.png); background-position:center left; background-repeat:no-repeat; padding-left:15px;}
+.blogposts.view .post_views {background-image:url(marketing_blog/blogsmotreli.png); background-position:center left; background-repeat:no-repeat; padding-left:15px;}
+.blogposts.view .post_comment {background-image:url(marketing_blog/blogcomment.png); background-position:center left; background-repeat:no-repeat; padding-left:15px;}
+.blogposts.view .post_sociallike {margin-bottom:20px;}
+.blogposts.view .fotoParams .fotoCommon .fotoImage.modelImg {background-image:url(marketing_blog/camera.png); background-repeat:no-repeat;}
+.blogposts.view .fotoParams .fotoCommon .fotoImage.vidergkaImg {background-image:url(marketing_blog/clock.png); background-repeat:no-repeat;}
+.blogposts.view .fotoParams .fotoCommon .fotoImage.diafragmaImg {background-image:url(marketing_blog/aperture.png); background-repeat:no-repeat;}
+.blogposts.view .fotoParams .fotoCommon .fotoImage.isoImg {background-image:url(marketing_blog/iso.png); background-repeat:no-repeat;}
+.blogposts.view .fotoParams .fotoCommon .fotoImage.obectivImg {background-image:url(marketing_blog/lens.png); background-repeat:no-repeat;}
+.blogposts.view .fotoParams .fotoCommon .fotoImage.vspishkaImg {background-image:url(marketing_blog/flash.png); background-repeat:no-repeat;}
+.blogposts.view .post_navig {margin-bottom:20px;}
+.blogposts.view .post_navig .post_navig_title {margin-right:20px;}
+.blogposts.view .post_navig .post_cats_a {margin-right:10px; vertical-align:top;}
+.blogposts.view .post_back {margin-bottom:20px;}
+.blogposts.view .comments {background-image:url(marketing_blog/black_5.png); padding:20px;}
+.blogposts.view .comments .errorpin {color:#ffffff; font-weight:bold; background-color:#ea5b37; padding-top:3px; padding-bottom:3px; padding-left:10px; padding-right:10px; margin-bottom:10px; display:inline-block; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;}
+.blogposts.view .comments .comments_list {margin-bottom:20px;}
+.blogposts.view .comments .comments_list .comments_list_comment {margin-bottom:30px; position:relative;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_ava {margin-right:20px; width:50px; height:50px; float:left; overflow:hidden; -moz-border-radius: 60px; -webkit-border-radius: 60px; border-radius: 60px;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_ava img {display:block; width:50px; height:auto;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block {display:block; position:relative; overflow:hidden;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_fio {font-weight:bold; margin-bottom:10px; display:block;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_date {position:absolute; top:0px; right:0px;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_text {margin-bottom:10px; display:block;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_rating {margin-right:30px; float:left;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_rating .comments_list_comment_rating_count {font-weight:bold;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_rating .comments_list_comment_rating_common {margin-left:5px; display:inline-block;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_rating .comments_list_comment_rating_common .comments_list_comment_rating_plus {cursor:pointer; color:transparent; font-size:0; background-color:transparent; background-image:url(marketing_blog/palec_up.png); background-position:center center; background-repeat:no-repeat; border-style:none; width:16px; height:16px; position:relative; top:-6px; padding:0px;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_rating .comments_list_comment_rating_common .comments_list_commentt_rating_minus {cursor:pointer; color:transparent; font-size:0; background-color:transparent; background-image:url(marketing_blog/palec_down.png); background-position:center center; background-repeat:no-repeat; border-style:none; width:16px; height:16px; position:relative; top:-2px; padding:0px;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_buttons a {margin-right:10px; float:left;}
+.blogposts.view .comments .comments_list .comments_list_comment .comments_list_comment_block .comments_list_comment_buttons .commentDel {color:#ea0000;}
+.blogposts.view .comments .comments_list .comments_list_comment .linksspisok {margin-top:10px; display:inline-block; width:100%;}
+.blogposts.view .comments .linksspisok .comments_ins_add textarea {width:100%; height:100px; overflow:auto; -moz-box-sizing:border-box; box-sizing:border-box;}
+.blogposts.add_edit .errortext {color:#fa4805; font-weight:bold; margin-bottom:10px; display:block;}
+.blogposts.add_edit .obj {margin-bottom:20px;}
+.blogposts.add_edit .obj .title {margin-top:1px; margin-bottom:5px; display:inline-block; width:24%; vertical-align:top;}
+.blogposts.add_edit .obj .field {display:inline-block; width:71%; overflow:hidden;}
+.blogposts.add_edit .obj .field .tinp {width:100%; -moz-box-sizing:border-box; box-sizing:border-box;}
+.blogposts.add_edit .obj .field .cinp {cursor:pointer; vertical-align:middle;}
+.blogposts.add_edit .obj .field .teinp {width:100%; -moz-box-sizing:border-box; box-sizing:border-box;}
+.blogposts.add_edit .obj .field span.cteg {vertical-align:middle;}
+.blogposts.add_edit .categor .categorylist .level1 {margin-left:20px;}
+.blogposts.add_edit .categor .categorylist .level2 {margin-left:40px;}
+.blogposts.add_edit .categor .categorylist .level3 {margin-left:60px;}
+.blogposts.add_edit .categor .category.level1 {margin-left:20px;}
+.blogposts.add_edit .categor .category.level2 {margin-left:40px;}
+.blogposts.add_edit .categor .category.level3 {margin-left:60px;}
+.blogposts.add_edit .dt_date .field {width:16%;}
+.blogposts.add_edit .dt_time .field input {width:10% !important; -moz-box-sizing:border-box; box-sizing:border-box;}
+.blogposts.add_edit .anons .title {margin-bottom:10px; display:block; width:auto;}
+.blogposts.add_edit .anons .field {display:block; width:auto;}
+.blogposts.add_edit .full .title {margin-bottom:10px; display:block; width:auto;}
+.blogposts.add_edit .full .field {display:block; width:auto;}
+.blogposts.add_edit .full .field textarea {height:300px; overflow:auto;}
+.blogposts.add_edit #tabs2.ui-widget-content {background-color:transparent; background-image:none;}
+.blogposts.add_edit #tabs2 ul {border-style:none; margin:0; margin-bottom:-1px; display:table;}
+.blogposts.add_edit #tabs2 ul li {cursor:pointer; background-color:#ffffff; padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px; border:1px solid #c0c0c0; margin-right:2px; display:block; height:17px; float:left; -moz-border-radius: 2px 2px 0px 0px; -webkit-border-radius: 2px 2px 0px 0px; border-radius: 2px 2px 0px 0px;}
+.blogposts.add_edit #tabs2 ul li a {color:inherit; text-decoration:none; background-color:transparent; border-style:none; float:left; padding:0px; vertical-align:middle; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;}
+.blogposts.add_edit #tabs2 ul li span.ui-icon-edit {font-size:0; cursor:pointer; background-image:url(marketing_blog/icon_edit_mini.png); background-position:center center; background-repeat:no-repeat; margin-left:5px; width:15px; height:15px; float:right; vertical-align:middle;}
+.blogposts.add_edit #tabs2 ul li span.ui-icon-close {font-size:0; cursor:pointer; background-image:url(marketing_blog/icon_close_mini.png); background-position:center center; background-repeat:no-repeat; margin-left:5px; width:15px; height:15px; float:right; vertical-align:middle;}
+.blogposts.add_edit #tabs2 ul li.ui-state-active {font-weight:bold; background-image:url(marketing_blog/black_5.png);}
+.blogposts.add_edit #tabs2 ul li.ui-state-active a {color:inherit; text-decoration:none; display:inline-block; vertical-align:middle;}
+.blogposts.add_edit #tabs2 ul li.ui-state-hover {background-image:url(marketing_blog/black_5.png);}
+.blogposts.add_edit #tabs2 ul li a button {font-size:120%; font-weight:bold; cursor:pointer; background-color:transparent; border-style:none; width:15px; padding:0px;}
+.blogposts.add_edit #tabs2 div.tcontents {margin:0;}

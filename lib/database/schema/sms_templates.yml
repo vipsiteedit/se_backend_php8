@@ -1,0 +1,45 @@
+sms_templates:
+   tableName: sms_templates
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: sms_templates_id
+     code:
+       type: string(50)
+       unique: true
+     name:
+       type: string(50)
+     text:
+       type: string(255)
+     is_active:
+       type: integer
+       default: 1
+     phone:
+       type: string(255)
+     sender:
+       type: string(255)
+   relations:
+   values:
+     1:
+       id: 1
+       code: orderadm
+       name: SMS о заказе
+       text: Здравствуйте, [NAMECLIENT]! Вы оформили предварительный заказ №[SHOP_ORDER_NUM] на сайте www.сантехмонтаж.рф, менеджер свяжется с вами в ближайшее время.
+       is_active: 0
+       phone: 
+       sender: 
+     2:
+       id: 2
+       code: orderuser
+       name: СМС клиенту о заказе
+       text: Здравствуйте, [NAMECLIENT]! Вы оформили предварительный заказ №[SHOP_ORDER_NUM] Сумма заказа и доставки Итого: [SHOP_ORDER_TOTAL]. Менеджер свяжется с вами в ближайшее время.
+       is_active: 1
+       phone: 
+       sender: 

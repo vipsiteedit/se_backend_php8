@@ -1,0 +1,27 @@
+permission_role:
+   tableName: permission_role
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: permission_role_id
+     name:
+       type: string(100)
+       notnull: true
+     description:
+       type: string(255)
+   values:
+     1:
+       id: 1
+       name: Менеджер
+       description: 
+     2:
+       id: 3
+       name: Администратор
+       description: 

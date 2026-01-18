@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param37" title="Round price values" list="Y|Yes,N|No">N</parametr>
+	<parametr lang="ru" name="param35" title="Orders per page" list="">30</parametr>
+</params>

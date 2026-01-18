@@ -1,0 +1,29 @@
+﻿.forum #menu #adm_lnkForums {margin-right:10px;}
+.forum #menu #adm_lnkUsers {margin-right:10px;}
+.forum #table_main .field_MainTopic {text-align:center;}
+.forum .foru_Edit {margin-right:10px; float:left;}
+.forum #adm_commands {display:inline-block;}
+.forum #adm_cmdTopic {display:inline-block;}
+.forum #main_btnAddForum {margin-top:15px;}
+.forum #adm_StsMk {padding-bottom:15px; border-width:1px; border-color:#7884ab; border-style:solid; margin-bottom:15px;}
+.forum #adm_StsMng {margin:0; margin-bottom:15px;}
+.forum #adm_bAdd {margin-bottom:15px;}
+.forum #adm_inpNmSt {margin-bottom:10px;}
+.forum #adm_StsSg {padding-bottom:15px; border-width:1px; border-color:#7884ab; border-style:solid; margin-bottom:15px;}
+.forum #adm_StsBc {margin:0; margin-bottom:15px;}
+.forum #adm_BlLst {padding-bottom:15px; border-width:1px; border-color:#7884ab; border-style:solid; margin-bottom:15px;}
+.forum #adm_BlcLst {margin:0; margin-bottom:15px;}
+.forum #table_forumParam2 #adm_srvcBtn {margin-top:20px; margin-bottom:20px;}
+.forum #table_forumParam .title {width:35%;}
+.forum #adm_arShDesc {width:95%; height:80px;}
+.forum #adm_Mdr {padding-bottom:15px; border-width:1px; border-color:#7884ab; border-style:solid; margin-bottom:15px;}
+.forum #curmoder {margin-top:15px; margin-bottom:15px;}
+.forum #adm_suMdr {border-width:1px; border-color:#7884ab; border-style:solid;}
+.forum #adm_delSu {margin-top:15px; margin-bottom:5px;}
+.forum #adm_bdaBck {margin-top:20px; margin-bottom:20px;}
+.forum #adm_slcNames {margin-top:15px; margin-bottom:15px;}
+.forum #adm_titleCh {padding-right:10px; width:50%; text-align:right;}
+.forum #adm_mvSrvBtn {margin-top:20px; margin-bottom:20px;}
+.forum #adm_DelMess {color:#ff0000; font-weight:bold; margin-bottom:20px;}
+.forum #adm_bYes {padding-left:20px; padding-right:20px;}
+.forum #adm_bNo {padding-left:20px; padding-right:20px;}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<option>
+	<group>Навигация</group>
+	<name>Ссылки-баннеры</name>
+	<comment>Оботражает список баннеров</comment>
+</option>

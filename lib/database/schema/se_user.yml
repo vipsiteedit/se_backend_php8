@@ -1,0 +1,51 @@
+se_user:
+   tableName: se_user
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: se_user_id
+     username:
+       type: string(125)
+       unique: true
+     password:
+       type: string(40)
+     tmppassw:
+       type: string(40)
+     is_active:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       index: true
+       default: 'Y'
+     is_super_admin:
+       type: enum
+       values: ['Y','N']
+       notnull: true
+       default: 'N'
+     is_manager:
+       type: integer
+       notnull: true
+     last_login:
+       type: datetime
+     id_company:
+       type: integer
+       unsigned: true
+       index: true
+   values:
+     1:
+       id: 1
+       username: admin
+       password: 3d36be13d0e9eb55949ff57d74fdc261
+       tmppassw: 
+       is_active: 'Y'
+       is_super_admin: 'Y'
+       is_manager: 1
+       last_login: 
+       id_company: 

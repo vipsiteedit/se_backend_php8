@@ -1,0 +1,6 @@
+﻿.shopGrouppicMenu .groupList .menuUnit .menu {text-decoration:none; padding-top:2px; padding-bottom:2px; display:inline-block; width:100%;}
+.shopGrouppicMenu .groupList .menuUnit .menu img {margin-right:5px; width:24px; float:left; vertical-align:middle;}
+.shopGrouppicMenu .groupList .menuUnit .menu .span {text-decoration:underline; overflow:hidden; vertical-align:middle;}
+.shopGrouppicMenu .groupList .menuUnit .menu.menuActive {font-weight:bold;}
+.shopGrouppicMenu .groupList .menuUnit .menu:hover .span {text-decoration:none;}
+.shopGrouppicMenu .groupList .submenu {margin-top:5px; margin-bottom:5px; margin-left:20px;}

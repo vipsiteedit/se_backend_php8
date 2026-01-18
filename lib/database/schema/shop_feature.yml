@@ -1,0 +1,53 @@
+shop_feature:
+   tableName: shop_feature
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_feature_id
+     id_feature_group:
+       type: integer
+       unsigned: true
+       index: true
+     name:
+       type: string(255)
+       notnull: true
+     code:
+       type: string(255)
+     type:
+       type: enum
+       values: ['list','colorlist','number','bool','string']
+       default: list
+     image:
+       type: string(255)
+     measure:
+       type: string(20)
+     description:
+       type: text
+     sort:
+       type: integer
+       notnull: true
+       default: 0
+     seo:
+       type: integer
+       notnull: true
+       default: 1
+     is_market:
+       type: integer
+       notnull: true
+       default: 1
+     placeholder:
+       type: string(255)
+   relations:
+     shop_feature_group:
+       local: id_feature_group
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:

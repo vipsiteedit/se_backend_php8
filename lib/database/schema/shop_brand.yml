@@ -1,0 +1,39 @@
+shop_brand:
+   tableName: shop_brand
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_brand_id
+     lang:
+       type: char(3)
+       notnull: true
+       index: true
+       default: rus
+     name:
+       type: string(255)
+       notnull: true
+     code:
+       type: string(255)
+       notnull: true
+     image:
+       type: string(255)
+     text:
+       type: text
+     content:
+       type: text
+     title:
+       type: string(255)
+     keywords:
+       type: string(255)
+     description:
+       type: text
+     sort:
+       type: integer
+   values:

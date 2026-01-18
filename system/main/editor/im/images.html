@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Пример красивого загрузчика</title>
+<style>
+#Buttons {
+    padding: 0;
+    position: relative;
+    color: #666666;
+    width: 200px;
+    text-align: left;
+    margin: 200px auto 0;
+}
+#UploadResult{
+    padding: 0 10px;
+}
+input#AddPhotos {
+}
+#Buttons span {
+    line-height: 32px;
+}
+#Buttons input, .niceButton {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    background: url('images/btn.png') no-repeat 0 -32px;
+    color: #666666;
+    font-size: 14px;
+    height: 32px;
+    width: 115px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    line-height: 32px;
+}
+#Buttons input:hover, #Buttons input.hover, .niceButton:hover {
+    background-position: 0 0;
+    color: #333;
+    outline: 0 none;
+}
+
+#Buttons object {
+    outline: none;
+    position: absolute;
+}
+input#Progress
+{
+    background: url('images/progress.png') no-repeat 0 0px;
+    width: 115px;
+    height: 32px;
+    position: absolute;
+    width: 0;
+    padding: 0;
+}
+</style>
+
+	<script type="text/javascript" src="/lib/js/jquery/jquery.min.js"></script>
+	<!--script type="text/javascript" src="/lib/js/jquery/jquery-colors.js"></script>
+	<script type="text/javascript" src="/lib/js/jquery/jquery.form.js"></script>
+	<script type="text/javascript" src="/lib/js/jquery/jquery.MultiFile.js"></script-->
+	
+	<!--  SWFUpload -->
+	<script type="text/javascript" src="/lib/js/swfupload/swfupload.js"></script>
+	<!--script type="text/javascript" src="/lib/js/swfupload/swfupload.swfobject.js"></script-->
+	<script type="text/javascript" src="/lib/js/swfupload/swfupload.queue.js"></script>
+	<!--script type="text/javascript" src="/lib/js/swfupload/fileprogress.js"></script>
+	<script type="text/javascript" src="/lib/js/swfupload/handlers.js"></script-->
+
+    <script src="script.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="Buttons">
+    <span id="UploadPhotos">
+        <input type="button" id="Progress"><i id="fAddPhotos"></i>
+		<input type="button" id="AddPhotos" value="Загрузка фото">
+    </span>
+</div> 
+<script type="text/javascript">
+    window.onload = function() { BindSWFUpload();} 
+</script>	
+</body>

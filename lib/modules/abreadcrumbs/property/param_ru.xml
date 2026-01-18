@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Символ разделитель:" list="—,/,|">—</parametr>
+	<parametr lang="ru" name="param2" title="Ширина блока" list="y|Резиновая,n|Фиксированная,d|Отключить">n</parametr>
+</params>

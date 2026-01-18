@@ -1,0 +1,102 @@
+shop_setting_values:
+   tableName: shop_setting_values
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: shop_setting_values_id
+     id_main:
+       type: integer
+       unsigned: true
+       index: true
+     id_setting:
+       type: integer
+       unsigned: true
+       notnull: true
+       index: true
+     value:
+       type: string(100)
+       notnull: true
+   relations:
+     main:
+       local: id_main
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     shop_settings:
+       local: id_setting
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:
+     1:
+       id: 1
+       id_main: 1
+       id_setting: 1
+       value: 650x650
+     2:
+       id: 2
+       id_main: 1
+       id_setting: 1
+       value: 650x650
+     3:
+       id: 3
+       id_main: 1
+       id_setting: 1
+       value: 650x650
+     4:
+       id: 4
+       id_main: 1
+       id_setting: 1
+       value: 850x850
+     5:
+       id: 27
+       id_main: 1
+       id_setting: 2
+       value: 163
+     6:
+       id: 28
+       id_main: 1
+       id_setting: 3
+       value: 111
+     7:
+       id: 29
+       id_main: 1
+       id_setting: 4
+       value: 163
+     8:
+       id: 30
+       id_main: 1
+       id_setting: 5
+       value: 111
+     9:
+       id: 31
+       id_main: 1
+       id_setting: 6
+       value: superadmin
+     10:
+       id: 32
+       id_main: 1
+       id_setting: 7
+       value: gh65Ret3!78
+     11:
+       id: 33
+       id_main: 1
+       id_setting: 8
+       value: 
+     12:
+       id: 34
+       id_main: 1
+       id_setting: 9
+       value: 
+     13:
+       id: 35
+       id_main: 1
+       id_setting: 10
+       value: 

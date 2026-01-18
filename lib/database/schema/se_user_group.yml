@@ -1,0 +1,47 @@
+se_user_group:
+   tableName: se_user_group
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+       primary: true
+       sequence: se_user_group_id
+     user_id:
+       type: integer
+       unsigned: true
+       index: true
+     company_id:
+       type: integer
+       unsigned: true
+       index: true
+     group_id:
+       type: integer
+       unsigned: true
+       index: true
+   relations:
+     se_user:
+       local: user_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     se_group:
+       local: group_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+     company:
+       local: company_id
+       foreign: id
+       onDelete: CASCADE
+       onUpdate: CASCADE
+   values:
+     1:
+       id: 1
+       user_id: 1
+       company_id: 
+       group_id: 9

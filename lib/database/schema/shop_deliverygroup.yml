@@ -1,0 +1,20 @@
+shop_deliverygroup:
+   tableName: shop_deliverygroup
+   tableType:
+     engine: innoDB
+     charset: utf8
+   actAs: [Timestampable]
+   columns:
+     id:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_group:
+       type: integer
+       unsigned: true
+       notnull: true
+     id_type:
+       type: integer
+       unsigned: true
+       notnull: true
+   values:

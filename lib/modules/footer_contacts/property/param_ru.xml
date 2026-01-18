@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param1" title="Адрес" list="">[%sitepostcode%], [%sitelocality%], [%siteaddr%]</parametr>
+	<parametr lang="ru" name="param2" title="Телефон" list="">[%sitephone%]</parametr>
+	<parametr lang="ru" name="param3" title="E-mail" list="">[%sitemail%]</parametr>
+	<parametr lang="ru" name="param4" title="Ширина блока" list="y|Резиновая,n|Фиксированная,d|Отключить">n</parametr>
+</params>

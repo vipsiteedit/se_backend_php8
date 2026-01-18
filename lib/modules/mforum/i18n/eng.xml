@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<language>
+	<lang001>Service message</lang001>
+	<lang002>Subpages</lang002>
+	<lang003>List of forums a specific section</lang003>
+	<lang004>List of topics</lang004>
+	<lang005>Viewing of message</lang005>
+	<lang006>Creating a topic, adding, editing</lang006>
+	<lang007>Personal data</lang007>
+	<lang008>User list</lang008>
+	<lang009>Search</lang009>
+	<lang010>Search results as a threads</lang010>
+	<lang011>Sending a personal message</lang011>
+	<lang012>Moderating the forum</lang012>
+	<lang013>User information</lang013>
+	<lang014>Search results as a posts</lang014>
+	<lang015>Personal message</lang015>
+	<lang016>Sent a private messages</lang016>
+	<lang017>Whom</lang017>
+	<lang018>Reply to post:</lang018>
+	<lang019>Messages are absent</lang019>
+	<lang020>Private</lang020>
+	<lang021>message</lang021>
+	<lang022>for</lang022>
+	<lang023>Topic title:</lang023>
+	<lang024>Send notification when  message came on the email:</lang024>
+	<lang025>You are not logged in!</lang025>
+	<lang026>My account</lang026>
+	<lang027>Your username:</lang027>
+	<lang028>Your real name:</lang028>
+	<lang029>Location:</lang029>
+	<lang030>Status:</lang030>
+	<lang031>Messages:</lang031>
+	<lang032>Personal messages:</lang032>
+	<lang033>Sent personal messages:</lang033>
+	<lang034>Registration:</lang034>
+	<lang035>Last visited</lang035>
+	<lang036>Occupation:</lang036>
+	<lang037>Hobby:</lang037>
+	<lang038>Image:</lang038>
+	<lang039>Delete</lang039>
+	<lang040>Signature:</lang040>
+	<lang041>Downlaod image</lang041>
+	<lang042>Download</lang042>
+	<lang043>Save</lang043>
+	<lang044>Cansel changes</lang044>
+	<lang045>Registrated users on the forum:</lang045>
+	<lang046>Users of forum</lang046>
+	<lang047>Username</lang047>
+	<lang048>Date of registration</lang048>
+	<lang049>Search word or phrase</lang049>
+	<lang050>In posts</lang050>
+	<lang051>All users</lang051>
+	<lang052>Where to search?</lang052>
+	<lang053>All forums</lang053>
+	<lang054>Search posts from ...</lang054>
+	<lang055>today</lang055>
+	<lang056>Last week</lang056>
+	<lang057>Last month</lang057>
+	<lang058>The last two months</lang058>
+	<lang059>The last three months</lang059>
+	<lang060>The last six months</lang060>
+	<lang061>Last year</lang061>
+	<lang062>All the time</lang062>
+	<lang063>Show search results</lang063>
+	<lang064>as a topics</lang064>
+	<lang065>as a posts</lang065>
+	<lang066>Nothing found on your search</lang066>
+	<lang067>Topic</lang067>
+	<lang068>Forum</lang068>
+	<lang069>Post</lang069>
+	<lang070>Views</lang070>
+	<lang071>Created</lang071>
+	<lang072>Update</lang072>
+	<lang073>You are unsubscribed from notification about adding messages in topic</lang073>
+	<lang074>You are not subscribed to notice!</lang074>
+	<lang075>File is missing on the server! Perhaps it was deleted by the administrator.</lang075>
+	<lang076>Sending a personal message</lang076>
+	<lang077>From</lang077>
+	<lang078>Message</lang078>
+	<lang079>Send</lang079>
+	<lang080>Back</lang080>
+	<lang081>Number of topics</lang081>
+	<lang082>Status</lang082>
+	<lang083>Visibility</lang083>
+	<lang084>Open</lang084>
+	<lang085>Closed</lang085>
+	<lang086>On</lang086>
+	<lang087>Off</lang087>
+	<lang088>Open</lang088>
+	<lang089>Close</lang089>
+	<lang090>Switch on</lang090>
+	<lang091>Switch off</lang091>
+	<lang092>Up</lang092>
+	<lang093>Down</lang093>
+	<lang094>Are you sure to delete the selected topic?</lang094>
+	<lang095>User data</lang095>
+	<lang096>Send a message</lang096>
+	<lang097>The post was edited</lang097>
+	<lang098>The post was edited by moderator</lang098>
+	<lang099>Invalid format! Allowed to attach files following formats:</lang099>
+	<lang100>Number of attached files exceeds the maximum allowed!</lang100>
+	<lang101>Summary size of files to  message</lang101>
+	<lang102>kb</lang102>
+	<lang103>exceeds the maximum allowed!</lang103>
+	<lang104>Summary size of files for you</lang104>
+	<lang105>Don&amp;apos;t press button too often! Topic already created!</lang105>
+	<lang106>Click on link of forum, in which was created topic...</lang106>
+	<lang107>The message field is empty!</lang107>
+	<lang108>Not specified topic posts!</lang108>
+	<lang109>Create a new topic can registered users only!</lang109>
+	<lang110>The selected file is not an image in format</lang110>
+	<lang111>User with the nickname</lang111>
+	<lang112>already registered on the forum.</lang112>
+	<lang113>Please select an other nickname.</lang113>
+	<lang114>year</lang114>
+	<lang115>Send messages can registered users only!</lang115>
+	<lang116>Your message has been successfully sent!</lang116>
+	<lang117>Enter the e-mail address</lang117>
+	<lang118>Enter URL of image</lang118>
+	<lang119>Enter URL</lang119>
+	<lang120>The message field is empty!</lang120>
+	<lang121>The message length is longer than the maximum!</lang121>
+	<lang122>kb</lang122>
+	<lang123>Size:</lang123>
+	<lang124>Start searching</lang124>
+	<lang125>Author:</lang125>
+	<lang126>Back</lang126>
+	<lang127>Username:</lang127>
+	<lang128>Absent</lang128>
+	<lang129>delete</lang129>
+	<lang130>Delete a file</lang130>
+	<lang131>Your account is blocked! Refer to the administrator.</lang131>
+	<lang132>Security mode from flooding was switched by administrator of forum. Wait at least </lang132>
+	<lang133>seconds before updating the page.</lang133>
+	<lang134>Today</lang134>
+	<lang135>year</lang135>
+	<lang136>time on the server</lang136>
+	<lang137>Your username</lang137>
+	<lang138>New posts</lang138>
+	<lang139>Users</lang139>
+	<lang140>Posts</lang140>
+	<lang141>Author</lang141>
+	<lang142>No</lang142>
+	<lang143>Online</lang143>
+	<lang144>users</lang144>
+	<lang145>Registered</lang145>
+	<lang146>Guests</lang146>
+	<lang147>Search engine robots</lang147>
+	<lang148>Moderator</lang148>
+	<lang149>Moderator has not been appointed</lang149>
+	<lang150>Moderate</lang150>
+	<lang151>New Topic</lang151>
+	<lang152>There are no topics in this forum.</lang152>
+	<lang153>Pages</lang153>
+	<lang154>Topic not found. Perhaps it has been deleted by moderator.</lang154>
+	<lang155>E-mail</lang155>
+	<lang156>ICQ</lang156>
+	<lang157>Only registered users can add posts!</lang157>
+	<lang158>List of colors</lang158>
+	<lang159>The maximum message length</lang159>
+	<lang160>chars</lang160>
+	<lang161>You can enter else</lang161>
+	<lang162>Attach a file or image</lang162>
+	<lang163>Attached files</lang163>
+	<lang164>Attaching files</lang164>
+	<lang165>summary size</lang165>
+	<lang166>Allowed to attach files</lang166>
+	<lang167>No attached files</lang167>
+	<lang168>Add</lang168>
+	<lang169>This forum is closed. Adding new topics is forbidden!</lang169>
+	<lang170>This topic is closed. Adding new posts is forbidden!</lang170>
+	<lang171>Letter from the forum</lang171>
+	<lang172>Remove this post?</lang172>
+	<lang173>Yes</lang173>
+	<lang174>January</lang174>
+	<lang175>February</lang175>
+	<lang176>March</lang176>
+	<lang177>April</lang177>
+	<lang178>May</lang178>
+	<lang179>June</lang179>
+	<lang180>July</lang180>
+	<lang181>August</lang181>
+	<lang182>September</lang182>
+	<lang183>October</lang183>
+	<lang184>November</lang184>
+	<lang185>December</lang185>
+	<lang186>New post</lang186>
+	<lang187>Reply</lang187>
+	<lang188>Edit</lang188>
+	<lang189>Only registered users can add topics!</lang189>
+	<lang190></lang190>
+	<lang191></lang191>
+</language>

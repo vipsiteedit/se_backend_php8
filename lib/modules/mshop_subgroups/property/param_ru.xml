@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<params>
+	<parametr lang="ru" name="param19" title="Страница каталога" list="">catalogue</parametr>
+	<parametr lang="ru" name="param27" title="Код группы по умолчанию" list=""></parametr>
+	<parametr lang="ru" name="param4" title="Количество групп для отображения в родительской группе" list="">2</parametr>
+	<parametr lang="ru" name="param33" title="Отображать путь по каталогу (хлебные крошки)" list="N|Не отображать,Y|Всегда отображать,M|Только при выбранной группе">M</parametr>
+	<parametr lang="ru" name="param17" title="Символ разделитель для пути" list="">—</parametr>
+	<parametr lang="ru" name="param7" title="Разделитель подгрупп" list="">, </parametr>
+	<parametr lang="ru" name="param34" title="Отображать картинки подгрупп главной страницы" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param35" title="Отображать картинки подгрупп выбранной группы" list="Y|Да,N|Нет">Y</parametr>
+	<parametr lang="ru" name="param28" title="Ограничение размера фото главной страницы" list="">200x200</parametr>
+	<parametr lang="ru" name="param29" title="Ограничение размера фото подгрупп" list="">200x200</parametr>
+	<parametr lang="ru" name="param30" title="Ограничение размера большого изображения" list="">200x200</parametr>
+	<parametr lang="ru" name="param32" title="Отображать контент при поиске и фильтрации товаров" list="Y|Да,N|Нет">N</parametr>
+	<parametr lang="ru" name="param36" title="Ширина раздела" list="y|Резиновая,n|Фиксированная">n</parametr>
+	<parametr lang="ru" name="param37" title="Отображать описание главной категории" list="Y|Да,N|Нет">Y</parametr>
+</params>

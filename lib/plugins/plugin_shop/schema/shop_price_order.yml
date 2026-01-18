@@ -1,0 +1,43 @@
+ShopPriceOrder:
+  actAs: [Timestampable]
+  columns:
+    order_id: #заказ
+      type: integer
+      notnull: true
+    price_id: #товар\услуга
+      type: integer
+    price: #стоимость
+      type: float(10)
+      notnull: true
+    discount: #скидка (валюта)
+      type: float(10)
+      notnull: true
+    count: #количество
+      type: integer
+      default: 1
+      notnull: true
+    nameitem: #описание
+      type: string(250)
+    license_id: #лицензия
+      type: integer
+    comment: #комментарий
+      type: string(2147483647)
+  relations:
+    order:
+      class: ShopOrder
+      local: order_id
+      foreignAlias: price_order
+      onDelete: CASCADE
+      onUpdate: CASCADE
+    price:
+      class: ShopPrice
+      local: price_id
+      foreignAlias: price_order
+      onDelete: 'SET NULL'
+      onUpdate: CASCADE
+    license:
+      class: ShopLicense
+      local: license_id
+      foreignAlias: price_order
+      onDelete: 'SET NULL'
+      onUpdate: CASCADE

@@ -1,0 +1,18 @@
+﻿.popup_window {
+  background-color: rgba(14, 13, 13, 0.5); width:100%; height:100%; position:fixed; top:0px; left:0px; overflow:auto; z-index:1000;
+}
+div.popup_window {
+  -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box;
+}
+.popup_wrapper {
+  margin:auto; max-width:992px; position:absolute; top:0px; left:0px; right:0px; z-index:10;
+}
+body.noscroll {
+  overflow:hidden;     
+}
+.popup_window .close_btn {
+  cursor:pointer; background-image:url(close_btn.png); background-position:center center; background-repeat:no-repeat; /*border-width:10px;*/ border-color:#ffffff; border-style:solid; margin-top:5px; margin-right:5px; width:20px; height:20px; position:absolute; top:30px; right:0px; z-index:10;
+}
+.popup_window .record-item {
+  background-color:#ffffff; border-width:1px; border-color:#f2f2f2; border-style:solid; margin-top:30px; margin-bottom:30px; position:relative; padding:30px; -moz-box-shadow: 0 5px 20px rgba(0,0,0,0.3); -webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3); box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
