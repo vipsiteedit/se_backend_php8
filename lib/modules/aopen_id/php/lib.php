@@ -53,17 +53,17 @@ if (!function_exists('updateOpenId')){
                 PRIMARY KEY  (`id`)
                 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1";
             se_db_query($sql); 
-            $err .= mysql_error();
+            $err .= se_db_error();
     
             if (!se_db_is_field('se_loginza', 'photo')) {
                 se_db_query("ALTER TABLE `se_loginza` ADD `photo` varchar(255)");
             }
-            $err .= mysql_error();
+            $err .= se_db_error();
     
             if (!se_db_is_field('se_loginza', 'real_user_id')) {
                 se_db_query("ALTER TABLE `se_loginza` ADD `real_user_id` int(10)");
             }
-            $err .= mysql_error();
+            $err .= se_db_error();
     
             if(!$err) {
                 if(!is_dir(getcwd().'/system/logs/')) mkdir(getcwd().'/system/logs/');

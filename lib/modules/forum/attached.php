@@ -9,7 +9,7 @@ $userfile_size=$_FILES['userfile']['size'];
 $userfname=strtolower(htmlspecialchars($_FILES['userfile']['name'], ENT_QUOTES));
 
 //Определяем, допустим ли такой формат
-if (!(ereg("^[^\.]+\.(gif|jpg|png|rar|zip|arj|gz)$", $userfname))) {
+if (!preg_match('/^[^.]+\.(gif|jpg|png|rar|zip|arj|gz)$/', $userfname)) {
   $forum_echo.= "<div id=message_warning>Недопустимый формат! Разрешается прикреплять файлы следующих форматов: gif, jpg, png, rar, zip, arj, gz.</div>
   <div id=butlayer><input class=buttonForum id=btBack type=button onclick='javascript:history.go(-1)' value=\"Назад\"></div>";
   return;
@@ -65,7 +65,7 @@ if (move_uploaded_file($userfile, $uploadfile)) {
   $_SESSION['forum_attached']=$forum_attached;
 
   // Если загруженный файл - изображение
-  if (ereg("^.+\.(gif|jpg|png)$", $uploadfile)) {
+  if (preg_match('/^.+\.(gif|jpg|png)$/', $uploadfile)) {
     //Определяем размер картинки
     $sz=GetImageSize($uploadfile);
     //Если размер больше 400х300, делаем уменьшенную копию

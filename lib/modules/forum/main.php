@@ -12,7 +12,7 @@ $forum_echo.= "<tr>
 
 //‘орумы
 
-$rf = mysql_query("
+$rf = se_db_query("
   SELECT forum_forums.id AS id, forum_forums.name, forum_forums.description, forum_forums.id_area, forum_forums.moderator,
          forum_area.id AS aid, forum_area.name AS area, forum_users.id AS uid, forum_users.nick, forum_forums.enable
   FROM forum_forums, forum_area, forum_users
@@ -23,7 +23,7 @@ $rf = mysql_query("
 //echo mysql_error();
 
 $aid=0;
-while ($forum=mysql_fetch_array($rf)) {
+while ($forum=se_db_fetch_array($rf)) {
 // $forum_echo.= htmlspecialchars($forum['area']);
   if ($forum['aid']!=$aid) {
     //if ($aid!=0) $forum_echo.= "</TBODY></table><br>";
@@ -36,7 +36,7 @@ while ($forum=mysql_fetch_array($rf)) {
   $moderator="<a id=main_linkModer href='?act=showuser&id=$id_user'>".$forum['nick']."</a>";
   $description=htmlspecialchars($forum['description'], ENT_QUOTES);
 
-  $rt = mysql_query("
+  $rt = se_db_query("
     SELECT forum_topic.id AS id, id_forums, date_time_new, id_user_new, name, nick
     FROM forum_topic, forum_users
     WHERE forum_topic.id_forums='$id_forum' AND forum_topic.id_user_new=forum_users.id
@@ -49,11 +49,11 @@ while ($forum=mysql_fetch_array($rf)) {
     $forumStatusID="NoNewMess";
   }
 
-  $count=mysql_num_rows($rt);
+  $count=se_db_num_rows($rt);
 
   if ($count!=0) {
 
-    $topic=mysql_fetch_array($rt);
+    $topic=se_db_fetch_array($rt);
     $topicName="<a href='?act=showtopic&id=".$topic['id']."&new&last' id=main_LinkTopic>".stripslashes(htmlspecialchars($topic['name'], ENT_QUOTES))."</a>";
     $topicDateNew = date("d", $topic['date_time_new'])." ".$month_R[date("m", $topic['date_time_new'])].date(" Y года в H:i", $topic['date_time_new']);
     $topicNick="<a href='?act=showuser&id=".$topic['id_user_new']."' id=main_cellAuthorNickCr>".htmlspecialchars($topic['nick'], ENT_QUOTES)."</a>";

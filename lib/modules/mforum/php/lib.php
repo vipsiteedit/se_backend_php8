@@ -152,7 +152,7 @@ function updateDB($section) {
             se_db_query ("ALTER TABLE `forum_session` 
                             ADD `id` INT NOT NULL AUTO_INCREMENT FIRST,
                             ADD PRIMARY KEY ( `id` )");
-            $err .= mysql_error();
+            $err .= se_db_error();
         }
         
         foreach (array ('forum_area', 'forum_attached', 'forum_forums', 'forum_msg',
@@ -162,27 +162,27 @@ function updateDB($section) {
                 se_db_query ("ALTER TABLE `$v` 
                                     ADD `updated_at` TIMESTAMP NOT NULL 
                                         DEFAULT CURRENT_TIMESTAMP");
-                $err .= mysql_error();
+                $err .= se_db_error();
             }
             if (!se_db_is_field($v, 'created_at')) {
                 se_db_query ("ALTER TABLE `$v` 
                                     ADD `created_at` TIMESTAMP NOT NULL AFTER `updated_at`");
-                $err .= mysql_error();
+                $err .= se_db_error();
             }
         }
 
     
         se_db_query("ALTER TABLE `forum_forums` CHANGE `name` `name` VARCHAR(255) NOT NULL");
-        $err .= mysql_error();
+        $err .= se_db_error();
     
         if (!se_db_is_field('forum_forums', 'lang')) {
             se_db_query("ALTER TABLE `forum_forums` ADD `lang` VARCHAR( 6 ) NOT NULL DEFAULT 'rus' AFTER `id`");
-            $err .= mysql_error();
+            $err .= se_db_error();
         }
 
         if (!se_db_is_field('forum_area', 'lang')) {
             se_db_query("ALTER TABLE `forum_area` ADD `lang` VARCHAR( 6 ) NOT NULL DEFAULT 'rus' AFTER `id`");
-            $err .= mysql_error();
+            $err .= se_db_error();
         }
 
         if(!$err) {

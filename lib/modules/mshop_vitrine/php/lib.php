@@ -9,7 +9,7 @@ function createtables($path) {
         //se_yaml_to_sql($ymlfile, $outpath = '', $foreign_keys = true, $add_values = false)
            $sqllist = explode("###", se_yaml_to_sql($path.'/'.$table.'.yml', '', true));
            foreach($sqllist as $sql){
-                se_db_query($sql); echo mysql_error();
+                se_db_query($sql); echo se_db_error();
            }
         }
     }

@@ -2,12 +2,12 @@
 
 $forumselected = "<option value='all' selected='selected'>&raquo; Во всех форумах</option>";
 
-$rf = mysql_query("
+$rf = se_db_query("
   SELECT id, name
   FROM forum_forums"
 );
 
-while ($forum=mysql_fetch_array($rf)) {
+while ($forum=se_db_fetch_array($rf)) {
   $forumselected.="<option value='".$forum['id']."'>".$forum['name']."</option>";
 }
 

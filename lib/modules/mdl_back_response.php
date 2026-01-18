@@ -121,7 +121,7 @@ function module_back_response($razdel, $section = null)
      exit;
    }          
    $sql = "INSERT INTO back_response (id_subscribe,l_name,f_name,s_name,email,phone) VALUES( '{$scribe}','{$last}','{$first}','{$second}','{$mail}','{$phone}')";
-   mysql_query($sql);
+   se_db_query($sql);
    exit;    
  }
 

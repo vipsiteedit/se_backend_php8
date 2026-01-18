@@ -45,7 +45,7 @@ else
 
 //Проверяем, что загруженный файл - картинка
 list($width, $height, $mimetype) = GetImageSize($userfile);
-if (!(ereg("^[^\.]+\.(gif|jpg|png)$", $origfilename) && ($mimetype==1 || $mimetype==2 || $mimetype==3))) {
+if (!(preg_match('/^[^.]+\.(gif|jpg|png)$/', $origfilename) && ($mimetype==1 || $mimetype==2 || $mimetype==3))) {
   $forum_echo.= "<div id=message_warning>Выбранный файл не является картинкой в формате GIF/JPG/PNG!</div>
   <div id=butlayer><input class=buttonForum id=btBack type=button onclick='javascript:history.go(-1)' value=\"Назад\"></div>";
   return;

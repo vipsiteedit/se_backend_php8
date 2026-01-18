@@ -140,7 +140,7 @@ if ($GR_AUTHOR < $group_num) return;
     if (isset($_GoTo)) {
       require_once("lib/lib_images.php"); //Присоединяем графическую библиотеку
       $resmax = se_db_query("SELECT SQL_SMALL_RESULT max(id) AS obid FROM bbs");
-      $rmax   = mysql_fetch_array($resmax);
+      $rmax   = se_db_fetch_array($resmax);
       $maxid  = @$rmax['obid']+1;
       $width_prew = "{$section->params[4]->value}"; 
       if ($width_prew==0)

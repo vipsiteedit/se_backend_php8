@@ -83,7 +83,7 @@ ORDER BY shop_order.id ASC"); */
            $tbl->orderby("id");
            $result = $tbl->getList();
            $i=1;
-//           while ($line = mysql_fetch_array($result))
+//           while ($line = se_db_fetch_array($result))
            foreach($result as $line) 
            {
              $selected="";
@@ -109,7 +109,7 @@ ORDER BY shop_order.id ASC"); */
            $tbl->where("`id_author`='?'",$id_author);
            $line = $tbl->fetchOne();       
  //          if (isset($result)) {
- ///             $line=mysql_fetch_array($result);
+ ///             $line=se_db_fetch_array($result);
             if (!empty($line)) {
               $PAYEE_DATE=$line['max_date_payee'];
               $PAYEE_RES=se_formatMoney(se_MoneyConvert($line['res_payee'],"USD",$defvalut), $defvalut);
@@ -117,7 +117,7 @@ ORDER BY shop_order.id ASC"); */
 /*
            $sql="SELECT `in_payee`, `out_payee`,`curr` from `shop_payee` WHERE (`id_author`=$id_author) AND (`date_payee`='$PAYEE_DATE');";
            $result = se_db_query($sql);
-           while (@$line=mysql_fetch_array($result)) {
+           while (@$line=se_db_fetch_array($result)) {
 //*/
            $tbl->where("`id_author`='?'",$id_author);
            $tbl->andWhere("`date_payee`='?'",$PAYEE_DATE);

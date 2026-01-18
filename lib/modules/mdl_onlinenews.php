@@ -181,10 +181,10 @@ if (($razdel != $__request['razdel']) || empty($__request['sub'])){
      WHERE
     (`news`.lang ='$lang') $newskod AND (`news`.pub_date<='$thisdate') ORDER BY date DESC $limitpage";
     $rnews = se_db_query($sql); //
-    $cnr = mysql_fetch_row(se_db_query("SELECT FOUND_ROWS()")); $cnrow = $cnr[0];
+    $cnr = se_db_fetch_row(se_db_query("SELECT FOUND_ROWS()")); $cnrow = $cnr[0];
     if (intval($pagen)>0)
       $MANYPAGE = str_replace("%alt%",$section->params[20]->value,se_divpages($cnrow, $pagen));
-    while ($news = mysql_fetch_array($rnews)){
+    while ($news = se_db_fetch_array($rnews)){
         $notetext=str_replace("\n","",strip_tags(replase_teg_edittext($news['text'])));
         $id = $news['id'];
         if ($moder == 1) $data[$nn][0] = "<a id=\"editlink\" href=\"?razdel=$razdel&amp;sub=3&amp;object=$id\">$text[11]</a>";
@@ -223,7 +223,7 @@ if(($razdel == $__request['razdel']) && !empty($__request['sub']) && ($__request
         if (isset($_GET['object'])){
             $Obj = htmlspecialchars($_GET['object'],ENT_QUOTES);
             $rnews = se_db_query("SELECT SQL_CACHE id, title, short_txt, text, img FROM news WHERE id='$Obj'");
-            $news = mysql_fetch_array($rnews);
+            $news = se_db_fetch_array($rnews);
             $col1 = se_db_output($news['title']);
             $titlepage=$col1;
             if (!((strpos($news['text'],'<')!==false) && (strpos($news['text'],'>')!==false)))
@@ -273,7 +273,7 @@ if(($razdel == $__request['razdel']) && !empty($__request['sub']) && ($__request
                    $user=strtolower(htmlspecialchars($_FILES['userfile']['name'], ENT_QUOTES));
                    //Проверяем, что загруженный файл - картинка
                    $sz=GetImageSize($userfile);
-                   if (!(ereg("^.+\.(gif|jpg|png)$", $user) && ($sz[2]==1 || $sz[2]==2 || $sz[2]==3))) {
+                   if (!(preg_match('/^.+\.(gif|jpg|png)$/', $user) && ($sz[2]==1 || $sz[2]==2 || $sz[2]==3))) {
                         $errortext = $text[9];
                         $flag = false;
                         return;
@@ -302,7 +302,7 @@ if(($razdel == $__request['razdel']) && !empty($__request['sub']) && ($__request
               $title  = $_POST['title'];
               $text   = $_POST['text'];
               $resmax = se_db_query("SELECT max(id) AS obid FROM news");
-              $rmax   = mysql_fetch_array($resmax);
+              $rmax   = se_db_fetch_array($resmax);
               $maxid  = $rmax['obid']+1;
               // если загружаем файл
               if ($file){
@@ -342,7 +342,7 @@ if(($razdel == $__request['razdel']) && !empty($__request['sub']) && ($__request
         if (isset($_GET['object'])){
             $nid = $_GET['object'];
             $redit = se_db_query("SELECT date, title, text, img FROM news WHERE id = '$nid'");
-            $edit = mysql_fetch_array($redit);
+            $edit = se_db_fetch_array($redit);
             // сформировать дату
             $_time = explode(".",date("d.m.Y", $edit['date']));
             $_day       = htmlspecialchars(stripslashes($_time[0]));
@@ -381,7 +381,7 @@ if(($razdel == $__request['razdel']) && !empty($__request['sub']) && ($__request
                        $user=strtolower(htmlspecialchars($_FILES['userfile']['name'], ENT_QUOTES));
                        //Проверяем, что загруженный файл - картинка
                        $sz=@GetImageSize($userfile);
-                       if (!(ereg("^.+\.(gif|jpg|png)$", $user) /*&& ($sz[2]==1 || $sz[2]==2 || $sz[2]==3)*/)) {
+                       if (!(preg_match('/^.+\.(gif|jpg|png)$/', $user) /*&& ($sz[2]==1 || $sz[2]==2 || $sz[2]==3)*/)) {
                             $errortext = $text[9];
                             $flag = false;
                             return;

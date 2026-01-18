@@ -61,7 +61,7 @@ if (!function_exists('dbUpdate')) {
                     "KEY `lang` (`lang`) " .
                 ") ENGINE=InnoDB  DEFAULT CHARSET=utf8 PACK_KEYS=0 CHECKSUM=1;";
             se_db_query($sql); 
-            $err .= mysql_error();
+            $err .= se_db_error();
             $sql = 
                 "CREATE TABLE IF NOT EXISTS `se_blog_category_post` (" .
                     "`id` int(11) NOT NULL auto_increment, " .
@@ -74,7 +74,7 @@ if (!function_exists('dbUpdate')) {
                     "KEY `id_post` (`id_post`) " .
                 ") ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;";
             se_db_query($sql);
-            $err .= mysql_error();
+            $err .= se_db_error();
             $sql = 
                 "CREATE TABLE IF NOT EXISTS `se_blog_comments` (" .
                     "`id` int(10) unsigned NOT NULL auto_increment, " .
@@ -90,7 +90,7 @@ if (!function_exists('dbUpdate')) {
                     "KEY `idfiles` (`idfiles`) " .
                 ") ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;";
             se_db_query($sql);
-            $err .= mysql_error();
+            $err .= se_db_error();
             $sql = 
                 "CREATE TABLE IF NOT EXISTS `blogcategories` ( " .
                     "`id` int(11) unsigned NOT NULL auto_increment, " .
@@ -105,39 +105,39 @@ if (!function_exists('dbUpdate')) {
                     "KEY `upid` (`upid`) " .
                 "') ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;";
             se_db_query($sql); 
-            $err .= mysql_error();
+            $err .= se_db_error();
             $sql = "ALTER TABLE `se_blog_posts` ADD `lang` VARCHAR( 15 ) NOT NULL DEFAULT 'rus' AFTER `author_id`";
             se_db_query($sql);
-            $err .= mysql_error();
+            $err .= se_db_error();
             //если нет поля lang
             if (!se_db_is_field('blogcategories', 'lang')) {
                 se_db_query("ALTER TABLE `blogcategories` ADD `lang` varchar(15) NOT NULL default 'rus'");
-                $err .= mysql_error();
+                $err .= se_db_error();
             }
             $sql = "ALTER TABLE `blogcategories` " .
                         "ADD CONSTRAINT `blogcategories_ibfk_1` " .
                             "FOREIGN KEY (`upid`) REFERENCES `blogcategories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE";
             se_db_query($sql);      
-            $err .= mysql_error();
+            $err .= se_db_error();
             $sql = "ALTER TABLE `se_blog_comments` " .
                         "ADD CONSTRAINT `se_blog_comments_ibfk_1` " .
                             "FOREIGN KEY (`upid`) REFERENCES `se_blog_comments` (`id`) ON DELETE CASCADE ON UPDATE CASCADE, " .
                         "ADD CONSTRAINT `se_blog_comments_ibfk_2` " . 
                             "FOREIGN KEY (`idfiles`) REFERENCES `se_blog_posts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE";
             se_db_query($sql);
-            $err .= mysql_error();
+            $err .= se_db_error();
             $sql = "ALTER TABLE `se_blog_category_post` " .
                         "ADD CONSTRAINT `se_blog_category_post_ibfk_1` " . 
                             "FOREIGN KEY (`id_post`) REFERENCES `se_blog_posts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE, " .
                         "ADD CONSTRAINT `se_blog_category_post_ibfk_2` " . 
                             "FOREIGN KEY (`id_category`) REFERENCES `blogcategories` (`id`) ON DELETE CASCADE ON UPDATE CASCADE";
             se_db_query($sql);
-            $err .= mysql_error();
+            $err .= se_db_error();
             $sql = "ALTER TABLE `se_blog_posts` " .
                         "ADD `event` ENUM( 'Y', 'N' ) NOT NULL DEFAULT 'N' AFTER `date_add` , " .
                         "ADD `beginning` INT( 11 ) NOT NULL DEFAULT '0' AFTER `event`";
             se_db_query($sql);
-            $err .= mysql_error();
+            $err .= se_db_error();
 /*
             if (!is_dir(getcwd() . '/system/logs')) {
                 mkdir(getcwd() . '/system/logs');

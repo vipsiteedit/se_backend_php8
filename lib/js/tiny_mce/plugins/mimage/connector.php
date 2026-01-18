@@ -191,7 +191,7 @@ class TinyImageManager {
 		$handle = opendir($beginFolder);
 		if ($handle) {
 			$struct[$beginFolder]['path'] = str_replace(array($this->dir['files'], $this->dir['images']),'',$beginFolder);
-			$tmp = split('[\\/]',$beginFolder);
+			$tmp = preg_split('/[\\/]',$beginFolder);
 			$tmp = array_filter($tmp);
 			end($tmp);
 			$struct[$beginFolder]['name'] = current($tmp);
@@ -229,7 +229,7 @@ class TinyImageManager {
 		
 		$currentDirArr = array();
 		if(!empty($currentDir)) {
-			$currentDirArr = split('[\\/]',str_replace($this->dir[$type],'',realpath($currentDir)));
+			$currentDirArr = preg_split('/[\\/]',str_replace($this->dir[$type],'',realpath($currentDir)));
 			$currentDirArr = array_filter($currentDirArr);
 		}
 		
@@ -311,7 +311,7 @@ class TinyImageManager {
 	function DirPath($type, $path='') {
 		
 		if(!empty($path)) {
-			$path = split('[\\/]',str_replace($this->dir[$type],'',realpath($path)));
+			$path = preg_split('/[\\/]',str_replace($this->dir[$type],'',realpath($path)));
 			$path = array_filter($path);
 		}
 		

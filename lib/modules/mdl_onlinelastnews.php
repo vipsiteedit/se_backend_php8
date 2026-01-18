@@ -34,7 +34,7 @@ if (($razdel != $__request['razdel']) || empty($__request['sub'])){
     `news`.title,`news`.`date` FROM `news` INNER JOIN `news_category`
     ON (`news`.id_category = `news_category`.id) WHERE
     (`news`.lang ='$lang') AND (`news_category`.kod = '$newskod') AND (`news`.pub_date<='$thisdate') ORDER BY date DESC $limit");
-    while ($news = mysql_fetch_array($rnews)){
+    while ($news = se_db_fetch_array($rnews)){
         $id = se_db_output($news['id']);
         $notetext=str_replace("\n","",strip_tags(replase_teg_edittext($news['text'])));
         $data[$nn][0] = date("d.m.Y",htmlspecialchars($news['date'],ENT_QUOTES));

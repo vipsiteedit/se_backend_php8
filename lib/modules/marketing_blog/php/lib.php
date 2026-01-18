@@ -199,34 +199,34 @@
                       KEY `lang` (`lang`)
                      ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;";
                 se_db_query($sql);
-                $err .= mysql_error();
+                $err .= se_db_error();
                 
                 if (!se_db_is_field('blog_posts','rating_correction')){ 
                     $sql = "ALTER TABLE `blog_posts` 
                                 CHANGE `rating` `rating_correction` INT( 10 ) NOT NULL DEFAULT '0' COMMENT 'админская накрутка рейтинга'";
                     se_db_query($sql);
-                    $err .= mysql_error();
+                    $err .= se_db_error();
                 }
     
                 if (!se_db_is_field('blog_posts','listimages')){ 
                     $sql = "ALTER TABLE `blog_posts` 
                                 ADD `listimages` TEXT DEFAULT NULL COMMENT 'Список картинок' AFTER `picture` ";
                     se_db_query($sql);
-                    $err .= mysql_error();
+                    $err .= se_db_error();
                 }
 
                 if (!se_db_is_field('blog_posts','listimages_alt')){ 
                     $sql = "ALTER TABLE `blog_posts` 
                                 ADD `listimages_alt` TEXT DEFAULT NULL COMMENT 'Подпись к картинкам' AFTER `listimages` ";
                     se_db_query($sql);
-                    $err .= mysql_error();
+                    $err .= se_db_error();
                 }
 
                 if (!se_db_is_field('blog_posts','foto_param')){ 
                     $sql = "ALTER TABLE `blog_posts` 
                                 ADD `foto_param` TEXT DEFAULT '' AFTER `full` ";
                     se_db_query($sql);
-                    $err .= mysql_error();
+                    $err .= se_db_error();
                 }
 
                 $sql = "
@@ -241,14 +241,14 @@
                        KEY `id_post` (`id_post`)
                       ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;";
                 se_db_query($sql);
-                $err .= mysql_error();
+                $err .= se_db_error();
 
                 $sql = "
                     ALTER TABLE `blogcategories` 
                         ADD CONSTRAINT `blog_category_post_ibfk_1` FOREIGN KEY ( `id` ) REFERENCES `blog_category_post` (`id_category`) ON DELETE CASCADE ON UPDATE CASCADE,
                         ADD CONSTRAINT `blog_category_post_ibfk_2` FOREIGN KEY ( `id_post` ) REFERENCES `blog_posts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE ; ";
                 se_db_query($sql);
-                $err .= (strpos(mysql_error(),'errno: 121')) ? '' : mysql_error();
+                $err .= (strpos(se_db_error(),'errno: 121')) ? '' : se_db_error();
 
                 $sql = "
                      CREATE TABLE IF NOT EXISTS `blog_comments` (
@@ -268,13 +268,13 @@
                       KEY `id_post` (`id_post`)
                      ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;";
                 se_db_query($sql);
-                $err .= mysql_error();
+                $err .= se_db_error();
 
                 if (!se_db_is_field('blog_comments','rating_correction')){ 
                     $sql = "ALTER TABLE `blog_comments` 
                                 CHANGE `rating` `rating_correction` INT( 10 ) NOT NULL DEFAULT '0' COMMENT 'админская накрутка рейтинга'";
                     se_db_query($sql);
-                    $err .= mysql_error();
+                    $err .= se_db_error();
                 }
 
                 $sql = "
@@ -283,7 +283,7 @@
                         ADD CONSTRAINT `blog_comments_ibfk_2` FOREIGN KEY (`upid`) REFERENCES `blog_comments` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
                         ADD CONSTRAINT `blog_comments_ibfk_3` FOREIGN KEY (`id_user`) REFERENCES `se_user` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;";
                 se_db_query($sql);
-                $err .= (strpos(mysql_error(),'errno: 121')) ? '' : mysql_error();
+                $err .= (strpos(se_db_error(),'errno: 121')) ? '' : se_db_error();
 
                 $sql = "
                      CREATE TABLE IF NOT EXISTS `blog_comment_rating` (
@@ -300,14 +300,14 @@
                       KEY `id_comment` (`id_comment`)
                      ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;";
                 se_db_query($sql);
-                $err .= mysql_error();
+                $err .= se_db_error();
 
                 $sql = "
                      ALTER TABLE `blog_comment_rating`
                           ADD CONSTRAINT `blog_comment_rating_ibfk_1` FOREIGN KEY (`id_comment`) REFERENCES `blog_comments` (`id`) ON DELETE CASCADE ON UPDATE CASCADE,
                           ADD CONSTRAINT `blog_comment_rating_ibfk_2` FOREIGN KEY (`id_post`) REFERENCES `blog_posts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;";
                 se_db_query($sql);
-                $err .= (strpos(mysql_error(),'errno: 121')) ? '' : mysql_error();
+                $err .= (strpos(se_db_error(),'errno: 121')) ? '' : se_db_error();
 
                 $sql = "
                      CREATE TABLE IF NOT EXISTS `blog_post_rating` (
@@ -323,13 +323,13 @@
                       KEY `id_user` (`id_user`)
                      ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 ;";
                 se_db_query($sql);
-                $err .= mysql_error();
+                $err .= se_db_error();
 
                 $sql = "
                      ALTER TABLE `blog_post_rating`
                           ADD CONSTRAINT `blog_post_rating_ibfk_1` FOREIGN KEY (`id_post`) REFERENCES `blog_posts` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;";
                 se_db_query($sql);
-                $err .= (strpos(mysql_error(),'errno: 121')) ? '' : mysql_error();
+                $err .= (strpos(se_db_error(),'errno: 121')) ? '' : se_db_error();
     
                 $sql = "
                      CREATE TABLE IF NOT EXISTS `blog_user_subscribe` (
@@ -343,7 +343,7 @@
                       KEY `id_user` (`id_user`)
                      ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ;";
                 se_db_query($sql);
-                $err .= mysql_error();
+                $err .= se_db_error();
     
                 if (!$err) {
                     if (!is_dir(getcwd().'/system/logs/')) {
