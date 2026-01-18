@@ -20,13 +20,13 @@ ini_set('memory_limit', '500M');
 
 function getFileLog($ext_p, $filename, $basedir = '')
 {
-	if (is_dir($filename) || strpos($filename, '.log')) return;
+	if (is_dir($filename) || strpos($filename, '.log') !== false) return;
 
 	if (filesize($filename) == 0) {
 		if (file_exists($filename . ".log")) unlink($filename . ".log");
 		return;
 	}
-	if (file_exists($filename . ".log") && strpos($filename, '.xml.log') == false) {
+	if (file_exists($filename . ".log") && strpos($filename, '.xml.log') === false) {
 		$tmplogo = explode(":", join(file($filename . ".log")));
 		if (filesize($filename) > 0) {
 			$filename = str_replace('/', "\\", str_replace($basedir, '', $filename));
@@ -95,8 +95,7 @@ if (!empty($ext_sub))
 else
 	$ext_sub = '';
 
-if (!empty($subdir))
-	$subdir = "/" . $subdir;
+$subdir = $ext_sub;
 
 if ($act < 10) {
 	if ($act == 2)

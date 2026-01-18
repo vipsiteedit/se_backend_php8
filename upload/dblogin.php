@@ -14,9 +14,9 @@ require_once ("upload/function.php");
 define('SE_LIBS','lib/');
 define('SE_ROOT','');
 
-$project = $_POST['project'];
-$login = $_POST['login'];
-$passw = $_POST['password'];;
+$project = $_POST['project'] ?? '';
+$login = $_POST['login'] ?? '';
+$passw = $_POST['password'] ?? '';
 $sol = '';//substr(md5('235rt'),0,5);
 $sid = md5($login.date("U"));
 if ($CONFIG['HostName'] == 'localhost') $hostname = getenv("SERVER_ADDR");//getenv("HTTP_X_Real_IP");

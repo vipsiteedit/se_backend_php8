@@ -1,6 +1,9 @@
 <?php
 
-$token = $_POST['token'];
+$token = $_POST['token'] ?? '';
+if ($token === '') {
+    exit('no');
+}
 if (!empty($token) && strlen($token) == 32) {
      $token = md5($token);
      if (!is_dir(dirname(__FILE__) . '/data')) mkdir(dirname(__FILE__) . '/data');

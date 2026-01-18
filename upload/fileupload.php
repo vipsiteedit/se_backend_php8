@@ -12,8 +12,8 @@ require_once "function.php";
 $session = htmlspecialchars(addslashes($_POST['sid']));
 //$domain = addslashes($ext_dm);
 $folder = addslashes($_POST['fld']);
-$outname = addslashes($_POST['nm']);
-$typch = addslashes($_POST['tp']);
+$outname = addslashes($_POST['nm'] ?? '');
+$typch = addslashes($_POST['tp'] ?? '');
 
 if (!checkSID($session)) exit("no session");
 
@@ -45,13 +45,14 @@ if ($typch == 'g') {
   exit;
 }
 
+$file = false;
 if ($typch == 'u') {
   if (!is_dir($cwd . "/" . @$fldarr[1])) mkdir($cwd . "/" . @$fldarr[1]);
   if (!is_dir($cwd . "/" . @$fldarr[1] . "/" . @$fldarr[0])) mkdir($cwd . "/" . @$fldarr[1] . "/" . @$fldarr[0]);
   if (!is_dir($cwd . $FILE_DIR)) mkdir($cwd . $FILE_DIR);
 
 
-  if (is_uploaded_file($_FILES['userfile']['tmp_name'])) {
+  if (isset($_FILES['userfile']['tmp_name']) && is_uploaded_file($_FILES['userfile']['tmp_name'])) {
 
     $userfile = $_FILES['userfile']['tmp_name'];
     $userfile_size = $_FILES['userfile']['size'];
@@ -73,9 +74,11 @@ if ($typch == 'u') {
     $uploadfile     = $cwd . $FILE_DIR . $outname;
     move_uploaded_file($userfile, $uploadfile);
     if ($fldarr[2] == 'shopimg') {
-      $ext = end(explode('.', $uploadfile));
-      unlink(substr($uploadfile, 0, (0 - strlen($ext) - 1)) . '_prev.' . $ext);
-      unlink(substr($uploadfile, 0, (0 - strlen($ext) - 1)) . '_mid.' . $ext);
+      $ext = pathinfo($uploadfile, PATHINFO_EXTENSION);
+      if ($ext !== '') {
+        unlink(substr($uploadfile, 0, (0 - strlen($ext) - 1)) . '_prev.' . $ext);
+        unlink(substr($uploadfile, 0, (0 - strlen($ext) - 1)) . '_mid.' . $ext);
+      }
     }
     if (file_exists($cwd . $FILE_DIR . $outname)) echo "ok";
     else echo "no";

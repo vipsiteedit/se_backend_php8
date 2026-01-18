@@ -1,10 +1,10 @@
 <?php
 
-$ext_serial = $_POST['serial'];
-$ext_half1 = $_POST['half1'];
-$ext_session = $_POST['session'];
+$ext_serial = $_POST['serial'] ?? null;
+$ext_half1 = $_POST['half1'] ?? null;
+$ext_session = $_POST['session'] ?? '';
 
-if (!(isset($ext_serial, $ext_half1))) {
+if ($ext_serial === null || $ext_half1 === null) {
   header('HTTP/1.0 404');
   exit();
 }
@@ -26,19 +26,17 @@ if (md5($half1 . $half2) != $sk) exit('no! ' . $half1 . ' ' . $half2 . ' ' . $sk
 $path = getcwd() . "/data";
 
 
-if ($session !== "") { //���� �������� ���������� ������
+if ($session !== "") { // check existing session
   $fname = $path . "/" . $session . ".sid";
   if (file_exists($fname)) exit("yes");
   else exit("nof");
 }
 
-//������ ����� ������
+// create new session
 if (empty($session))  upload_del_badfile();
 
 if (!file_exists($path)) mkdir($path, SE_DIR_PERMISSIONS);
 $session = md5($serial . date("U"));
-//$path=getcwd()."/data";
-//mkdir($path);
 $size = 1000;
 $fname = $path . "/" . $session . ".sid";
 $f = fopen($fname, "w");

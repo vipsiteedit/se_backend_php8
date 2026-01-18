@@ -5,8 +5,8 @@ date_default_timezone_set("Europe/Moscow");
 define('SE_INDEX_INCLUDED', true);
 require_once getcwd() . "/system/main/init.php";
 
-$order_id = $_POST['idorder'];
-$codemail = $_POST['codemail'];
+$order_id = $_POST['idorder'] ?? '';
+$codemail = $_POST['codemail'] ?? '';
 $lang = (!empty($_POST['lang'])) ? $_POST['lang'] : 'rus';
 define('DEFAULT_LANG', $lang);
 
