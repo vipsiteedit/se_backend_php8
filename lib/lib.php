@@ -40,4 +40,4 @@ require_once dirname(__FILE__) . '/lib_images.php';
 require_once dirname(__FILE__) . '/lib_simpleXml.php';
 require_once dirname(__FILE__) . '/lib_voting.php';
 require_once dirname(__FILE__) . '/lib_rating.php';
-require_once dirname(__FILE__) . '/PHPMailer.php';
+//require_once dirname(__FILE__) . '/PHPMailer.php';

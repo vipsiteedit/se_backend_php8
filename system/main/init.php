@@ -51,6 +51,9 @@ if (file_exists("system/config_db.php")) {
     define('SE_DB_ENABLE', false);
 }
 
+if (file_exists(SE_ROOT . 'vendor/autoload.php')) {
+	require SE_ROOT . 'vendor/autoload.php';
+}
 
 // external request handler}
 require SE_CORE . 'serequests.php';    // service core functions

@@ -32,43 +32,47 @@ class plugin_jmail
     private $addr_to = '';
     private $body = '';
     private $headers;
-	public $domainEmail = '';
+    private $domainEmail = ''; 
 
     private $messages = array();
     private $attaches = array();
 
     private $boundary;
+    private $eol;
 
     public function __construct($subject, $to_email, $from_email)
     {
         $this->boundary = '==================' . strtoupper(uniqid()) . '==';
+        $this->eol = "\r\n";
         //smtp_headers
         $this->subject = '=?UTF-8?B?' . base64_encode($subject) . '?=';
         $this->addr_to = $to_email;
+        $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
 
         if (strpos($from_email, '@mail.')!==false || strpos($from_email, '@bk.')!==false || strpos($from_email, '@list.')!==false || strpos($from_email, '@inbox.')!==false) {
-            $from_email = 'noreply@' . str_replace('www.', '', $_SERVER['HTTP_HOST']);
+            $from_email = 'noreply@' . $host;
         }
+        
+        $this->domainEmail = 'admin@' . $host;
 
         //headers
-        $this->headers = "From: " . $from_email . "\n";
+        $this->headers = "From: " . $from_email . $this->eol;
         //$this->headers .= "To: " . $to_email . "\n";
         //$this->headers .= "Subject: " . $subject . "\n";
-        $this->headers .= "Reply-To: " . $from_email . "\n";
-        $this->headers .= "X-Mailer: PHP5\n";
-        $this->headers .= "X-Sender: " . $from_email . "\n";
-        $this->headers .= "Mime-Version: 1.0\n";
+        $this->headers .= "Reply-To: " . $from_email . $this->eol;
+        $this->headers .= "X-Mailer: PHP5" . $this->eol;
+        $this->headers .= "X-Sender: " . $from_email . $this->eol;
+        $this->headers .= "Mime-Version: 1.0" . $this->eol;
         $this->headers .= "Content-Type: multipart/mixed; ";
-        $this->headers .= "boundary=\"" . $this->boundary . "\"\n\n";
-		$this->domainEmail = 'admin@'.$_SERVER['HTTP_HOST'];
+        $this->headers .= "boundary=\"" . $this->boundary . "\"" . $this->eol . $this->eol;
 
     }
     public function attach($filename = '', $filepath = '', $mime = '', $cid = false)
     {
         if (empty($mime))
             $mime = 'application/octet-stream';
-        $content_id = uniqid();
-        $this->attaches[] = array('filename' => $filename, 'filepath' => $filepath, 'mime' => $mime, 'cid' => $content_id, 'cid' => $cid);
+        $content_id = $cid ? $cid : uniqid();
+        $this->attaches[] = array('filename' => $filename, 'filepath' => $filepath, 'mime' => $mime, 'cid' => $content_id);
         return $content_id;
     }
     public function addtext($message, $mime)
@@ -80,12 +84,16 @@ class plugin_jmail
 
     private function encode_file($sourcefile)
     {
+        $encoded = '';
         if (is_readable($sourcefile))
         {
-            $fd = fopen($sourcefile, "r");
-            $contents = fread($fd, filesize($sourcefile));
-            $encoded = $this->my_chunk_split(base64_encode($contents));
-            fclose($fd);
+            $fd = fopen($sourcefile, "rb");
+            if ($fd !== false) {
+                $size = filesize($sourcefile);
+                $contents = ($size > 0) ? fread($fd, $size) : '';
+                $encoded = $this->my_chunk_split(base64_encode($contents));
+                fclose($fd);
+            }
         }
         return $encoded;
     }
@@ -116,10 +124,10 @@ class plugin_jmail
     {
         foreach ($this->messages as $message)
         {
-            $this->body .= '--' . $this->boundary . "\n";
-            $this->body .= "Content-Type: " . $message['mime'] . "; charset=\"UTF-8\"\n";
-            $this->body .= "Content-Transfer-Encoding: 8bit\n";
-            $this->body .= "\n" . $message['message'] . "\n\n";
+            $this->body .= '--' . $this->boundary . $this->eol;
+            $this->body .= "Content-Type: " . $message['mime'] . "; charset=\"UTF-8\"" . $this->eol;
+            $this->body .= "Content-Transfer-Encoding: 8bit" . $this->eol;
+            $this->body .= $this->eol . $message['message'] . $this->eol . $this->eol;
         }
         foreach ($this->attaches as $attach)
         {
@@ -129,28 +137,32 @@ class plugin_jmail
     		$ffr = false;
     	    }
     	    
-            $this->body .= '--' . $this->boundary . "\n";
+            $this->body .= '--' . $this->boundary . $this->eol;
             if (!$ffr){
-        	$this->body .= "Content-Type: " . $attach['mime'] . "; name=\"" . $attach['filename'] . "\"\n";
+        	$this->body .= "Content-Type: " . $attach['mime'] . "; name=\"" . $attach['filename'] . "\"" . $this->eol;
             } else {
-        	$this->body .= "Content-Type: " . $attach['mime'] . "; name=\"" . end(explode('/',$attach['filename'])) . "\"\n";
+                $parts = explode('/', $attach['filename']);
+                $filename = end($parts);
+        	$this->body .= "Content-Type: " . $attach['mime'] . "; name=\"" . $filename . "\"" . $this->eol;
             }
             if (!$ffr){
-        	$this->body .= "Content-disposition: attachment; name=\"" . $attach['filename'] . "\"\n";
+        	$this->body .= "Content-disposition: attachment; name=\"" . $attach['filename'] . "\"" . $this->eol;
     	    } else {
-    		$this->body .= "Content-disposition: attachment; name=\"" . end(explode('/',$attach['filename'])) . "\"\n";
+                $parts = explode('/', $attach['filename']);
+                $filename = end($parts);
+    		$this->body .= "Content-disposition: attachment; name=\"" . $filename . "\"" . $this->eol;
     	    }
             if ($attach['cid'])
-                $this->body .= "Content-ID: <" . $attach['cid'] . ">\n";
-            $this->body .= "Content-Transfer-Encoding: base64\n";
+                $this->body .= "Content-ID: <" . $attach['cid'] . ">" . $this->eol;
+            $this->body .= "Content-Transfer-Encoding: base64" . $this->eol;
             if (!empty($attach['filepath']) && substr($attach['filepath'], 0, 1) !== '/')
                 $attach['filepath'] = '/' . $attach['filepath'];
             if (!empty($attach['filepath']) && substr($attach['filepath'], -1, 1) == '/')
                 $attach['filepath'] = substr($attach['filepath'], 0, -1);
             if (!$ffr){
-        	$this->body .= "\n" . $this->encode_file($_SERVER['DOCUMENT_ROOT'] . '/files' . $attach['filepath'] . '/' . $attach['filename']) . "\n";
+        	$this->body .= $this->eol . $this->encode_file($_SERVER['DOCUMENT_ROOT'] . '/files' . $attach['filepath'] . '/' . $attach['filename']) . $this->eol;
     	    } else {
-    	    	$this->body .= "\n" . $this->encode_file($attach['filename']) . "\n";
+    	    	$this->body .= $this->eol . $this->encode_file($attach['filename']) . $this->eol;
     	    }
         }
         $this->body .= '--' . $this->boundary . "--";
@@ -172,3 +184,4 @@ class plugin_jmail
         return mail($this->addr_to, $this->subject, $this->body, $this->headers, '-f'.$this->domainEmail);
     }
 }
+?>

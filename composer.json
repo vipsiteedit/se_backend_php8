@@ -1,6 +1,19 @@
 {
+    "name": "se_cms",
+    "description": "se_cms",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Sergey Schelkonogov",
+            "email": "sergeyedge@yandex.ru"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
-        "phpmailer/phpmailer": "^6.1",
-        "umisoft/phpmorphy": "^1.0"
+        "php": ">=8.0",
+        "yoomoney/yookassa-sdk-php": "^3.0",
+		"phpmailer/phpmailer": "^7.0.0",
+		"phpoffice/phpexcel": "dev-develop_2.0.0"
     }
 }
