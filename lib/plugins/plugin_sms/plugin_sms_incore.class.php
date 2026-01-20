@@ -43,7 +43,9 @@ class plugin_sms_incore
 			$state->getError();
 		} else {
 			$data = $state->getResponse();
-			$balance = se_FormatMoney($data['money'][0]['value'], $data['money'][0]['currency']);
+			if (isset($data['money'][0]['value'], $data['money'][0]['currency'])) {
+				$balance = se_FormatMoney($data['money'][0]['value'], $data['money'][0]['currency']);
+			}
 		}
 		
 		$balance = strip_tags($balance);
@@ -73,8 +75,10 @@ class plugin_sms_incore
 		} 
 		else {
 			//Array ( [0] => Array ( [value] => send [number_sms] => 1 [id_sms] => 1368950719 [id_turn] => 401020205 [parts] => 1 ) )
-			$result = $messages->getResponse();
-			$result = $result[0];
+			$response = $messages->getResponse();
+			if (is_array($response) && isset($response[0])) {
+				$result = $response[0];
+			}
 		}
 		
 		return $result;
@@ -95,8 +99,10 @@ class plugin_sms_incore
 		else {
 			//Array ( [0] => Array ( [value] => deliver [id_sms] => 1368950719 [time] => 2017-04-07 19:56:58 [num_parts] => 1 [price] => 1.55 ) )
 			//Array ( [0] => Array ( [value] => Сообщение с таким ID не принималось [id_sms] => 13689507190 [time] => [num_parts] => 0 [price] => 0 ) )
-			$result = $state->getResponse();
-			$result = $result[0];
+			$response = $state->getResponse();
+			if (is_array($response) && isset($response[0])) {
+				$result = $response[0];
+			}
 		}
 		
 		return $result;

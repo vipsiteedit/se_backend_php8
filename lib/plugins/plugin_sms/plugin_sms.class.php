@@ -26,6 +26,7 @@ class plugin_sms
 	private $pwd;
 	private $token;
 	private $sha512;
+	private $id;
 	public $response_code = array(
 
 		'send' => array(
@@ -170,9 +171,9 @@ class plugin_sms
 		}
 
 		$result = $this->curl( $url, $params );
-		$result = explode( "\n", $result );
+		$result = explode( "\n", (string) $result );
 
-		$response = array();
+		$response = array('ids' => array());
 
 		$response['code'] = $result[0];
 		unset( $result[0] );
@@ -215,12 +216,12 @@ class plugin_sms
 		$params['text'] = $text;
 
 		$result = $this->curl( $url, $params );
-		$result = explode( "\n", $result );
+		$result = explode( "\n", (string) $result );
 
 		return array(
-			'code' => $result[0],
-			'price' => $result[1],
-			'number' => $result[2]
+			'code' => $result[0] ?? '',
+			'price' => $result[1] ?? '',
+			'number' => $result[2] ?? ''
 		);
 	}
 
@@ -229,10 +230,10 @@ class plugin_sms
 		$url = self::HOST . self::BALANCE;
 		$params = $this->get_auth_params();
 		$result = $this->curl( $url, $params );
-		$result = explode( "\n", $result );
+		$result = explode( "\n", (string) $result );
 		return array(
-			'code' => $result[0],
-			'balance' => $result[1]
+			'code' => $result[0] ?? '',
+			'balance' => $result[1] ?? ''
 		);
 	}
 
@@ -241,11 +242,11 @@ class plugin_sms
 		$url = self::HOST . self::LIMIT;
 		$params = $this->get_auth_params();
 		$result = $this->curl( $url, $params );
-		$result = explode( "\n", $result );
+		$result = explode( "\n", (string) $result );
 		return array(
-			'code' => $result[0],
-			'total' => $result[1],
-			'current' => $result[2]
+			'code' => $result[0] ?? '',
+			'total' => $result[1] ?? '',
+			'current' => $result[2] ?? ''
 		);
 	}
 
@@ -254,7 +255,7 @@ class plugin_sms
 		$url = self::HOST . self::SENDERS;
 		$params = $this->get_auth_params();
 		$result = $this->curl( $url, $params );
-		$result = explode( "\n", rtrim( $result ) );
+		$result = explode( "\n", rtrim( (string) $result ) );
 
 		$response = array(
 			'code' => $result[0],
@@ -301,16 +302,16 @@ class plugin_sms
 		$url = self::HOST . self::GET;
 		$params = $this->get_auth_params();
 		$result = $this->curl( $url, $params );
-
-		$result = explode( "\n", rtrim( $result ) );
+		$result = explode( "\n", rtrim( (string) $result ) );
 		$response = array(
-			'code' => $result[0],
+			'code' => $result[0] ?? '',
 			'stoplist' => $result
 		);
+		$stoplist = array();
 		for ( $i = 1; $i < count( $response['stoplist'] ); $i++ ) {
 			$result = explode( ';', $response['stoplist'][$i] );
 			$stoplist[$i - 1]['number'] = $result[0];
-			$stoplist[$i - 1]['note'] = $result[1];
+			$stoplist[$i - 1]['note'] = $result[1] ?? '';
 		}
 		$response['stoplist'] = $stoplist;
 		return $response;
@@ -342,6 +343,9 @@ class plugin_sms
 		);
 		curl_setopt_array( $ch, $options );
 		$result = curl_exec( $ch );
+		if ($result === false) {
+			$result = '';
+		}
 		curl_close( $ch );
         
 		return $result;
@@ -349,6 +353,7 @@ class plugin_sms
 
 	private function get_auth_params()
 	{
+		$params = array();
 		if ( !empty( $this->login ) && !empty( $this->pwd ) ) {
 
 			$this->auth_get_token();

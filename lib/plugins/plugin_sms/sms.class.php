@@ -71,10 +71,16 @@ abstract class Request
         curl_setopt($ch, CURLOPT_POSTFIELDS, $this->generateXml());
         curl_setopt($ch, CURLOPT_URL, $this->getUrl());
         $result = curl_exec($ch);
+        $curl_error = ($result === false) ? curl_error($ch) : '';
         curl_close($ch);
+        if ($result === false) {
+            $this->error = $curl_error;
+            $this->response = array();
+            return $this->response;
+        }
         $this->response = static::parseXml($result);
 
-        return static::parseXml($result);
+        return $this->response;
     }
 }
 
@@ -142,12 +148,20 @@ class Messages extends Request implements Factory
 
     protected function parseXml($xml)
     {
-        $domXml = simplexml_load_string($xml);
+        if (empty($xml)) {
+            $this->error = 'Empty response';
+            return array();
+        }
+        $domXml = @simplexml_load_string($xml);
+        if ($domXml === false) {
+            $this->error = 'Invalid XML';
+            return array();
+        }
         $arr = array();
         if (isset($domXml->error)) {
             $this->error = (string) $domXml->error;
 
-            return;
+            return array();
         } else {
             $i = 0;
             foreach ($domXml->information as $val) {
@@ -240,12 +254,20 @@ class State extends Request implements Factory
 
     protected function parseXml($xml)
     {
-        $domXml = simplexml_load_string($xml);
+        if (empty($xml)) {
+            $this->error = 'Empty response';
+            return array();
+        }
+        $domXml = @simplexml_load_string($xml);
+        if ($domXml === false) {
+            $this->error = 'Invalid XML';
+            return array();
+        }
         $arr = array();
         if (isset($domXml->error)) {
             $this->error = (string) $domXml->error;
 
-            return;
+            return array();
         } else {
             $i = 0;
             foreach ($domXml->state as $val) {
@@ -303,12 +325,20 @@ class Balance extends Request implements Factory
 
     protected function parseXml($xml)
     {
-        $domXml = simplexml_load_string($xml);
+        if (empty($xml)) {
+            $this->error = 'Empty response';
+            return array();
+        }
+        $domXml = @simplexml_load_string($xml);
+        if ($domXml === false) {
+            $this->error = 'Invalid XML';
+            return array();
+        }
         $arr = array();
         if (isset($domXml->error)) {
             $this->error = (string) $domXml->error;
 
-            return;
+            return array();
         } else {
             $i = 0;
             foreach ($domXml->sms as $val) {
@@ -380,12 +410,20 @@ class Incoming extends Request implements Factory
 
     protected function parseXml($xml)
     {
-        $domXml = simplexml_load_string($xml);
+        if (empty($xml)) {
+            $this->error = 'Empty response';
+            return array();
+        }
+        $domXml = @simplexml_load_string($xml);
+        if ($domXml === false) {
+            $this->error = 'Invalid XML';
+            return array();
+        }
         $arr = array();
         if (isset($domXml->error)) {
             $this->error = (string) $domXml->error;
 
-            return;
+            return array();
         } else {
             $i = 0;
             foreach ($domXml->sms as $val) {
@@ -426,7 +464,7 @@ class Incoming extends Request implements Factory
 
         //создание дерева временем
         $domTime = $request->appendChild($domtree->createElement('time'));
-        $domTime->setAttribute('start', $this->item['start']);
+        $domTime->setAttribute('start', $this->item['start'] ?? '');
         if (!empty($this->item['end'])) {
             $domTime->setAttribute('end', $this->item['end']);
         }
