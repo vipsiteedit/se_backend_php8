@@ -21,7 +21,6 @@ class plugin_shopmail {
 
     public function sendmail($mailtype, $email_to = '', $array_change = array(), $filename = '') {        
         $emailadmin = '';
-        $host = '';
         $sender = '';
         $phone_admin = '';
         $phone_to = '';
@@ -29,18 +28,21 @@ class plugin_shopmail {
         $lang = se_getLang();
         if (function_exists('se_getAdmin')){
            $emailadmin = se_getAdmin('esales, esupport, domain, sms_phone, sms_sender');
-           $host = $emailadmin['domain'];
-           $sender = $emailadmin['sms_sender'];
-           $phone_admin = $emailadmin['sms_phone'];
-           if (empty($emailadmin['esales'])) {
-              $emailadmin = $emailadmin['esupport'];
+           if (is_array($emailadmin)) {
+               $sender = $emailadmin['sms_sender'] ?? '';
+               $phone_admin = $emailadmin['sms_phone'] ?? '';
+               if (empty($emailadmin['esales'])) {
+                   $emailadmin = $emailadmin['esupport'] ?? '';
+               } else {
+                   $emailadmin = $emailadmin['esales'] ?? '';
+               }
            } else {
-             $emailadmin = $emailadmin['esales'];
+               $emailadmin = '';
            }
         }
-        if (empty($emailadmin))             
-            return false;        
-        
+        if (empty($emailadmin) && empty($email_to))
+            return false;
+
         if (empty($email_to)) {
             $email_to = str_replace(',',';', $emailadmin);
             $phone_to = str_replace(',',';', $phone_admin);
@@ -113,18 +115,30 @@ class plugin_shopmail {
 				$smail->letter = preg_replace('/{attachment:registration_upload_file.([^}]+)}/', '', $smail->letter);
 			}
             
-            list($email_from,) = preg_split("/[\s,;]+/", $emailadmin);
-            if ($email_from == $email_to || (strpos($email_from, "@mail.ru") !== false)) 
-                $email_from = 'noreply@'. ($_SERVER['HTTP_HOST'] ?? 'localhost');
-            if (empty($host))
-                $host = (isset($_SERVER['HTTP_HOST'])) ? $_SERVER['HTTP_HOST'] : 'siteedit.ru';
-            
-            $from =  "=?utf-8?b?" . base64_encode($smail->subject)."?=  ".$host." <" . $email_from . '>';
+            if (!empty($emailadmin)) {
+                list($email_from,) = preg_split("/[\\s,;]+/", $emailadmin);
+            } else {
+                $email_from = '';
+            }
+            if (empty($email_from) || $email_from == $email_to || (strpos($email_from, "@mail.ru") !== false)) {
+                $email_from = 'noreply@' . ($_SERVER['HTTP_HOST'] ?? 'localhost');
+            }
             $emaillist = explode(';',$email_to);
             $result = true;
-            foreach($emaillist as $email_to){	    
-                $mailsend = new plugin_mail($smail->subject, $email_to, $from, $smail->letter, "text/{$this->typpost}", $filename);
-        	    if (!$mailsend->sendfile()) {
+            foreach ($emaillist as $email_to){
+                $mailsend = new plugin_jmail($smail->subject, $email_to, $email_from);
+                $mailsend->addtext($smail->letter, "text/{$this->typpost}");
+                if (!empty($filename)) {
+                    $filelist = explode(';', $filename);
+                    foreach ($filelist as $file) {
+                        $file = trim($file);
+                        if ($file === '') {
+                            continue;
+                        }
+                        $mailsend->attach($file, '', 'application/octet-stream');
+                    }
+                }
+        	    if (!$mailsend->send()) {
                     $result = false;
         	    }
         	    unset($mailsend); 
@@ -203,8 +217,9 @@ class plugin_shopmail {
         
         $idOrder = $this->order_id;        
         require_once $_SERVER["DOCUMENT_ROOT"] . "/upload/orderlist_xls.php";        
-        if (file_exists($uploadFile))
+        if (!empty($uploadFile) && file_exists($uploadFile))
             return $uploadFile;        
         
+        return null;
     }
 }

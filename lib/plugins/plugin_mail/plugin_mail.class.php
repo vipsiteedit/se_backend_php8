@@ -37,8 +37,10 @@ class plugin_mail
         if (!$contenttype) {
             $contenttype = 'text/plain';
         }
-        $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
-        $from_email = 'noreply@' . $host;
+        if (empty($from_email)) {
+            $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
+            $from_email = 'noreply@' . $host;
+        }
         $this->mail = new plugin_jmail(stripslashes($subject), $to_email, $from_email);
         $this->mail->addtext($msg, $contenttype);
         if (!empty($filename)){
